@@ -1,0 +1,71 @@
+{
+  "id": 16000001,
+  "avatarId": 28000004,
+  "name": "Colt",
+  "hash": "Colt",
+  "path": "Colt",
+  "fankit": "Colt",
+  "released": true,
+  "version": 1,
+  "link": "https://brawlify.com/brawlers/16000001",
+  "imageUrl": "https://cdn.brawlify.com/brawlers/borders/16000001.png",
+  "imageUrl2": "https://cdn.brawlify.com/brawlers/borderless/16000001.png",
+  "imageUrl3": "https://cdn.brawlify.com/brawlers/emoji/16000001.png",
+  "class": {
+    "id": 1,
+    "name": "Damage Dealer"
+  },
+  "rarity": {
+    "id": 2,
+    "name": "Rare",
+    "color": "#68fd58"
+  },
+  "unlock": null,
+  "description": "Colt is the star attraction at Starr Park! His good looks, charisma and gun twirling tricks win over any audience, except maybe Shelly.",
+  "descriptionHtml": "Colt is the star attraction at Starr Park! His good looks, charisma and gun twirling tricks win over any audience, except maybe Shelly.",
+  "starPowers": [
+    {
+      "id": 23000077,
+      "name": "Slick Boots",
+      "path": "Slick-Boots",
+      "version": 1,
+      "description": "Colt's movement speed is increased by x%.",
+      "descriptionHtml": "Colt's movement speed is increased by <span style=\"color:#00cc00;\">x%</span>.",
+      "imageUrl": "https://cdn.brawlify.com/star-powers/borderless/23000077.png",
+      "released": true
+    },
+    {
+      "id": 23000138,
+      "name": "Magnum Special",
+      "path": "Magnum-Special",
+      "version": 1,
+      "description": "Colt's attack range and bullet speed are increased by x%.",
+      "descriptionHtml": "Colt's attack range and bullet speed are increased by <span style=\"color:#00cc00;\">x%</span>.",
+      "imageUrl": "https://cdn.brawlify.com/star-powers/borderless/23000138.png",
+      "released": true
+    }
+  ],
+  "gadgets": [
+    {
+      "id": 23000273,
+      "name": "Speedloader",
+      "path": "Speedloader",
+      "version": 1,
+      "description": "Colt fires two quick shots that slow targets. Deals <!card.accessory.skill.damage.scaleToLevel> damage.",
+      "descriptionHtml": "Colt fires two quick shots that slow targets. Deals <span style=\"color:#00cc00;\"><!card.accessory.skill.damage.scaleToLevel></span> damage.",
+      "imageUrl": "https://cdn.brawlify.com/gadgets/borderless/23000273.png",
+      "released": true
+    },
+    {
+      "id": 23000319,
+      "name": "Silver Bullet",
+      "path": "Silver-Bullet",
+      "version": 1,
+      "description": "Colt fires a bullet that destroys the environment and pierces Brawlers. Deals <!card.accessory.skill.damage.scaleToLevel> damage. Consumes ammo.",
+      "descriptionHtml": "Colt fires a bullet that destroys the environment and pierces Brawlers. Deals <span style=\"color:#00cc00;\"><!card.accessory.skill.damage.scaleToLevel></span> damage. Consumes ammo.",
+      "imageUrl": "https://cdn.brawlify.com/gadgets/borderless/23000319.png",
+      "released": true
+    }
+  ],
+  "videos": []
+}

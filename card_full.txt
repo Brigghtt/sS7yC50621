@@ -1,0 +1,164 @@
+<div class="should-collapse team-participant-card__content">
+ <div class="team-participant-card__hover-header">
+  Player roster
+ </div>
+ <div class="team-participant-card__qualifier team-participant-card__qualifier--content">
+  <div class="team-participant-card__qualifier-content">
+   <span class="league-icon-small-image">
+    <img alt="" decoding="async" height="50" src="/commons/images/thumb/5/55/Brawl_Stars_Championship_2025_EA_allmode.png/48px-Brawl_Stars_Championship_2025_EA_allmode.png" srcset="/commons/images/thumb/5/55/Brawl_Stars_Championship_2025_EA_allmode.png/72px-Brawl_Stars_Championship_2025_EA_allmode.png 1.5x, /commons/images/thumb/5/55/Brawl_Stars_Championship_2025_EA_allmode.png/96px-Brawl_Stars_Championship_2025_EA_allmode.png 2x" width="48"/>
+   </span>
+   <span class="team-participant-card__qualifier-details">
+    <a href="/brawlstars/Brawl_Stars_Championship/2026/Season_1/East_Asia/Monthly_Qualifier" title="Brawl Stars Championship/2026/Season 1/East Asia/Monthly Qualifier">
+     Monthly Qualifier
+    </a>
+   </span>
+  </div>
+  <span class="placement-box">
+   <span class="placement-text">
+   </span>
+  </span>
+ </div>
+ <div class="toggle-area toggle-area-1" data-toggle-area="1">
+  <div class="switch-pill-container" style="margin:0.25rem 0.5rem">
+   <div class="switch-pill switch-pill-generic switch-pill-extrasmall" data-switch-group="team-participant-rosters-1">
+    <div class="switch-pill-option toggle-area-button switch-pill-option-active" data-switch-value="1" data-toggle-area-btn="1">
+     Main
+    </div>
+    <div class="switch-pill-option toggle-area-button" data-switch-value="2" data-toggle-area-btn="2">
+     Staff
+    </div>
+   </div>
+  </div>
+  <div class="content-switch-content-container">
+   <div class="toggle-area-content-active" data-toggle-area-content="1">
+    <div class="team-participant-roster">
+     <div class="team-participant-roster">
+      <div class="team-participant-card__member">
+       <div class="team-participant-card__member-name">
+        <div class="block-player">
+         <span class="flag">
+          <img alt="Japan" decoding="async" height="24" src="/commons/images/thumb/f/fd/Jp_hd.png/36px-Jp_hd.png" srcset="/commons/images/thumb/f/fd/Jp_hd.png/54px-Jp_hd.png 1.5x, /commons/images/thumb/f/fd/Jp_hd.png/72px-Jp_hd.png 2x" title="Japan" width="36"/>
+         </span>
+         <span class="name" style="overflow:hidden;text-overflow:ellipsis;white-space:pre">
+          <a href="/brawlstars/Battoman" title="Battoman">
+           Battoman
+          </a>
+         </span>
+        </div>
+       </div>
+      </div>
+      <div class="team-participant-card__member">
+       <div class="team-participant-card__member-name">
+        <div class="block-player">
+         <span class="flag">
+          <img alt="Japan" decoding="async" height="24" src="/commons/images/thumb/f/fd/Jp_hd.png/36px-Jp_hd.png" srcset="/commons/images/thumb/f/fd/Jp_hd.png/54px-Jp_hd.png 1.5x, /commons/images/thumb/f/fd/Jp_hd.png/72px-Jp_hd.png 2x" title="Japan" width="36"/>
+         </span>
+         <span class="name" style="overflow:hidden;text-overflow:ellipsis;white-space:pre">
+          <a href="/brawlstars/Sizuku" title="Sizuku">
+           Sizuku
+          </a>
+         </span>
+        </div>
+       </div>
+      </div>
+      <div class="team-participant-card__member">
+       <div class="team-participant-card__member-name">
+        <div class="block-player">
+         <span class="flag">
+          <img alt="Japan" decoding="async" height="24" src="/commons/images/thumb/f/fd/Jp_hd.png/36px-Jp_hd.png" srcset="/commons/images/thumb/f/fd/Jp_hd.png/54px-Jp_hd.png 1.5x, /commons/images/thumb/f/fd/Jp_hd.png/72px-Jp_hd.png 2x" title="Japan" width="36"/>
+         </span>
+         <span class="name" style="overflow:hidden;text-overflow:ellipsis;white-space:pre">
+          <a href="/brawlstars/Sitetampo" title="Sitetampo">
+           Sitetampo
+          </a>
+         </span>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="toggle-area-content-inactive" data-toggle-area-content="2">
+    <div class="team-participant-roster">
+     <div class="team-participant-roster">
+      <div class="team-participant-card__member">
+       <div class="team-participant-card__member-role-left">
+        <span style="width:16px; display:inline-block; text-align:center">
+         <abbr title="Manager">
+          <i aria-hidden="true" class="fas fa-suitcase">
+          </i>
+         </abbr>
+        </span>
+       </div>
+       <div class="team-participant-card__member-name">
+        <div class="block-player">
+         <span class="flag">
+          <img alt="Japan" decoding="async" height="24" src="/commons/images/thumb/f/fd/Jp_hd.png/36px-Jp_hd.png" srcset="/commons/images/thumb/f/fd/Jp_hd.png/54px-Jp_hd.png 1.5x, /commons/images/thumb/f/fd/Jp_hd.png/72px-Jp_hd.png 2x" title="Japan" width="36"/>
+         </span>
+         <span class="name" style="overflow:hidden;text-overflow:ellipsis;white-space:pre">
+          <a href="/brawlstars/TARO" title="TARO">
+           TARO
+          </a>
+         </span>
+        </div>
+       </div>
+       <div class="team-participant-card__member-role-right">
+        Manager
+       </div>
+      </div>
+      <div class="team-participant-card__member">
+       <div class="team-participant-card__member-role-left">
+        <span style="width:16px; display:inline-block; text-align:center">
+         <abbr title="Coach">
+          <i aria-hidden="true" class="fas fa-user-tie">
+          </i>
+         </abbr>
+        </span>
+       </div>
+       <div class="team-participant-card__member-name">
+        <div class="block-player">
+         <span class="flag">
+          <img alt="Japan" decoding="async" height="24" src="/commons/images/thumb/f/fd/Jp_hd.png/36px-Jp_hd.png" srcset="/commons/images/thumb/f/fd/Jp_hd.png/54px-Jp_hd.png 1.5x, /commons/images/thumb/f/fd/Jp_hd.png/72px-Jp_hd.png 2x" title="Japan" width="36"/>
+         </span>
+         <span class="name" style="overflow:hidden;text-overflow:ellipsis;white-space:pre">
+          <a href="/brawlstars/Mameshi" title="Mameshi">
+           Mameshi
+          </a>
+         </span>
+        </div>
+       </div>
+       <div class="team-participant-card__member-role-right">
+        Coach
+       </div>
+      </div>
+      <div class="team-participant-card__member">
+       <div class="team-participant-card__member-role-left">
+        <span style="width:16px; display:inline-block; text-align:center">
+         <abbr title="Analyst">
+          <i aria-hidden="true" class="fas fa-analytics">
+          </i>
+         </abbr>
+        </span>
+       </div>
+       <div class="team-participant-card__member-name">
+        <div class="block-player">
+         <span class="flag">
+          <img alt="Poland" decoding="async" height="24" src="/commons/images/thumb/6/61/Pl_hd.png/36px-Pl_hd.png" srcset="/commons/images/thumb/6/61/Pl_hd.png/54px-Pl_hd.png 1.5x, /commons/images/thumb/6/61/Pl_hd.png/72px-Pl_hd.png 2x" title="Poland" width="36"/>
+         </span>
+         <span class="name" style="overflow:hidden;text-overflow:ellipsis;white-space:pre">
+          <a href="/brawlstars/Leightox" title="Leightox">
+           Leightox
+          </a>
+         </span>
+        </div>
+       </div>
+       <div class="team-participant-card__member-role-right">
+        Analyst
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>

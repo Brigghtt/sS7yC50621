@@ -1,0 +1,131 @@
+['infobox-header', 'wiki-backgroundcolor-light'] | [e][h]Brawl Stars Championship 2026: February East Asia Monthly Finals
+['infobox-header', 'wiki-backgroundcolor-light', 'infobox-header-2'] | League Information
+['infobox-header', 'wiki-backgroundcolor-light', 'infobox-header-2'] | Links
+['infobox-header', 'wiki-backgroundcolor-light', 'infobox-header-2'] | Chronology
+['csstable-widget-row', 'prizepooltable-header'] | Place$USDPointsParticipant
+['csstable-widget-row', 'background-color-first-place'] | 1st$12,00060ZETA DIVISION
+['csstable-widget-row', 'background-color-second-place'] | 2nd$8,00040ABC
+['csstable-widget-row', 'background-color-third-place'] | 3rd-4th$5,50020Rival EsportsWWL Esports
+['csstable-widget-row', 'prizepooltable-header'] | AwardParticipant
+['team-participant-card__header'] | ZETA DIVISIONZETA DIVISIONQualifier
+['team-participant-card__header-main'] | ZETA DIVISIONZETA DIVISIONQualifier
+['team-participant-card__qualifier', 'team-participant-card__qualifier--header'] | Monthly Qualifier
+['team-participant-card__hover-header'] | Player roster
+['team-participant-card__header'] | SKCalalas EASKCalalas EAQualifier
+['team-participant-card__header-main'] | SKCalalas EASKCalalas EAQualifier
+['team-participant-card__qualifier', 'team-participant-card__qualifier--header'] | Monthly Qualifier
+['team-participant-card__hover-header'] | Player roster
+['team-participant-card__header'] | REJECTREJECTQualifier
+['team-participant-card__header-main'] | REJECTREJECTQualifier
+['team-participant-card__qualifier', 'team-participant-card__qualifier--header'] | Monthly Qualifier
+['team-participant-card__hover-header'] | Player roster
+['team-participant-card__header'] | Crazy RaccoonCrazy RaccoonQualifier
+['team-participant-card__header-main'] | Crazy RaccoonCrazy RaccoonQualifier
+['team-participant-card__qualifier', 'team-participant-card__qualifier--header'] | Monthly Qualifier
+['team-participant-card__hover-header'] | Player roster
+['team-participant-card__header'] | ABCABCQualifier
+['team-participant-card__header-main'] | ABCABCQualifier
+['team-participant-card__qualifier', 'team-participant-card__qualifier--header'] | Monthly Qualifier
+['team-participant-card__hover-header'] | Player roster
+['team-participant-card__header'] | WWL EsportsWWL EsportsQualifier
+['team-participant-card__header-main'] | WWL EsportsWWL EsportsQualifier
+['team-participant-card__qualifier', 'team-participant-card__qualifier--header'] | Monthly Qualifier
+['team-participant-card__hover-header'] | Player roster
+['team-participant-card__header'] | Rival EsportsRival EsportsQualifier
+['team-participant-card__header-main'] | Rival EsportsRival EsportsQualifier
+['team-participant-card__qualifier', 'team-participant-card__qualifier--header'] | Monthly Qualifier
+['team-participant-card__hover-header'] | Player roster
+['team-participant-card__header'] | Effort ResultEffort ResultQualifier
+['team-participant-card__header-main'] | Effort ResultEffort ResultQualifier
+['team-participant-card__qualifier', 'team-participant-card__qualifier--header'] | Monthly Qualifier
+['team-participant-card__hover-header'] | Player roster
+['brkts-round-header'] | QuarterfinalsQuarterfinalsQuartersQFSemifinalsSemifinalsSemisSFGrand FinalGrand FinalFinalGF
+['brkts-header', 'brkts-header-div'] | QuarterfinalsQuarterfinalsQuartersQF
+['brkts-header-option'] | Quarterfinals
+['brkts-header-option'] | Quarters
+['brkts-header-option'] | QF
+['brkts-header', 'brkts-header-div'] | SemifinalsSemifinalsSemisSF
+['brkts-header-option'] | Semifinals
+['brkts-header-option'] | Semis
+['brkts-header-option'] | SF
+['brkts-header', 'brkts-header-div'] | Grand FinalGrand FinalFinalGF
+['brkts-header-option'] | Grand Final
+['brkts-header-option'] | Final
+['brkts-header-option'] | GF
+['match-info-header'] | ZETA DIVISION3:0(Bo5)Effort Result
+['match-info-header-opponent', 'match-info-header-opponent-left', 'match-info-header-winner'] | ZETA DIVISION
+['match-info-header-scoreholder'] | 3:0(Bo5)
+['match-info-header-scoreholder-scorewrapper'] | 3:0(Bo5)
+['match-info-header-scoreholder-upper'] | 3:0
+['match-info-header-scoreholder-score', 'match-info-header-winner'] | 3
+['match-info-header-scoreholder-divider'] | :
+['match-info-header-scoreholder-score'] | 0
+['match-info-header-scoreholder-lower'] | (Bo5)
+['match-info-header-opponent', 'match-info-header-loser'] | Effort Result
+['general-collapsible-default-header', 'brkts-popup-veto-header'] | BansShowHide
+['match-info-header'] | SKCalalas EA0:3(Bo5)Rival Esports
+['match-info-header-opponent', 'match-info-header-opponent-left', 'match-info-header-loser'] | SKCalalas EA
+['match-info-header-scoreholder'] | 0:3(Bo5)
+['match-info-header-scoreholder-scorewrapper'] | 0:3(Bo5)
+['match-info-header-scoreholder-upper'] | 0:3
+['match-info-header-scoreholder-score'] | 0
+['match-info-header-scoreholder-divider'] | :
+['match-info-header-scoreholder-score', 'match-info-header-winner'] | 3
+['match-info-header-scoreholder-lower'] | (Bo5)
+['match-info-header-opponent', 'match-info-header-winner'] | Rival Esports
+['general-collapsible-default-header', 'brkts-popup-veto-header'] | BansShowHide
+['match-info-header'] | ZETA DIVISION3:0(Bo5)Rival Esports
+['match-info-header-opponent', 'match-info-header-opponent-left', 'match-info-header-winner'] | ZETA DIVISION
+['match-info-header-scoreholder'] | 3:0(Bo5)
+['match-info-header-scoreholder-scorewrapper'] | 3:0(Bo5)
+['match-info-header-scoreholder-upper'] | 3:0
+['match-info-header-scoreholder-score', 'match-info-header-winner'] | 3
+['match-info-header-scoreholder-divider'] | :
+['match-info-header-scoreholder-score'] | 0
+['match-info-header-scoreholder-lower'] | (Bo5)
+['match-info-header-opponent', 'match-info-header-loser'] | Rival Esports
+['general-collapsible-default-header', 'brkts-popup-veto-header'] | BansShowHide
+['match-info-header'] | REJECT2:3(Bo5)WWL Esports
+['match-info-header-opponent', 'match-info-header-opponent-left', 'match-info-header-loser'] | REJECT
+['match-info-header-scoreholder'] | 2:3(Bo5)
+['match-info-header-scoreholder-scorewrapper'] | 2:3(Bo5)
+['match-info-header-scoreholder-upper'] | 2:3
+['match-info-header-scoreholder-score'] | 2
+['match-info-header-scoreholder-divider'] | :
+['match-info-header-scoreholder-score', 'match-info-header-winner'] | 3
+['match-info-header-scoreholder-lower'] | (Bo5)
+['match-info-header-opponent', 'match-info-header-winner'] | WWL Esports
+['general-collapsible-default-header', 'brkts-popup-veto-header'] | BansShowHide
+['match-info-header'] | Crazy Raccoon1:3(Bo5)ABC
+['match-info-header-opponent', 'match-info-header-opponent-left', 'match-info-header-loser'] | Crazy Raccoon
+['match-info-header-scoreholder'] | 1:3(Bo5)
+['match-info-header-scoreholder-scorewrapper'] | 1:3(Bo5)
+['match-info-header-scoreholder-upper'] | 1:3
+['match-info-header-scoreholder-score'] | 1
+['match-info-header-scoreholder-divider'] | :
+['match-info-header-scoreholder-score', 'match-info-header-winner'] | 3
+['match-info-header-scoreholder-lower'] | (Bo5)
+['match-info-header-opponent', 'match-info-header-winner'] | ABC
+['general-collapsible-default-header', 'brkts-popup-veto-header'] | BansShowHide
+['match-info-header'] | WWL Esports1:3(Bo5)ABC
+['match-info-header-opponent', 'match-info-header-opponent-left', 'match-info-header-loser'] | WWL Esports
+['match-info-header-scoreholder'] | 1:3(Bo5)
+['match-info-header-scoreholder-scorewrapper'] | 1:3(Bo5)
+['match-info-header-scoreholder-upper'] | 1:3
+['match-info-header-scoreholder-score'] | 1
+['match-info-header-scoreholder-divider'] | :
+['match-info-header-scoreholder-score', 'match-info-header-winner'] | 3
+['match-info-header-scoreholder-lower'] | (Bo5)
+['match-info-header-opponent', 'match-info-header-winner'] | ABC
+['general-collapsible-default-header', 'brkts-popup-veto-header'] | BansShowHide
+['match-info-header'] | ZETA DIVISION3:1(Bo5)ABC
+['match-info-header-opponent', 'match-info-header-opponent-left', 'match-info-header-winner'] | ZETA DIVISION
+['match-info-header-scoreholder'] | 3:1(Bo5)
+['match-info-header-scoreholder-scorewrapper'] | 3:1(Bo5)
+['match-info-header-scoreholder-upper'] | 3:1
+['match-info-header-scoreholder-score', 'match-info-header-winner'] | 3
+['match-info-header-scoreholder-divider'] | :
+['match-info-header-scoreholder-score'] | 1
+['match-info-header-scoreholder-lower'] | (Bo5)
+['match-info-header-opponent', 'match-info-header-loser'] | ABC
+['general-collapsible-default-header', 'brkts-popup-veto-header'] | BansShowHide

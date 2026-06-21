@@ -1,0 +1,20 @@
+--- game 0 ---
+thumbs count 0
+spaced: ['2', 'Hard Rock Mine', '0']
+game text: 2 | Hard Rock Mine | 0
+--- game 1 ---
+thumbs count 0
+spaced: ['2', 'Super Beach', '1']
+game text: 2 | Super Beach | 1
+--- game 2 ---
+thumbs count 0
+spaced: ['2', 'Goldarm Gulch', '0']
+game text: 2 | Goldarm Gulch | 0
+--- game 3 ---
+thumbs count 0
+spaced: ['', 'Ring of Fire', '']
+game text: Ring of Fire
+--- game 4 ---
+thumbs count 0
+spaced: ['', 'Bridge Too Far', '']
+game text: Bridge Too Far

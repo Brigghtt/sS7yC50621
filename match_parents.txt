@@ -1,0 +1,14 @@
+0: header=None
+  parents: ['brkts-round-center'] > ['brkts-round-body'] > ['brkts-round-lower'] > ['brkts-round-body'] > ['brkts-round-lower'] > ['brkts-round-body'] > ['brkts-bracket'] > ['brkts-bracket-wrapper']
+1: header=None
+  parents: ['brkts-round-center'] > ['brkts-round-body'] > ['brkts-round-lower'] > ['brkts-round-body'] > ['brkts-round-lower'] > ['brkts-round-body'] > ['brkts-bracket'] > ['brkts-bracket-wrapper']
+2: header=None
+  parents: ['brkts-round-center'] > ['brkts-round-body'] > ['brkts-round-lower'] > ['brkts-round-body'] > ['brkts-bracket'] > ['brkts-bracket-wrapper'] > ['mw-content-ltr', 'mw-parser-output'] > None
+3: header=None
+  parents: ['brkts-round-center'] > ['brkts-round-body'] > ['brkts-round-lower'] > ['brkts-round-body'] > ['brkts-round-lower'] > ['brkts-round-body'] > ['brkts-bracket'] > ['brkts-bracket-wrapper']
+4: header=None
+  parents: ['brkts-round-center'] > ['brkts-round-body'] > ['brkts-round-lower'] > ['brkts-round-body'] > ['brkts-round-lower'] > ['brkts-round-body'] > ['brkts-bracket'] > ['brkts-bracket-wrapper']
+5: header=None
+  parents: ['brkts-round-center'] > ['brkts-round-body'] > ['brkts-round-lower'] > ['brkts-round-body'] > ['brkts-bracket'] > ['brkts-bracket-wrapper'] > ['mw-content-ltr', 'mw-parser-output'] > None
+6: header=None
+  parents: ['brkts-round-center'] > ['brkts-round-body'] > ['brkts-bracket'] > ['brkts-bracket-wrapper'] > ['mw-content-ltr', 'mw-parser-output'] > None

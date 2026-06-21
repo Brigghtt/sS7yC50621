@@ -1,0 +1,56 @@
+<div class="brkts-popup-body-element brkts-popup-body-game">
+ <div class="brkts-popup-spaced" style="justify-content:unset;flex:1;flex-direction:row">
+  <div class="brkts-popup-body-element-thumbs brkts-champion-icon">
+   <div class="brkts-popup-side-color brkts-popup-side-color--blue">
+    <a href="/brawlstars/Mortis" title="Mortis">
+     <img alt="Mortis" decoding="async" height="43" src="/commons/images/thumb/7/77/Brawl_Mortis.png/60px-Brawl_Mortis.png" srcset="/commons/images/thumb/7/77/Brawl_Mortis.png/90px-Brawl_Mortis.png 1.5x, /commons/images/thumb/7/77/Brawl_Mortis.png/120px-Brawl_Mortis.png 2x" width="60"/>
+    </a>
+   </div>
+   <div class="brkts-popup-side-color brkts-popup-side-color--blue">
+    <a href="/brawlstars/Charlie" title="Charlie">
+     <img alt="Charlie" decoding="async" height="38" src="/commons/images/thumb/2/2d/Brawl_Charlie.png/60px-Brawl_Charlie.png" srcset="/commons/images/thumb/2/2d/Brawl_Charlie.png/90px-Brawl_Charlie.png 1.5x, /commons/images/thumb/2/2d/Brawl_Charlie.png/120px-Brawl_Charlie.png 2x" width="60"/>
+    </a>
+   </div>
+   <div class="brkts-popup-side-color brkts-popup-side-color--blue">
+    <a href="/brawlstars/Trunk" title="Trunk">
+     <img alt="Trunk" decoding="async" height="38" src="/commons/images/thumb/a/a4/Brawl_Trunk.png/60px-Brawl_Trunk.png" srcset="/commons/images/thumb/a/a4/Brawl_Trunk.png/90px-Brawl_Trunk.png 1.5x, /commons/images/thumb/a/a4/Brawl_Trunk.png/120px-Brawl_Trunk.png 2x" width="60"/>
+    </a>
+   </div>
+  </div>
+  <div class="generic-label" data-label-type="result-win">
+  </div>
+  2
+ </div>
+ <div class="brkts-popup-spaced">
+  <span class="vodlink">
+   <a href="/brawlstars/Gem_Grab" title="Gem Grab">
+    <img alt="" decoding="async" height="50" src="/commons/images/c/c9/BSWiki_Gem_Grab_icon.png" style="vertical-align: text-top" width="50"/>
+   </a>
+  </span>
+  <a href="/brawlstars/Hard_Rock_Mine" title="Hard Rock Mine">
+   Hard Rock Mine
+  </a>
+ </div>
+ <div class="brkts-popup-spaced" style="justify-content:unset;flex:1;flex-direction:row-reverse">
+  <div class="brkts-popup-body-element-thumbs brkts-champion-icon brkts-popup-body-element-thumbs-right">
+   <div class="brkts-popup-side-color brkts-popup-side-color--red">
+    <a href="/brawlstars/Sandy" title="Sandy">
+     <img alt="Sandy" decoding="async" height="44" src="/commons/images/thumb/0/04/Brawl_Sandy.png/60px-Brawl_Sandy.png" srcset="/commons/images/thumb/0/04/Brawl_Sandy.png/90px-Brawl_Sandy.png 1.5x, /commons/images/thumb/0/04/Brawl_Sandy.png/120px-Brawl_Sandy.png 2x" width="60"/>
+    </a>
+   </div>
+   <div class="brkts-popup-side-color brkts-popup-side-color--red">
+    <a href="/brawlstars/Kit" title="Kit">
+     <img alt="Kit" decoding="async" height="38" src="/commons/images/thumb/1/1a/Brawl_Kit.png/60px-Brawl_Kit.png" srcset="/commons/images/thumb/1/1a/Brawl_Kit.png/90px-Brawl_Kit.png 1.5x, /commons/images/thumb/1/1a/Brawl_Kit.png/120px-Brawl_Kit.png 2x" width="60"/>
+    </a>
+   </div>
+   <div class="brkts-popup-side-color brkts-popup-side-color--red">
+    <a href="/brawlstars/Lily" title="Lily">
+     <img alt="Lily" decoding="async" height="40" src="/commons/images/thumb/0/03/Brawl_Lily.png/60px-Brawl_Lily.png" srcset="/commons/images/thumb/0/03/Brawl_Lily.png/90px-Brawl_Lily.png 1.5x, /commons/images/thumb/0/03/Brawl_Lily.png/120px-Brawl_Lily.png 2x" width="60"/>
+    </a>
+   </div>
+  </div>
+  <div class="generic-label" data-label-type="result-loss">
+  </div>
+  0
+ </div>
+</div>

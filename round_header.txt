@@ -1,0 +1,5 @@
+header text: QuarterfinalsQuarterfinalsQuartersQFSemifinalsSemifinalsSemisSFGrand FinalGrand FinalFinalGF
+children:
+0: div ['brkts-header', 'brkts-header-div'] | QuarterfinalsQuarterfinalsQuartersQF
+1: div ['brkts-header', 'brkts-header-div'] | SemifinalsSemifinalsSemisSF
+2: div ['brkts-header', 'brkts-header-div'] | Grand FinalGrand FinalFinalGF

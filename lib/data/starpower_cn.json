@@ -1,0 +1,846 @@
+{
+  "Ambush": {
+    "cnName": "伏击",
+    "cnDesc": "当派珀隐藏在灌木丛中时，她的攻击会造成 <span style=\"color:#00cc00;\">+x</span> 额外伤害（在最大范围内）。"
+  },
+  "A Helping Hand": {
+    "cnName": "伸出援助之手",
+    "cnDesc": "影子木偶现在在充电后可以恢复 <span style=\"color:#00cc00;\">x</span> 的生命值。"
+  },
+  "Air Superiority": {
+    "cnName": "空中优势",
+    "cnDesc": "空投补给现在包含一枚炸弹，可以为空投增加 <span style=\"color:#00cc00;\">x%</span> 伤害，并允许其摧毁墙壁。"
+  },
+  "Advanced Techniques": {
+    "cnName": "先进技术",
+    "cnDesc": "在攻击点击中敌人还会使他们减速 <span style=\"color:#00cc00;\">x%</span>，持续 <span style=\"color:#00cc00;\">x</span> 秒"
+  },
+  "Autofocus": {
+    "cnName": "自动对焦",
+    "cnDesc": "根据行进距离，窥视最多可造成 <span style=\"color:#00cc00;\">x</span> 点额外伤害。"
+  },
+  "Automa-Tick Reload": {
+    "cnName": "自动勾选重新加载",
+    "cnDesc": "Tick 的重新加载时间缩短了 <span style=\"color:#00cc00;\">x%</span>。"
+  },
+  "Band-Aid": {
+    "cnName": "创可贴",
+    "cnDesc": "当雪莉的生命值低于 <span style=\"color:#00cc00;\">x%</span> 时，她会立即恢复 <span style=\"color:#00cc00;\">x</span> 生命值。 Band-Aid 在 <span style=\"color:#00cc00;\">x</span> 秒内充电。"
+  },
+  "Batting Stance": {
+    "cnName": "击球姿势",
+    "cnDesc": "当 Bibi 的本垒打条充满电时，她会保护自己免受 <span style=\"color:#00cc00;\">x%</span> 的所有伤害。"
+  },
+  "Bad Karma": {
+    "cnName": "恶业",
+    "cnDesc": "停留在 Emz 有毒发胶云中的敌人会受到越来越大的伤害，每次命中 <span style=\"color:#00cc00;\">x%</span>。"
+  },
+  "Bear With Me": {
+    "cnName": "忍受我",
+    "cnDesc": "每当妮塔的熊击中敌方格斗者时，她就会恢复 <span style=\"color:#00cc00;\">1092</span> 生命值。当妮塔对敌方斗士造成伤害时，她的熊会恢复 <span style=\"color:#00cc00;\">1094</span> 生命值。"
+  },
+  "42% Burnt": {
+    "cnName": "42% 烧毁",
+    "cnDesc": "Lumi 的 Blast Beat 产生的爆炸也使该区域着火了 <span style=\"color:#00cc00;\">x</span> 秒。火灾伤害也会随着爆炸伤害而增加。最大爆炸每秒造成的伤害：<span style=\"color:#00cc00;\">x</span>"
+  },
+  "Black Portal": {
+    "cnName": "黑色传送门",
+    "cnDesc": "塔拉的超级裂缝打开了维度传送门！塔拉的影子版本出现并攻击她的敌人。"
+  },
+  "Blockbuster": {
+    "cnName": "百视达",
+    "cnDesc": "巴斯特的镜头光晕对其超级冲锋区域内的每个盟友造成 <span style=\"color:#00cc00;\">x%</span> 点伤害。"
+  },
+  "Berserker": {
+    "cnName": "狂战士",
+    "cnDesc": "当 Bull 的生命值低于 <span style=\"color:#00cc00;\">x%</span> 时，他的装弹速度会加倍！"
+  },
+  "Blown Away": {
+    "cnName": "被吹走",
+    "cnDesc": "米娜的超级能力也能当场根除敌人。"
+  },
+  "Black Powder": {
+    "cnName": "黑火药",
+    "cnDesc": "邦妮的星星发射器的射程增加了 <span style=\"color:#00cc00;\">x%</span>。"
+  },
+  "Biotic Ecosystem": {
+    "cnName": "生物生态系统",
+    "cnDesc": "如果Glowy同时束缚在敌人和队友身上，它将减少敌人<span style=\"color:#00cc00;\">x%</span>的伤害，并增加队友<span style=\"color:#00cc00;\">x%</span>的伤害。"
+  },
+  "Chain Reaction": {
+    "cnName": "连锁反应",
+    "cnDesc": "粘性球体爆炸区域内的每个对手都会使粘性球体的伤害增加 <span style=\"color:#00cc00;\">x%</span>。"
+  },
+  "Business Resilience": {
+    "cnName": "业务弹性",
+    "cnDesc": "每 <span style=\"color:#00cc00;\"><!card.value2.ticksasseconds></span> 秒，Griff 就会恢复高达 <span style=\"color:#00cc00;\"><!card.value1>%</span> 的缺失生命值。"
+  },
+  "Circling Eagle": {
+    "cnName": "盘旋之鹰",
+    "cnDesc": "Bo 发现隐藏在灌木丛中的敌人的距离比平时长 <span style=\"color:#00cc00;\">x%</span>。"
+  },
+  "Blustery Blow": {
+    "cnName": "大风吹",
+    "cnDesc": "如果敌人被推向障碍物，大风的超级现在会使敌人昏迷 <span style=\"color:#00cc00;\">x</span> 秒。"
+  },
+  "Boosted Booster": {
+    "cnName": "增强助推器",
+    "cnDesc": "将伤害增强器的射程增加 <span style=\"color:#00cc00;\">x%</span>，并额外增加 <span style=\"color:#00cc00;\">x%</span> 伤害。"
+  },
+  "Coiled Snake": {
+    "cnName": "盘绕的蛇",
+    "cnDesc": "莫蒂斯的长距离冲刺速度加快 <span style=\"color:#00cc00;\">x</span> 秒。"
+  },
+  "Carrion Crow": {
+    "cnName": "食腐乌鸦",
+    "cnDesc": "乌鸦的攻击会对生命值不超过 x% 的目标造成 <span style=\"color:#00cc00;\">+x%</span> 伤害和超级伤害。"
+  },
+  "Comboshrooms": {
+    "cnName": "组合蘑菇",
+    "cnDesc": "将第二个蘑菇击中与第一个蘑菇相同的目标，会造成 <span style=\"color:#00cc00;\">x%</span> 额外伤害。"
+  },
+  "Colony Scouts": {
+    "cnName": "殖民地侦察兵",
+    "cnDesc": "蚂蚁揭露隐藏的敌人。"
+  },
+  "Crowdkill": {
+    "cnName": "群杀",
+    "cnDesc": "将目标撞到墙上会使他们昏迷 <span style=\"color:#00cc00;\"><!card.value1.ticksasseconds></span> 秒。"
+  },
+  "Da Capo": {
+    "cnName": "达卡波",
+    "cnDesc": "当波科的攻击击中友方斗士时，他们现在会恢复 <span style=\"color:#00cc00;\">x</span> 生命值。"
+  },
+  "Curveball": {
+    "cnName": "曲线球",
+    "cnDesc": "仙人掌手榴弹的尖刺以曲线运动飞行，更容易击中目标。"
+  },
+  "Demolition": {
+    "cnName": "拆除",
+    "cnDesc": "为迈克的超级增加 <span style=\"color:#00cc00;\">+x</span> 点伤害。"
+  },
+  "Counter Crush": {
+    "cnName": "反击粉碎",
+    "cnDesc": "当受到伤害时，Jacky 会将 <span style=\"color:#00cc00;\">x%</span> 的伤害转化为破土反击来回报。"
+  },
+  "Creepy Harvest": {
+    "cnName": "令人毛骨悚然的收获",
+    "cnDesc": "莫蒂斯收获他击败的斗士的生命精华，恢复他最大生命值的 <span style=\"color:#00cc00;\">x%</span>。"
+  },
+  "Digestive": {
+    "cnName": "消化",
+    "cnDesc": "被困住的敌人在被困住时会失去 <span style=\"color:#00cc00;\">x%</span> 的生命值。"
+  },
+  "Do Not Pass Go": {
+    "cnName": "请勿通过 前往",
+    "cnDesc": "当您射击环境时，会造成 <span style=\"color:#00cc00;\">x</span> 点更多伤害。"
+  },
+  "El Fuego": {
+    "cnName": "火地岛",
+    "cnDesc": "被 El Primo 的 Super 困住的敌人将在 4 秒内燃烧 <span style=\"color:#00cc00;\">x</span> 点伤害。"
+  },
+  "Dyna-Jump": {
+    "cnName": "动态跳跃",
+    "cnDesc": "Dynamike 可以驾驭炸药的冲击波来跳过障碍物！"
+  },
+  "Divine Soles": {
+    "cnName": "神圣鞋底",
+    "cnDesc": "每 <span style=\"color:#00cc00;\">x</span> 秒减少一次传入攻击造成的 <span style=\"color:#00cc00;\">x</span> 伤害。最大减少量为传入伤害的 <span style=\"color:#00cc00;\">x%</span>。"
+  },
+  "Dusk Runners": {
+    "cnName": "黄昏奔跑者",
+    "cnDesc": "阴影具有 <span style=\"color:#00cc00;\">+<!card.statusEffect.speedBoostPercent>%</span> 移动速度。"
+  },
+  "Empower": {
+    "cnName": "赋能",
+    "cnDesc": "留在超级舱内每秒可以治疗安杰洛 <span style=\"color:#00cc00;\">x</span> 的生命。"
+  },
+  "Energize": {
+    "cnName": "通电",
+    "cnDesc": "杰西可以通过攻击来修复她的炮塔，使其失去 <span style=\"color:#00cc00;\">x</span> 的生命值。"
+  },
+  "Extended Mix": {
+    "cnName": "扩展混合",
+    "cnDesc": "Melodie 的音符会持续 <span style=\"color:#00cc00;\">x%</span> 时间然后消失。"
+  },
+  "Extra High Note": {
+    "cnName": "超高音",
+    "cnDesc": "主要攻击现在对每个被刺穿的目标造成额外的 <span style=\"color:#00cc00;\">x%</span> 伤害。"
+  },
+  "Expose": {
+    "cnName": "暴露",
+    "cnDesc": "每隔 <span style=\"color:#00cc00;\">x</span> 秒，下一次长矛刺击会暴露击中的敌人。暴露在外的敌人受到的伤害提高 <span style=\"color:#00cc00;\">x%</span>，持续 <span style=\"color:#00cc00;\">x</span> 秒。"
+  },
+  "Extra Noxious": {
+    "cnName": "极其有害",
+    "cnDesc": "巴利的攻击每秒增加 <span style=\"color:#00cc00;\">+x</span> 点伤害。"
+  },
+  "Extra Toxic": {
+    "cnName": "剧毒",
+    "cnDesc": "乌鸦的毒液会削弱敌人的力量，敌人在中毒时造成的伤害会减少<span style=\"color:#00cc00;\">x%</span>。"
+  },
+  "Eyes Sharp": {
+    "cnName": "目光锐利",
+    "cnDesc": "Buzz 的超级充电区域增加了 <span style=\"color:#00cc00;\">x%</span>。"
+  },
+  "Fast Food": {
+    "cnName": "快餐",
+    "cnDesc": "当道格成功复活盟友时，他将恢复最大生命值的 <span style=\"color:#00cc00;\">x%</span> 生命值。"
+  },
+  "Fast Beats": {
+    "cnName": "快节奏",
+    "cnDesc": "Melodie 的移动速度因每个围绕她旋转的音符而增加 <span style=\"color:#00cc00;\">x%</span> 。"
+  },
+  "Fertilize": {
+    "cnName": "施肥",
+    "cnDesc": "超级治疗量为所造成伤害的 <span style=\"color:#00cc00;\">x%</span>。"
+  },
+  "Fake Injury": {
+    "cnName": "假伤",
+    "cnDesc": "当格雷拥有完整生命值时，下一次受到的伤害会减少 <span style=\"color:#00cc00;\"><VALUE>%</span>。"
+  },
+  "Fisticuffs": {
+    "cnName": "拳脚相加",
+    "cnDesc": "埃德加造成的伤害可增加 <span style=\"color:#00cc00;\"><!card.value1>%</span> 治疗效果。"
+  },
+  "Field Promotion": {
+    "cnName": "现场推广",
+    "cnDesc": "当友好的争斗者处于该能力的范围内时，其最大生命值每秒增加 <span style=\"color:#00cc00;\">x</span> 。"
+  },
+  "First Bash": {
+    "cnName": "第一次狂欢",
+    "cnDesc": "当攻击力已满的情况下击中对手时，小智会变得更加愤怒。他的怒气上升 <span style=\"color:#00cc00;\">x%</span>。"
+  },
+  "Floor Is Fine": {
+    "cnName": "地板很好",
+    "cnDesc": "贝瑞站在自己融化的冰淇淋上时，装弹速度提高 <span style=\"color:#00cc00;\">x%</span> 。"
+  },
+  "Flow": {
+    "cnName": "流动",
+    "cnDesc": "安吉洛入水后移动速度提高 <span style=\"color:#00cc00;\">x%</span> 。"
+  },
+  "Foot Patrol": {
+    "cnName": "徒步巡逻",
+    "cnDesc": "当格罗姆的超级充满电后，他的移动速度将加快 <span style=\"color:#00cc00;\">+x%</span>！"
+  },
+  "Force Field": {
+    "cnName": "力场",
+    "cnDesc": "当梅格的机甲被摧毁时，她会受到 <span style=\"color:#00cc00;\">x%</span> 护盾的保护，持续 <span style=\"color:#00cc00;\">x</span> 秒。"
+  },
+  "Freezing Snow": {
+    "cnName": "冻雪",
+    "cnDesc": "大风的雪球现在还会使对手减速 <span style=\"color:#00cc00;\"><!card.statuseffect.duration.ticksasseconds></span> 秒。"
+  },
+  "Gratuity Included": {
+    "cnName": "包含小费",
+    "cnDesc": "移除最初陷入风扇风暴的斗士的 <span style=\"color:#00cc00;\">x%</span> 弹药"
+  },
+  "Grounded": {
+    "cnName": "接地",
+    "cnDesc": "被贝尔的超级标记后，对手将无法在 <span style=\"color:#00cc00;\">x</span> 秒内重新加载攻击。"
+  },
+  "Gaso-Heal": {
+    "cnName": "气体疗愈",
+    "cnDesc": "使用他的 Nitro Boost Super 可以恢复 Stu 的 <span style=\"color:#00cc00;\">x</span> 生命值。"
+  },
+  "Fresh Kicks": {
+    "cnName": "新鲜踢",
+    "cnDesc": "当方用他的超级击败敌人的斗士时，它会立即充电，让他可以再次使用他的超级！"
+  },
+  "Guarded Gris-Gris": {
+    "cnName": "守卫的格里斯-格里斯",
+    "cnDesc": "格里斯-格里斯被召唤时带有防护罩。"
+  },
+  "Half-Time": {
+    "cnName": "半场",
+    "cnDesc": "卢米可以使被她召回的晨星击中的敌人减速 <span style=\"color:#00cc00;\">x</span> 秒。"
+  },
+  "Happy Surprise": {
+    "cnName": "快乐惊喜",
+    "cnDesc": "每隔 <span style=\"color:#00cc00;\">x</span> 秒，下一个最大的蛋击中蛋射手的敌人就会生成一只幼体。"
+  },
+  "Hard Candy": {
+    "cnName": "硬糖",
+    "cnDesc": "曼迪在专注时获得 <span style=\"color:#00cc00;\">x%</span> 护盾。"
+  },
+  "Handle With Care": {
+    "cnName": "小心处理",
+    "cnDesc": "每 <span style=\"color:#00cc00;\">x</span> 秒，P 先生下一个塞满行李箱的爆炸伤害就会增加 <span style=\"color:#00cc00;\">x%</span>。"
+  },
+  "Hardened Hoodie": {
+    "cnName": "硬化连帽衫",
+    "cnDesc": "阴影在虚体形态下获得 <span style=\"color:#00cc00;\">x%</span> 伤害减免。"
+  },
+  "Hard Landing": {
+    "cnName": "硬着陆",
+    "cnDesc": "埃德加的超级和Let's Fly Gadget也会在着陆时对附近的敌人造成<span style=\"color:#00cc00;\"><!card.areaeffect.damage.scaleweapondamagelevel></span>伤害，或在直接命中时造成<span style=\"color:#00cc00;\"><!card.areaeffect.innerradiusdamage.scaleweapondamagelevel></span>伤害。"
+  },
+  "Healing Winds": {
+    "cnName": "治愈之风",
+    "cnDesc": "沙尘暴现在还可以每秒治疗友方英雄 <span style=\"color:#00cc00;\">x</span> 点生命值。"
+  },
+  "Hardy Hard Hat": {
+    "cnName": "哈迪安全帽",
+    "cnDesc": "杰基的安全帽可以减少她所受到的伤害 <span style=\"color:#00cc00;\">x%</span> 来保护她。"
+  },
+  "Healing Shade": {
+    "cnName": "治愈之影",
+    "cnDesc": "塔拉的超级裂缝打开了维度传送门！塔拉的影子版本似乎可以治愈塔拉和她的队友。"
+  },
+  "Health Bonanza": {
+    "cnName": "健康富矿",
+    "cnDesc": "从灵魂获得的治疗效果提高 <span style=\"color:#00cc00;\">x%</span>。"
+  },
+  "Hearty Recovery": {
+    "cnName": "丰盛的康复",
+    "cnDesc": "在召回他的指关节克星后，山姆立即恢复了他缺失的 <span style=\"color:#00cc00;\">x%</span> 生命值。"
+  },
+  "Heat Retention": {
+    "cnName": "保温性",
+    "cnDesc": "使用 Super 时，消耗的热量会减少 <span style=\"color:#00cc00;\">x%</span>。"
+  },
+  "Heat Shield": {
+    "cnName": "隔热罩",
+    "cnDesc": "当热火结束<span style=\"color:#00cc00;\">x%</span>时，减少<span style=\"color:#00cc00;\">x%</span>受到的伤害。"
+  },
+  "Heavy Metal": {
+    "cnName": "重金属",
+    "cnDesc": "过期后，机甲套装会爆炸，对附近的对手造成 <span style=\"color:#00cc00;\">x</span> 点伤害并将他们推开。"
+  },
+  "Heavy Coffers": {
+    "cnName": "沉重的金库",
+    "cnDesc": "每次撞击后，佩妮的金袋都会爆裂出 <span style=\"color:#00cc00;\">x%</span> 更宽的圆锥体。"
+  },
+  "Home Run": {
+    "cnName": "本垒打",
+    "cnDesc": "当 Bibi 的本垒打条充满电时，她的移动速度会提高 <span style=\"color:#00cc00;\">x%</span>。"
+  },
+  "Hype": {
+    "cnName": "炒作",
+    "cnDesc": "Emz 每秒为她超级效果区域内的每个敌方斗士恢复 <span style=\"color:#00cc00;\">x</span> 点生命值。"
+  },
+  "Honeycomb": {
+    "cnName": "蜂窝",
+    "cnDesc": "当大刺充能时，Bea 会收到一个 <span style=\"color:#00cc00;\">x%</span> 护盾。"
+  },
+  "Improvise": {
+    "cnName": "凑合",
+    "cnDesc": "当最后一轮时，萝拉会造成额外的 <span style=\"color:#00cc00;\">x%</span> 伤害。"
+  },
+  "Hieroglyph Halt": {
+    "cnName": "象形文字停止",
+    "cnDesc": "芬克斯将主要攻击击中的所有敌方乱斗者的装填速度降低 <span style=\"color:#00cc00;\">x%</span>，持续 <span style=\"color:#00cc00;\">x</span> 秒。"
+  },
+  "Hyper Bear": {
+    "cnName": "超级熊",
+    "cnDesc": "妮塔的熊攻击速度更快。两次滑动之间的时间减少 <span style=\"color:#00cc00;\">x%</span>。"
+  },
+  "Injection": {
+    "cnName": "注射",
+    "cnDesc": "每隔 <span style=\"color:#00cc00;\">x</span> 秒，下一次基本攻击就会刺穿目标。"
+  },
+  "Hypothermia": {
+    "cnName": "低温",
+    "cnDesc": "对手会损失高达 <span style=\"color:#00cc00;\">x%</span> 的伤害，具体取决于他们在卢的攻击中被冻结的程度。"
+  },
+  "In My Sights": {
+    "cnName": "在我的视野中",
+    "cnDesc": "曼迪在专注时以 <span style=\"color:#00cc00;\">x%</span> 的速度射出糖果。"
+  },
+  "Insta Beaload": {
+    "cnName": "即时加载",
+    "cnDesc": "如果 Bea 错过了一次增压射击，立即为 Bea 的 Big Sting 增压一次。"
+  },
+  "Ink Refills": {
+    "cnName": "墨水笔芯",
+    "cnDesc": "奥蒂斯现在可以喷射 <span style=\"color:#00cc00;\">x%</span> 多的墨滴。"
+  },
+  "Keep The Change": {
+    "cnName": "留着零钱吧",
+    "cnDesc": "格里夫获得了稍微更广泛的攻击，并在抛硬币中增加了另一排硬币。"
+  },
+  "Its Gonna Blow": {
+    "cnName": "它会吹",
+    "cnDesc": "当气球爆炸蓄力超过 <span style=\"color:#00cc00;\">x%</span> 时，汉克将获得 <span style=\"color:#00cc00;\">x%</span> 额外移动速度。"
+  },
+  "Invisiheal": {
+    "cnName": "隐形治疗",
+    "cnDesc": "当莱昂的超级激活时，每秒恢复 <span style=\"color:#00cc00;\"><!card.character.maxHealth.scaleToLevel.scaleCardValue1></span> 生命值。"
+  },
+  "Kevlar Vest": {
+    "cnName": "凯夫拉背心",
+    "cnDesc": "当蒙太奇处于活动状态时，巴斯特受到的伤害减少 <span style=\"color:#00cc00;\">x%</span>，并且免疫击退、减速和眩晕。"
+  },
+  "Lizard Limbs": {
+    "cnName": "蜥蜴四肢",
+    "cnDesc": "愤怒时，阿里在脱离战斗后仅 <span style=\"color:#00cc00;\">x</span> 秒后就能更快地恢复生命值。"
+  },
+  "Laser Mode": {
+    "cnName": "激光模式",
+    "cnDesc": "巴斯光年的激光射程更远，使他能够击中更远的目标。"
+  },
+  "Love Is Blind": {
+    "cnName": "爱情是盲目的",
+    "cnDesc": "灯笼的诅咒还会使受影响的英雄的装填速度降低 <span style=\"color:#00cc00;\">x%</span>，持续 <span style=\"color:#00cc00;\">x</span> 秒。"
+  },
+  "Kick Push": {
+    "cnName": "踢推",
+    "cnDesc": "当靠近墙壁时，奥利会启动气垫板并获得 <span style=\"color:#00cc00;\">x%</span> 额外移动速度。"
+  },
+  "Mad As Heck": {
+    "cnName": "疯狂如赫克",
+    "cnDesc": "小智的装弹速度逐渐提高 <span style=\"color:#00cc00;\">x%</span>，这与他的愤怒程度相同。"
+  },
+  "Magic Puffs": {
+    "cnName": "魔法泡芙",
+    "cnDesc": "吉恩每秒治疗他周围的所有友方争斗者 <span style=\"color:#00cc00;\">x</span> 生命值。"
+  },
+  "Making A Mess": {
+    "cnName": "弄得一团糟",
+    "cnDesc": "贝瑞的基本攻击在撞击没有冰淇淋的区域时会获得 <span style=\"color:#00cc00;\">x%</span> 额外伤害。"
+  },
+  "Malaise": {
+    "cnName": "不适",
+    "cnDesc": "拜伦的超级技能还会导致对手从任何来源获得的治疗量减少 <span style=\"color:#00cc00;\">x%</span> ，持续 <span style=\"color:#00cc00;\">x</span> 秒。"
+  },
+  "Magnum Special": {
+    "cnName": "万能特别版",
+    "cnDesc": "柯尔特的攻击范围和子弹速度增加 <span style=\"color:#00cc00;\">x%</span>。"
+  },
+  "Mamas Hug": {
+    "cnName": "妈妈的拥抱",
+    "cnDesc": "每当帕姆用碎片风暴击中敌人的斗士时，她就会治愈自己和附近友方斗士的 <span style=\"color:#00cc00;\">x</span> 生命值。"
+  },
+  "Mamas Squeeze": {
+    "cnName": "妈妈挤压",
+    "cnDesc": "治疗炮塔现在还会对敌人造成每秒 <span style=\"color:#00cc00;\">x</span> 点伤害。"
+  },
+  "Master Blaster": {
+    "cnName": "爆破大师",
+    "cnDesc": "佩妮的大炮在着陆时造成 <span style=\"color:#00cc00;\">x</span> 点伤害并击退附近的敌人。"
+  },
+  "Mass Tax": {
+    "cnName": "大众税",
+    "cnDesc": "科莱特在超级期间受到的伤害减少 <span style=\"color:#00cc00;\"><!card.trait.statuseffect.shieldpercent>%</span>，如果击中格斗者，她会获得 <span style=\"color:#00cc00;\">30%</span> 护盾，持续 <span style=\"color:#00cc00;\">3 秒</span>。"
+  },
+  "Medical Use": {
+    "cnName": "医疗用途",
+    "cnDesc": "大麦每次攻击都会恢复 <span style=\"color:#00cc00;\">x</span> 生命值。"
+  },
+  "Meteor Rush": {
+    "cnName": "流星冲刺",
+    "cnDesc": "El Primo 在使用超级后，将获得 <span style=\"color:#00cc00;\">x%</span> 速度提升，持续 <span style=\"color:#00cc00;\">x</span> 秒。"
+  },
+  "Monkey Business": {
+    "cnName": "胡闹",
+    "cnDesc": "每隔 <span style=\"color:#00cc00;\">x</span> 秒，Mico 的基本攻击会在击中敌人后窃取他们的弹药。"
+  },
+  "Mushroom Kingdom": {
+    "cnName": "蘑菇王国",
+    "cnDesc": "Cordelius 在使用他的超级后会在暗影领域生成 <span style=\"color:#00cc00;\">x</span> 个蘑菇，在拾取时治疗盟友并伤害敌人，获得 <span style=\"color:#00cc00;\">x</span> 生命值。"
+  },
+  "Mission Swimpossible": {
+    "cnName": "使命游泳",
+    "cnDesc": "皮尔斯的最后弹药也会使敌人减速 <span style=\"color:#00cc00;\">x%</span>。"
+  },
+  "More Rockets": {
+    "cnName": "更多火箭队",
+    "cnDesc": "火箭雨现在会多降 <span style=\"color:#00cc00;\">x%</span> 枚火箭。"
+  },
+  "Mystical Starr Technique": {
+    "cnName": "神秘的斯塔尔技术",
+    "cnDesc": "斯塔尔·诺瓦的主要攻击还会为队友治疗 <span style=\"color:#00cc00;\"><!card.character.weaponSkill.damage.scaleStatToLevel.scaleByCardProjectileHealOwnPercent></span>。"
+  },
+  "New Insect Overlords": {
+    "cnName": "新昆虫霸主",
+    "cnDesc": "蚂蚁还会减少敌人 <span style=\"color:#00cc00;\">x%</span> 的伤害"
+  },
+  "New Perspective": {
+    "cnName": "新视角",
+    "cnDesc": "当格雷或他的盟友使用门时，他们会恢复最大生命值的<span style=\"color:#00cc00;\"><VALUE>%</span>。"
+  },
+  "Obsession": {
+    "cnName": "痴迷",
+    "cnDesc": "被施咒的敌人在精神控制时获得 <span style=\"color:#00cc00;\">x%</span> 移动速度。"
+  },
+  "Overgrowth": {
+    "cnName": "过度生长",
+    "cnDesc": "每 <span style=\"color:#00cc00;\">x</span> 秒，下一颗种子炸弹就会以更大的爆炸半径爆炸。"
+  },
+  "Numbing Needles": {
+    "cnName": "麻针",
+    "cnDesc": "Gris-Gris 的攻击现在还会使敌人减速 <span style=\"color:#00cc00;\"><!card.projectile.statuseffectenemy.duration.ticksasseconds></span> 秒"
+  },
+  "Nigiri Nemesis": {
+    "cnName": "握寿司复仇者",
+    "cnDesc": "避免伤害 <span style=\"color:#00cc00;\">x</span> 秒后，下次敌人攻击时获得 <span style=\"color:#00cc00;\">x%</span> 伤害减免。"
+  },
+  "Overly Attached": {
+    "cnName": "过度依恋",
+    "cnDesc": "套件附着在友好的争吵者上的时间延长了 <span style=\"color:#00cc00;\">x</span> 秒。"
+  },
+  "Parasitism": {
+    "cnName": "寄生",
+    "cnDesc": "拴在敌人身上也会治愈光辉所造成伤害的 <span style=\"color:#00cc00;\">x%</span>。"
+  },
+  "Photosynthesis": {
+    "cnName": "光合作用",
+    "cnDesc": "芽芽激活护盾，在灌木丛中部分保护自己免受所有攻击。"
+  },
+  "Pit Stop": {
+    "cnName": "进站",
+    "cnDesc": "将最大帖子数量增加 <span style=\"color:#00cc00;\">x</span>。"
+  },
+  "Pinpoint Precision": {
+    "cnName": "精确定位",
+    "cnDesc": "压力火箭在最大距离内造成 <span style=\"color:#00cc00;\">x%</span> 伤害。"
+  },
+  "Plant Life": {
+    "cnName": "植物生命",
+    "cnDesc": "罗莎在灌木丛中时每秒恢复 <span style=\"color:#00cc00;\">x</span> 生命值。"
+  },
+  "Plugged In": {
+    "cnName": "已接通电源",
+    "cnDesc": "当 8-Bit 靠近他的伤害增强器时，他会插入并提高移动速度。"
+  },
+  "Positive Feedback": {
+    "cnName": "积极的反馈",
+    "cnDesc": "每当贝儿的电弹击中目标时，她都会获得 <span style=\"color:#00cc00;\">x%</span> 护盾。"
+  },
+  "Plie Protection": {
+    "cnName": "帘布层保护",
+    "cnDesc": "如果 <span style=\"color:#00cc00;\">x</span> 秒内没有受到任何伤害，则超级充能率提高 <span style=\"color:#00cc00;\">x%</span>"
+  },
+  "Poisonous Protector": {
+    "cnName": "剧毒守护者",
+    "cnDesc": "被纳迦中毒而被击败的斗殴者会在他们的位置产生一条蛇。"
+  },
+  "Power Grab": {
+    "cnName": "夺权",
+    "cnDesc": "弗兰克窃取了他击败的格斗者的力量，使其伤害增加 <span style=\"color:#00cc00;\">x%</span> ，持续 x 秒！"
+  },
+  "Power Hungry": {
+    "cnName": "耗电",
+    "cnDesc": "套件从每个能量立方体中获得 <span style=\"color:#00cc00;\">x%</span> 能量。"
+  },
+  "Primer": {
+    "cnName": "底漆",
+    "cnDesc": "仅芬克斯的射弹造成的伤害会因时间扭曲而加速，每次都会使超级持续时间增加 <span style=\"color:#00cc00;\">x</span> 秒。"
+  },
+  "Power Throw": {
+    "cnName": "强力投掷",
+    "cnDesc": "卡尔投掷镐的速度提高 <span style=\"color:#00cc00;\">x%</span>，使其移动和返回速度更快。"
+  },
+  "Power Level Maximum": {
+    "cnName": "最大功率水平",
+    "cnDesc": "在变形状态下击中敌方格斗家，你的伤害会增加 <span style=\"color:#00cc00;\"><!card.statuseffect.damageboostpercent>%</span>，最高可达 <span style=\"color:#00cc00;\"><!card.statuseffect.damageboostpercent.scalecardvalue2>%</span>。"
+  },
+  "Protocol Assist": {
+    "cnName": "协议协助",
+    "cnDesc": "当 Lawrie 在射程内时，只要他对敌人造成伤害，就重新装填 <span style=\"color:#00cc00;\">x%</span> 的弹药。"
+  },
+  "Push It": {
+    "cnName": "推它",
+    "cnDesc": "所有被科莱特冲锋击中的敌方斗士都会被带到攻击的最远点！在最大距离处，他们会被眩晕 <span style=\"color:#00cc00;\"><!card.value2.ticksAsSeconds> 秒</span>。"
+  },
+  "Protocol Protect": {
+    "cnName": "协议保护",
+    "cnDesc": "当 Lawrie 在范围内时，将 <span style=\"color:#00cc00;\">x%</span> 受到的伤害转移到自己身上。"
+  },
+  "Pumping Up": {
+    "cnName": "打气",
+    "cnDesc": "每次击倒敌人时，克兰西都会重新装填所有弹药。"
+  },
+  "Quick Maths": {
+    "cnName": "快速数学",
+    "cnDesc": "最后 <span style=\"color:#00cc00;\">x</span> 秒创建的标记。"
+  },
+  "Recon": {
+    "cnName": "侦察",
+    "cnDesc": "Clancy 使用 <span style=\"color:#00cc00;\">x</span> 标记开始比赛。"
+  },
+  "Protective Pirouette": {
+    "cnName": "保护性旋转",
+    "cnDesc": "在卡尔的超级期间，他受到的所有伤害都会减少 <span style=\"color:#00cc00;\">x%</span>。"
+  },
+  "Record Smash": {
+    "cnName": "打破纪录",
+    "cnDesc": "米科对非争斗者造成 <span style=\"color:#00cc00;\">x%</span> 额外伤害。"
+  },
+  "Recording": {
+    "cnName": "记录",
+    "cnDesc": "R-T 和他的腿在分裂时受到的伤害减少 <span style=\"color:#00cc00;\">x%</span>。"
+  },
+  "Renegade": {
+    "cnName": "叛徒",
+    "cnDesc": "带着他的超级冲锋后，奥利在 <span style=\"color:#00cc00;\">x</span> 秒内获得了 <span style=\"color:#00cc00;\">x</span> 个腐烂护盾。"
+  },
+  "Remote Recharge": {
+    "cnName": "远程充值",
+    "cnDesc": "当指关节克星在地面上且靠近敌人时，它们会为山姆的超级能量充能。"
+  },
+  "Revolving Door": {
+    "cnName": "旋转门",
+    "cnDesc": "现在，来自大本营的所有机器人搬运工的生命值增加了 <span style=\"color:#00cc00;\">x%</span>，伤害提高了 <span style=\"color:#00cc00;\">x%</span>。"
+  },
+  "Robo Retreat": {
+    "cnName": "机器人撤退",
+    "cnDesc": "当 Rico 的生命值低于 <span style=\"color:#00cc00;\">x%</span> 时，他会跑得更快 <span style=\"color:#00cc00;\">x%</span>！"
+  },
+  "Rolling Reload": {
+    "cnName": "滚动装弹",
+    "cnDesc": "当达里尔使用他的超级时，他的装弹速度会加倍，持续 <span style=\"color:#00cc00;\">x</span> 秒。"
+  },
+  "Rule Bending": {
+    "cnName": "规则弯曲",
+    "cnDesc": "关键成功还会使该区域内的盟友装填速度提高 <span style=\"color:#00cc00;\"><VALUE>%</span>。"
+  },
+  "Rude Sands": {
+    "cnName": "粗鲁的沙子",
+    "cnDesc": "沙尘暴现在每秒还会对敌人造成 <span style=\"color:#00cc00;\">x</span> 点伤害。"
+  },
+  "Run N Gun": {
+    "cnName": "跑枪",
+    "cnDesc": "移动时最大装弹速度更快。"
+  },
+  "Rocket No. 4": {
+    "cnName": "火箭四号",
+    "cnDesc": "布洛克将第四枚火箭装入他的发射器，增加了他的弹药容量（并丢弃了他一直放在发射器第四管中的保温瓶）。"
+  },
+  "Saber Mode": {
+    "cnName": "军刀模式",
+    "cnDesc": "巴斯光年通过吸收受到的伤害并从增加的生命值中获益来为他的超级充电。"
+  },
+  "Scorchin Siphon": {
+    "cnName": "焦金虹吸管",
+    "cnDesc": "当靠近一滩火液时，安珀用它来加快喷火速度 <span style=\"color:#00cc00;\">x%</span> 速度。"
+  },
+  "Screeching Solo": {
+    "cnName": "尖叫独奏",
+    "cnDesc": "Poco 的超级技能现在也会击中敌人，造成 <span style=\"color:#00cc00;\">x</span> 点伤害。"
+  },
+  "Sealed With A Kiss": {
+    "cnName": "以吻封印",
+    "cnDesc": "劳拉自我的射弹将治疗生命值 <span style=\"color:#00cc00;\">x</span> 挡在其路径上的盟友。"
+  },
+  "Shell Shock": {
+    "cnName": "壳震",
+    "cnDesc": "雪莉的超级炮弹可以使敌人减速 <span style=\"color:#00cc00;\"><!card.value1.ticksasseconds></span> 秒！"
+  },
+  "Self Service": {
+    "cnName": "自助服务",
+    "cnDesc": "零食攻击还可以治愈道格<span style=\"color:#00cc00;\">x</span>。"
+  },
+  "Shredding": {
+    "cnName": "粉碎",
+    "cnDesc": "龙独奏现在在激活时还可以治疗 <span style=\"color:#00cc00;\">x</span> 。"
+  },
+  "Shocky": {
+    "cnName": "震惊",
+    "cnDesc": "斗志旺盛的炮塔现在会发射在敌人之间弹跳的能量球。弹跳后球体的射程为正常射程的 <span style=\"color:#00cc00;\">x%</span>。"
+  },
+  "Serve Ice Cold": {
+    "cnName": "冰镇食用",
+    "cnDesc": "Surge 在整个比赛期间保持他的第 1 阶段超级升级。"
+  },
+  "Single Bellomania": {
+    "cnName": "单身狂",
+    "cnDesc": "切斯特攻击序列的第一个钟声会造成 <span style=\"color:#00cc00;\">x%</span> 伤害。"
+  },
+  "Slimy": {
+    "cnName": "粘糊糊的",
+    "cnDesc": "茧会在其身后留下一条持续 <span style=\"color:#00cc00;\">x</span> 秒的粘糊糊的痕迹，减缓敌人在其上行走的速度。"
+  },
+  "Slip N Snipe": {
+    "cnName": "滑动 N 狙击",
+    "cnDesc": "收集炮弹时，皮尔斯会获得短暂的移动速度爆发 (<span style=\"color:#00cc00;\">x%</span>)。"
+  },
+  "Slick Boots": {
+    "cnName": "光滑的靴子",
+    "cnDesc": "小马的移动速度提高 <span style=\"color:#00cc00;\">x%</span>。"
+  },
+  "Skipping Stones": {
+    "cnName": "跳石",
+    "cnDesc": "萌的普通攻击会再次反弹。攻击范围保持不变。"
+  },
+  "Snappy Sniping": {
+    "cnName": "敏捷狙击",
+    "cnDesc": "当派珀攻击击中对手时，她会立即重新装填 <span style=\"color:#00cc00;\">x</span> 弹药。"
+  },
+  "Smoke Trails": {
+    "cnName": "烟雾痕迹",
+    "cnDesc": "当莱昂不可见时，他在隐形期间获得 <span style=\"color:#00cc00;\">x%</span> 移动速度。"
+  },
+  "Sneak Peek": {
+    "cnName": "先睹为快",
+    "cnDesc": "切斯特永远知道他的下一个超级会是什么。"
+  },
+  "Speeding Ticket": {
+    "cnName": "超速罚单",
+    "cnDesc": "莫伊的钻工提高了行进速度。"
+  },
+  "Spiky": {
+    "cnName": "尖刺",
+    "cnDesc": "传送到敌人身边后，莉莉的下一次攻击会造成 <span style=\"color:#00cc00;\">x</span> 点额外伤害"
+  },
+  "Snare A Bear": {
+    "cnName": "圈套一只熊",
+    "cnDesc": "Bo 的陷阱不再是击退，而是使敌人昏迷 <span style=\"color:#00cc00;\">x</span> 秒！"
+  },
+  "Sponge": {
+    "cnName": "海绵",
+    "cnDesc": "弗兰克获得 <span style=\"color:#00cc00;\">+x</span> 生命值。"
+  },
+  "Spirit Animal": {
+    "cnName": "灵兽",
+    "cnDesc": "幽灵使队友的伤害提高 <span style=\"color:#00cc00;\">x%</span>，持续 <span style=\"color:#00cc00;\">x</span> 秒。"
+  },
+  "Spooky Speedster": {
+    "cnName": "幽灵极速者",
+    "cnDesc": "用Shade的主要攻击中心击中对手可以短暂提升移动速度。"
+  },
+  "Spirit Slap": {
+    "cnName": "精神一击",
+    "cnDesc": "吉恩的魔法之手还会对敌人造成伤害，击中时造成 <span style=\"color:#00cc00;\">x</span> 点伤害。"
+  },
+  "Stage View": {
+    "cnName": "舞台视图",
+    "cnDesc": "当珍妮特带着喷气背包在空中飞行时，她露出了自己周围的一大片灌木丛。"
+  },
+  "Steel Hoops": {
+    "cnName": "钢箍",
+    "cnDesc": "桶滚后，达里尔受到的所有伤害都会减少 <span style=\"color:#00cc00;\">x%</span>，持续 <span style=\"color:#00cc00;\">x</span> 秒。"
+  },
+  "Stencil Glue": {
+    "cnName": "模板胶",
+    "cnDesc": "希尔全力压制敌人。阻止他们攻击 <span style=\"color:#00cc00;\">x%</span> 时间。"
+  },
+  "Super Bouncy": {
+    "cnName": "超级弹力",
+    "cnDesc": "Rico 的子弹，无论是攻击子弹还是超级子弹，都会在第一次弹跳时获得增压并造成 <span style=\"color:#00cc00;\">+x</span> 点伤害！"
+  },
+  "Super Charged": {
+    "cnName": "超级充电",
+    "cnDesc": "麦克斯现在可以在移动时为她的超级充电。"
+  },
+  "Super Sticky": {
+    "cnName": "超级粘",
+    "cnDesc": "Squeak's Super 的二次粘性炸弹爆炸也会使对手减速 <span style=\"color:#00cc00;\">x</span> 秒。"
+  },
+  "Studied The Blade": {
+    "cnName": "研究了刀锋",
+    "cnDesc": "Slashimi 的切片具有 <span style=\"color:#00cc00;\">x%</span> 更长的射程"
+  },
+  "Take Cover": {
+    "cnName": "隐蔽",
+    "cnDesc": "靠近墙壁时，汉克受到的伤害减少 <span style=\"color:#00cc00;\">x%</span>。"
+  },
+  "Tempered Steel": {
+    "cnName": "调质钢",
+    "cnDesc": "当纳尼的超级激活时，受到的伤害减少 <span style=\"color:#00cc00;\">x</span>%。"
+  },
+  "Supercool": {
+    "cnName": "超酷",
+    "cnDesc": "站在卢超级区域的对手被冻结的速度会加快 <span style=\"color:#00cc00;\">x%</span>。"
+  },
+  "The Crowd Goes Mild": {
+    "cnName": "人群变得温和",
+    "cnDesc": "靠近队友可以让 Jae-yong 在范围内为每个队友提供 <span style=\"color:#00cc00;\">x%</span> 的速度提升。"
+  },
+  "The Great Ziggini": {
+    "cnName": "伟大的齐吉尼",
+    "cnDesc": "用雷击击中下一次主攻击的伤害会增加 <span style=\"color:#00cc00;\">x%</span>。"
+  },
+  "Thunderstruck": {
+    "cnName": "雷霆万钧",
+    "cnDesc": "被 Ziggy 的 Super 伤害的英雄会被减速 <span style=\"color:#00cc00;\">x%</span> ，持续 <span style=\"color:#00cc00;\">x</span> 秒。"
+  },
+  "Tickets Please": {
+    "cnName": "请购票",
+    "cnDesc": "用他的超级冲刺敌人也会偷走他们的 <span style=\"color:#00cc00;\"><!card.trait.value>%</span> 弹药。"
+  },
+  "Thorny Gloves": {
+    "cnName": "荆棘手套",
+    "cnDesc": "罗莎的超级技能期间，她的拳头会获得 <span style=\"color:#00cc00;\">+x</span> 点伤害。"
+  },
+  "To The Max": {
+    "cnName": "至最大",
+    "cnDesc": "现在，Surge 的主要攻击在撞到墙壁时会分裂。"
+  },
+  "Toss Up": {
+    "cnName": "抛起",
+    "cnDesc": "当博尔特全速前进时，他会将敌人击飞。"
+  },
+  "The Darkest Starr": {
+    "cnName": "最黑暗的斯塔尔",
+    "cnDesc": "每一次暗影打击击中都算作 2 次来收集争斗者暗影，而不是 1 次。"
+  },
+  "Tougher Torpedo": {
+    "cnName": "更强韧的鱼雷",
+    "cnDesc": "巴斯的超级眩晕最短持续时间增加 <span style=\"color:#00cc00;\">x</span> 秒。"
+  },
+  "Tremors": {
+    "cnName": "震颤",
+    "cnDesc": "被冲击波击中的敌人也会减速 <span style=\"color:#00cc00;\">x</span> 秒。"
+  },
+  "Tough Guy": {
+    "cnName": "硬汉",
+    "cnDesc": "当公牛的生命值低于 <span style=\"color:#00cc00;\">x%</span> 时，他会获得一个护盾，使他受到的所有伤害减少 <span style=\"color:#00cc00;\">x%</span>。"
+  },
+  "Unnatural Order": {
+    "cnName": "不自然的秩序",
+    "cnDesc": "颠倒鸡蛋射手射出的鸡蛋的顺序。"
+  },
+  "Venomous": {
+    "cnName": "有毒",
+    "cnDesc": "毒药伤害会随着目标格斗者当前的生命值百分比而变化，当目标生命值达到 100% 时，最多会造成额外 <span style=\"color:#00cc00;\"><!card.character.component.trait[1].statusEffect.damage.scaleToLevel></span> 伤害。"
+  },
+  "Vocal Warm Up": {
+    "cnName": "声乐热身",
+    "cnDesc": "珍妮特的攻击聚焦速度更快 <span style=\"color:#00cc00;\">x%</span>。"
+  },
+  "Unstoppaball": {
+    "cnName": "永不停歇的球",
+    "cnDesc": "博尔特不受群体控制的影响，并在超级期间获得 <span style=\"color:#00cc00;\">x%</span> 最高速度。"
+  },
+  "Vulgar Display Of Punch": {
+    "cnName": "粗俗的拳打展示",
+    "cnDesc": "达米安在他的超级技能中拥有燃烧的拳头，可以燃烧敌人。"
+  },
+  "Well Oiled": {
+    "cnName": "上油良好",
+    "cnDesc": "当蜱虫未受到伤害且不进行攻击时，他会比正常情况早 <span style=\"color:#00cc00;\">x</span> 秒开始恢复生命值。"
+  },
+  "Vigilance": {
+    "cnName": "警觉",
+    "cnDesc": "当敌人在她的超级冲锋半径内时获得 <span style=\"color:#00cc00;\">x%</span> 移动速度"
+  },
+  "Wisdom Tooth": {
+    "cnName": "智齿",
+    "cnDesc": "松动的牙齿击中时会碎裂，对附近的敌人造成 <span style=\"color:#00cc00;\">x%</span> 额外伤害。"
+  },
+  "Wing Mode": {
+    "cnName": "翼模式",
+    "cnDesc": "巴兹展开翅膀，获得移动速度的提升。"
+  },
+  "X-Factor": {
+    "cnName": "X因素",
+    "cnDesc": "格罗姆主要攻击的分裂在最大距离内造成高达 <span style=\"color:#00cc00;\">+x%</span> 的额外伤害。"
+  },
+  "Wild Flames": {
+    "cnName": "野火",
+    "cnDesc": "安珀可以同时在地面上有两个燃料水坑，当她站在一个附近时，她会自动给她的超级能量充电。"
+  },
+  "Zero Drag": {
+    "cnName": "零阻力",
+    "cnDesc": "Stu 的 Nitro Boost 超级冲刺距离增加 <span style=\"color:#00cc00;\">x%</span>。"
+  },
+  "You Better Run You Better Take Cover": {
+    "cnName": "你最好跑，最好躲起来",
+    "cnDesc": "愤怒时，Alli 的重新装弹速度会加快 <span style=\"color:#00cc00;\">x%</span> 速度。"
+  },
+  "Zum Zum Zum": {
+    "cnName": "祖姆祖姆祖姆",
+    "cnDesc": "米娜的连击攻击 3 还可以治疗所造成伤害的 <span style=\"color:#00cc00;\">x%</span>。"
+  }
+}

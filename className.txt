@@ -1,0 +1,158 @@
+一、布局类（最常用）
+1. 宽度 / 高度
+w-full → 宽度 100%
+w-1/2 → 宽度 50%
+h-16 → 固定高度（数字越大越高）
+h-[x]表示占屏幕高度的百分比
+h-full → 高度 100%
+scale -规模 后面数字是百分比
+object‑cover：铺满盒子，裁多余（头像、轮播图最常用 ✅）
+object‑contain：完整显示图片，盒子有空隙
+none：图片多大就多大，不缩放
+100vh 屏幕高度
+height: 'calc(100vh - 90px)' 高度=整个屏幕高度-90像素
+style={{ }} 这是 React 里写行内样式的语法
+fill = 让图片完全填满、撑满父容器<img>
+row-span-2 = 让这个元素 竖着占 2 行格子 row行 span跨越
+overflow：控制「内容超出盒子边界时，怎么处理」
+    overflow-visible超出部分直接露出来，不裁剪、不隐藏
+    overflow-hidden超出部分直接裁掉，看不见，也不滚动
+    overflow-scroll永远显示滚动条，内容可滚动
+    overflow-auto内容超出才出滚动条，没超出就不显示
+    overflow-x / overflow-y单独控制横竖
+2. 弹性布局 flex（做横向排列必用）
+flex → 开启弹性布局
+flex‑数字 = 弹性权重份数，只在父元素是 flex 布局时生效。子元素们会按照数字比例瓜分父容器剩余空间。
+flex-col → 竖向排列
+flex-wrap 换行 unflex 不换行
+flex‑shrink‑0 = 禁止元素被挤压缩小，尺寸固定不变
+justify-center → 水平居中
+justify-between → 左右两端分开
+justify-around → 平均分布
+justify‑start：靠左（默认）
+justify‑end = 水平方向，把内容全部挤到最右边
+items-center → 垂直居中
+items-start → 顶部对齐
+items-end → 底部对齐
+在 flex flex-col（垂直方向）下
+justify-center = 垂直居中（上下）
+items-center = 水平居中（左右）
+3. 定位
+
+sticky → 吸顶（滚动时固定在顶部）
+fixed → 固定在屏幕某个位置
+relative → 相对定位,相对于自己原来的正常位置，进行偏移；原来的位置还占着，不被挤走
+absolute → 绝对定位
+top-0 → 贴顶部
+left-0 → 贴左边
+z-50 → 层级（数字越大越在上面）
+inset -0 等价于top-0 bottom-0 left-0 right-0
+translateX(10px) → 向右挪 10px    translate相对自己
+translateX(-10px) → 向左挪 10px
+translateY(10px) → 向下挪 10px
+translateY(-10px) → 向上挪 10px
+二、间距类（margin /padding）
+
+padding（内部间距 = 内容和边框的距离）
+p-4 → 上下左右全加间距
+px-4 → 只加左右间距（x 轴）
+py-2 → 只加上下间距（y 轴）
+pl-2 → 只加左边距
+pr-2 → 只加右边距
+pt-1 → 只加顶部间距
+pb-1 → 只加底部间距
+margin（外部间距 = 盒子和盒子的距离）
+m-4 → 四周外边距
+mx-auto → 水平居中（最常用！）
+max-w-6xl   最大宽度限制为 6xl 这个等级的宽度
+mx-2 → 左右外边距
+my-2 → 上下外边距
+space-x-4 → 子元素之间的横向间距
+三、文字样式类
+
+text-xs → 超小文字
+text-sm → 小文字
+text-base → 默认文字
+text-lg → 大一点
+text-xl → 更大
+text-2xl → 标题大小
+font-bold → 加粗
+font-semibold → 半粗
+text-center → 文字居中
+text-left → 文字左对齐
+text-right → 文字右对齐
+uppercase → 大写
+leading = line‑height，行高
+
+text-xs      超小
+text-sm      小
+text-base    默认（正文）
+text-lg      大
+text-xl      加大
+text-2xl     二级标题
+text-3xl     三级标题
+text-4xl     四级标题
+text-5xl     超大标题
+text-6xl     巨型标题
+text-7xl     超巨型
+text-8xl     最大
+text-9xl     极限最大
+
+style={{ writingMode: 'vertical-rl', letterSpacing: '6px' }} 书写模式：垂直-右到左，文字间距：‘6像素’
+drop-shadow-md：给图片、透明 PNG、不规则图形加阴影
+四、颜色类
+文字颜色
+text-white → 白色
+text-black → 黑色
+text-gray-300 → 浅灰色
+text-gray-500 → 灰色
+text-yellow-400 → 黄色
+text-red-500 → 红色
+text-blue-500 → 蓝色
+
+背景颜色
+bg-white
+bg-black
+bg-gray-100
+bg-red-500
+bg-blue-600
+bg-[#123456] → 自定义颜色
+bg-gradient-to-br 背景渐变从左上到右下
+backdrop-blur-sm backdrop指元素后面的背景 blur模糊 sm=small小强度 md/lg
+bg-cover = 背景图保持比例、铺满整个盒子，超出部分自动裁剪
+
+五、边框 / 圆角 / 阴影/倾斜
+rounded → 小圆角
+rounded-md → 中等圆角
+rounded-lg → 大圆角
+rounded-full → 圆形
+border → 加边框 需要两句一句颜色，一句宽度
+border-gray-200 → 边框颜色
+shadow-sm → 小阴影
+shadow-md → 中等阴影
+shadow-lg → 大阴影
+skew-x/y 倾斜 默认向左倾斜， -skew向右倾 需要配合transform使用，告诉浏览器这是一个变形属性
+-skew-x-12 向右倾斜12度
+
+六、交互 / 动画
+hover:text-white → 鼠标放上去时文字变白
+hover:bg-black → 鼠标放上去背景变黑
+transition-all → 所有变化平滑过渡（更柔和）
+cursor-pointer → 鼠标变成小手
+七、响应式（适配手机 / 平板 / 电脑）
+sm: → 小屏幕以上（手机横屏）
+md: → 中等屏幕（平板）
+lg: → 大屏幕（电脑）
+xl: → 超大屏
+例子：
+px-4 lg:px-8
+→ 手机：左右间距 4
+→ 电脑：左右间距 8
+八、最最常用的万能组合（背会就能写页面）
+plaintext
+flex justify-between items-center
+mx-auto px-4
+w-full
+text-sm font-semibold
+hover:text-white transition-all
+shadow-md rounded

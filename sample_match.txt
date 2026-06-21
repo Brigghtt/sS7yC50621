@@ -1,0 +1,80 @@
+count 21
+---MATCH 0---
+3 | 0 | February 14, 2026 - 16:00 | JST | ZETA DIVISION | 3 | : | 0 | (Bo5) | Effort Result | 2 | Hard Rock Mine | 0 | 2 | Super Beach | 1 | 2 | Goldarm Gulch | 0 | Ring of Fire | Bridge Too Far | MVP: | Sitetampo | Bans | Show | Hide | Game 1 | Game 2 | Game 3 | Casters: | Ark | , | Kenny
+classes: ['brkts-match', 'brkts-match-popup-wrapper', 'brkts-match-has-details', 'brkts-match-popup-wrapper']
+html:
+<div class="brkts-match brkts-match-popup-wrapper brkts-match-has-details brkts-match-popup-wrapper" style="margin-top:6px;margin-bottom:6px">
+ <div aria-label="ZETA DIVISION" class="brkts-opponent-entry brkts-opponent-hover" style="height:24px">
+  <div class="brkts-opponent-entry-left brkts-opponent-win">
+   <div class="block-team">
+    <span class="team-template-image-icon team-template-lightmode">
+     <img alt="" decoding="async" height="50" src="/commons/images/thumb/4/4f/ZETA_DIVISION_lightmode.png/50px-ZETA_DIVISION_lightmode.png" srcset="/commons/images/thumb/4/4f/ZETA_DIVISION_lightmode.png/75px-ZETA_DIVISION_lightmode.png 1.5x, /commons/images/thumb/4/4f/ZETA_DIVISION_lightmode.png/100px-ZETA_DIVISION_lightmode.png 2x" width="50"/>
+    </span>
+    <span class="team-template-image-icon team-template-darkmode">
+     <img alt="" decoding="async" height="50" src="/commons/images/thumb/9/95/ZETA_DIVISION_darkmode.png/50px-ZETA_DIVISION_darkmode.png" srcset="/commons/images/thumb/9/95/ZETA_DIVISION_darkmode.png/75px-ZETA_DIVISION_darkmode.png 1.5x, /commons/images/thumb/9/95/ZETA_DIVISION_darkmode.png/100px-ZETA_DIVISION_darkmode.png 2x" width="50"/>
+    </span>
+    <span class="name" style="white-space:pre;text-overflow:ellipsis;overflow:hidden">
+     <div class="team-name-dynamic" data-team-bracketname="ZETA DIVISION" data-team-name="ZETA DIVISION" data-team-shortname="ZETA">
+     </div>
+    </span>
+   </div>
+  </div>
+  <div class="brkts-opponent-score-outer">
+   <div class="brkts-opponent-score-inner">
+    <b>
+     3
+    </b>
+   </div>
+  </div>
+ </div>
+ <div aria-label="Effort Result" class="brkts-opponent-entry brkts-opponent-entry-last brkts-opponent-hover" style="height:24px">
+  <div class="brkts-opponent-entry-left">
+   <div class="block-team">
+    <span class="team-template-image-icon team-template-lightmode">
+     <img alt="" decoding="async" height="50" src="/commons/images/thumb/8/8a/Effort_Result_lightmode.png/54px-Effort_Result_lightmode.png" srcset
+---MATCH 1---
+
+classes: ['brkts-match-info-icon']
+html:
+<div class="brkts-match-info-icon" style="top:17px">
+</div>
+
+---MATCH 2---
+February 14, 2026 - 16:00 | JST | ZETA DIVISION | 3 | : | 0 | (Bo5) | Effort Result | 2 | Hard Rock Mine | 0 | 2 | Super Beach | 1 | 2 | Goldarm Gulch | 0 | Ring of Fire | Bridge Too Far | MVP: | Sitetampo | Bans | Show | Hide | Game 1 | Game 2 | Game 3 | Casters: | Ark | , | Kenny
+classes: ['brkts-popup', 'brkts-popup-container', 'brkts-match-info-popup']
+html:
+<div class="brkts-popup brkts-popup-container brkts-match-info-popup" data-analytics-name="Match popup" style="width:400px">
+ <span class="match-info-countdown">
+  <span class="timer-object timer-object-datetime-only" data-finished="finished" data-format="full" data-timestamp="1771052400">
+   February 14, 2026 - 16:00
+   <abbr data-tz="+09:00" title="Japan Standard Time (UTC+9)">
+    JST
+   </abbr>
+  </span>
+ </span>
+ <div class="match-info-header">
+  <div class="match-info-header-opponent match-info-header-opponent-left match-info-header-winner">
+   <div class="block-team flipped">
+    <span class="team-template-image-icon team-template-lightmode">
+     <a href="/brawlstars/ZETA_DIVISION" title="ZETA DIVISION">
+      <img alt="" decoding="async" height="50" src="/commons/images/thumb/4/4f/ZETA_DIVISION_lightmode.png/50px-ZETA_DIVISION_lightmode.png" srcset="/commons/images/thumb/4/4f/ZETA_DIVISION_lightmode.png/75px-ZETA_DIVISION_lightmode.png 1.5x, /commons/images/thumb/4/4f/ZETA_DIVISION_lightmode.png/100px-ZETA_DIVISION_lightmode.png 2x" width="50"/>
+     </a>
+    </span>
+    <span class="team-template-image-icon team-template-darkmode">
+     <a href="/brawlstars/ZETA_DIVISION" title="ZETA DIVISION">
+      <img alt="" decoding="async" height="50" src="/commons/images/thumb/9/95/ZETA_DIVISION_darkmode.png/50px-ZETA_DIVISION_darkmode.png" srcset="/commons/images/thumb/9/95/ZETA_DIVISION_darkmode.png/75px-ZETA_DIVISION_darkmode.png 1.5x, /commons/images/thumb/9/95/ZETA_DIVISION_darkmode.png/100px-ZETA_DIVISION_darkmode.png 2x" width="50"/>
+     </a>
+    </span>
+    <span class="name" style="white-space:pre;text-overflow:ellipsis;overflow:hidden">
+     <a href="/brawlstars/ZETA_DIVISION" title="ZETA DIVISION">
+      ZETA DIVISION
+     </a>
+    </span>
+   </div>
+  </div>
+  <div class="match-info-header-scoreholder">
+   <span class="match-info-header-scoreholder-icon">
+    <i class="fas fa-caret-left">
+    </i>
+   </span>
+   <span class="match-info-header-scoreholder-

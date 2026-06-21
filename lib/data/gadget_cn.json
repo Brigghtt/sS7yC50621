@@ -1,0 +1,838 @@
+{
+  "A Starr Is Born": {
+    "cnName": "斯塔尔诞生",
+    "cnDesc": "天狼星发射一枚射弹，击中时召唤暗影，同时使击中目标减速 % 秒。"
+  },
+  "Acid Spray": {
+    "cnName": "酸喷雾",
+    "cnDesc": "Emz 喷出的发胶可以穿墙！造成伤害。"
+  },
+  "Active Noise Canceling": {
+    "cnName": "主动降噪",
+    "cnDesc": "向目标方向发射声波，对乱斗者造成伤害。弗兰克在几秒钟内对群体控制免疫。"
+  },
+  "Air Support": {
+    "cnName": "空中支援",
+    "cnDesc": "拉夫斯在最近的对手周围发起弹幕攻击，每次攻击都会造成 x 点伤害。"
+  },
+  "All Eyez On Me": {
+    "cnName": "所有人都注视着我",
+    "cnDesc": "奥利的下一次攻击将催眠任何击中的敌人 x 秒。"
+  },
+  "Asteroid Belt": {
+    "cnName": "小行星带",
+    "cnDesc": "El Primo 召唤一颗小流星攻击最近的敌人。它造成 x 点伤害并摧毁墙壁。"
+  },
+  "Auto Aimer": {
+    "cnName": "自动瞄准器",
+    "cnDesc": "派珀向最近的敌人发出防御射击，造成 x 点伤害，同时还将他们击退。"
+  },
+  "Back To The Finxture": {
+    "cnName": "回到夹具",
+    "cnDesc": "Finx 及时后退，回到 x 秒前的位置和弹药。"
+  },
+  "Backstage Pass": {
+    "cnName": "后台通行证",
+    "cnDesc": "珍妮特的下一个高音将她推向后方，甚至越过墙壁。她的攻击越集中，她就会被击退得越远。"
+  },
+  "Barricade": {
+    "cnName": "路障",
+    "cnDesc": "汉克受到的伤害降低 x%，持续 x 秒。"
+  },
+  "Bear Paws": {
+    "cnName": "熊爪",
+    "cnDesc": "妮塔命令她的熊猛击地面，击晕其范围内的所有敌人。"
+  },
+  "Booster Shots": {
+    "cnName": "助推器射击",
+    "cnDesc": "拜伦的下一次攻击会射出 x 支飞镖，而不是一支，每支飞镖造成的伤害减少 x%，治疗效果减少 x%。"
+  },
+  "Bottomless Mags": {
+    "cnName": "无底弹匣",
+    "cnDesc": "重新装填 x 弹药并在皮尔斯旁边扔下一枚炮弹。"
+  },
+  "Bouncy Ball": {
+    "cnName": "弹力球",
+    "cnDesc": "博尔特跳到目标位置并造成区域伤害。打破环境，但着陆时失去所有速度。"
+  },
+  "Bouncy Castle": {
+    "cnName": "充气城堡",
+    "cnDesc": "里科的下一次基本攻击将从每次射弹反弹中治愈他 x 生命值。"
+  },
+  "Breakthrough": {
+    "cnName": "突破",
+    "cnDesc": "斯图的下一个超级英雄可以冲破障碍物，使碎片向前飞扬。每块碎片都会对其击中的任何对手造成 x 点伤害。"
+  },
+  "Candy Beans": {
+    "cnName": "糖豆",
+    "cnDesc": "切斯特从帽子里吃了一颗神秘口味​​的糖豆，获得了 x 秒的随机增益。"
+  },
+  "Capo-What?": {
+    "cnName": "变调夹-什么？",
+    "cnDesc": "米娜的下一个超级一旦击中就会立即充能。"
+  },
+  "Caramelize": {
+    "cnName": "焦糖化",
+    "cnDesc": "曼迪从糖果分配器中取出的下一颗糖果可以使击中的敌人减速几秒。"
+  },
+  "Cardboard Box": {
+    "cnName": "纸板箱",
+    "cnDesc": "隐藏在纸板箱中，隐形 x 秒。静止时 Super x 充电速度更快。"
+  },
+  "Cheat Cartridge": {
+    "cnName": "作弊卡带",
+    "cnDesc": "8-Bit 立即传送到他的伤害增强器处。"
+  },
+  "Cheeseburger": {
+    "cnName": "芝士汉堡",
+    "cnDesc": "治愈他自己和他所依附的友好的争斗者 x。"
+  },
+  "Chill Pill": {
+    "cnName": "寒凉丸",
+    "cnDesc": "尽管愤怒，阿什还是必须冷静下来。当这个小工具弹出时，满怒气计将恢复 x 生命值 - 怒气越少，恢复就越少。"
+  },
+  "Clay Pigeons": {
+    "cnName": "粘土鸽子",
+    "cnDesc": "雪莉将火力集中到更小的区域，射程更大。每次激活可使用多次。"
+  },
+  "Clipping Scream": {
+    "cnName": "剪辑尖叫",
+    "cnDesc": "米科向最近的敌人发出震耳欲聋的尖叫声，对击中的敌人造成伤害并使其减速数秒。"
+  },
+  "Clone Projector": {
+    "cnName": "克隆投影仪",
+    "cnDesc": "莱昂创造了自己的幻象来迷惑敌人。克隆人攻击敌人，造成轻微伤害"
+  },
+  "Coin Shower": {
+    "cnName": "投币淋浴",
+    "cnDesc": "格里夫向目标区域投掷大量硬币，每秒对内部的对手造成伤害。"
+  },
+  "Cold-Blooded": {
+    "cnName": "冷血",
+    "cnDesc": "Alli 在接下来的 x 秒内变得愤怒。仅当敌人可见时才能激活。"
+  },
+  "Combo Spinner": {
+    "cnName": "组合旋转器",
+    "cnDesc": "莫蒂斯旋转他的铲子造成伤害。也可以瞄准短距离蝙蝠攻击。"
+  },
+  "Cookie Crumbs": {
+    "cnName": "饼干屑",
+    "cnDesc": "曼迪从糖果分配器中取出的下一颗糖果会刺穿敌人和环境。"
+  },
+  "Corn-Fu": {
+    "cnName": "玉米赋",
+    "cnDesc": "方把一把玉米粒抛向空中，下起了爆米花雨！每个内核弹出都会造成 x 伤害。"
+  },
+  "Crash Test": {
+    "cnName": "碰撞测试",
+    "cnDesc": "邦妮向前冲刺，击退敌人并造成 x 点伤害。"
+  },
+  "Creature Of The Night": {
+    "cnName": "夜间生物",
+    "cnDesc": "莫蒂斯变成一群蝙蝠并前往目标地点。"
+  },
+  "Cryo Syrup": {
+    "cnName": "冷冻糖浆",
+    "cnDesc": "立即为 Lou 超级内的对手添加 x% 冻结计。"
+  },
+  "Dancing Flames": {
+    "cnName": "舞动的火焰",
+    "cnDesc": "琥珀在她周围产生 x 条轨道火焰，持续 x 秒，击中时造成 x 点伤害。"
+  },
+  "Dashi Dash": {
+    "cnName": "大石冲刺",
+    "cnDesc": "Kenji 的基本攻击仅在接下来的 x 秒内使用冲刺。"
+  },
+  "Disappearing Act": {
+    "cnName": "失踪法",
+    "cnDesc": "吉吉创造了一个区域，让自己和盟友在里面隐形。持续 x 秒。"
+  },
+  "Disengage": {
+    "cnName": "脱离",
+    "cnDesc": "梅西向前冲刺时会爆炸地面，击晕敌人 x 秒。"
+  },
+  "Dive": {
+    "cnName": "潜水",
+    "cnDesc": "Willow 潜入 x 秒，变得无法瞄准，但在此期间无法采取任何行动。"
+  },
+  "Dodgy Digging": {
+    "cnName": "狡猾的挖掘",
+    "cnDesc": "莫伊挖了一些\\"
+  },
+  "Dormant Star": {
+    "cnName": "休眠之星",
+    "cnDesc": "如果敌人没有被击中，下一个海星将留在地面上，处于休眠状态，直到敌人靠近。"
+  },
+  "Double Sausage": {
+    "cnName": "双香肠",
+    "cnDesc": "下一次零食攻击只会治愈盟友，但数量会翻倍。"
+  },
+  "Drop The Bass": {
+    "cnName": "放下低音",
+    "cnDesc": "珍妮特部署一个扬声器，每秒对区域内的所有敌人造成 x 点伤害，直到其被摧毁。"
+  },
+  "Electric Shuffle": {
+    "cnName": "电动洗牌",
+    "cnDesc": "Ziggy 每秒用闪电击中最近的敌人，持续 x 秒。这些攻击不需要弹药。"
+  },
+  "Elementalist": {
+    "cnName": "元素师",
+    "cnDesc": "Juju根据她所处的当前环境获得暂时的增益。 地球：减少伤害草：隐形水：增加移动速度"
+  },
+  "Extra Credits": {
+    "cnName": "额外学分",
+    "cnDesc": "8-Bit的下一次攻击射弹数量增加到x。"
+  },
+  "Extra Mustard": {
+    "cnName": "额外芥末",
+    "cnDesc": "下一次零食攻击只会对敌人造成伤害，但伤害量会翻倍。"
+  },
+  "Extra Sticky": {
+    "cnName": "超粘",
+    "cnDesc": "Bibi 扔出泡泡糖，使里面的所有敌人减速 %"
+  },
+  "Fast Forward": {
+    "cnName": "快进",
+    "cnDesc": "雪莉冲向目标方向或向前冲去，并重新装满弹药！"
+  },
+  "Faux Fur": {
+    "cnName": "人造毛皮",
+    "cnDesc": "在接下来的几秒钟内，妮塔的熊获得 % 的伤害护盾。"
+  },
+  "Feed The Gators": {
+    "cnName": "喂鳄鱼",
+    "cnDesc": "下一次主要攻击会治疗阿里所造成伤害的 x%。"
+  },
+  "Fidget Spinner": {
+    "cnName": "指尖陀螺",
+    "cnDesc": "迪纳麦克以更快的移动速度猛烈旋转，并向自己周围扔出多根炸药。每个炸药对敌人造成 x 点伤害。"
+  },
+  "Finish Them": {
+    "cnName": "完成他们",
+    "cnDesc": "Maisie 立即重新装填 x 弹药，并使下一次压力火箭伤害增加目标损失生命值的 x%。"
+  },
+  "Fire Starters": {
+    "cnName": "点火器",
+    "cnDesc": "琥珀快速奔跑 x 秒，同时溢出她的火液，然后她可以点燃火液。"
+  },
+  "Floaty Time": {
+    "cnName": "漂浮时间",
+    "cnDesc": "斯塔尔诺瓦部署了反重力装置，让队友漂浮在该区域内！"
+  },
+  "Flying Hook": {
+    "cnName": "飞钩",
+    "cnDesc": "卡尔的下一次攻击使他的镐将他拉到攻击的最远点。"
+  },
+  "For The Queen": {
+    "cnName": "为了女王",
+    "cnDesc": "树干瞬间将蚂蚁散布到大片区域。"
+  },
+  "Freeze Frame": {
+    "cnName": "冻结帧",
+    "cnDesc": "萝拉的自我停止移动来摆姿势！获得 x% 护盾，持续 x 秒。"
+  },
+  "Friendship Is Great": {
+    "cnName": "友谊真伟大",
+    "cnDesc": "贝瑞挥动尾巴，击退敌人并治疗附近盟友的 x 生命值。"
+  },
+  "Friendzoner": {
+    "cnName": "朋友地带",
+    "cnDesc": "Emz 发射一些发胶，将敌人击退。造成伤害。"
+  },
+  "Garden Mulcher": {
+    "cnName": "花园覆盖机",
+    "cnDesc": "新芽消耗灌木丛来恢复 x 生命值。"
+  },
+  "Ghost Train": {
+    "cnName": "幽灵列车",
+    "cnDesc": "查克的下一个超级可以穿墙！"
+  },
+  "Gotcha": {
+    "cnName": "陷阱",
+    "cnDesc": "科莱特发射一枚射弹，其治疗量相当于所造成伤害的%。使用弹药并在冷却前可发射 3 次。"
+  },
+  "Gotta Go": {
+    "cnName": "得走了",
+    "cnDesc": "夏娃跳开了，留下了一只刚孵化的小宝宝。"
+  },
+  "Gracious Host": {
+    "cnName": "亲切的主人",
+    "cnDesc": "切换到忍者形态并获得 x% 移动速度，持续 x 秒"
+  },
+  "Grand Piano": {
+    "cnName": "三角钢琴",
+    "cnDesc": "格雷的下一击手指手枪也会在地面上留下一个目标，钢琴会落在地上并伤害敌人。万一有人受伤就太糟糕了，对吧？"
+  },
+  "Grim And Frostbitten": {
+    "cnName": "严酷和冻伤",
+    "cnDesc": "Lumi 在地面上的晨星周围产生冰冷的风，在 x 秒内形成光滑的表面。"
+  },
+  "Grow Light": {
+    "cnName": "植物生长灯",
+    "cnDesc": "罗莎给周围的土地施肥，灌木丛立即生长，提供良好的覆盖。"
+  },
+  "Hacks": {
+    "cnName": "黑客",
+    "cnDesc": "立即触发所有敌方斗士身上的所有活动标记，对其造成伤害。"
+  },
+  "Hardcore": {
+    "cnName": "硬核",
+    "cnDesc": "埃德加获得了一个盾牌，可以保护他免受下一次伤害。随着时间的推移，护盾会变得越来越弱。"
+  },
+  "Healthy Additives": {
+    "cnName": "健康添加剂",
+    "cnDesc": "贝里的下一个主要攻击区域的持续时间延长 x%。"
+  },
+  "Heat Ejector": {
+    "cnName": "热喷射器",
+    "cnDesc": "卡尔扔出的下一个鹤嘴锄会在它后面留下一串滚烫的岩石！接触它们的对手会被点燃并每秒受到 x 点伤害。"
+  },
+  "Hensojutsu": {
+    "cnName": "变身术",
+    "cnDesc": "切换到忍者方面并获得短暂的隐身效果"
+  },
+  "Herbal Tonic": {
+    "cnName": "草本补品",
+    "cnDesc": "巴利向附近的盟友投掷治疗药水，创建一个每秒可治疗 x 生命值的区域。"
+  },
+  "Hit The Lights": {
+    "cnName": "打灯",
+    "cnDesc": "卢米点燃地面上的晨星，产生火焰，对附近的敌人造成 x 秒伤害。每秒伤害：x"
+  },
+  "Homemade Recipe": {
+    "cnName": "自制食谱",
+    "cnDesc": "激活后，派珀的下一次主要攻击将瞄准敌人。"
+  },
+  "Honey Molasses": {
+    "cnName": "蜂蜜糖蜜",
+    "cnDesc": "比亚扔下一个蜂箱，蜂箱周围沾满了粘稠的蜂蜜。蜂蜜可以减缓踏入其中的敌人的速度。"
+  },
+  "Hosomaki Healing": {
+    "cnName": "细卷疗愈",
+    "cnDesc": "Kenji 立即治疗过去 x 秒内受到的 x% 伤害。"
+  },
+  "Ice Block": {
+    "cnName": "冰块",
+    "cnDesc": "Lou用冰块保护自己，在x秒内变得无敌。"
+  },
+  "Instapoison": {
+    "cnName": "速效毒药",
+    "cnDesc": "乌鸦立即对所有乌鸦中毒的敌人造成剩余的毒伤害，并获得价值 % 的护盾。"
+  },
+  "Interlude": {
+    "cnName": "插曲",
+    "cnDesc": "旋律从围绕她旋转的每个音符中获得 x% 护盾。"
+  },
+  "Irresistible Attraction": {
+    "cnName": "不可抗拒的吸引力",
+    "cnDesc": "弗兰克瞄准远程攻击，将敌人拉向他。消耗弹药。会造成损害。"
+  },
+  "Jolting Volts": {
+    "cnName": "震动电压",
+    "cnDesc": "每秒为机甲治疗 x 点生命值，持续 x 秒。"
+  },
+  "Jump Scare": {
+    "cnName": "跳跃惊吓",
+    "cnDesc": "阴影会惊吓附近的敌人，使其减速 x 秒。"
+  },
+  "Kooky Popper": {
+    "cnName": "古怪的波普尔",
+    "cnDesc": "引爆所有未收集的灵魂，对附近的敌人造成 x 点伤害。"
+  },
+  "Lamp Blowout": {
+    "cnName": "灯管吹坏",
+    "cnDesc": "所有靠近吉恩的敌人都会立即被击退。如果至少有一名敌方斗士在范围内，吉恩还将恢复他最大生命值的 x%。"
+  },
+  "Last Hurrah": {
+    "cnName": "最后的万岁",
+    "cnDesc": "蜱虫获得 x% 护盾，持续 x 秒。之后，它会爆发 x 点伤害。"
+  },
+  "Last Stand": {
+    "cnName": "最后一站",
+    "cnDesc": "Draco 在 x 秒内无法陷入单一生命值。"
+  },
+  "Lets Fly": {
+    "cnName": "让我们飞吧",
+    "cnDesc": "埃德加的围巾抓住了最近的斗殴者，他跳到了他们后面。他的围巾也会把他拉向墙壁。"
+  },
+  "Life Plant": {
+    "cnName": "生命植物",
+    "cnDesc": "斯派克扔出一个带有生命值的大仙人掌来为队友提供掩护。如果仙人掌被摧毁，仙人掌就会爆炸，附近所有队友都会恢复生命值。"
+  },
+  "Lollipop Drop": {
+    "cnName": "棒棒糖水滴",
+    "cnDesc": "莱昂为他的团队提供了一个隐蔽的区域来隐藏。随着时间的推移，棒棒糖会慢慢失去生命值。"
+  },
+  "Longarms": {
+    "cnName": "长臂",
+    "cnDesc": "下一次主要攻击的射程更长 x%。"
+  },
+  "Longer Strings": {
+    "cnName": "更长的弦",
+    "cnDesc": "超级充电面积更大。"
+  },
+  "Made With Love": {
+    "cnName": "用爱制造",
+    "cnDesc": "接下来的基本攻击会射出完美烘烤的饼干，忽略敌人并随着时间的推移治愈盟友 x 点。"
+  },
+  "Magnetic Field": {
+    "cnName": "磁场",
+    "cnDesc": "当指关节克星在地面上时，山姆可以激活它们来吸引附近的敌人。"
+  },
+  "Mansions Of Meeple": {
+    "cnName": "米普尔豪宅",
+    "cnDesc": "米普尔的下一次攻击会在撞击区域周围创建骰子塔并造成 x 点伤害。"
+  },
+  "Master Fletcher": {
+    "cnName": "弗莱彻大师",
+    "cnDesc": "下一个瞄准刺穿敌人和环境。"
+  },
+  "Master Of Shadows": {
+    "cnName": "阴影大师",
+    "cnDesc": "召唤的暗影回到小天狼星身边，小天狼星治愈了他们 % 的生命值。"
+  },
+  "Mine Mania": {
+    "cnName": "矿山狂热",
+    "cnDesc": "蜱虫的下一次攻击会发射 x 枚地雷。"
+  },
+  "More Lumens": {
+    "cnName": "更多流明",
+    "cnDesc": "发光使他的发光束绳索增压，使伤害/治疗率加倍，持续 x 秒。"
+  },
+  "Motherly Love": {
+    "cnName": "母爱",
+    "cnDesc": "从活跃的大蛋中生成的幼体现在会随着时间的推移治愈盟友，而不是造成伤害。"
+  },
+  "Multiball Launcher": {
+    "cnName": "多球发射器",
+    "cnDesc": "里科向各个方向发射一波又一波的弹力子弹。"
+  },
+  "Na-Ah": {
+    "cnName": "钠-Ah",
+    "cnDesc": "科莱特发射一枚射弹，使一名斗士迷惑数秒。使用弹药。"
+  },
+  "Najia Jar": {
+    "cnName": "纳迦罐",
+    "cnDesc": "娜嘉躲在花瓶里。一旦花瓶被打破，她就会击退附近的所有敌人！"
+  },
+  "Nest Egg": {
+    "cnName": "储备金",
+    "cnDesc": "贝儿在地上放置了一个陷阱，当对手触发时就会爆炸。该陷阱会造成伤害，并使爆炸半径内的任何人减速几秒。"
+  },
+  "No Escape": {
+    "cnName": "无处可逃",
+    "cnDesc": "芬克斯主要攻击的下一个投射物会及时冻结敌人 x 秒，使他们在这段时间内无法采取行动，但也使他们免受任何伤害。"
+  },
+  "Now You See Me...": {
+    "cnName": "现在你看到我了...",
+    "cnDesc": "下一次闪电也会将 Ziggy 传送到同一位置。"
+  },
+  "Oil Change": {
+    "cnName": "换油",
+    "cnDesc": "博尔特根据他当前的速度获得 x - x 生命护盾。"
+  },
+  "Order Fall Back": {
+    "cnName": "订单回退",
+    "cnDesc": "冲向 Lawrie，同时 Lawrie 冲向你，治疗双方最大生命值的 x%。"
+  },
+  "Order Swap": {
+    "cnName": "订单互换",
+    "cnDesc": "与劳里交换武器。"
+  },
+  "Out Of Line": {
+    "cnName": "不合时宜",
+    "cnDesc": "立即为 R-T 的 Super 充电。"
+  },
+  "Overcooked": {
+    "cnName": "煮过头了",
+    "cnDesc": "下一次基本攻击会发射燃烧的饼干，随着时间的推移造成 x 额外伤害。"
+  },
+  "Perfect Pitch": {
+    "cnName": "完美音调",
+    "cnDesc": "Melodie 的音符移动速度增加 x%，轨道扩大 x%，持续 x 秒。"
+  },
+  "Personal Space": {
+    "cnName": "个人空间",
+    "cnDesc": "查理将自己包裹起来，治愈了她总生命值的 x%。"
+  },
+  "Phase Shifter": {
+    "cnName": "移相器",
+    "cnDesc": "麦克斯向前冲刺，冲刺时免受敌人的所有伤害。"
+  },
+  "Phat Splatter": {
+    "cnName": "泼溅物",
+    "cnDesc": "奥蒂斯的下一次攻击会射出一个巨大的墨球，留下一个水坑，在 x 秒内造成 x 点伤害。"
+  },
+  "Piggy Bank": {
+    "cnName": "存钱罐",
+    "cnDesc": "格里夫扔出一个装满鞭炮的存钱罐，存钱罐在短暂延迟后爆炸，摧毁障碍物并对范围内的对手造成伤害。"
+  },
+  "Pneumatic Booster": {
+    "cnName": "气动助力器",
+    "cnDesc": "Jacky 获得了能量爆发，移动速度提高了 x%，持续 x 秒。"
+  },
+  "Poison Mushroom": {
+    "cnName": "毒蘑菇",
+    "cnDesc": "科迪利厄斯的下一次主要攻击会射出毒蘑菇，使敌人在 x 秒内无法攻击。"
+  },
+  "Poison Puddles": {
+    "cnName": "毒水坑",
+    "cnDesc": "当前被娜迦毒害的所有敌人都会在下一秒产生有毒的水坑。"
+  },
+  "Popping Pincushion": {
+    "cnName": "爆裂枕形",
+    "cnDesc": "斯派克瞄准并发射一波造成伤害的针。"
+  },
+  "Porter Reinforcements": {
+    "cnName": "波特增援",
+    "cnDesc": "下一次攻击将在攻击发生的地方产生一个弱搬运工。"
+  },
+  "Power Shield": {
+    "cnName": "电源盾",
+    "cnDesc": "在接下来的 x 秒内，Surge 会消耗下一次攻击造成的 x% 伤害，并使用能量重新装填 x 弹药。"
+  },
+  "Power Surge": {
+    "cnName": "电涌",
+    "cnDesc": "Surge 使他的电路超载，并将他的升级阶段增加 x，持续 x 秒。"
+  },
+  "Presto": {
+    "cnName": "急板",
+    "cnDesc": "米科的下一次跳跃范围扩大了 x%。"
+  },
+  "Protective Tunes": {
+    "cnName": "保护曲",
+    "cnDesc": "消除大范围内友方乱斗者的主动不利影响，并提供 x 秒免疫力。"
+  },
+  "Psychic Enhancer": {
+    "cnName": "心灵强化剂",
+    "cnDesc": "塔拉和她的盟友能够看到所有敌人，即使是在灌木丛中，持续 x 秒。"
+  },
+  "Pulse Modulator": {
+    "cnName": "脉冲调制器",
+    "cnDesc": "帕姆触发她的炮塔发射脉冲，治疗炮塔范围内的盟友，包括她自己，以获得 x 生命值。"
+  },
+  "Pulse Repellent": {
+    "cnName": "脉冲驱避剂",
+    "cnDesc": "着陆后，山姆的下一个部署的指关节克星会释放出电脉冲，击退敌人。"
+  },
+  "Radio Check": {
+    "cnName": "无线电检查",
+    "cnDesc": "格罗姆的下一次攻击会快速连续抛出 x 个芽。"
+  },
+  "Ragequit": {
+    "cnName": "愤怒退出",
+    "cnDesc": "米普尔愤怒地攻击附近的敌人，将他们击晕并击退。米普尔的生命值越少，眩晕和击退效果就会增加。"
+  },
+  "Rat Race": {
+    "cnName": "老鼠赛跑",
+    "cnDesc": "莫驾驶他的钻机冲刺一小段距离，在此过程中摧毁墙壁并击退争斗者。"
+  },
+  "Rattled Hive": {
+    "cnName": "Rattled Hive",
+    "cnDesc": "Bea unleashes x angry bees that circle away from her, dealing more damage the further they go (up to x damage)."
+  },
+  "Rebuild": {
+    "cnName": "重建",
+    "cnDesc": "Jacky 在她周围的小半径范围内重建了环境。"
+  },
+  "Recoil Spring": {
+    "cnName": "反冲弹簧",
+    "cnDesc": "Scrappy 的攻击速度加倍，持续 x 秒。"
+  },
+  "Recoiling Rotator": {
+    "cnName": "反卷旋转器",
+    "cnDesc": "达里尔转身向各个方向发射一连串子弹。每次射击都会造成 x 点伤害，如果击中敌人，他的 Super 会恢复 x%！"
+  },
+  "Regulate": {
+    "cnName": "调节",
+    "cnDesc": "奥利跳跃并进行猛烈的踢腿翻转，催眠他落地处的所有敌人 x 秒。"
+  },
+  "Replanting": {
+    "cnName": "补种",
+    "cnDesc": "科迪利厄斯快速跳过一块地形。"
+  },
+  "Repot": {
+    "cnName": "报告",
+    "cnDesc": "下一个蓬勃发展，变成投掷攻击，莉莉在撞击时传送到目的地"
+  },
+  "Rerouting": {
+    "cnName": "重新路由",
+    "cnDesc": "查克移除最近的柱子并给他的超级充能。"
+  },
+  "Reserve Buoy": {
+    "cnName": "预留浮标",
+    "cnDesc": "立即填满超级计，但下一次鱼雷投掷不会击晕对手。"
+  },
+  "Residue": {
+    "cnName": "残留物",
+    "cnDesc": "吱吱的下一个粘性球体爆炸后会留下一个残留区域，减慢敌人的速度，并使盟友能够看到灌木丛 x 秒。"
+  },
+  "Return To Sender": {
+    "cnName": "返回发件人",
+    "cnDesc": "在接下来的 x 秒内，纳尼第一次受到敌人伤害时，x% 的伤害会返还给敌人。"
+  },
+  "Reverse Polarity": {
+    "cnName": "极性反接",
+    "cnDesc": "贝尔的下一个电动螺栓会从墙上弹起。"
+  },
+  "Rocket Fuel": {
+    "cnName": "火箭燃料",
+    "cnDesc": "布洛克的下一次攻击是一枚更大、更猛、更快并能摧毁墙壁的巨型火箭。"
+  },
+  "Rocket Laces": {
+    "cnName": "火箭鞋带",
+    "cnDesc": "布洛克炸开下方的地面，将自己推到空中。爆炸对附近的敌人造成 x 点伤害。"
+  },
+  "Rotten Banana": {
+    "cnName": "烂香蕉",
+    "cnDesc": "小智失去 x% 生命值并立即获得 x% 怒气。"
+  },
+  "Roundhouse Kick": {
+    "cnName": "Roundhouse Kick",
+    "cnDesc": "Fang spins and hits all enemies around him, stunning them for x seconds."
+  },
+  "Salty Barrel": {
+    "cnName": "咸桶",
+    "cnDesc": "佩妮扔下一桶盐来阻挡敌人的射弹。她还可以用它来爆破自己的金袋。"
+  },
+  "Satchel Charge": {
+    "cnName": "书包充电",
+    "cnDesc": "一旦激活，下一次主要攻击也会使敌人昏迷 x 秒。"
+  },
+  "Scrapsucker": {
+    "cnName": "吸废者",
+    "cnDesc": "帕姆的下一次攻击每次命中都会消除对方乱斗者最大弹药的 x%。帕姆为自己回收了 x% 的弹药。"
+  },
+  "Service Bell": {
+    "cnName": "服务铃",
+    "cnDesc": "P 先生通过将其伤害增加 x 并将生命值增加 x 来增强他当前的搬运工。"
+  },
+  "Shining Starr Of Friendship And Justice": {
+    "cnName": "友谊与正义的光辉斯塔尔",
+    "cnDesc": "斯塔尔新星发射能量球，对敌人造成伤害并治愈队友 。这个能量球还可以在击中目标之前传送到！"
+  },
+  "Shot In The Arm": {
+    "cnName": "手臂中弹",
+    "cnDesc": "拜伦使用他的一次射击每秒治愈自己 x 次，持续 x 秒。"
+  },
+  "Silver Bullet": {
+    "cnName": "银弹",
+    "cnDesc": "柯尔特发射的子弹破坏了环境并刺穿了争吵者。造成伤害。消耗弹药。"
+  },
+  "Sleep Stimulator": {
+    "cnName": "睡眠刺激器",
+    "cnDesc": "桑迪睡了 x 秒，他的生命值完全恢复。"
+  },
+  "Slippery Savior": {
+    "cnName": "Slippery Savior",
+    "cnDesc": "Glowy dashes in a target direction, healing himself and teammates for  on arrival."
+  },
+  "Slo-Mo Replay": {
+    "cnName": "慢动作重播",
+    "cnDesc": "巴斯特的下一个镜头耀斑将敌人拉向他。"
+  },
+  "Slowing Toxin": {
+    "cnName": "减缓毒素",
+    "cnDesc": "投掷苦无，对第一个击中的敌人造成伤害、减速并使其中毒，持续 1 秒。"
+  },
+  "Snappy Shooting": {
+    "cnName": "敏捷的射击",
+    "cnDesc": "克兰西获得双倍标记，持续 x 秒。"
+  },
+  "Sneaky Sneakers": {
+    "cnName": "偷偷摸摸的运动鞋",
+    "cnDesc": "延迟 x 秒后，麦克斯会眨眼回到她选择的地方，恢复她在此期间受到的所有伤害。"
+  },
+  "Soul Switcher": {
+    "cnName": "灵魂切换者",
+    "cnDesc": "格斯失去 x% 生命值，但立即获得 x% 精神。"
+  },
+  "Spark Plug": {
+    "cnName": "火花塞",
+    "cnDesc": "杰西从她的炮塔中触发冲击波，减慢其影响范围内所有敌人的速度。"
+  },
+  "Speed Zone": {
+    "cnName": "速度区",
+    "cnDesc": "斯图投下一个助推器，使他自己、他的队友和其他盟友在其作用范围内移动得更快。"
+  },
+  "Speedloader": {
+    "cnName": "快速装载机",
+    "cnDesc": "柯尔特快速发射两发子弹，使目标减慢速度。造成伤害。"
+  },
+  "Spellbound": {
+    "cnName": "着迷的",
+    "cnDesc": "薇洛的下一个灯笼诅咒会造成多倍伤害，并且会立即施加全部伤害，而不是随着时间的推移而施加。"
+  },
+  "Spicy Dice": {
+    "cnName": "辣骰子",
+    "cnDesc": "切斯特获得了一个新的随机超级，与他当前的不同。"
+  },
+  "Spiders": {
+    "cnName": "蜘蛛",
+    "cnDesc": "查理释放了 x 只蜘蛛，它们会寻找并攻击最近的敌人。"
+  },
+  "Spiritual Healing": {
+    "cnName": "心灵治疗",
+    "cnDesc": "达米安将麦克风扔向目标位置。第一个捡到它的队友的生命值已被治愈。"
+  },
+  "Spring Ejector": {
+    "cnName": "弹簧顶出器",
+    "cnDesc": "大风将弹跳垫扔到脚下，将朋友和敌人都抛到空中。"
+  },
+  "Sticky Syrup Mixer": {
+    "cnName": "粘稠糖浆搅拌机",
+    "cnDesc": "大麦会掉落一种粘稠的混合物，留下一个水坑，减缓所有与其接触的敌人的速度。"
+  },
+  "Stinging Flight": {
+    "cnName": "刺痛飞行",
+    "cnDesc": "飞到空中 x 秒。起飞时消耗附近敌人的 x 生命值。"
+  },
+  "Stomper": {
+    "cnName": "践踏者",
+    "cnDesc": "公牛践踏地面，减缓附近敌人的速度。如果目标已经减速，他们就会被惊呆！"
+  },
+  "Stunt Double": {
+    "cnName": "特技双人",
+    "cnDesc": "萝拉和她的自我交换了位置，都恢复了 x 生命值。"
+  },
+  "Sugar Rush": {
+    "cnName": "糖热",
+    "cnDesc": "克莱德的移动和装弹速度提高 x%，持续 x 秒。"
+  },
+  "Super Totem": {
+    "cnName": "超级图腾",
+    "cnDesc": "Bo放置了一个图腾，可以使盟友的超级充电率提高%。随着时间的推移，图腾会慢慢失去生命值。"
+  },
+  "Suplex Supplement": {
+    "cnName": "超级补充剂",
+    "cnDesc": "El Primo 抓住了他所能触及的最近的敌人，并将他们像煎饼一样翻转到他宽阔的肩膀上。"
+  },
+  "Support From Beyond": {
+    "cnName": "来自超越的支持",
+    "cnDesc": "塔拉用三个微弱的暗影包围自己，这些暗影会攻击对手并在 x 秒后消失。"
+  },
+  "Sweet Dreams": {
+    "cnName": "甜蜜的梦",
+    "cnDesc": "桑迪的下一次攻击会让对手陷入沉睡 x 秒。然而，他们会从任何伤害中醒来。"
+  },
+  "T-Bone Missile": {
+    "cnName": "T型骨导弹",
+    "cnDesc": "公牛向目标格斗者投掷一枚射弹，命中后会造成伤害和治疗。"
+  },
+  "Tactical Retreat": {
+    "cnName": "战术撤退",
+    "cnDesc": "克兰西冲刺并重新装填 x 弹药"
+  },
+  "Take Cover": {
+    "cnName": "隐蔽",
+    "cnDesc": "Ruffs 扔下 x 个沙袋作为掩护。每一个都有 Ruffs 最大生命值的 x%。"
+  },
+  "Tar Barrel": {
+    "cnName": "焦油桶",
+    "cnDesc": "达里尔在自己周围创建一个减速区域，持续 x 秒。"
+  },
+  "Time For A Slow Song": {
+    "cnName": "是时候唱一首慢歌了",
+    "cnDesc": "Jae-yong 减慢了他周围的敌人的速度，他的攻击会留下减缓文件速度 x 秒的痕迹。"
+  },
+  "Toolbox": {
+    "cnName": "工具箱",
+    "cnDesc": "梅格掉落了她的工具箱，这使附近盟友的装弹速度提高了 x%，直到它被摧毁。"
+  },
+  "Transplant": {
+    "cnName": "移植",
+    "cnDesc": "芽芽摧毁了当前的树篱，但会立即使其超级再次充满电。"
+  },
+  "Tripwire": {
+    "cnName": "绊线",
+    "cnDesc": "Bo 在 x 秒后触发他所有的地雷。在延迟期间，对手完全无法发现地雷。"
+  },
+  "Trusty Spyglass": {
+    "cnName": "值得信赖的望远镜",
+    "cnDesc": "佩妮的大炮向射程内每一个可见的敌人位置射击。"
+  },
+  "Tuning Fork": {
+    "cnName": "音叉",
+    "cnDesc": "波科和所有附近的盟友每秒恢复 x 生命值，持续 x 秒。"
+  },
+  "Turbo Boosters": {
+    "cnName": "涡轮增压器",
+    "cnDesc": "巴斯光年启动涡轮，朝当前方向冲刺。"
+  },
+  "Twister": {
+    "cnName": "龙卷风",
+    "cnDesc": "盖尔用他的吹叶机制造了一场当地龙卷风，这将推开任何试图穿过的对手。"
+  },
+  "Unfriendly Bushes": {
+    "cnName": "不友好的灌木丛",
+    "cnDesc": "所有躲在灌木丛中的对手都会受到伤害并减速数秒。"
+  },
+  "Upper Cut": {
+    "cnName": "上切",
+    "cnDesc": "下一次长矛刺还会将敌人短时间抛到空中。"
+  },
+  "Utility Belt": {
+    "cnName": "实用腰带",
+    "cnDesc": "巴斯特为他的超级冲锋区域内的每个盟友治疗自己和附近所有盟友的 x 生命值。"
+  },
+  "Vanish": {
+    "cnName": "消失",
+    "cnDesc": "莉莉进入暗影领域x秒"
+  },
+  "Vengeful Spirits": {
+    "cnName": "复仇之魂",
+    "cnDesc": "吉恩向大范围内所有可见的对手发射一枚寻的导弹，根据距离造成最多 x 点伤害。"
+  },
+  "Vitamin Booster": {
+    "cnName": "维生素强化剂",
+    "cnDesc": "Bibi 每秒恢复生命值，持续数秒。"
+  },
+  "Voodoo Chile": {
+    "cnName": "巫毒智利",
+    "cnDesc": "朱朱接下来的主攻，拥有全部三种元素的威力。"
+  },
+  "Walking Cane": {
+    "cnName": "步行手杖",
+    "cnDesc": "格雷的手指手枪的下一次攻击会射出一根手杖，将敌人向后拉一点。"
+  },
+  "Wall Of Sound": {
+    "cnName": "音墙",
+    "cnDesc": "达米安召唤出一面坚不可摧的安培临时墙！"
+  },
+  "Warpin Time": {
+    "cnName": "翘曲时间",
+    "cnDesc": "纳尼传送到皮普最后已知的位置并结束她的超级。"
+  },
+  "Watchtower": {
+    "cnName": "岗楼",
+    "cnDesc": "格罗姆从他的格罗姆炸弹中弹出一座瞭望塔，让所有盟友都能看到大片区域的灌木丛。随着时间的推移，了望塔的生命值会慢慢降低。"
+  },
+  "Water Balloons": {
+    "cnName": "水气球",
+    "cnDesc": "下一次气球爆炸还会使敌人减速 x 秒。"
+  },
+  "Weekend Warrior": {
+    "cnName": "周末勇士",
+    "cnDesc": "造成区域伤害并增加主要攻击伤害，持续 x 秒。"
+  },
+  "Windmill": {
+    "cnName": "风车",
+    "cnDesc": "创建风墙，阻挡射弹 x 秒。"
+  },
+  "Windup": {
+    "cnName": "发条",
+    "cnDesc": "吱吱的下一个粘性球造成的伤害增加 x%，射程延长 x%。"
+  },
+  "Worker Ants": {
+    "cnName": "工蚁",
+    "cnDesc": "躯干在接下来的 x 秒内从受到的第一个伤害源中恢复。"
+  },
+  "X-Ray-Shades": {
+    "cnName": "X 射线遮光罩",
+    "cnDesc": "巴兹可以看到超级充电区域内的所有灌木丛 x 秒。"
+  },
+  "You Only Brawl Twice": {
+    "cnName": "你们只吵架两次",
+    "cnDesc": "皮尔斯将吸收所有炮弹并为每一枚炮弹获得 x 护盾，同时还会击退附近的敌人。"
+  }
+}

@@ -1,0 +1,450 @@
+@import "tailwindcss";
+
+/* ============================================================
+   Tailwind v4 自定义主题扩展
+   ============================================================ */
+
+/* 注册自定义缓动曲线 */
+@theme {
+  --ease-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  /* 动画延迟工具类 */
+  --animate-delay-100: 0.1s;
+  --animate-delay-150: 0.15s;
+  --animate-delay-200: 0.2s;
+  --animate-delay-250: 0.25s;
+  --animate-delay-300: 0.3s;
+  --animate-delay-350: 0.35s;
+  --animate-delay-400: 0.4s;
+  --animate-delay-500: 0.5s;
+  --animate-delay-600: 0.6s;
+  --animate-delay-700: 0.7s;
+  --animate-delay-800: 0.8s;
+  --animate-delay-900: 0.9s;
+  --animate-delay-1000: 1s;
+}
+
+/* ============================================================
+   注册自定义动画 — 基于 Tailwind v4 @theme 动画注册
+   ============================================================ */
+
+/* ---------- 全屏闪屏遮罩 ---------- */
+@keyframes flashOverlay {
+  0%   { opacity: 1; }
+  30%  { opacity: 0.6; }
+  50%  { opacity: 0.1; }
+  80%  { opacity: 0; }
+  100% { opacity: 0; pointer-events: none; }
+}
+
+/* ---------- 故障撕裂线条 ---------- */
+@keyframes glitchStrips {
+  0%   { opacity: 0.9; transform: translateX(0); }
+  15%  { opacity: 0.6; transform: translateX(-8px); }
+  30%  { opacity: 0.8; transform: translateX(12px); }
+  45%  { opacity: 0.3; transform: translateX(-4px); }
+  60%  { opacity: 0;   transform: translateX(0); }
+  100% { opacity: 0;   transform: translateX(0); }
+}
+
+/* ---------- 斜切裁剪揭示 ---------- */
+@keyframes valSkewReveal {
+  0% {
+    opacity: 0;
+    transform: skewX(-12deg) translateX(-60px);
+    clip-path: inset(0 100% 0 0);
+    filter: brightness(3);
+  }
+  40% {
+    opacity: 1;
+    filter: brightness(1.5);
+  }
+  60% { clip-path: inset(0 0 0 0); }
+  80% {
+    transform: skewX(-3deg) translateX(0);
+    filter: brightness(1.1);
+  }
+  100% {
+    opacity: 1;
+    transform: skewX(0) translateX(0);
+    clip-path: inset(0 0 0 0);
+    filter: brightness(1);
+  }
+}
+
+/* ---------- 故障闪烁文字 ---------- */
+@keyframes valGlitchText {
+  0% {
+    opacity: 0;
+    transform: translateX(0);
+    text-shadow:
+      2px 0 0 rgba(255,213,0,0.8),
+      -2px 0 0 rgba(0,123,255,0.6);
+  }
+  10% {
+    opacity: 0.7;
+    transform: translateX(4px);
+    text-shadow:
+      -3px 0 0 rgba(255,213,0,0.9),
+      3px 0 0 rgba(0,123,255,0.7);
+  }
+  20% {
+    opacity: 0.9;
+    transform: translateX(-3px);
+    text-shadow:
+      2px 0 0 rgba(255,213,0,0.6),
+      -2px 0 0 rgba(0,123,255,0.5);
+  }
+  35% {
+    opacity: 1;
+    transform: translateX(0);
+    text-shadow: none;
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+    text-shadow: none;
+  }
+}
+
+/* ---------- 力量感猛击浮现 ---------- */
+@keyframes valSlamUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80px) scale(0.9);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-8px) scale(1.02);
+  }
+  70% {
+    transform: translateY(4px) scale(0.99);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* ---------- 高速缩放爆裂 ---------- */
+@keyframes valZoomBurst {
+  0% {
+    opacity: 0;
+    transform: scale(0.3) rotate(-5deg);
+    filter: brightness(2.5) blur(4px);
+  }
+  40% {
+    opacity: 1;
+    filter: brightness(1.3) blur(0);
+  }
+  70% {
+    transform: scale(1.05) rotate(1deg);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) rotate(0);
+    filter: brightness(1) blur(0);
+  }
+}
+
+/* ---------- 斜切横扫切入 ---------- */
+@keyframes valSlashIn {
+  0% {
+    opacity: 0;
+    transform: translateX(100px) skewX(-8deg);
+    clip-path: inset(0 0 0 100%);
+  }
+  60% {
+    opacity: 1;
+    clip-path: inset(0 0 0 0);
+    transform: translateX(-5px) skewX(-1deg);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0) skewX(0);
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+/* ---------- 技能条目交错切入 ---------- */
+@keyframes valSkillIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-60px) skewX(6deg);
+    clip-path: inset(0 100% 0 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0) skewX(0);
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+/* ---------- 高亮闪烁边框脉冲 ---------- */
+@keyframes valBorderPulse {
+  0%   { box-shadow: 0 0 0 0 rgba(255,213,0,0.6); }
+  50%  { box-shadow: 0 0 20px 4px rgba(255,213,0,0.3); }
+  100% { box-shadow: 0 0 0 0 rgba(255,213,0,0); }
+}
+
+/* ---------- 导航圆点弹跳 ---------- */
+@keyframes navDotBounce {
+  0%, 100% { transform: translateY(0); opacity: 1; }
+  50%      { transform: translateY(-6px); opacity: 0.5; }
+}
+
+/* ============================================================
+   注册为 Tailwind animation 工具类
+   ============================================================ */
+@utility animate-flash-overlay {
+  animation: flashOverlay 0.6s cubic-bezier(0.33, 1, 0.68, 1) forwards;
+}
+@utility animate-glitch-strips {
+  animation: glitchStrips 0.55s ease-out forwards;
+  pointer-events: none;
+}
+@utility animate-val-skew-reveal {
+  animation: valSkewReveal 0.7s cubic-bezier(0.22, 0.61, 0.36, 1) forwards;
+}
+@utility animate-val-glitch-text {
+  animation: valGlitchText 0.6s steps(1) forwards;
+}
+@utility animate-val-slam-up {
+  animation: valSlamUp 0.55s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+@utility animate-val-zoom-burst {
+  animation: valZoomBurst 0.6s cubic-bezier(0.22, 0.61, 0.36, 1) forwards;
+}
+@utility animate-val-slash-in {
+  animation: valSlashIn 0.5s cubic-bezier(0.22, 0.61, 0.36, 1) forwards;
+}
+@utility animate-val-skill-in {
+  animation: valSkillIn 0.4s cubic-bezier(0.22, 0.61, 0.36, 1) forwards;
+}
+@utility animate-val-border-flash {
+  animation: valBorderPulse 0.7s ease-out forwards;
+}
+@utility animate-nav-dot-bounce {
+  animation: navDotBounce 0.8s ease-in-out infinite;
+}
+
+/* ============================================================
+   动画初始态（所有入场动画默认隐藏） — 使用 @utility 包装
+   ============================================================ */
+@utility val-init-hidden {
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+/* ============================================================
+   全局基础样式
+   ============================================================ */
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  /* 垂直方向强制吸附 */
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  --scroll-transition-duration: 500ms;
+  --scroll-easing: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: radial-gradient(circle, #2888FF 0%, #154BCD 100%);
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
+  overscroll-behavior-y: none;
+}
+
+/* ============================================================
+   CSS Scroll Snap — 吸附目标
+   ============================================================ */
+main > section,
+main > div[id="banner"] {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  overflow: hidden;
+  position: relative;
+}
+
+/* ============================================================
+   视差背景层 + 内容过渡层（保留 CSS 变量驱动）
+   ============================================================ */
+
+/* 视差背景层 — 通过 --parallax-y 控制偏移 */
+.parallax-bg {
+  position: absolute;
+  inset: -20% 0 -20% 0;
+  z-index: 0;
+  will-change: transform;
+  transform: translateY(var(--parallax-y, 0px));
+  transition: transform 0.1s linear;
+}
+
+/* 内容过渡层 — 通过 --section-opacity / --section-translate-y / --section-scale 控制 */
+.snap-content-layer {
+  position: relative;
+  z-index: 1;
+  opacity: var(--section-opacity, 1);
+  transform: translateY(var(--section-translate-y, 0px)) scale(var(--section-scale, 1));
+  transition:
+    opacity var(--scroll-transition-duration, 500ms) var(--scroll-easing, cubic-bezier(0.4, 0, 0.2, 1)),
+    transform var(--scroll-transition-duration, 500ms) var(--scroll-easing, cubic-bezier(0.4, 0, 0.2, 1));
+}
+
+/* 无 JS 或 prefers-reduced-motion 时禁用视差过渡 */
+@media (prefers-reduced-motion: reduce) {
+  .parallax-bg {
+    transition: none;
+    transform: none;
+  }
+}
+
+/* ============================================================
+   隐藏滚动条（跨浏览器）
+   ============================================================ */
+@utility hide-scrollbar {
+  overscroll-behavior-y: contain;
+  scroll-snap-align: none;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* ============================================================
+   游戏模式板块 — 横向溢出交互（渐隐遮罩 + 箭头）
+   ============================================================ */
+
+/* 外层包裹 — 建立定位上下文 */
+.mode-scroll-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+/* 渐隐遮罩 */
+.mode-scroll-fade {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 80px;
+  z-index: 10;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+.mode-scroll-fade-left {
+  left: 0;
+  background: linear-gradient(to right, rgba(19, 51, 194, 0.92) 0%, transparent 100%);
+}
+.mode-scroll-fade-right {
+  right: 0;
+  background: linear-gradient(to left, rgba(19, 51, 194, 0.92) 0%, transparent 100%);
+}
+
+/* 箭头按钮 */
+.mode-scroll-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 20;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  transition: opacity 0.3s ease, background 0.2s ease, transform 0.3s ease;
+}
+.mode-scroll-arrow:hover {
+  background: rgba(255, 213, 0, 0.7);
+  color: #1a1a1a;
+  border-color: #FFD500;
+}
+.mode-scroll-arrow-left {
+  left: 12px;
+}
+.mode-scroll-arrow-right {
+  right: 12px;
+}
+
+/* ============================================================
+   优雅降级：不支持 scroll-snap 的浏览器
+   ============================================================ */
+@supports not (scroll-snap-type: y mandatory) {
+  html {
+    scroll-behavior: smooth;
+    scroll-snap-type: none;
+  }
+}
+
+/* ============================================================
+   自定义滚动条 — 用于地图板块的滚动区域
+   ============================================================ */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #FFD500 0%, #FFAA00 100%);
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #FFE135 0%, #FFC300 100%);
+}
+
+.custom-scrollbar::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* Firefox */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #FFD500 rgba(255, 255, 255, 0.05);
+}
+
+/* ============================================================
+   无障碍：减少动效时
+   ============================================================ */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-snap-type: none;
+    scroll-behavior: auto;
+  }
+
+  .animate-flash-overlay,
+  .animate-glitch-strips,
+  .animate-val-skew-reveal,
+  .animate-val-glitch-text,
+  .animate-val-slam-up,
+  .animate-val-zoom-burst,
+  .animate-val-slash-in,
+  .animate-val-skill-in,
+  .animate-val-border-flash {
+    animation: none;
+    opacity: 1;
+    transform: none;
+    clip-path: none;
+    filter: none;
+    text-shadow: none;
+  }
+}

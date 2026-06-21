@@ -1,0 +1,2 @@
+0: div ['brkts-round-header'] | QuarterfinalsQuarterfinalsQuartersQFSemifinalsSemifinalsSemisSFGrand FinalGrand FinalFinalGF
+1: div ['brkts-round-body'] | 30February 14, 2026 - 16:00JSTZETA DIVISION3:0(Bo5)Effort Result2Hard Rock Mine02Super Beach12Goldar

@@ -1,0 +1,22 @@
+wrapper count 7
+--- wrapper 0 ---
+3 | 0 | February 14, 2026 - 16:00 | JST | ZETA DIVISION | 3 | : | 0 | (Bo5) | Effort Result | 2 | Hard Rock Mine | 0 | 2 | Super Beach | 1 | 2 | Goldarm Gulch | 0 | Ring of Fire | Bridge Too Far | MVP: | Sitetampo | Bans | Show | Hide | Game 1 | Game 2 | Game 3 | Casters: | Ark | , | Kenny
+
+--- wrapper 1 ---
+0 | 3 | February 14, 2026 - 17:00 | JST | SKCalalas EA | 0 | : | 3 | (Bo5) | Rival Esports | 1 | Super Beach | 2 | 0 | Goldarm Gulch | 2 | 1 | Ring of Fire | 2 | Bridge Too Far | Hard Rock Mine | MVP: | Yutapin | Bans | Show | Hide | Game 1 | Game 2 | Game 3 | Casters: | Ark | , | Kenny
+
+--- wrapper 2 ---
+3 | 0 | February 14, 2026 - 19:30 | JST | ZETA DIVISION | 3 | : | 0 | (Bo5) | Rival Esports | 2 | Shooting Star | 0 | 2 | Double Swoosh | 1 | 2 | Pinhole Punt | 0 | Belle's Rock | Safe Zone | MVP: | Sitetampo | Bans | Show | Hide | Game 1 | Game 2 | Game 3 | Casters: | Trav | , | Ark
+
+--- wrapper 3 ---
+2 | 3 | February 14, 2026 - 18:00 | JST | REJECT | 2 | : | 3 | (Bo5) | WWL Esports | 2 | Goldarm Gulch | 1 | 2 | Ring of Fire | 0 | 0 | Bridge Too Far | 2 | 0 | Hard Rock Mine | 2 | 0 | Super Beach | 2 | MVP: | Minzzun | Bans | Show | Hide | Game 1 | Game 2 | Game 3 | Game 4 | Game 5 | Casters: | Trav | , | Kenny
+
+--- wrapper 4 ---
+1 | 3 | February 14, 2026 - 19:00 | JST | Crazy Raccoon | 1 | : | 3 | (Bo5) | ABC | 2 | Ring of Fire | 0 | 0 | Bridge Too Far | 2 | 0 | Hard Rock Mine | 2 | 1 | Super Beach | 2 | Goldarm Gulch | MVP: | Ken-G | Bans | Show | Hide | Game 1 | Game 2 | Game 3 | Game 4 | Casters: | Trav | , | Kenny
+
+--- wrapper 5 ---
+1 | 3 | February 14, 2026 - 20:00 | JST | WWL Esports | 1 | : | 3 | (Bo5) | ABC | 1 | Safe Zone | 2 | 2 | Belle's Rock | 0 | 0 | Pinhole Punt | 2 | 0 | Double Swoosh | 2 | Shooting Star | MVP: | Ken-G | Bans | Show | Hide | Game 1 | Game 2 | Game 3 | Game 4 | Casters: | Trav | , | Ark
+
+--- wrapper 6 ---
+3 | 1 | February 14, 2026 - 20:55 | JST | ZETA DIVISION | 3 | : | 1 | (Bo5) | ABC | 2 | Open Business | 0 | 1 | Layer Cake | 2 | 2 | Deathcap Trap | 0 | 2 | Sneaky Fields | 0 | Out in the Open | MVP: | Sitetampo | Bans | Show | Hide | Game 1 | Game 2 | Game 3 | Game 4 | Casters: | Ark | , | Kenny
+

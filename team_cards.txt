@@ -1,0 +1,141 @@
+cards count 8
+--- card 0 ---
+<div class="general-collapsible collapsed team-participant-card">
+ <div>
+  <div class="team-participant-card__header" data-collapsible-click-region="true">
+   <div class="team-participant-card__header-main">
+    <div class="team-participant-card__opponent">
+     <div class="team-participant-card__opponent-compact">
+      <div class="block-team team-participant-card__opponent team-participant-card__opponent--square-icon">
+       <span class="team-template-image-icon team-template-lightmode">
+        <a href="/brawlstars/ZETA_DIVISION" title="ZETA DIVISION">
+         <img alt="" decoding="async" height="50" src="/commons/images/thumb/4/4f/ZETA_DIVISION_lightmode.png/50px-ZETA_DIVISION_lightmode.png" srcset="/commons/images/thumb/4/4f/ZETA_DIVISION_lightmode.png/75px-ZETA_DIVISION_lightmode.png 1.5x, /commons/images/thumb/4/4f/ZETA_DIVISION_lightmode.png/100px-ZETA_DIVISION_lightmode.png 2x" width="50"/>
+        </a>
+       </span>
+       <span class="team-template-image-icon team-template-darkmode">
+        <a href="/brawlstars/ZETA_DIVISION" title="ZETA DIVISION">
+         <img alt="" decoding="async" height="50" src="/commons/images/thumb/9/95/ZETA_DIVISION_darkmode.png/50px-ZETA_DIVISION_darkmode.png" srcset="/commons/images/thumb/9/95/ZETA_DIVISION_darkmode.png/75px-ZETA_DIVISION_darkmode.png 1.5x, /commons/images/thumb/9/95/ZETA_DIVISION_darkmode.png/100px-ZETA_DIVISION_darkmode.png 2x" width="50"/>
+        </a>
+       </span>
+       <span class="name" style="white-space:pre;text-overflow:ellipsis;overflow:hidden">
+        <a href="/brawlstars/ZETA_DIVISION" title="ZETA DIVISION">
+         ZETA DIVISION
+        </a>
+       </span>
+      </div>
+     </div>
+     <div class="team-participant-card__opponent-full">
+      <div class="block-team team-participant-card__opponent team-participant-card__opponent--square-icon">
+       <span class="team-template-image-icon team-template-lightmode">
+        <a href="/brawlstars/ZETA_DIVISION" title="ZETA DIVISION">
+         <img alt="" decoding="async" height="50" src="/commons/images/thumb/4/4f/ZETA_DIVISION_lightmode.png/50px-ZETA_DIVISION_lightmode.png" srcset="/commons/images/thumb/4/4f/ZETA_DIVISION_lightmode.png/75px-ZETA_DIVISION_lightmode.png 1.5x, /commons/images/thumb/4/4f/ZETA_DIVISION_lightmode.png/100px-ZETA_DIVISION_lightmode.png 2x" width="50"/>
+        </a>
+       </span>
+       <span class="team-template-image-icon team-template-darkmode">
+        <a href="/brawlstars/ZETA_DIVISION" title="ZETA DIVISION">
+         <img alt="" decoding="async" height="50" src="/commons/images/thumb/9/95/ZETA_DIVISION_darkmode.png/50px-ZETA_DIVISION_darkmode.png" srcset="/commons/images/thumb/9/95/ZETA_DIVISION_darkmode.png/75px-ZETA_DIVISION_darkmode.png 1.5x, /commons/images/thumb/9/95/ZETA_DIVISION_darkmode.png/100px-ZETA_DIVISION_darkmode.png 2x" width="50"/>
+        </a>
+       </span>
+       <span class="name" style="white-space:pre;text-overflow:ellipsis;overflow:hidden">
+        <a href="/brawlstars/ZETA_DIVISION" title="ZETA DIVISION">
+         ZETA DIVISION
+        </a>
+       </span>
+      </div>
+     </div>
+    </div>
+    <div class="team-participant-card__label">
+     <span>
+      Qualifier
+     </span>
+    </div>
+   </div>
+   <span class="general-collapsible-default-toggle">
+    <div class="btn btn-extrasmall general-collapsible-expand-button" role="button" tabindex="0">
+     <span>
+      <i class="far fa-chevron-down">
+      </i>
+     </span>
+    </div>
+    <div class="btn btn-extrasmall general-collapsible-collapse-button" role="button" tabindex="0">
+     <span>
+      <i class="far fa-chevron-up">
+      </i>
+     </span>
+    </div>
+   </span>
+  </div>
+  <div class="team-participant-card__qualifier team-participant-card__qualifier--header">
+   <div class="team-participant-card__qualifier-content">
+    <span class="league-icon-small-image">
+     <img alt="" decoding="async" height="50" src="/commons/images/thumb/5/55/Brawl_Stars_Championship_2025_EA_allmode.png/48px-Brawl_Sta
+--- card 1 ---
+<div class="general-collapsible collapsed team-participant-card">
+ <div>
+  <div class="team-participant-card__header" data-collapsible-click-region="true">
+   <div class="team-participant-card__header-main">
+    <div class="team-participant-card__opponent">
+     <div class="team-participant-card__opponent-compact">
+      <div class="block-team team-participant-card__opponent team-participant-card__opponent--square-icon">
+       <span class="team-template-image-icon team-template-lightmode">
+        <a href="/brawlstars/SKCalalas_EA" title="SKCalalas EA">
+         <img alt="" decoding="async" height="50" src="/commons/images/thumb/7/77/SKCalalas_allmode.png/44px-SKCalalas_allmode.png" srcset="/commons/images/thumb/7/77/SKCalalas_allmode.png/65px-SKCalalas_allmode.png 1.5x, /commons/images/thumb/7/77/SKCalalas_allmode.png/87px-SKCalalas_allmode.png 2x" width="44"/>
+        </a>
+       </span>
+       <span class="team-template-image-icon team-template-darkmode">
+        <a href="/brawlstars/SKCalalas_EA" title="SKCalalas EA">
+         <img alt="" decoding="async" height="50" src="/commons/images/thumb/8/8b/SKCalalas_darkmode.png/44px-SKCalalas_darkmode.png" srcset="/commons/images/thumb/8/8b/SKCalalas_darkmode.png/66px-SKCalalas_darkmode.png 1.5x, /commons/images/thumb/8/8b/SKCalalas_darkmode.png/87px-SKCalalas_darkmode.png 2x" width="44"/>
+        </a>
+       </span>
+       <span class="name" style="white-space:pre;text-overflow:ellipsis;overflow:hidden">
+        <a href="/brawlstars/SKCalalas_EA" title="SKCalalas EA">
+         SKCalalas EA
+        </a>
+       </span>
+      </div>
+     </div>
+     <div class="team-participant-card__opponent-full">
+      <div class="block-team team-participant-card__opponent team-participant-card__opponent--square-icon">
+       <span class="team-template-image-icon team-template-lightmode">
+        <a href="/brawlstars/SKCalalas_EA" title="SKCalalas EA">
+         <img alt="" decoding="async" height="50" src="/commons/images/thumb/7/77/SKCalalas_allmode.png/44px-SKCalalas_allmode.png" srcset="/commons/images/thumb/7/77/SKCalalas_allmode.png/65px-SKCalalas_allmode.png 1.5x, /commons/images/thumb/7/77/SKCalalas_allmode.png/87px-SKCalalas_allmode.png 2x" width="44"/>
+        </a>
+       </span>
+       <span class="team-template-image-icon team-template-darkmode">
+        <a href="/brawlstars/SKCalalas_EA" title="SKCalalas EA">
+         <img alt="" decoding="async" height="50" src="/commons/images/thumb/8/8b/SKCalalas_darkmode.png/44px-SKCalalas_darkmode.png" srcset="/commons/images/thumb/8/8b/SKCalalas_darkmode.png/66px-SKCalalas_darkmode.png 1.5x, /commons/images/thumb/8/8b/SKCalalas_darkmode.png/87px-SKCalalas_darkmode.png 2x" width="44"/>
+        </a>
+       </span>
+       <span class="name" style="white-space:pre;text-overflow:ellipsis;overflow:hidden">
+        <a href="/brawlstars/SKCalalas_EA" title="SKCalalas EA">
+         SKCalalas EA
+        </a>
+       </span>
+      </div>
+     </div>
+    </div>
+    <div class="team-participant-card__label">
+     <span>
+      Qualifier
+     </span>
+    </div>
+   </div>
+   <span class="general-collapsible-default-toggle">
+    <div class="btn btn-extrasmall general-collapsible-expand-button" role="button" tabindex="0">
+     <span>
+      <i class="far fa-chevron-down">
+      </i>
+     </span>
+    </div>
+    <div class="btn btn-extrasmall general-collapsible-collapse-button" role="button" tabindex="0">
+     <span>
+      <i class="far fa-chevron-up">
+      </i>
+     </span>
+    </div>
+   </span>
+  </div>
+  <div class="team-participant-card__qualifier team-participant-card__qualifier--header">
+   <div class="team-participant-card__qualifier-content">
+    <span class="league-icon-small-image">
+     <img alt="" decoding="async" height="50" src="/commons/images/thumb/5/55/Brawl_Stars_Championship_2025_EA_allmode.png/48px-Brawl_Stars_Championship_2025_EA_allmode.png" srcset="/commons/images/thumb/5/55/Brawl_Stars_Championship_2025_EA_allmode.png/72px-Brawl_Stars_Cham

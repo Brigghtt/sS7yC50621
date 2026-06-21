@@ -1,0 +1,88 @@
+<div class="brkts-popup brkts-popup-container brkts-match-info-popup" data-analytics-name="Match popup" style="width:400px">
+ <span class="match-info-countdown">
+  <span class="timer-object timer-object-datetime-only" data-finished="finished" data-format="full" data-timestamp="1771052400">
+   February 14, 2026 - 16:00
+   <abbr data-tz="+09:00" title="Japan Standard Time (UTC+9)">
+    JST
+   </abbr>
+  </span>
+ </span>
+ <div class="match-info-header">
+  <div class="match-info-header-opponent match-info-header-opponent-left match-info-header-winner">
+   <div class="block-team flipped">
+    <span class="team-template-image-icon team-template-lightmode">
+     <a href="/brawlstars/ZETA_DIVISION" title="ZETA DIVISION">
+      <img alt="" decoding="async" height="50" src="/commons/images/thumb/4/4f/ZETA_DIVISION_lightmode.png/50px-ZETA_DIVISION_lightmode.png" srcset="/commons/images/thumb/4/4f/ZETA_DIVISION_lightmode.png/75px-ZETA_DIVISION_lightmode.png 1.5x, /commons/images/thumb/4/4f/ZETA_DIVISION_lightmode.png/100px-ZETA_DIVISION_lightmode.png 2x" width="50"/>
+     </a>
+    </span>
+    <span class="team-template-image-icon team-template-darkmode">
+     <a href="/brawlstars/ZETA_DIVISION" title="ZETA DIVISION">
+      <img alt="" decoding="async" height="50" src="/commons/images/thumb/9/95/ZETA_DIVISION_darkmode.png/50px-ZETA_DIVISION_darkmode.png" srcset="/commons/images/thumb/9/95/ZETA_DIVISION_darkmode.png/75px-ZETA_DIVISION_darkmode.png 1.5x, /commons/images/thumb/9/95/ZETA_DIVISION_darkmode.png/100px-ZETA_DIVISION_darkmode.png 2x" width="50"/>
+     </a>
+    </span>
+    <span class="name" style="white-space:pre;text-overflow:ellipsis;overflow:hidden">
+     <a href="/brawlstars/ZETA_DIVISION" title="ZETA DIVISION">
+      ZETA DIVISION
+     </a>
+    </span>
+   </div>
+  </div>
+  <div class="match-info-header-scoreholder">
+   <span class="match-info-header-scoreholder-icon">
+    <i class="fas fa-caret-left">
+    </i>
+   </span>
+   <span class="match-info-header-scoreholder-scorewrapper">
+    <span class="match-info-header-scoreholder-upper">
+     <span class="match-info-header-scoreholder-score match-info-header-winner">
+      3
+     </span>
+     <span class="match-info-header-scoreholder-divider">
+      :
+     </span>
+     <span class="match-info-header-scoreholder-score">
+      0
+     </span>
+    </span>
+    <span class="match-info-header-scoreholder-lower">
+     (Bo5)
+    </span>
+   </span>
+   <span class="match-info-header-scoreholder-icon">
+   </span>
+  </div>
+  <div class="match-info-header-opponent match-info-header-loser">
+   <div class="block-team">
+    <span class="team-template-image-icon team-template-lightmode">
+     <a href="/brawlstars/Effort_Result" title="Effort Result">
+      <img alt="" decoding="async" height="50" src="/commons/images/thumb/8/8a/Effort_Result_lightmode.png/54px-Effort_Result_lightmode.png" srcset="/commons/images/thumb/8/8a/Effort_Result_lightmode.png/80px-Effort_Result_lightmode.png 1.5x, /commons/images/thumb/8/8a/Effort_Result_lightmode.png/107px-Effort_Result_lightmode.png 2x" width="54"/>
+     </a>
+    </span>
+    <span class="team-template-image-icon team-template-darkmode">
+     <a href="/brawlstars/Effort_Result" title="Effort Result">
+      <img alt="" decoding="async" height="50" src="/commons/images/thumb/7/73/Effort_Result_darkmode.png/55px-Effort_Result_darkmode.png" srcset="/commons/images/thumb/7/73/Effort_Result_darkmode.png/82px-Effort_Result_darkmode.png 1.5x, /commons/images/thumb/7/73/Effort_Result_darkmode.png/110px-Effort_Result_darkmode.png 2x" width="55"/>
+     </a>
+    </span>
+    <span class="name" style="white-space:pre;text-overflow:ellipsis;overflow:hidden">
+     <a href="/brawlstars/Effort_Result" title="Effort Result">
+      Effort Result
+     </a>
+    </span>
+   </div>
+  </div>
+ </div>
+ <div class="brkts-popup-body">
+  <div class="brkts-popup-body-element brkts-popup-body-game">
+   <div class="brkts-popup-spaced" style="justify-content:unset;flex:1;flex-direction:row">
+    <div class="brkts-popup-body-element-thumbs brkts-champion-icon">
+     <div class="brkts-popup-side-color brkts-popup-side-color--blue">
+      <a href="/brawlstars/Mortis" title="Mortis">
+       <img alt="Mortis" decoding="async" height="43" src="/commons/images/thumb/7/77/Brawl_Mortis.png/60px-Brawl_Mortis.png" srcset="/commons/images/thumb/7/77/Brawl_Mortis.png/90px-Brawl_Mortis.png 1.5x, /commons/images/thumb/7/77/Brawl_Mortis.png/120px-Brawl_Mortis.png 2x" width="60"/>
+      </a>
+     </div>
+     <div class="brkts-popup-side-color brkts-popup-side-color--blue">
+      <a href="/brawlstars/Charlie" title="Charlie">
+       <img alt="Charlie" decoding="async" height="38" src="/commons/images/thumb/2/2d/Brawl_Charlie.png/60px-Brawl_Charlie.png" srcset="/commons/images/thumb/2/2d/Brawl_Charlie.png/90px-Brawl_Charlie.png 1.5x, /commons/images/thumb/2/2d/Brawl_Charlie.png/120px-Brawl_Charlie.png 2x" width="60"/>
+      </a>
+     </div>
+     <div class="brkts-popup-side-color brkts-po

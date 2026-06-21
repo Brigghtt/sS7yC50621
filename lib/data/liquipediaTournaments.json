@@ -1,0 +1,3510 @@
+{
+  "tournaments": [
+    {
+      "id": "202602-ea-qf-1",
+      "name": "2026 月赛 东亚赛区 八强赛",
+      "date": "2026-02-14",
+      "category": "月赛",
+      "subCategory": "淘汰赛",
+      "eliminationRound": "八强赛",
+      "region": "东亚",
+      "format": "BO5",
+      "version": "v59.000",
+      "teamA": {
+        "name": "ZETA DIVISION",
+        "nameEn": "ZETA DIVISION",
+        "logo": "/teams/ZETA-DIVISION.png"
+      },
+      "teamB": {
+        "name": "Effort Result",
+        "nameEn": "Effort Result",
+        "logo": "/teams/Effort-Result.png"
+      },
+      "score": "3:0",
+      "winner": "A",
+      "matches": [
+        {
+          "map": "Hard Rock Mine",
+          "mode": "宝石争霸",
+          "teamA": {
+            "heroes": [
+              "莫提斯",
+              "查莉",
+              "特朗克"
+            ],
+            "win": true
+          },
+          "teamB": {
+            "heroes": [
+              "沙迪",
+              "凯特",
+              "莉莉"
+            ],
+            "win": false
+          }
+        },
+        {
+          "map": "Super Beach",
+          "mode": "乱斗足球",
+          "teamA": {
+            "heroes": [
+              "皮尔斯",
+              "格里夫",
+              "沙迪"
+            ],
+            "win": true
+          },
+          "teamB": {
+            "heroes": [
+              "科迪琉斯",
+              "弗兰肯",
+              "米宝"
+            ],
+            "win": false
+          }
+        },
+        {
+          "map": "Goldarm Gulch",
+          "mode": "乱斗淘汰赛",
+          "teamA": {
+            "heroes": [
+              "吉恩",
+              "瑞科",
+              "凯泽"
+            ],
+            "win": true
+          },
+          "teamB": {
+            "heroes": [
+              "贝尔",
+              "弗兰肯",
+              "米娜"
+            ],
+            "win": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "202602-ea-qf-2",
+      "name": "2026 月赛 东亚赛区 八强赛",
+      "date": "2026-02-14",
+      "category": "月赛",
+      "subCategory": "淘汰赛",
+      "eliminationRound": "八强赛",
+      "region": "东亚",
+      "format": "BO5",
+      "version": "v59.000",
+      "teamA": {
+        "name": "SKCalalas EA",
+        "nameEn": "SKCalalas EA",
+        "logo": "/teams/SKCalalas-EA.png"
+      },
+      "teamB": {
+        "name": "Rival Esports",
+        "nameEn": "Rival Esports",
+        "logo": "/teams/Rival-Esports.png"
+      },
+      "score": "0:3",
+      "winner": "B",
+      "matches": [
+        {
+          "map": "Super Beach",
+          "mode": "乱斗足球",
+          "teamA": {
+            "heroes": [
+              "弗兰肯",
+              "米宝",
+              "薇洛"
+            ],
+            "win": false
+          },
+          "teamB": {
+            "heroes": [
+              "米娜",
+              "雪莉",
+              "科迪琉斯"
+            ],
+            "win": true
+          }
+        },
+        {
+          "map": "Goldarm Gulch",
+          "mode": "乱斗淘汰赛",
+          "teamA": {
+            "heroes": [
+              "瑞科",
+              "斯派克",
+              "莫提斯"
+            ],
+            "win": false
+          },
+          "teamB": {
+            "heroes": [
+              "吉恩",
+              "格雷",
+              "道格"
+            ],
+            "win": true
+          }
+        },
+        {
+          "map": "Ring of Fire",
+          "mode": "积分争夺赛",
+          "teamA": {
+            "heroes": [
+              "皮尔斯",
+              "莫提斯",
+              "琥珀"
+            ],
+            "win": false
+          },
+          "teamB": {
+            "heroes": [
+              "米娜",
+              "艾魅",
+              "查莉"
+            ],
+            "win": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "202602-ea-sf-3",
+      "name": "2026 月赛 东亚赛区 半决赛",
+      "date": "2026-02-14",
+      "category": "月赛",
+      "subCategory": "淘汰赛",
+      "eliminationRound": "半决赛",
+      "region": "东亚",
+      "format": "BO5",
+      "version": "v59.000",
+      "teamA": {
+        "name": "ZETA DIVISION",
+        "nameEn": "ZETA DIVISION",
+        "logo": "/teams/ZETA-DIVISION.png"
+      },
+      "teamB": {
+        "name": "Rival Esports",
+        "nameEn": "Rival Esports",
+        "logo": "/teams/Rival-Esports.png"
+      },
+      "score": "3:0",
+      "winner": "A",
+      "matches": [
+        {
+          "map": "Shooting Star",
+          "mode": "赏金猎人",
+          "teamA": {
+            "heroes": [
+              "拜伦",
+              "米娜",
+              "弗兰肯"
+            ],
+            "win": true
+          },
+          "teamB": {
+            "heroes": [
+              "吉恩",
+              "拉夫上校",
+              "格雷"
+            ],
+            "win": false
+          }
+        },
+        {
+          "map": "Double Swoosh",
+          "mode": "宝石争霸",
+          "teamA": {
+            "heroes": [
+              "斯派克",
+              "莫提斯",
+              "特朗克"
+            ],
+            "win": true
+          },
+          "teamB": {
+            "heroes": [
+              "弗兰肯",
+              "雪莉",
+              "道格"
+            ],
+            "win": false
+          }
+        },
+        {
+          "map": "Pinhole Punt",
+          "mode": "乱斗足球",
+          "teamA": {
+            "heroes": [
+              "米娜",
+              "莫",
+              "齐吉"
+            ],
+            "win": true
+          },
+          "teamB": {
+            "heroes": [
+              "瑞科",
+              "米宝",
+              "塔拉"
+            ],
+            "win": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "202602-ea-qf-4",
+      "name": "2026 月赛 东亚赛区 八强赛",
+      "date": "2026-02-14",
+      "category": "月赛",
+      "subCategory": "淘汰赛",
+      "eliminationRound": "八强赛",
+      "region": "东亚",
+      "format": "BO5",
+      "version": "v59.000",
+      "teamA": {
+        "name": "REJECT",
+        "nameEn": "REJECT",
+        "logo": "/teams/REJECT.png"
+      },
+      "teamB": {
+        "name": "WWL Esports",
+        "nameEn": "WWL Esports",
+        "logo": "/teams/WWL-Esports.png"
+      },
+      "score": "2:3",
+      "winner": "B",
+      "matches": [
+        {
+          "map": "Goldarm Gulch",
+          "mode": "乱斗淘汰赛",
+          "teamA": {
+            "heroes": [
+              "皮尔斯",
+              "布洛克",
+              "斯派克"
+            ],
+            "win": true
+          },
+          "teamB": {
+            "heroes": [
+              "RT",
+              "安杰洛",
+              "拜伦"
+            ],
+            "win": false
+          }
+        },
+        {
+          "map": "Ring of Fire",
+          "mode": "积分争夺赛",
+          "teamA": {
+            "heroes": [
+              "波克",
+              "弗兰肯",
+              "帕姆"
+            ],
+            "win": true
+          },
+          "teamB": {
+            "heroes": [
+              "琥珀",
+              "梅格",
+              "科莱特"
+            ],
+            "win": false
+          }
+        },
+        {
+          "map": "Bridge Too Far",
+          "mode": "金库攻防",
+          "teamA": {
+            "heroes": [
+              "查克",
+              "科迪琉斯",
+              "贝尔"
+            ],
+            "win": false
+          },
+          "teamB": {
+            "heroes": [
+              "琥珀",
+              "斯派克",
+              "梅洛迪"
+            ],
+            "win": true
+          }
+        },
+        {
+          "map": "Hard Rock Mine",
+          "mode": "宝石争霸",
+          "teamA": {
+            "heroes": [
+              "斯派克",
+              "阿利",
+              "弗兰肯"
+            ],
+            "win": false
+          },
+          "teamB": {
+            "heroes": [
+              "莉莉",
+              "查莉",
+              "特朗克"
+            ],
+            "win": true
+          }
+        },
+        {
+          "map": "Super Beach",
+          "mode": "乱斗足球",
+          "teamA": {
+            "heroes": [
+              "皮尔斯",
+              "沙迪",
+              "格里夫"
+            ],
+            "win": false
+          },
+          "teamB": {
+            "heroes": [
+              "科迪琉斯",
+              "麦克斯",
+              "莫"
+            ],
+            "win": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "202602-ea-qf-5",
+      "name": "2026 月赛 东亚赛区 八强赛",
+      "date": "2026-02-14",
+      "category": "月赛",
+      "subCategory": "淘汰赛",
+      "eliminationRound": "八强赛",
+      "region": "东亚",
+      "format": "BO5",
+      "version": "v59.000",
+      "teamA": {
+        "name": "Crazy Raccoon",
+        "nameEn": "Crazy Raccoon",
+        "logo": "/teams/Crazy-Raccoon.png"
+      },
+      "teamB": {
+        "name": "ABC (EA Team)",
+        "nameEn": "ABC (EA Team)",
+        "logo": "/teams/ABC-EA-Team.png"
+      },
+      "score": "1:3",
+      "winner": "B",
+      "matches": [
+        {
+          "map": "Ring of Fire",
+          "mode": "积分争夺赛",
+          "teamA": {
+            "heroes": [
+              "德拉科",
+              "琥珀",
+              "阿利"
+            ],
+            "win": true
+          },
+          "teamB": {
+            "heroes": [
+              "芬克斯",
+              "卢米",
+              "梅洛迪"
+            ],
+            "win": false
+          }
+        },
+        {
+          "map": "Bridge Too Far",
+          "mode": "金库攻防",
+          "teamA": {
+            "heroes": [
+              "琥珀",
+              "米科",
+              "查莉"
+            ],
+            "win": false
+          },
+          "teamB": {
+            "heroes": [
+              "8比特",
+              "卡尔",
+              "皮尔斯"
+            ],
+            "win": true
+          }
+        },
+        {
+          "map": "Hard Rock Mine",
+          "mode": "宝石争霸",
+          "teamA": {
+            "heroes": [
+              "查莉",
+              "塔拉",
+              "特朗克"
+            ],
+            "win": false
+          },
+          "teamB": {
+            "heroes": [
+              "斯派克",
+              "莫提斯",
+              "沙迪"
+            ],
+            "win": true
+          }
+        },
+        {
+          "map": "Super Beach",
+          "mode": "乱斗足球",
+          "teamA": {
+            "heroes": [
+              "弗兰肯",
+              "科迪琉斯",
+              "奥蒂斯"
+            ],
+            "win": false
+          },
+          "teamB": {
+            "heroes": [
+              "斯派克",
+              "莫提斯",
+              "莫"
+            ],
+            "win": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "202602-ea-sf-6",
+      "name": "2026 月赛 东亚赛区 半决赛",
+      "date": "2026-02-14",
+      "category": "月赛",
+      "subCategory": "淘汰赛",
+      "eliminationRound": "半决赛",
+      "region": "东亚",
+      "format": "BO5",
+      "version": "v59.000",
+      "teamA": {
+        "name": "WWL Esports",
+        "nameEn": "WWL Esports",
+        "logo": "/teams/WWL-Esports.png"
+      },
+      "teamB": {
+        "name": "ABC (EA Team)",
+        "nameEn": "ABC (EA Team)",
+        "logo": "/teams/ABC-EA-Team.png"
+      },
+      "score": "1:3",
+      "winner": "B",
+      "matches": [
+        {
+          "map": "Safe Zone",
+          "mode": "金库攻防",
+          "teamA": {
+            "heroes": [
+              "琥珀",
+              "皮尔斯",
+              "科迪琉斯"
+            ],
+            "win": false
+          },
+          "teamB": {
+            "heroes": [
+              "柯尔特",
+              "卡尔",
+              "凯泽"
+            ],
+            "win": true
+          }
+        },
+        {
+          "map": "Belle's Rock",
+          "mode": "乱斗淘汰赛",
+          "teamA": {
+            "heroes": [
+              "拜伦",
+              "科迪琉斯",
+              "贝尔"
+            ],
+            "win": true
+          },
+          "teamB": {
+            "heroes": [
+              "斯派克",
+              "奥利",
+              "格斯"
+            ],
+            "win": false
+          }
+        },
+        {
+          "map": "Pinhole Punt",
+          "mode": "乱斗足球",
+          "teamA": {
+            "heroes": [
+              "米娜",
+              "芬克斯",
+              "莫"
+            ],
+            "win": false
+          },
+          "teamB": {
+            "heroes": [
+              "奥蒂斯",
+              "波克",
+              "健次"
+            ],
+            "win": true
+          }
+        },
+        {
+          "map": "Double Swoosh",
+          "mode": "宝石争霸",
+          "teamA": {
+            "heroes": [
+              "斯派克",
+              "奥蒂斯",
+              "莉莉"
+            ],
+            "win": false
+          },
+          "teamB": {
+            "heroes": [
+              "沙迪",
+              "麦克斯",
+              "莫提斯"
+            ],
+            "win": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "202602-ea-final-7",
+      "name": "2026 月赛 东亚赛区 总决赛",
+      "date": "2026-02-14",
+      "category": "月赛",
+      "subCategory": "淘汰赛",
+      "eliminationRound": "总决赛",
+      "region": "东亚",
+      "format": "BO5",
+      "version": "v59.000",
+      "teamA": {
+        "name": "ZETA DIVISION",
+        "nameEn": "ZETA DIVISION",
+        "logo": "/teams/ZETA-DIVISION.png"
+      },
+      "teamB": {
+        "name": "ABC (EA Team)",
+        "nameEn": "ABC (EA Team)",
+        "logo": "/teams/ABC-EA-Team.png"
+      },
+      "score": "3:1",
+      "winner": "A",
+      "matches": [
+        {
+          "map": "Open Business",
+          "mode": "积分争夺赛",
+          "teamA": {
+            "heroes": [
+              "弗兰肯",
+              "米娜",
+              "凯泽"
+            ],
+            "win": true
+          },
+          "teamB": {
+            "heroes": [
+              "斯派克",
+              "小罗",
+              "健次"
+            ],
+            "win": false
+          }
+        },
+        {
+          "map": "Layer Cake",
+          "mode": "赏金猎人",
+          "teamA": {
+            "heroes": [
+              "莫提斯",
+              "拉夫上校",
+              "皮尔斯"
+            ],
+            "win": false
+          },
+          "teamB": {
+            "heroes": [
+              "吉恩",
+              "科迪琉斯",
+              "莉莉"
+            ],
+            "win": true
+          }
+        },
+        {
+          "map": "Deathcap Trap",
+          "mode": "宝石争霸",
+          "teamA": {
+            "heroes": [
+              "莫提斯",
+              "塔拉",
+              "斯图"
+            ],
+            "win": true
+          },
+          "teamB": {
+            "heroes": [
+              "沙德",
+              "沙迪",
+              "雪莉"
+            ],
+            "win": false
+          }
+        },
+        {
+          "map": "Sneaky Fields",
+          "mode": "乱斗足球",
+          "teamA": {
+            "heroes": [
+              "弗兰肯",
+              "科迪琉斯",
+              "皮尔斯"
+            ],
+            "win": true
+          },
+          "teamB": {
+            "heroes": [
+              "莫提斯",
+              "波克",
+              "妮塔"
+            ],
+            "win": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "202602-eu-qf-1",
+      "name": "2026 月赛 欧洲赛区 八强赛",
+      "date": "2026-02-01",
+      "category": "月赛",
+      "subCategory": "淘汰赛",
+      "eliminationRound": "八强赛",
+      "region": "欧洲",
+      "format": "BO5",
+      "version": "v59.000",
+      "teamA": {
+        "name": "SK Gaming",
+        "nameEn": "SK Gaming",
+        "logo": "/teams/SK-Gaming.png"
+      },
+      "teamB": {
+        "name": "CMM",
+        "nameEn": "CMM",
+        "logo": "/teams/CMM.png"
+      },
+      "score": "2:3",
+      "winner": "B",
+      "matches": [
+        {
+          "map": "Hard Rock Mine",
+          "mode": "宝石争霸",
+          "teamA": {
+            "heroes": [
+              "莫提斯",
+              "雪莉",
+              "格斯"
+            ],
+            "win": false
+          },
+          "teamB": {
+            "heroes": [
+              "帕姆",
+              "沙德",
+              "瑞科"
+            ],
+            "win": true
+          }
+        },
+        {
+          "map": "Super Beach",
+          "mode": "乱斗足球",
+          "teamA": {
+            "heroes": [
+              "汉克",
+              "波克",
+              "雪莉"
+            ],
+            "win": false
+          },
+          "teamB": {
+            "heroes": [
+              "沙德",
+              "格尔",
+              "艾尔·普里莫"
+            ],
+            "win": true
+          }
+        },
+        {
+          "map": "Goldarm Gulch",
+          "mode": "乱斗淘汰赛",
+          "teamA": {
+            "heroes": [
+              "吉恩",
+              "RT",
+              "拉夫上校"
+            ],
+            "win": true
+          },
+          "teamB": {
+            "heroes": [
+              "皮尔斯",
+              "格斯",
+              "格雷"
+            ],
+            "win": false
+          }
+        },
+        {
+          "map": "Ring of Fire",
+          "mode": "积分争夺赛",
+          "teamA": {
+            "heroes": [
+              "米娜",
+              "德拉科",
+              "帕姆"
+            ],
+            "win": true
+          },
+          "teamB": {
+            "heroes": [
+              "芬克斯",
+              "斯图",
+              "小罗"
+            ],
+            "win": false
+          }
+        },
+        {
+          "map": "Bridge Too Far",
+          "mode": "金库攻防",
+          "teamA": {
+            "heroes": [
+              "纳妮",
+              "朱朱",
+              "奥蒂斯"
+            ],
+            "win": false
+          },
+          "teamB": {
+            "heroes": [
+              "伊芙",
+              "8比特",
+              "布洛克"
+            ],
+            "win": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "202602-eu-qf-2",
+      "name": "2026 月赛 欧洲赛区 八强赛",
+      "date": "2026-02-01",
+      "category": "月赛",
+      "subCategory": "淘汰赛",
+      "eliminationRound": "八强赛",
+      "region": "欧洲",
+      "format": "BO5",
+      "version": "v59.000",
+      "teamA": {
+        "name": "Team Heretics",
+        "nameEn": "Team Heretics",
+        "logo": "/teams/Team-Heretics.png"
+      },
+      "teamB": {
+        "name": "FUT Esports",
+        "nameEn": "FUT Esports",
+        "logo": "/teams/FUT-Esports.png"
+      },
+      "score": "1:3",
+      "winner": "B",
+      "matches": [
+        {
+          "map": "Super Beach",
+          "mode": "乱斗足球",
+          "teamA": {
+            "heroes": [
+              "弗兰肯",
+              "米宝",
+              "沙迪"
+            ],
+            "win": false
+          },
+          "teamB": {
+            "heroes": [
+              "雪莉",
+              "米娜",
+              "莫"
+            ],
+            "win": true
+          }
+        },
+        {
+          "map": "Goldarm Gulch",
+          "mode": "乱斗淘汰赛",
+          "teamA": {
+            "heroes": [
+              "贝尔",
+              "格斯",
+              "格雷"
+            ],
+            "win": false
+          },
+          "teamB": {
+            "heroes": [
+              "布洛克",
+              "安杰洛",
+              "RT"
+            ],
+            "win": true
+          }
+        },
+        {
+          "map": "Ring of Fire",
+          "mode": "积分争夺赛",
+          "teamA": {
+            "heroes": [
+              "弗兰肯",
+              "米娜",
+              "斯派克"
+            ],
+            "win": true
+          },
+          "teamB": {
+            "heroes": [
+              "奥蒂斯",
+              "皮尔斯",
+              "阿利"
+            ],
+            "win": false
+          }
+        },
+        {
+          "map": "Bridge Too Far",
+          "mode": "金库攻防",
+          "teamA": {
+            "heroes": [
+              "阿利",
+              "8比特",
+              "纳妮"
+            ],
+            "win": false
+          },
+          "teamB": {
+            "heroes": [
+              "奥蒂斯",
+              "查克",
+              "米娜"
+            ],
+            "win": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "202602-eu-qf-3",
+      "name": "2026 月赛 欧洲赛区 八强赛",
+      "date": "2026-02-01",
+      "category": "月赛",
+      "subCategory": "淘汰赛",
+      "eliminationRound": "八强赛",
+      "region": "欧洲",
+      "format": "BO5",
+      "version": "v59.000",
+      "teamA": {
+        "name": "CMM",
+        "nameEn": "CMM",
+        "logo": "/teams/CMM.png"
+      },
+      "teamB": {
+        "name": "FUT Esports",
+        "nameEn": "FUT Esports",
+        "logo": "/teams/FUT-Esports.png"
+      },
+      "score": "0:3",
+      "winner": "B",
+      "matches": [
+        {
+          "map": "Shooting Star",
+          "mode": "赏金猎人",
+          "teamA": {
+            "heroes": [
+              "纳妮",
+              "奥利",
+              "佩佩"
+            ],
+            "win": false
+          },
+          "teamB": {
+            "heroes": [
+              "莫提斯",
+              "格斯",
+              "拜伦"
+            ],
+            "win": true
+          }
+        },
+        {
+          "map": "Double Swoosh",
+          "mode": "宝石争霸",
+          "teamA": {
+            "heroes": [
+              "珍妮特",
+              "阿利",
+              "切斯特"
+            ],
+            "win": false
+          },
+          "teamB": {
+            "heroes": [
+              "塔拉",
+              "黑鸦",
+              "莫提斯"
+            ],
+            "win": true
+          }
+        },
+        {
+          "map": "Pinhole Punt",
+          "mode": "乱斗足球",
+          "teamA": {
+            "heroes": [
+              "皮尔斯",
+              "米宝",
+              "卡尔"
+            ],
+            "win": false
+          },
+          "teamB": {
+            "heroes": [
+              "斯派克",
+              "奥蒂斯",
+              "阿利"
+            ],
+            "win": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "202602-eu-qf-4",
+      "name": "2026 月赛 欧洲赛区 八强赛",
+      "date": "2026-02-01",
+      "category": "月赛",
+      "subCategory": "淘汰赛",
+      "eliminationRound": "八强赛",
+      "region": "欧洲",
+      "format": "BO5",
+      "version": "v59.000",
+      "teamA": {
+        "name": "HMBLE",
+        "nameEn": "HMBLE",
+        "logo": "/teams/HMBLE.png"
+      },
+      "teamB": {
+        "name": "BIG",
+        "nameEn": "BIG",
+        "logo": "/teams/BIG.png"
+      },
+      "score": "3:1",
+      "winner": "A",
+      "matches": [
+        {
+          "map": "Goldarm Gulch",
+          "mode": "乱斗淘汰赛",
+          "teamA": {
+            "heroes": [
+              "佩佩",
+              "皮尔斯",
+              "RT"
+            ],
+            "win": true
+          },
+          "teamB": {
+            "heroes": [
+              "格雷",
+              "米宝",
+              "史魁克"
+            ],
+            "win": false
+          }
+        },
+        {
+          "map": "Ring of Fire",
+          "mode": "积分争夺赛",
+          "teamA": {
+            "heroes": [
+              "米娜",
+              "芬克斯",
+              "弗兰肯"
+            ],
+            "win": true
+          },
+          "teamB": {
+            "heroes": [
+              "皮尔斯",
+              "帕姆",
+              "罗莎"
+            ],
+            "win": false
+          }
+        },
+        {
+          "map": "Bridge Too Far",
+          "mode": "金库攻防",
+          "teamA": {
+            "heroes": [
+              "查克",
+              "纳妮",
+              "8比特"
+            ],
+            "win": false
+          },
+          "teamB": {
+            "heroes": [
+              "奥蒂斯",
+              "皮尔斯",
+              "卡尔"
+            ],
+            "win": true
+          }
+        },
+        {
+          "map": "Hard Rock Mine",
+          "mode": "宝石争霸",
+          "teamA": {
+            "heroes": [
+              "瑞科",
+              "8比特",
+              "雪莉"
+            ],
+            "win": true
+          },
+          "teamB": {
+            "heroes": [
+              "弗兰肯",
+              "格雷",
+              "塔拉"
+            ],
+            "win": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "202602-eu-sf-5",
+      "name": "2026 月赛 欧洲赛区 半决赛",
+      "date": "2026-02-01",
+      "category": "月赛",
+      "subCategory": "淘汰赛",
+      "eliminationRound": "半决赛",
+      "region": "欧洲",
+      "format": "BO5",
+      "version": "v59.000",
+      "teamA": {
+        "name": "Totem Esports",
+        "nameEn": "Totem Esports",
+        "logo": "/teams/Totem-Esports.png"
+      },
+      "teamB": {
+        "name": "Natus Vincere",
+        "nameEn": "Natus Vincere",
+        "logo": "/teams/Natus-Vincere.png"
+      },
+      "score": "3:1",
+      "winner": "A",
+      "matches": [
+        {
+          "map": "Ring of Fire",
+          "mode": "积分争夺赛",
+          "teamA": {
+            "heroes": [
+              "艾魅",
+              "格雷",
+              "查莉"
+            ],
+            "win": true
+          },
+          "teamB": {
+            "heroes": [
+              "贝亚",
+              "米宝",
+              "拉夫上校"
+            ],
+            "win": false
+          }
+        },
+        {
+          "map": "Bridge Too Far",
+          "mode": "金库攻防",
+          "teamA": {
+            "heroes": [
+              "纳妮",
+              "奥蒂斯",
+              "达里尔"
+            ],
+            "win": true
+          },
+          "teamB": {
+            "heroes": [
+              "莉莉",
+              "布洛克",
+              "科迪琉斯"
+            ],
+            "win": false
+          }
+        },
+        {
+          "map": "Hard Rock Mine",
+          "mode": "宝石争霸",
+          "teamA": {
+            "heroes": [
+              "斯派克",
+              "阿利",
+              "莫"
+            ],
+            "win": false
+          },
+          "teamB": {
+            "heroes": [
+              "瑞科",
+              "黑鸦",
+              "健次"
+            ],
+            "win": true
+          }
+        },
+        {
+          "map": "Super Beach",
+          "mode": "乱斗足球",
+          "teamA": {
+            "heroes": [
+              "斯派克",
+              "麦克斯",
+              "雪莉"
+            ],
+            "win": true
+          },
+          "teamB": {
+            "heroes": [
+              "皮尔斯",
+              "健次",
+              "朱朱"
+            ],
+            "win": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "202602-eu-sf-6",
+      "name": "2026 月赛 欧洲赛区 半决赛",
+      "date": "2026-02-01",
+      "category": "月赛",
+      "subCategory": "淘汰赛",
+      "eliminationRound": "半决赛",
+      "region": "欧洲",
+      "format": "BO5",
+      "version": "v59.000",
+      "teamA": {
+        "name": "HMBLE",
+        "nameEn": "HMBLE",
+        "logo": "/teams/HMBLE.png"
+      },
+      "teamB": {
+        "name": "Totem Esports",
+        "nameEn": "Totem Esports",
+        "logo": "/teams/Totem-Esports.png"
+      },
+      "score": "3:0",
+      "winner": "A",
+      "matches": [
+        {
+          "map": "Safe Zone",
+          "mode": "金库攻防",
+          "teamA": {
+            "heroes": [
+              "黑鸦",
+              "拜伦",
+              "梅洛迪"
+            ],
+            "win": true
+          },
+          "teamB": {
+            "heroes": [
+              "凯泽",
+              "贝尔",
+              "柯尔特"
+            ],
+            "win": false
+          }
+        },
+        {
+          "map": "Belle's Rock",
+          "mode": "乱斗淘汰赛",
+          "teamA": {
+            "heroes": [
+              "瑞科",
+              "格斯",
+              "RT"
+            ],
+            "win": true
+          },
+          "teamB": {
+            "heroes": [
+              "格雷",
+              "查莉",
+              "拜伦"
+            ],
+            "win": false
+          }
+        },
+        {
+          "map": "Pinhole Punt",
+          "mode": "乱斗足球",
+          "teamA": {
+            "heroes": [
+              "奥蒂斯",
+              "米娜",
+              "黑鸦"
+            ],
+            "win": true
+          },
+          "teamB": {
+            "heroes": [
+              "斯派克",
+              "米宝",
+              "健次"
+            ],
+            "win": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "202602-eu-final-7",
+      "name": "2026 月赛 欧洲赛区 总决赛",
+      "date": "2026-02-01",
+      "category": "月赛",
+      "subCategory": "淘汰赛",
+      "eliminationRound": "总决赛",
+      "region": "欧洲",
+      "format": "BO5",
+      "version": "v59.000",
+      "teamA": {
+        "name": "FUT Esports",
+        "nameEn": "FUT Esports",
+        "logo": "/teams/FUT-Esports.png"
+      },
+      "teamB": {
+        "name": "HMBLE",
+        "nameEn": "HMBLE",
+        "logo": "/teams/HMBLE.png"
+      },
+      "score": "3:1",
+      "winner": "A",
+      "matches": [
+        {
+          "map": "Open Business",
+          "mode": "积分争夺赛",
+          "teamA": {
+            "heroes": [
+              "黑鸦",
+              "斯派克",
+              "健次"
+            ],
+            "win": false
+          },
+          "teamB": {
+            "heroes": [
+              "皮尔斯",
+              "莫提斯",
+              "卢米"
+            ],
+            "win": true
+          }
+        },
+        {
+          "map": "Layer Cake",
+          "mode": "赏金猎人",
+          "teamA": {
+            "heroes": [
+              "薇洛",
+              "米宝",
+              "阿利"
+            ],
+            "win": true
+          },
+          "teamB": {
+            "heroes": [
+              "米娜",
+              "皮尔斯",
+              "朱朱"
+            ],
+            "win": false
+          }
+        },
+        {
+          "map": "Deathcap Trap",
+          "mode": "宝石争霸",
+          "teamA": {
+            "heroes": [
+              "斯派克",
+              "米娜",
+              "潘妮"
+            ],
+            "win": true
+          },
+          "teamB": {
+            "heroes": [
+              "拉夫上校",
+              "帕姆",
+              "沙德"
+            ],
+            "win": false
+          }
+        },
+        {
+          "map": "Sneaky Fields",
+          "mode": "乱斗足球",
+          "teamA": {
+            "heroes": [
+              "米娜",
+              "拉夫上校",
+              "雪莉"
+            ],
+            "win": true
+          },
+          "teamB": {
+            "heroes": [
+              "瑞科",
+              "波克",
+              "弗兰肯"
+            ],
+            "win": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "202602-cn-qf-1",
+      "name": "2026 月赛 大陆赛区 二月 八强赛",
+      "date": "2026-03-07",
+      "category": "月赛",
+      "subCategory": "淘汰赛",
+      "eliminationRound": "八强赛",
+      "region": "大陆",
+      "format": "BO5",
+      "version": "v59.000",
+      "teamA": {
+        "name": "遥想公瑾当年",
+        "nameEn": "遥想公瑾当年",
+        "logo": "/teams/遥想公瑾当年.png"
+      },
+      "teamB": {
+        "name": "Toxic Lotus",
+        "nameEn": "Toxic Lotus",
+        "logo": "/teams/Toxic-Lotus.png"
+      },
+      "score": "0:3",
+      "winner": "B",
+      "matches": []
+    },
+    {
+      "id": "202602-cn-qf-2",
+      "name": "2026 月赛 大陆赛区 二月 八强赛",
+      "date": "2026-03-07",
+      "category": "月赛",
+      "subCategory": "淘汰赛",
+      "eliminationRound": "八强赛",
+      "region": "大陆",
+      "format": "BO5",
+      "version": "v59.000",
+      "teamA": {
+        "name": "Reverso Hive",
+        "nameEn": "Reverso Hive",
+        "logo": "/teams/Reverso-Hive.png"
+      },
+      "teamB": {
+        "name": "IrisOut",
+        "nameEn": "IrisOut",
+        "logo": "/teams/IrisOut.png"
+      },
+      "score": "3:2",
+      "winner": "A",
+      "matches": []
+    },
+    {
+      "id": "202602-cn-sf-3",
+      "name": "2026 月赛 大陆赛区 二月 半决赛",
+      "date": "2026-03-07",
+      "category": "月赛",
+      "subCategory": "淘汰赛",
+      "eliminationRound": "半决赛",
+      "region": "大陆",
+      "format": "BO5",
+      "version": "v59.000",
+      "teamA": {
+        "name": "Toxic Lotus",
+        "nameEn": "Toxic Lotus",
+        "logo": "/teams/Toxic-Lotus.png"
+      },
+      "teamB": {
+        "name": "Reverso Hive",
+        "nameEn": "Reverso Hive",
+        "logo": "/teams/Reverso-Hive.png"
+      },
+      "score": "3:0",
+      "winner": "A",
+      "matches": []
+    },
+    {
+      "id": "202602-cn-qf-4",
+      "name": "2026 月赛 大陆赛区 二月 八强赛",
+      "date": "2026-03-07",
+      "category": "月赛",
+      "subCategory": "淘汰赛",
+      "eliminationRound": "八强赛",
+      "region": "大陆",
+      "format": "BO5",
+      "version": "v59.000",
+      "teamA": {
+        "name": "TIG Revival",
+        "nameEn": "TIG Revival",
+        "logo": "/teams/TIG-Revival.png"
+      },
+      "teamB": {
+        "name": "Ace Xero",
+        "nameEn": "Ace Xero",
+        "logo": "/teams/Ace-Xero.png"
+      },
+      "score": "2:3",
+      "winner": "B",
+      "matches": []
+    },
+    {
+      "id": "202602-cn-qf-5",
+      "name": "2026 月赛 大陆赛区 二月 八强赛",
+      "date": "2026-03-07",
+      "category": "月赛",
+      "subCategory": "淘汰赛",
+      "eliminationRound": "八强赛",
+      "region": "大陆",
+      "format": "BO5",
+      "version": "v59.000",
+      "teamA": {
+        "name": "Nihilum",
+        "nameEn": "Nihilum",
+        "logo": "/teams/Nihilum.png"
+      },
+      "teamB": {
+        "name": "TOC (Team)",
+        "nameEn": "TOC (Team)",
+        "logo": "/teams/TOC-Team.png"
+      },
+      "score": "1:3",
+      "winner": "B",
+      "matches": []
+    },
+    {
+      "id": "202602-cn-sf-6",
+      "name": "2026 月赛 大陆赛区 二月 半决赛",
+      "date": "2026-03-07",
+      "category": "月赛",
+      "subCategory": "淘汰赛",
+      "eliminationRound": "半决赛",
+      "region": "大陆",
+      "format": "BO5",
+      "version": "v59.000",
+      "teamA": {
+        "name": "Ace Xero",
+        "nameEn": "Ace Xero",
+        "logo": "/teams/Ace-Xero.png"
+      },
+      "teamB": {
+        "name": "TOC (Team)",
+        "nameEn": "TOC (Team)",
+        "logo": "/teams/TOC-Team.png"
+      },
+      "score": "3:2",
+      "winner": "A",
+      "matches": []
+    },
+    {
+      "id": "202602-cn-final-7",
+      "name": "2026 月赛 大陆赛区 二月 总决赛",
+      "date": "2026-03-07",
+      "category": "月赛",
+      "subCategory": "淘汰赛",
+      "eliminationRound": "总决赛",
+      "region": "大陆",
+      "format": "BO5",
+      "version": "v59.000",
+      "teamA": {
+        "name": "Toxic Lotus",
+        "nameEn": "Toxic Lotus",
+        "logo": "/teams/Toxic-Lotus.png"
+      },
+      "teamB": {
+        "name": "Ace Xero",
+        "nameEn": "Ace Xero",
+        "logo": "/teams/Ace-Xero.png"
+      },
+      "score": "1:3",
+      "winner": "B",
+      "matches": []
+    },
+    {
+      "id": "202606-cn-qf-1",
+      "name": "2026 月赛 大陆赛区 六月 八强赛",
+      "date": "2026-06-13",
+      "category": "月赛",
+      "subCategory": "淘汰赛",
+      "eliminationRound": "八强赛",
+      "region": "大陆",
+      "format": "BO5",
+      "version": "v59.000",
+      "teamA": {
+        "name": "Toxic Lotus",
+        "nameEn": "Toxic Lotus",
+        "logo": "/teams/Toxic-Lotus.png"
+      },
+      "teamB": {
+        "name": "SMDY",
+        "nameEn": "SMDY",
+        "logo": "/teams/SMDY.png"
+      },
+      "score": "3:1",
+      "winner": "A",
+      "matches": []
+    },
+    {
+      "id": "202606-cn-qf-2",
+      "name": "2026 月赛 大陆赛区 六月 八强赛",
+      "date": "2026-06-13",
+      "category": "月赛",
+      "subCategory": "淘汰赛",
+      "eliminationRound": "八强赛",
+      "region": "大陆",
+      "format": "BO5",
+      "version": "v59.000",
+      "teamA": {
+        "name": "Last Hope Fire",
+        "nameEn": "Last Hope Fire",
+        "logo": "/teams/Last-Hope-Fire.png"
+      },
+      "teamB": {
+        "name": "Dark Spirit",
+        "nameEn": "Dark Spirit",
+        "logo": "/teams/Dark-Spirit.png"
+      },
+      "score": "1:3",
+      "winner": "B",
+      "matches": []
+    },
+    {
+      "id": "202606-cn-sf-3",
+      "name": "2026 月赛 大陆赛区 六月 半决赛",
+      "date": "2026-06-13",
+      "category": "月赛",
+      "subCategory": "淘汰赛",
+      "eliminationRound": "半决赛",
+      "region": "大陆",
+      "format": "BO5",
+      "version": "v59.000",
+      "teamA": {
+        "name": "Toxic Lotus",
+        "nameEn": "Toxic Lotus",
+        "logo": "/teams/Toxic-Lotus.png"
+      },
+      "teamB": {
+        "name": "Dark Spirit",
+        "nameEn": "Dark Spirit",
+        "logo": "/teams/Dark-Spirit.png"
+      },
+      "score": "3:0",
+      "winner": "A",
+      "matches": []
+    },
+    {
+      "id": "202606-cn-qf-4",
+      "name": "2026 月赛 大陆赛区 六月 八强赛",
+      "date": "2026-06-13",
+      "category": "月赛",
+      "subCategory": "淘汰赛",
+      "eliminationRound": "八强赛",
+      "region": "大陆",
+      "format": "BO5",
+      "version": "v59.000",
+      "teamA": {
+        "name": "Ace Xero",
+        "nameEn": "Ace Xero",
+        "logo": "/teams/Ace-Xero.png"
+      },
+      "teamB": {
+        "name": "IrisOut",
+        "nameEn": "IrisOut",
+        "logo": "/teams/IrisOut.png"
+      },
+      "score": "3:0",
+      "winner": "A",
+      "matches": []
+    },
+    {
+      "id": "202606-cn-qf-5",
+      "name": "2026 月赛 大陆赛区 六月 八强赛",
+      "date": "2026-06-13",
+      "category": "月赛",
+      "subCategory": "淘汰赛",
+      "eliminationRound": "八强赛",
+      "region": "大陆",
+      "format": "BO5",
+      "version": "v59.000",
+      "teamA": {
+        "name": "TIG Revival",
+        "nameEn": "TIG Revival",
+        "logo": "/teams/TIG-Revival.png"
+      },
+      "teamB": {
+        "name": "TOC (Team)",
+        "nameEn": "TOC (Team)",
+        "logo": "/teams/TOC-Team.png"
+      },
+      "score": "1:3",
+      "winner": "B",
+      "matches": []
+    },
+    {
+      "id": "202606-cn-sf-6",
+      "name": "2026 月赛 大陆赛区 六月 半决赛",
+      "date": "2026-06-13",
+      "category": "月赛",
+      "subCategory": "淘汰赛",
+      "eliminationRound": "半决赛",
+      "region": "大陆",
+      "format": "BO5",
+      "version": "v59.000",
+      "teamA": {
+        "name": "Ace Xero",
+        "nameEn": "Ace Xero",
+        "logo": "/teams/Ace-Xero.png"
+      },
+      "teamB": {
+        "name": "TOC (Team)",
+        "nameEn": "TOC (Team)",
+        "logo": "/teams/TOC-Team.png"
+      },
+      "score": "2:3",
+      "winner": "B",
+      "matches": []
+    },
+    {
+      "id": "202606-cn-final-7",
+      "name": "2026 月赛 大陆赛区 六月 总决赛",
+      "date": "2026-06-13",
+      "category": "月赛",
+      "subCategory": "淘汰赛",
+      "eliminationRound": "总决赛",
+      "region": "大陆",
+      "format": "BO5",
+      "version": "v59.000",
+      "teamA": {
+        "name": "Toxic Lotus",
+        "nameEn": "Toxic Lotus",
+        "logo": "/teams/Toxic-Lotus.png"
+      },
+      "teamB": {
+        "name": "TOC (Team)",
+        "nameEn": "TOC (Team)",
+        "logo": "/teams/TOC-Team.png"
+      },
+      "score": "2:3",
+      "winner": "B",
+      "matches": []
+    }
+  ],
+  "schedules": [
+    {
+      "id": "sch-202602-ea-qf-1",
+      "date": "2026-02-14",
+      "time": "20:00",
+      "tournamentName": "2026 月赛 东亚赛区 八强赛",
+      "teamA": "ZETA DIVISION",
+      "teamB": "Effort Result",
+      "category": "月赛",
+      "region": "东亚",
+      "month": "2026-02",
+      "status": "ended"
+    },
+    {
+      "id": "sch-202602-ea-qf-2",
+      "date": "2026-02-14",
+      "time": "20:00",
+      "tournamentName": "2026 月赛 东亚赛区 八强赛",
+      "teamA": "SKCalalas EA",
+      "teamB": "Rival Esports",
+      "category": "月赛",
+      "region": "东亚",
+      "month": "2026-02",
+      "status": "ended"
+    },
+    {
+      "id": "sch-202602-ea-sf-3",
+      "date": "2026-02-14",
+      "time": "20:00",
+      "tournamentName": "2026 月赛 东亚赛区 半决赛",
+      "teamA": "ZETA DIVISION",
+      "teamB": "Rival Esports",
+      "category": "月赛",
+      "region": "东亚",
+      "month": "2026-02",
+      "status": "ended"
+    },
+    {
+      "id": "sch-202602-ea-qf-4",
+      "date": "2026-02-14",
+      "time": "20:00",
+      "tournamentName": "2026 月赛 东亚赛区 八强赛",
+      "teamA": "REJECT",
+      "teamB": "WWL Esports",
+      "category": "月赛",
+      "region": "东亚",
+      "month": "2026-02",
+      "status": "ended"
+    },
+    {
+      "id": "sch-202602-ea-qf-5",
+      "date": "2026-02-14",
+      "time": "20:00",
+      "tournamentName": "2026 月赛 东亚赛区 八强赛",
+      "teamA": "Crazy Raccoon",
+      "teamB": "ABC (EA Team)",
+      "category": "月赛",
+      "region": "东亚",
+      "month": "2026-02",
+      "status": "ended"
+    },
+    {
+      "id": "sch-202602-ea-sf-6",
+      "date": "2026-02-14",
+      "time": "20:00",
+      "tournamentName": "2026 月赛 东亚赛区 半决赛",
+      "teamA": "WWL Esports",
+      "teamB": "ABC (EA Team)",
+      "category": "月赛",
+      "region": "东亚",
+      "month": "2026-02",
+      "status": "ended"
+    },
+    {
+      "id": "sch-202602-ea-final-7",
+      "date": "2026-02-14",
+      "time": "20:00",
+      "tournamentName": "2026 月赛 东亚赛区 总决赛",
+      "teamA": "ZETA DIVISION",
+      "teamB": "ABC (EA Team)",
+      "category": "月赛",
+      "region": "东亚",
+      "month": "2026-02",
+      "status": "ended"
+    },
+    {
+      "id": "sch-202602-eu-qf-1",
+      "date": "2026-02-01",
+      "time": "20:00",
+      "tournamentName": "2026 月赛 欧洲赛区 八强赛",
+      "teamA": "SK Gaming",
+      "teamB": "CMM",
+      "category": "月赛",
+      "region": "欧洲",
+      "month": "2026-02",
+      "status": "ended"
+    },
+    {
+      "id": "sch-202602-eu-qf-2",
+      "date": "2026-02-01",
+      "time": "20:00",
+      "tournamentName": "2026 月赛 欧洲赛区 八强赛",
+      "teamA": "Team Heretics",
+      "teamB": "FUT Esports",
+      "category": "月赛",
+      "region": "欧洲",
+      "month": "2026-02",
+      "status": "ended"
+    },
+    {
+      "id": "sch-202602-eu-qf-3",
+      "date": "2026-02-01",
+      "time": "20:00",
+      "tournamentName": "2026 月赛 欧洲赛区 八强赛",
+      "teamA": "CMM",
+      "teamB": "FUT Esports",
+      "category": "月赛",
+      "region": "欧洲",
+      "month": "2026-02",
+      "status": "ended"
+    },
+    {
+      "id": "sch-202602-eu-qf-4",
+      "date": "2026-02-01",
+      "time": "20:00",
+      "tournamentName": "2026 月赛 欧洲赛区 八强赛",
+      "teamA": "HMBLE",
+      "teamB": "BIG",
+      "category": "月赛",
+      "region": "欧洲",
+      "month": "2026-02",
+      "status": "ended"
+    },
+    {
+      "id": "sch-202602-eu-sf-5",
+      "date": "2026-02-01",
+      "time": "20:00",
+      "tournamentName": "2026 月赛 欧洲赛区 半决赛",
+      "teamA": "Totem Esports",
+      "teamB": "Natus Vincere",
+      "category": "月赛",
+      "region": "欧洲",
+      "month": "2026-02",
+      "status": "ended"
+    },
+    {
+      "id": "sch-202602-eu-sf-6",
+      "date": "2026-02-01",
+      "time": "20:00",
+      "tournamentName": "2026 月赛 欧洲赛区 半决赛",
+      "teamA": "HMBLE",
+      "teamB": "Totem Esports",
+      "category": "月赛",
+      "region": "欧洲",
+      "month": "2026-02",
+      "status": "ended"
+    },
+    {
+      "id": "sch-202602-eu-final-7",
+      "date": "2026-02-01",
+      "time": "20:00",
+      "tournamentName": "2026 月赛 欧洲赛区 总决赛",
+      "teamA": "FUT Esports",
+      "teamB": "HMBLE",
+      "category": "月赛",
+      "region": "欧洲",
+      "month": "2026-02",
+      "status": "ended"
+    },
+    {
+      "id": "sch-202602-cn-qf-1",
+      "date": "2026-03-07",
+      "time": "20:00",
+      "tournamentName": "2026 月赛 大陆赛区 二月 八强赛",
+      "teamA": "遥想公瑾当年",
+      "teamB": "Toxic Lotus",
+      "category": "月赛",
+      "region": "大陆",
+      "month": "2026-03",
+      "status": "ended"
+    },
+    {
+      "id": "sch-202602-cn-qf-2",
+      "date": "2026-03-07",
+      "time": "20:00",
+      "tournamentName": "2026 月赛 大陆赛区 二月 八强赛",
+      "teamA": "Reverso Hive",
+      "teamB": "IrisOut",
+      "category": "月赛",
+      "region": "大陆",
+      "month": "2026-03",
+      "status": "ended"
+    },
+    {
+      "id": "sch-202602-cn-sf-3",
+      "date": "2026-03-07",
+      "time": "20:00",
+      "tournamentName": "2026 月赛 大陆赛区 二月 半决赛",
+      "teamA": "Toxic Lotus",
+      "teamB": "Reverso Hive",
+      "category": "月赛",
+      "region": "大陆",
+      "month": "2026-03",
+      "status": "ended"
+    },
+    {
+      "id": "sch-202602-cn-qf-4",
+      "date": "2026-03-07",
+      "time": "20:00",
+      "tournamentName": "2026 月赛 大陆赛区 二月 八强赛",
+      "teamA": "TIG Revival",
+      "teamB": "Ace Xero",
+      "category": "月赛",
+      "region": "大陆",
+      "month": "2026-03",
+      "status": "ended"
+    },
+    {
+      "id": "sch-202602-cn-qf-5",
+      "date": "2026-03-07",
+      "time": "20:00",
+      "tournamentName": "2026 月赛 大陆赛区 二月 八强赛",
+      "teamA": "Nihilum",
+      "teamB": "TOC (Team)",
+      "category": "月赛",
+      "region": "大陆",
+      "month": "2026-03",
+      "status": "ended"
+    },
+    {
+      "id": "sch-202602-cn-sf-6",
+      "date": "2026-03-07",
+      "time": "20:00",
+      "tournamentName": "2026 月赛 大陆赛区 二月 半决赛",
+      "teamA": "Ace Xero",
+      "teamB": "TOC (Team)",
+      "category": "月赛",
+      "region": "大陆",
+      "month": "2026-03",
+      "status": "ended"
+    },
+    {
+      "id": "sch-202602-cn-final-7",
+      "date": "2026-03-07",
+      "time": "20:00",
+      "tournamentName": "2026 月赛 大陆赛区 二月 总决赛",
+      "teamA": "Toxic Lotus",
+      "teamB": "Ace Xero",
+      "category": "月赛",
+      "region": "大陆",
+      "month": "2026-03",
+      "status": "ended"
+    },
+    {
+      "id": "sch-202606-cn-qf-1",
+      "date": "2026-06-13",
+      "time": "20:00",
+      "tournamentName": "2026 月赛 大陆赛区 六月 八强赛",
+      "teamA": "Toxic Lotus",
+      "teamB": "SMDY",
+      "category": "月赛",
+      "region": "大陆",
+      "month": "2026-06",
+      "status": "ended"
+    },
+    {
+      "id": "sch-202606-cn-qf-2",
+      "date": "2026-06-13",
+      "time": "20:00",
+      "tournamentName": "2026 月赛 大陆赛区 六月 八强赛",
+      "teamA": "Last Hope Fire",
+      "teamB": "Dark Spirit",
+      "category": "月赛",
+      "region": "大陆",
+      "month": "2026-06",
+      "status": "ended"
+    },
+    {
+      "id": "sch-202606-cn-sf-3",
+      "date": "2026-06-13",
+      "time": "20:00",
+      "tournamentName": "2026 月赛 大陆赛区 六月 半决赛",
+      "teamA": "Toxic Lotus",
+      "teamB": "Dark Spirit",
+      "category": "月赛",
+      "region": "大陆",
+      "month": "2026-06",
+      "status": "ended"
+    },
+    {
+      "id": "sch-202606-cn-qf-4",
+      "date": "2026-06-13",
+      "time": "20:00",
+      "tournamentName": "2026 月赛 大陆赛区 六月 八强赛",
+      "teamA": "Ace Xero",
+      "teamB": "IrisOut",
+      "category": "月赛",
+      "region": "大陆",
+      "month": "2026-06",
+      "status": "ended"
+    },
+    {
+      "id": "sch-202606-cn-qf-5",
+      "date": "2026-06-13",
+      "time": "20:00",
+      "tournamentName": "2026 月赛 大陆赛区 六月 八强赛",
+      "teamA": "TIG Revival",
+      "teamB": "TOC (Team)",
+      "category": "月赛",
+      "region": "大陆",
+      "month": "2026-06",
+      "status": "ended"
+    },
+    {
+      "id": "sch-202606-cn-sf-6",
+      "date": "2026-06-13",
+      "time": "20:00",
+      "tournamentName": "2026 月赛 大陆赛区 六月 半决赛",
+      "teamA": "Ace Xero",
+      "teamB": "TOC (Team)",
+      "category": "月赛",
+      "region": "大陆",
+      "month": "2026-06",
+      "status": "ended"
+    },
+    {
+      "id": "sch-202606-cn-final-7",
+      "date": "2026-06-13",
+      "time": "20:00",
+      "tournamentName": "2026 月赛 大陆赛区 六月 总决赛",
+      "teamA": "Toxic Lotus",
+      "teamB": "TOC (Team)",
+      "category": "月赛",
+      "region": "大陆",
+      "month": "2026-06",
+      "status": "ended"
+    }
+  ],
+  "heroTournamentStats": [
+    {
+      "heroId": "莫提斯",
+      "month": "2026-02",
+      "role": "射手",
+      "pickRate": 0.2642,
+      "banRate": 0,
+      "winRate": 0.6429,
+      "pickCount": 14,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Hard Rock Mine": 0.5,
+        "Goldarm Gulch": 0.16666666666666666,
+        "Ring of Fire": 0.14285714285714285,
+        "Double Swoosh": 1.0,
+        "Super Beach": 0.14285714285714285,
+        "Layer Cake": 0.5,
+        "Deathcap Trap": 0.5,
+        "Sneaky Fields": 0.5,
+        "Shooting Star": 0.5,
+        "Open Business": 0.5
+      }
+    },
+    {
+      "heroId": "查莉",
+      "month": "2026-02",
+      "role": "辅助",
+      "pickRate": 0.1321,
+      "banRate": 0,
+      "winRate": 0.5714,
+      "pickCount": 7,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Hard Rock Mine": 0.5,
+        "Ring of Fire": 0.2857142857142857,
+        "Bridge Too Far": 0.16666666666666666,
+        "Belle's Rock": 0.5
+      }
+    },
+    {
+      "heroId": "特朗克",
+      "month": "2026-02",
+      "role": "战士",
+      "pickRate": 0.0755,
+      "banRate": 0,
+      "winRate": 0.75,
+      "pickCount": 4,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Hard Rock Mine": 0.5,
+        "Double Swoosh": 0.3333333333333333
+      }
+    },
+    {
+      "heroId": "沙迪",
+      "month": "2026-02",
+      "role": "射手",
+      "pickRate": 0.1321,
+      "banRate": 0,
+      "winRate": 0.4286,
+      "pickCount": 7,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Hard Rock Mine": 0.3333333333333333,
+        "Super Beach": 0.42857142857142855,
+        "Double Swoosh": 0.3333333333333333,
+        "Deathcap Trap": 0.5
+      }
+    },
+    {
+      "heroId": "凯特",
+      "month": "2026-02",
+      "role": "辅助",
+      "pickRate": 0.0189,
+      "banRate": 0,
+      "winRate": 0.0,
+      "pickCount": 1,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Hard Rock Mine": 0.16666666666666666
+      }
+    },
+    {
+      "heroId": "莉莉",
+      "month": "2026-02",
+      "role": "战士",
+      "pickRate": 0.0943,
+      "banRate": 0,
+      "winRate": 0.4,
+      "pickCount": 5,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Hard Rock Mine": 0.3333333333333333,
+        "Double Swoosh": 0.3333333333333333,
+        "Layer Cake": 0.5,
+        "Bridge Too Far": 0.16666666666666666
+      }
+    },
+    {
+      "heroId": "皮尔斯",
+      "month": "2026-02",
+      "role": "战士",
+      "pickRate": 0.3208,
+      "banRate": 0,
+      "winRate": 0.4118,
+      "pickCount": 17,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Super Beach": 0.42857142857142855,
+        "Ring of Fire": 0.42857142857142855,
+        "Goldarm Gulch": 0.5,
+        "Bridge Too Far": 0.3333333333333333,
+        "Safe Zone": 0.5,
+        "Layer Cake": 1.0,
+        "Sneaky Fields": 0.5,
+        "Pinhole Punt": 0.25,
+        "Open Business": 0.5
+      }
+    },
+    {
+      "heroId": "格里夫",
+      "month": "2026-02",
+      "role": "辅助",
+      "pickRate": 0.0377,
+      "banRate": 0,
+      "winRate": 0.5,
+      "pickCount": 2,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Super Beach": 0.2857142857142857
+      }
+    },
+    {
+      "heroId": "科迪琉斯",
+      "month": "2026-02",
+      "role": "战士",
+      "pickRate": 0.1887,
+      "banRate": 0,
+      "winRate": 0.5,
+      "pickCount": 10,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Super Beach": 0.5714285714285714,
+        "Bridge Too Far": 0.3333333333333333,
+        "Safe Zone": 0.5,
+        "Belle's Rock": 0.5,
+        "Layer Cake": 0.5,
+        "Sneaky Fields": 0.5
+      }
+    },
+    {
+      "heroId": "弗兰肯",
+      "month": "2026-02",
+      "role": "战士",
+      "pickRate": 0.283,
+      "banRate": 0,
+      "winRate": 0.4,
+      "pickCount": 15,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Super Beach": 0.5714285714285714,
+        "Goldarm Gulch": 0.16666666666666666,
+        "Shooting Star": 0.5,
+        "Double Swoosh": 0.3333333333333333,
+        "Ring of Fire": 0.42857142857142855,
+        "Hard Rock Mine": 0.3333333333333333,
+        "Open Business": 0.5,
+        "Sneaky Fields": 1.0
+      }
+    },
+    {
+      "heroId": "米宝",
+      "month": "2026-02",
+      "role": "战士",
+      "pickRate": 0.1698,
+      "banRate": 0,
+      "winRate": 0.1111,
+      "pickCount": 9,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Super Beach": 0.42857142857142855,
+        "Pinhole Punt": 0.75,
+        "Goldarm Gulch": 0.16666666666666666,
+        "Ring of Fire": 0.14285714285714285,
+        "Layer Cake": 0.5
+      }
+    },
+    {
+      "heroId": "吉恩",
+      "month": "2026-02",
+      "role": "战士",
+      "pickRate": 0.0943,
+      "banRate": 0,
+      "winRate": 0.8,
+      "pickCount": 5,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Goldarm Gulch": 0.5,
+        "Shooting Star": 0.5,
+        "Layer Cake": 0.5
+      }
+    },
+    {
+      "heroId": "瑞科",
+      "month": "2026-02",
+      "role": "战士",
+      "pickRate": 0.1509,
+      "banRate": 0,
+      "winRate": 0.625,
+      "pickCount": 8,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Goldarm Gulch": 0.3333333333333333,
+        "Pinhole Punt": 0.25,
+        "Hard Rock Mine": 0.5,
+        "Belle's Rock": 0.5,
+        "Sneaky Fields": 0.5
+      }
+    },
+    {
+      "heroId": "凯泽",
+      "month": "2026-02",
+      "role": "战士",
+      "pickRate": 0.0755,
+      "banRate": 0,
+      "winRate": 0.75,
+      "pickCount": 4,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Goldarm Gulch": 0.16666666666666666,
+        "Safe Zone": 1.0,
+        "Open Business": 0.5
+      }
+    },
+    {
+      "heroId": "贝尔",
+      "month": "2026-02",
+      "role": "射手",
+      "pickRate": 0.0943,
+      "banRate": 0,
+      "winRate": 0.2,
+      "pickCount": 5,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Goldarm Gulch": 0.3333333333333333,
+        "Bridge Too Far": 0.16666666666666666,
+        "Belle's Rock": 0.5,
+        "Safe Zone": 0.5
+      }
+    },
+    {
+      "heroId": "米娜",
+      "month": "2026-02",
+      "role": "战士",
+      "pickRate": 0.3019,
+      "banRate": 0,
+      "winRate": 0.8125,
+      "pickCount": 16,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Goldarm Gulch": 0.16666666666666666,
+        "Super Beach": 0.2857142857142857,
+        "Ring of Fire": 0.5714285714285714,
+        "Shooting Star": 0.5,
+        "Pinhole Punt": 0.75,
+        "Open Business": 0.5,
+        "Bridge Too Far": 0.16666666666666666,
+        "Layer Cake": 0.5,
+        "Deathcap Trap": 0.5,
+        "Sneaky Fields": 0.5
+      }
+    },
+    {
+      "heroId": "薇洛",
+      "month": "2026-02",
+      "role": "辅助",
+      "pickRate": 0.0377,
+      "banRate": 0,
+      "winRate": 0.5,
+      "pickCount": 2,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Super Beach": 0.14285714285714285,
+        "Layer Cake": 0.5
+      }
+    },
+    {
+      "heroId": "雪莉",
+      "month": "2026-02",
+      "role": "战士",
+      "pickRate": 0.1698,
+      "banRate": 0,
+      "winRate": 0.5556,
+      "pickCount": 9,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Super Beach": 0.5714285714285714,
+        "Double Swoosh": 0.3333333333333333,
+        "Deathcap Trap": 0.5,
+        "Hard Rock Mine": 0.3333333333333333,
+        "Sneaky Fields": 0.5
+      }
+    },
+    {
+      "heroId": "斯派克",
+      "month": "2026-02",
+      "role": "战士",
+      "pickRate": 0.3208,
+      "banRate": 0,
+      "winRate": 0.5294,
+      "pickCount": 17,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Goldarm Gulch": 0.3333333333333333,
+        "Double Swoosh": 0.6666666666666666,
+        "Bridge Too Far": 0.16666666666666666,
+        "Hard Rock Mine": 0.5,
+        "Super Beach": 0.2857142857142857,
+        "Belle's Rock": 0.5,
+        "Open Business": 1.0,
+        "Ring of Fire": 0.14285714285714285,
+        "Pinhole Punt": 0.5,
+        "Deathcap Trap": 0.5
+      }
+    },
+    {
+      "heroId": "格雷",
+      "month": "2026-02",
+      "role": "辅助",
+      "pickRate": 0.1509,
+      "banRate": 0,
+      "winRate": 0.25,
+      "pickCount": 8,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Goldarm Gulch": 0.6666666666666666,
+        "Shooting Star": 0.5,
+        "Hard Rock Mine": 0.16666666666666666,
+        "Ring of Fire": 0.14285714285714285,
+        "Belle's Rock": 0.5
+      }
+    },
+    {
+      "heroId": "道格",
+      "month": "2026-02",
+      "role": "辅助",
+      "pickRate": 0.0377,
+      "banRate": 0,
+      "winRate": 0.5,
+      "pickCount": 2,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Goldarm Gulch": 0.16666666666666666,
+        "Double Swoosh": 0.3333333333333333
+      }
+    },
+    {
+      "heroId": "琥珀",
+      "month": "2026-02",
+      "role": "辅助",
+      "pickRate": 0.1132,
+      "banRate": 0,
+      "winRate": 0.3333,
+      "pickCount": 6,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Ring of Fire": 0.42857142857142855,
+        "Bridge Too Far": 0.3333333333333333,
+        "Safe Zone": 0.5
+      }
+    },
+    {
+      "heroId": "艾魅",
+      "month": "2026-02",
+      "role": "辅助",
+      "pickRate": 0.0377,
+      "banRate": 0,
+      "winRate": 1.0,
+      "pickCount": 2,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Ring of Fire": 0.2857142857142857
+      }
+    },
+    {
+      "heroId": "拜伦",
+      "month": "2026-02",
+      "role": "辅助",
+      "pickRate": 0.1132,
+      "banRate": 0,
+      "winRate": 0.6667,
+      "pickCount": 6,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Shooting Star": 1.0,
+        "Goldarm Gulch": 0.16666666666666666,
+        "Belle's Rock": 1.0,
+        "Safe Zone": 0.5
+      }
+    },
+    {
+      "heroId": "拉夫上校",
+      "month": "2026-02",
+      "role": "辅助",
+      "pickRate": 0.1132,
+      "banRate": 0,
+      "winRate": 0.3333,
+      "pickCount": 6,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Shooting Star": 0.5,
+        "Layer Cake": 0.5,
+        "Goldarm Gulch": 0.16666666666666666,
+        "Ring of Fire": 0.14285714285714285,
+        "Deathcap Trap": 0.5,
+        "Sneaky Fields": 0.5
+      }
+    },
+    {
+      "heroId": "莫",
+      "month": "2026-02",
+      "role": "战士",
+      "pickRate": 0.1132,
+      "banRate": 0,
+      "winRate": 0.6667,
+      "pickCount": 6,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Pinhole Punt": 0.5,
+        "Super Beach": 0.42857142857142855,
+        "Hard Rock Mine": 0.16666666666666666
+      }
+    },
+    {
+      "heroId": "齐吉",
+      "month": "2026-02",
+      "role": "战士",
+      "pickRate": 0.0189,
+      "banRate": 0,
+      "winRate": 1.0,
+      "pickCount": 1,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Pinhole Punt": 0.25
+      }
+    },
+    {
+      "heroId": "塔拉",
+      "month": "2026-02",
+      "role": "射手",
+      "pickRate": 0.0943,
+      "banRate": 0,
+      "winRate": 0.4,
+      "pickCount": 5,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Pinhole Punt": 0.25,
+        "Hard Rock Mine": 0.3333333333333333,
+        "Deathcap Trap": 0.5,
+        "Double Swoosh": 0.3333333333333333
+      }
+    },
+    {
+      "heroId": "布洛克",
+      "month": "2026-02",
+      "role": "射手",
+      "pickRate": 0.0755,
+      "banRate": 0,
+      "winRate": 0.75,
+      "pickCount": 4,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Goldarm Gulch": 0.3333333333333333,
+        "Bridge Too Far": 0.3333333333333333
+      }
+    },
+    {
+      "heroId": "RT",
+      "month": "2026-02",
+      "role": "战士",
+      "pickRate": 0.0943,
+      "banRate": 0,
+      "winRate": 0.8,
+      "pickCount": 5,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Goldarm Gulch": 0.6666666666666666,
+        "Belle's Rock": 0.5
+      }
+    },
+    {
+      "heroId": "安杰洛",
+      "month": "2026-02",
+      "role": "射手",
+      "pickRate": 0.0377,
+      "banRate": 0,
+      "winRate": 0.5,
+      "pickCount": 2,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Goldarm Gulch": 0.3333333333333333
+      }
+    },
+    {
+      "heroId": "波克",
+      "month": "2026-02",
+      "role": "辅助",
+      "pickRate": 0.0943,
+      "banRate": 0,
+      "winRate": 0.4,
+      "pickCount": 5,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Ring of Fire": 0.14285714285714285,
+        "Pinhole Punt": 0.25,
+        "Sneaky Fields": 1.0,
+        "Super Beach": 0.14285714285714285
+      }
+    },
+    {
+      "heroId": "帕姆",
+      "month": "2026-02",
+      "role": "射手",
+      "pickRate": 0.0943,
+      "banRate": 0,
+      "winRate": 0.6,
+      "pickCount": 5,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Ring of Fire": 0.42857142857142855,
+        "Hard Rock Mine": 0.16666666666666666,
+        "Deathcap Trap": 0.5
+      }
+    },
+    {
+      "heroId": "梅格",
+      "month": "2026-02",
+      "role": "坦克",
+      "pickRate": 0.0189,
+      "banRate": 0,
+      "winRate": 0.0,
+      "pickCount": 1,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Ring of Fire": 0.14285714285714285
+      }
+    },
+    {
+      "heroId": "科莱特",
+      "month": "2026-02",
+      "role": "战士",
+      "pickRate": 0.0189,
+      "banRate": 0,
+      "winRate": 0.0,
+      "pickCount": 1,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Ring of Fire": 0.14285714285714285
+      }
+    },
+    {
+      "heroId": "查克",
+      "month": "2026-02",
+      "role": "战士",
+      "pickRate": 0.0566,
+      "banRate": 0,
+      "winRate": 0.3333,
+      "pickCount": 3,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Bridge Too Far": 0.5
+      }
+    },
+    {
+      "heroId": "梅洛迪",
+      "month": "2026-02",
+      "role": "战士",
+      "pickRate": 0.0566,
+      "banRate": 0,
+      "winRate": 0.6667,
+      "pickCount": 3,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Bridge Too Far": 0.16666666666666666,
+        "Ring of Fire": 0.14285714285714285,
+        "Safe Zone": 0.5
+      }
+    },
+    {
+      "heroId": "阿利",
+      "month": "2026-02",
+      "role": "战士",
+      "pickRate": 0.1509,
+      "banRate": 0,
+      "winRate": 0.375,
+      "pickCount": 8,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Hard Rock Mine": 0.3333333333333333,
+        "Ring of Fire": 0.2857142857142857,
+        "Bridge Too Far": 0.16666666666666666,
+        "Double Swoosh": 0.3333333333333333,
+        "Pinhole Punt": 0.25,
+        "Layer Cake": 0.5
+      }
+    },
+    {
+      "heroId": "麦克斯",
+      "month": "2026-02",
+      "role": "坦克",
+      "pickRate": 0.0566,
+      "banRate": 0,
+      "winRate": 1.0,
+      "pickCount": 3,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Super Beach": 0.2857142857142857,
+        "Double Swoosh": 0.3333333333333333
+      }
+    },
+    {
+      "heroId": "德拉科",
+      "month": "2026-02",
+      "role": "坦克",
+      "pickRate": 0.0377,
+      "banRate": 0,
+      "winRate": 1.0,
+      "pickCount": 2,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Ring of Fire": 0.2857142857142857
+      }
+    },
+    {
+      "heroId": "芬克斯",
+      "month": "2026-02",
+      "role": "战士",
+      "pickRate": 0.0755,
+      "banRate": 0,
+      "winRate": 0.25,
+      "pickCount": 4,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Ring of Fire": 0.42857142857142855,
+        "Pinhole Punt": 0.25
+      }
+    },
+    {
+      "heroId": "卢米",
+      "month": "2026-02",
+      "role": "战士",
+      "pickRate": 0.0377,
+      "banRate": 0,
+      "winRate": 0.5,
+      "pickCount": 2,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Ring of Fire": 0.14285714285714285,
+        "Open Business": 0.5
+      }
+    },
+    {
+      "heroId": "米科",
+      "month": "2026-02",
+      "role": "战士",
+      "pickRate": 0.0189,
+      "banRate": 0,
+      "winRate": 0.0,
+      "pickCount": 1,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Bridge Too Far": 0.16666666666666666
+      }
+    },
+    {
+      "heroId": "8比特",
+      "month": "2026-02",
+      "role": "射手",
+      "pickRate": 0.0943,
+      "banRate": 0,
+      "winRate": 0.6,
+      "pickCount": 5,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Bridge Too Far": 0.6666666666666666,
+        "Hard Rock Mine": 0.16666666666666666
+      }
+    },
+    {
+      "heroId": "卡尔",
+      "month": "2026-02",
+      "role": "射手",
+      "pickRate": 0.0755,
+      "banRate": 0,
+      "winRate": 0.75,
+      "pickCount": 4,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Bridge Too Far": 0.3333333333333333,
+        "Safe Zone": 0.5,
+        "Pinhole Punt": 0.25
+      }
+    },
+    {
+      "heroId": "奥蒂斯",
+      "month": "2026-02",
+      "role": "辅助",
+      "pickRate": 0.1887,
+      "banRate": 0,
+      "winRate": 0.6,
+      "pickCount": 10,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Super Beach": 0.14285714285714285,
+        "Pinhole Punt": 0.75,
+        "Double Swoosh": 0.3333333333333333,
+        "Bridge Too Far": 0.6666666666666666,
+        "Ring of Fire": 0.14285714285714285
+      }
+    },
+    {
+      "heroId": "柯尔特",
+      "month": "2026-02",
+      "role": "射手",
+      "pickRate": 0.0377,
+      "banRate": 0,
+      "winRate": 0.5,
+      "pickCount": 2,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Safe Zone": 1.0
+      }
+    },
+    {
+      "heroId": "奥利",
+      "month": "2026-02",
+      "role": "战士",
+      "pickRate": 0.0377,
+      "banRate": 0,
+      "winRate": 0.0,
+      "pickCount": 2,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Belle's Rock": 0.5,
+        "Shooting Star": 0.5
+      }
+    },
+    {
+      "heroId": "格斯",
+      "month": "2026-02",
+      "role": "辅助",
+      "pickRate": 0.1132,
+      "banRate": 0,
+      "winRate": 0.3333,
+      "pickCount": 6,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Belle's Rock": 1.0,
+        "Hard Rock Mine": 0.16666666666666666,
+        "Goldarm Gulch": 0.3333333333333333,
+        "Shooting Star": 0.5
+      }
+    },
+    {
+      "heroId": "健次",
+      "month": "2026-02",
+      "role": "战士",
+      "pickRate": 0.1132,
+      "banRate": 0,
+      "winRate": 0.3333,
+      "pickCount": 6,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Pinhole Punt": 0.5,
+        "Open Business": 1.0,
+        "Hard Rock Mine": 0.16666666666666666,
+        "Super Beach": 0.14285714285714285
+      }
+    },
+    {
+      "heroId": "小罗",
+      "month": "2026-02",
+      "role": "辅助",
+      "pickRate": 0.0377,
+      "banRate": 0,
+      "winRate": 0.0,
+      "pickCount": 2,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Open Business": 0.5,
+        "Ring of Fire": 0.14285714285714285
+      }
+    },
+    {
+      "heroId": "斯图",
+      "month": "2026-02",
+      "role": "战士",
+      "pickRate": 0.0377,
+      "banRate": 0,
+      "winRate": 0.5,
+      "pickCount": 2,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Deathcap Trap": 0.5,
+        "Ring of Fire": 0.14285714285714285
+      }
+    },
+    {
+      "heroId": "沙德",
+      "month": "2026-02",
+      "role": "战士",
+      "pickRate": 0.0755,
+      "banRate": 0,
+      "winRate": 0.5,
+      "pickCount": 4,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Deathcap Trap": 1.0,
+        "Hard Rock Mine": 0.16666666666666666,
+        "Super Beach": 0.14285714285714285
+      }
+    },
+    {
+      "heroId": "妮塔",
+      "month": "2026-02",
+      "role": "战士",
+      "pickRate": 0.0189,
+      "banRate": 0,
+      "winRate": 0.0,
+      "pickCount": 1,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Sneaky Fields": 0.5
+      }
+    },
+    {
+      "heroId": "汉克",
+      "month": "2026-02",
+      "role": "坦克",
+      "pickRate": 0.0189,
+      "banRate": 0,
+      "winRate": 0.0,
+      "pickCount": 1,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Super Beach": 0.14285714285714285
+      }
+    },
+    {
+      "heroId": "格尔",
+      "month": "2026-02",
+      "role": "战士",
+      "pickRate": 0.0189,
+      "banRate": 0,
+      "winRate": 1.0,
+      "pickCount": 1,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Super Beach": 0.14285714285714285
+      }
+    },
+    {
+      "heroId": "艾尔·普里莫",
+      "month": "2026-02",
+      "role": "坦克",
+      "pickRate": 0.0189,
+      "banRate": 0,
+      "winRate": 1.0,
+      "pickCount": 1,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Super Beach": 0.14285714285714285
+      }
+    },
+    {
+      "heroId": "纳妮",
+      "month": "2026-02",
+      "role": "射手",
+      "pickRate": 0.0943,
+      "banRate": 0,
+      "winRate": 0.2,
+      "pickCount": 5,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Bridge Too Far": 0.6666666666666666,
+        "Shooting Star": 0.5
+      }
+    },
+    {
+      "heroId": "朱朱",
+      "month": "2026-02",
+      "role": "投弹手",
+      "pickRate": 0.0566,
+      "banRate": 0,
+      "winRate": 0.0,
+      "pickCount": 3,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Bridge Too Far": 0.16666666666666666,
+        "Super Beach": 0.14285714285714285,
+        "Layer Cake": 0.5
+      }
+    },
+    {
+      "heroId": "伊芙",
+      "month": "2026-02",
+      "role": "战士",
+      "pickRate": 0.0189,
+      "banRate": 0,
+      "winRate": 1.0,
+      "pickCount": 1,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Bridge Too Far": 0.16666666666666666
+      }
+    },
+    {
+      "heroId": "佩佩",
+      "month": "2026-02",
+      "role": "辅助",
+      "pickRate": 0.0377,
+      "banRate": 0,
+      "winRate": 0.5,
+      "pickCount": 2,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Shooting Star": 0.5,
+        "Goldarm Gulch": 0.16666666666666666
+      }
+    },
+    {
+      "heroId": "珍妮特",
+      "month": "2026-02",
+      "role": "射手",
+      "pickRate": 0.0189,
+      "banRate": 0,
+      "winRate": 0.0,
+      "pickCount": 1,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Double Swoosh": 0.3333333333333333
+      }
+    },
+    {
+      "heroId": "切斯特",
+      "month": "2026-02",
+      "role": "战士",
+      "pickRate": 0.0189,
+      "banRate": 0,
+      "winRate": 0.0,
+      "pickCount": 1,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Double Swoosh": 0.3333333333333333
+      }
+    },
+    {
+      "heroId": "黑鸦",
+      "month": "2026-02",
+      "role": "坦克",
+      "pickRate": 0.0943,
+      "banRate": 0,
+      "winRate": 0.8,
+      "pickCount": 5,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Double Swoosh": 0.3333333333333333,
+        "Hard Rock Mine": 0.16666666666666666,
+        "Safe Zone": 0.5,
+        "Pinhole Punt": 0.25,
+        "Open Business": 0.5
+      }
+    },
+    {
+      "heroId": "史魁克",
+      "month": "2026-02",
+      "role": "辅助",
+      "pickRate": 0.0189,
+      "banRate": 0,
+      "winRate": 0.0,
+      "pickCount": 1,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Goldarm Gulch": 0.16666666666666666
+      }
+    },
+    {
+      "heroId": "罗莎",
+      "month": "2026-02",
+      "role": "坦克",
+      "pickRate": 0.0189,
+      "banRate": 0,
+      "winRate": 0.0,
+      "pickCount": 1,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Ring of Fire": 0.14285714285714285
+      }
+    },
+    {
+      "heroId": "贝亚",
+      "month": "2026-02",
+      "role": "射手",
+      "pickRate": 0.0189,
+      "banRate": 0,
+      "winRate": 0.0,
+      "pickCount": 1,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Ring of Fire": 0.14285714285714285
+      }
+    },
+    {
+      "heroId": "达里尔",
+      "month": "2026-02",
+      "role": "射手",
+      "pickRate": 0.0189,
+      "banRate": 0,
+      "winRate": 1.0,
+      "pickCount": 1,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Bridge Too Far": 0.16666666666666666
+      }
+    },
+    {
+      "heroId": "潘妮",
+      "month": "2026-02",
+      "role": "射手",
+      "pickRate": 0.0189,
+      "banRate": 0,
+      "winRate": 1.0,
+      "pickCount": 1,
+      "banCount": 0,
+      "matchCount": 53,
+      "mapRates": {
+        "Deathcap Trap": 0.5
+      }
+    }
+  ],
+  "metaTrends": [
+    {
+      "month": "2026-02",
+      "topHeroes": [
+        {
+          "heroId": "皮尔斯",
+          "pickRate": 0.3208,
+          "banRate": 0
+        },
+        {
+          "heroId": "斯派克",
+          "pickRate": 0.3208,
+          "banRate": 0
+        },
+        {
+          "heroId": "米娜",
+          "pickRate": 0.3019,
+          "banRate": 0
+        },
+        {
+          "heroId": "弗兰肯",
+          "pickRate": 0.283,
+          "banRate": 0
+        },
+        {
+          "heroId": "莫提斯",
+          "pickRate": 0.2642,
+          "banRate": 0
+        },
+        {
+          "heroId": "科迪琉斯",
+          "pickRate": 0.1887,
+          "banRate": 0
+        },
+        {
+          "heroId": "奥蒂斯",
+          "pickRate": 0.1887,
+          "banRate": 0
+        },
+        {
+          "heroId": "米宝",
+          "pickRate": 0.1698,
+          "banRate": 0
+        },
+        {
+          "heroId": "雪莉",
+          "pickRate": 0.1698,
+          "banRate": 0
+        },
+        {
+          "heroId": "瑞科",
+          "pickRate": 0.1509,
+          "banRate": 0
+        }
+      ],
+      "unusedHeroes": [
+        "P先生",
+        "克兰西",
+        "公牛",
+        "吉吉",
+        "在荣",
+        "娜吉娅",
+        "山姆",
+        "巴兹",
+        "巴利",
+        "巴斯光年",
+        "巴斯特",
+        "拉里和劳里",
+        "星诺娃",
+        "曼迪",
+        "杰西",
+        "格洛薇",
+        "格罗姆",
+        "比比",
+        "爆破麦克",
+        "珀尔",
+        "瑟奇",
+        "艾德加",
+        "芽芽",
+        "萝拉",
+        "西里斯",
+        "贝瑞",
+        "达米安",
+        "迪克",
+        "邦妮",
+        "里昂",
+        "阿拾",
+        "阿方",
+        "阿渤",
+        "雅琪",
+        "麦茜"
+      ]
+    },
+    {
+      "month": "2026-03",
+      "topHeroes": [],
+      "unusedHeroes": [
+        "8比特",
+        "P先生",
+        "RT",
+        "伊芙",
+        "佩佩",
+        "健次",
+        "克兰西",
+        "公牛",
+        "凯泽",
+        "凯特",
+        "切斯特",
+        "卡尔",
+        "卢米",
+        "史魁克",
+        "吉吉",
+        "吉恩",
+        "在荣",
+        "塔拉",
+        "奥利",
+        "奥蒂斯",
+        "妮塔",
+        "娜吉娅",
+        "安杰洛",
+        "小罗",
+        "山姆",
+        "巴兹",
+        "巴利",
+        "巴斯光年",
+        "巴斯特",
+        "布洛克",
+        "帕姆",
+        "弗兰肯",
+        "德拉科",
+        "拉夫上校",
+        "拉里和劳里",
+        "拜伦",
+        "斯图",
+        "斯派克",
+        "星诺娃",
+        "曼迪",
+        "朱朱",
+        "杰西",
+        "查克",
+        "查莉",
+        "柯尔特",
+        "格尔",
+        "格斯",
+        "格洛薇",
+        "格罗姆",
+        "格里夫",
+        "格雷",
+        "梅格",
+        "梅洛迪",
+        "比比",
+        "汉克",
+        "沙德",
+        "沙迪",
+        "波克",
+        "潘妮",
+        "爆破麦克",
+        "特朗克",
+        "珀尔",
+        "珍妮特",
+        "琥珀",
+        "瑞科",
+        "瑟奇",
+        "皮尔斯",
+        "科莱特",
+        "科迪琉斯",
+        "米娜",
+        "米宝",
+        "米科",
+        "纳妮",
+        "罗莎",
+        "艾尔·普里莫",
+        "艾德加",
+        "艾魅",
+        "芬克斯",
+        "芽芽",
+        "莉莉",
+        "莫",
+        "莫提斯",
+        "萝拉",
+        "薇洛",
+        "西里斯",
+        "贝亚",
+        "贝尔",
+        "贝瑞",
+        "达米安",
+        "达里尔",
+        "迪克",
+        "道格",
+        "邦妮",
+        "里昂",
+        "阿利",
+        "阿拾",
+        "阿方",
+        "阿渤",
+        "雅琪",
+        "雪莉",
+        "麦克斯",
+        "麦茜",
+        "黑鸦",
+        "齐吉"
+      ]
+    },
+    {
+      "month": "2026-06",
+      "topHeroes": [],
+      "unusedHeroes": [
+        "8比特",
+        "P先生",
+        "RT",
+        "伊芙",
+        "佩佩",
+        "健次",
+        "克兰西",
+        "公牛",
+        "凯泽",
+        "凯特",
+        "切斯特",
+        "卡尔",
+        "卢米",
+        "史魁克",
+        "吉吉",
+        "吉恩",
+        "在荣",
+        "塔拉",
+        "奥利",
+        "奥蒂斯",
+        "妮塔",
+        "娜吉娅",
+        "安杰洛",
+        "小罗",
+        "山姆",
+        "巴兹",
+        "巴利",
+        "巴斯光年",
+        "巴斯特",
+        "布洛克",
+        "帕姆",
+        "弗兰肯",
+        "德拉科",
+        "拉夫上校",
+        "拉里和劳里",
+        "拜伦",
+        "斯图",
+        "斯派克",
+        "星诺娃",
+        "曼迪",
+        "朱朱",
+        "杰西",
+        "查克",
+        "查莉",
+        "柯尔特",
+        "格尔",
+        "格斯",
+        "格洛薇",
+        "格罗姆",
+        "格里夫",
+        "格雷",
+        "梅格",
+        "梅洛迪",
+        "比比",
+        "汉克",
+        "沙德",
+        "沙迪",
+        "波克",
+        "潘妮",
+        "爆破麦克",
+        "特朗克",
+        "珀尔",
+        "珍妮特",
+        "琥珀",
+        "瑞科",
+        "瑟奇",
+        "皮尔斯",
+        "科莱特",
+        "科迪琉斯",
+        "米娜",
+        "米宝",
+        "米科",
+        "纳妮",
+        "罗莎",
+        "艾尔·普里莫",
+        "艾德加",
+        "艾魅",
+        "芬克斯",
+        "芽芽",
+        "莉莉",
+        "莫",
+        "莫提斯",
+        "萝拉",
+        "薇洛",
+        "西里斯",
+        "贝亚",
+        "贝尔",
+        "贝瑞",
+        "达米安",
+        "达里尔",
+        "迪克",
+        "道格",
+        "邦妮",
+        "里昂",
+        "阿利",
+        "阿拾",
+        "阿方",
+        "阿渤",
+        "雅琪",
+        "雪莉",
+        "麦克斯",
+        "麦茜",
+        "黑鸦",
+        "齐吉"
+      ]
+    }
+  ]
+}

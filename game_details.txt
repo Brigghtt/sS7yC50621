@@ -1,0 +1,36 @@
+games count 5
+--- game 0 ---
+blue heroes: [None, None, None]
+red heroes: [None, None, None, None, None, None]
+thumbs count 2
+  thumbs text:  | ['brkts-popup-body-element-thumbs', 'brkts-champion-icon']
+  thumbs text:  | ['brkts-popup-body-element-thumbs', 'brkts-champion-icon', 'brkts-popup-body-element-thumbs-right']
+game text: 2 | Hard Rock Mine | 0
+--- game 1 ---
+blue heroes: [None, None, None]
+red heroes: [None, None, None, None, None, None]
+thumbs count 2
+  thumbs text:  | ['brkts-popup-body-element-thumbs', 'brkts-champion-icon']
+  thumbs text:  | ['brkts-popup-body-element-thumbs', 'brkts-champion-icon', 'brkts-popup-body-element-thumbs-right']
+game text: 2 | Super Beach | 1
+--- game 2 ---
+blue heroes: [None, None, None]
+red heroes: [None, None, None, None, None, None]
+thumbs count 2
+  thumbs text:  | ['brkts-popup-body-element-thumbs', 'brkts-champion-icon']
+  thumbs text:  | ['brkts-popup-body-element-thumbs', 'brkts-champion-icon', 'brkts-popup-body-element-thumbs-right']
+game text: 2 | Goldarm Gulch | 0
+--- game 3 ---
+blue heroes: []
+red heroes: []
+thumbs count 2
+  thumbs text:  | ['brkts-popup-body-element-thumbs', 'brkts-champion-icon']
+  thumbs text:  | ['brkts-popup-body-element-thumbs', 'brkts-champion-icon', 'brkts-popup-body-element-thumbs-right']
+game text: Ring of Fire
+--- game 4 ---
+blue heroes: []
+red heroes: []
+thumbs count 2
+  thumbs text:  | ['brkts-popup-body-element-thumbs', 'brkts-champion-icon']
+  thumbs text:  | ['brkts-popup-body-element-thumbs', 'brkts-champion-icon', 'brkts-popup-body-element-thumbs-right']
+game text: Bridge Too Far

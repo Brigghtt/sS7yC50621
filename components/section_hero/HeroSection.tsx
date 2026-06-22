@@ -5,9 +5,19 @@ import { heroList } from '@/lib/data';
 
 // 英雄卡片组件
 function HeroCard({ name, avatarUrl }: { name: string; avatarUrl: string }) {
+  // 雪莉、柯尔特替换为高清 portrait 图，需要放大裁剪以匹配其他头像的展示区域
+  const isPortraitAvatar = name === '雪莉' || name === '柯尔特';
   return (
     <div className="relative w-full aspect-[3/2] border-3 border-black rounded-lg overflow-visible bg-white cursor-pointer transition-all duration-300 hover:scale-110 hover:shadow-[0_10px_30px_rgba(255,213,0,0.4)] hover:z-10 hover:border-[#FFD500]">
-      <img src={avatarUrl} alt={name} className="w-full h-full object-cover" />
+      <div className="w-full h-full overflow-hidden rounded-lg">
+        <img
+          src={avatarUrl}
+          alt={name}
+          className={`w-full h-full object-cover ${
+            isPortraitAvatar ? 'scale-[1.5] object-[center_25%]' : ''
+          }`}
+        />
+      </div>
       <div
         className="absolute top-[-14px] right-[-4px] bg-gradient-to-r from-blue-600 to-blue-500 text-white font-bold px-3 py-1 text-sm border-2 border-black transition-all duration-300 hover:from-[#FFD500] hover:to-[#FFC300] hover:text-black"
         style={{ clipPath: 'polygon(10% 0, 100% 0, 100% 100%, 0% 100%)' }}

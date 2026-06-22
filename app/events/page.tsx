@@ -8,17 +8,18 @@ type CategoryFilter = TournamentCategory | '全部';
 type RegionFilter = TournamentRegion | '全部';
 type SubFilter = '全部' | '小组赛' | '淘汰赛';
 type RoundFilter = EliminationRound | '全部';
+type MonthFilter = string | '全部';
 
 function TeamLogo({ src, alt, className }: { src?: string; alt: string; className?: string }) {
   const [error, setError] = useState(false);
   if (!src || error) {
-    return <div className={`rounded-full bg-white/10 ${className || ''}`} />;
+    return <div className={`rounded-xl bg-white/10 ${className || ''}`} />;
   }
   return (
     <img
       src={src}
       alt={alt}
-      className={`rounded-full object-contain bg-white/5 ${className || ''}`}
+      className={`rounded-xl object-contain p-0.5 bg-white/[0.08] border border-white/[0.1] brightness-150 contrast-110 drop-shadow-[0_0_5px_rgba(255,255,255,0.15)] ${className || ''}`}
       onError={() => setError(true)}
     />
   );
@@ -29,6 +30,7 @@ export default function EventsPage() {
   const [region, setRegion] = useState<RegionFilter>('全部');
   const [sub, setSub] = useState<SubFilter>('全部');
   const [round, setRound] = useState<RoundFilter>('全部');
+  const [month, setMonth] = useState<MonthFilter>('全部');
 
   const categories: { key: CategoryFilter; label: string }[] = [
     { key: '全部', label: '全部' },
@@ -40,7 +42,8 @@ export default function EventsPage() {
 
   const regions: RegionFilter[] = ['全部', '欧洲', '东亚', '大陆'];
   const subs: SubFilter[] = ['全部', '小组赛', '淘汰赛'];
-  const rounds: RoundFilter[] = ['全部', '八强赛', '四强赛', '半决赛', '总决赛'];
+  const rounds: RoundFilter[] = ['全部', '八强赛', '半决赛', '总决赛'];
+  const months: MonthFilter[] = ['全部', '2025-10', '2025-11', '2026-02', '2026-03', '2026-04', '2026-05', '2026-06'];
 
   const filtered = useMemo(() => {
     return tournaments.filter(t => {
@@ -48,13 +51,15 @@ export default function EventsPage() {
       if (region !== '全部' && t.region !== region) return false;
       if (sub !== '全部' && t.subCategory !== sub) return false;
       if (round !== '全部' && t.eliminationRound !== round) return false;
+      if (month !== '全部' && !t.date.startsWith(month)) return false;
       return true;
     });
-  }, [category, region, sub, round]);
+  }, [category, region, sub, round, month]);
 
   const showRegion = category === '月赛' || category === '全部';
   const showSub = category !== '全部';
   const showRound = sub === '淘汰赛' || (sub === '全部' && category !== '全部');
+  const showMonth = category === '月赛' || category === '全部';
 
   const getCategoryColor = (c: string) => {
     const map: Record<string, string> = {
@@ -97,7 +102,7 @@ export default function EventsPage() {
             {categories.map(c => (
               <button
                 key={c.key}
-                onClick={() => { setCategory(c.key); setSub('全部'); setRound('全部'); }}
+                onClick={() => { setCategory(c.key); setSub('全部'); setRound('全部'); setMonth('全部'); }}
                 className={`px-5 py-2 rounded-full font-bold transition-all duration-300 ${
                   category === c.key
                     ? 'bg-[#FFD500] text-[#1A3A8A] shadow-lg scale-105'
@@ -108,6 +113,26 @@ export default function EventsPage() {
               </button>
             ))}
           </div>
+
+          {/* 月份筛选（月赛/全部时显示） */}
+          {showMonth && (
+            <div className="flex flex-wrap gap-3">
+              <span className="text-sm font-bold text-white/50 py-2">月份:</span>
+              {months.map(m => (
+                <button
+                  key={m}
+                  onClick={() => setMonth(m)}
+                  className={`px-4 py-1.5 rounded-full text-sm font-bold transition-all duration-300 ${
+                    month === m
+                      ? 'bg-white/25 text-white border border-white/30'
+                      : 'bg-white/5 text-white/60 hover:bg-white/10 border border-transparent'
+                  }`}
+                >
+                  {m}
+                </button>
+              ))}
+            </div>
+          )}
 
           {/* 赛区筛选（月赛/全部时显示） */}
           {showRegion && (

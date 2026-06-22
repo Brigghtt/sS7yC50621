@@ -66,7 +66,7 @@ export const heroList: Hero[] = [
 // -------------------- 3. 赛事档案（新版） --------------------
 export type TournamentCategory = 'LCQ' | '全球总决赛' | 'brawlcup' | '月赛';
 export type TournamentRegion = '欧洲' | '东亚' | '大陆';
-export type EliminationRound = '八强赛' | '四强赛' | '半决赛' | '总决赛';
+export type EliminationRound = '全部' | '八强赛' | '四强赛' | '半决赛' | '总决赛';
 export type SubCategory = '小组赛' | '淘汰赛';
 
 export interface MatchGame {
@@ -74,6 +74,24 @@ export interface MatchGame {
   mode: string;
   teamA: { heroes: string[]; win: boolean };
   teamB: { heroes: string[]; win: boolean };
+}
+
+export interface GroupStageTeam {
+  name: string;
+  nameEn: string;
+  logo: string;
+  rank: number;
+  weekWins: number[];
+  weekLosses: number[];
+  weekScores: number[];
+  totalWins: number;
+  totalLosses: number;
+  totalScoreDiff: number;
+}
+
+export interface GroupStageGroup {
+  name: string;
+  teams: GroupStageTeam[];
 }
 
 export interface Tournament {
@@ -92,6 +110,7 @@ export interface Tournament {
   winner: 'A' | 'B';
   matches: MatchGame[];
   videoUrl?: string;
+  groupStage?: GroupStageGroup[];
 }
 
 import liquipediaData from './liquipediaTournaments.json';
@@ -104,7 +123,7 @@ export interface Team {
   name: string;
   nameEn: string;
   logo: string;
-  region: TournamentRegion;
+  region: TournamentRegion | null;
   founded: string;
   style: string[];
   history: { event: string; result: string; date: string }[];
@@ -112,200 +131,39 @@ export interface Team {
   stats: { totalKills: number; avgDamage: number; winRate: number };
 }
 
-export const teams: Team[] = [
-  {
-    id: 'zeta',
-    name: 'ZETA DIVISION',
-    nameEn: 'ZETA DIVISION',
-    logo: '/teams/zeta-division.png',
-    region: '东亚',
-    founded: '2021',
-    style: ['擅长乱斗足球', '偏好双射手体系', '快节奏推进'],
-    history: [
-      { event: '2025 BSC 全球总决赛', result: '冠军', date: '2025-11' },
-      { event: '2025 月赛 东亚赛区', result: '冠军', date: '2025-06' },
-    ],
-    players: ['zeta-achapi', 'zeta-sitetampo', 'zeta-mameshi'],
-    stats: { totalKills: 1248, avgDamage: 18500, winRate: 0.72 },
-  },
-  {
-    id: 'stmn',
-    name: 'STMN Esports',
-    nameEn: 'STMN Esports',
-    logo: '/teams/stmn.png',
-    region: '欧洲',
-    founded: '2020',
-    style: ['擅长宝石争霸', '稳健控图', '后期发力'],
-    history: [
-      { event: '2025 BSC 全球总决赛', result: '亚军', date: '2025-11' },
-      { event: '2025 LCQ 欧洲赛区', result: '亚军', date: '2025-09' },
-    ],
-    players: ['stmn-tensai', 'stmn-bobby', 'stmn-moya'],
-    stats: { totalKills: 1156, avgDamage: 17200, winRate: 0.68 },
-  },
-  {
-    id: 'nova-cn',
-    name: 'Nova China',
-    nameEn: 'Nova China',
-    logo: '/teams/nova.png',
-    region: '大陆',
-    founded: '2022',
-    style: ['擅长乱斗足球', '近战突脸', '国服霸主'],
-    history: [
-      { event: '2025 BrawlCup 大陆赛区', result: '冠军', date: '2025-07' },
-      { event: '2025 月赛 大陆赛区', result: '冠军', date: '2025-05' },
-    ],
-    players: ['nova-xiaoming', 'nova-dawei', 'nova-lei'],
-    stats: { totalKills: 980, avgDamage: 16000, winRate: 0.65 },
-  },
-  {
-    id: 'tig',
-    name: 'TIG',
-    nameEn: 'TIG',
-    logo: '/teams/tig.png',
-    region: '大陆',
-    founded: '2023',
-    style: ['擅长赏金猎人', '远程消耗', '阵地战'],
-    history: [
-      { event: '2025 BrawlCup 大陆赛区', result: '亚军', date: '2025-07' },
-      { event: '2025 月赛 大陆赛区', result: '亚军', date: '2025-05' },
-    ],
-    players: ['tig-oldcat', 'tig-k', 'tig-007'],
-    stats: { totalKills: 920, avgDamage: 15800, winRate: 0.62 },
-  },
-  {
-    id: 'sk',
-    name: 'SK Gaming',
-    nameEn: 'SK Gaming',
-    logo: '/teams/sk-gaming.png',
-    region: '欧洲',
-    founded: '2019',
-    style: ['擅长乱斗足球', '欧洲老牌', '团战配合'],
-    history: [
-      { event: '2025 LCQ 欧洲赛区', result: '四强', date: '2025-09' },
-    ],
-    players: ['sk-klaus', 'sk-ryan', 'sk-josh'],
-    stats: { totalKills: 850, avgDamage: 16200, winRate: 0.60 },
-  },
-  {
-    id: 'cr',
-    name: 'Crazy Raccoon',
-    nameEn: 'Crazy Raccoon',
-    logo: '/teams/crazy-raccoon.png',
-    region: '东亚',
-    founded: '2022',
-    style: ['擅长宝石争霸', '灵活变阵', '快节奏'],
-    history: [
-      { event: '2025 月赛 东亚赛区', result: '亚军', date: '2025-06' },
-    ],
-    players: ['cr-ak', 'cr-tn', 'cr-ryo'],
-    stats: { totalKills: 780, avgDamage: 15500, winRate: 0.58 },
-  },
-];
+import liquipediaTeamsData from './liquipediaTeams.json';
+import liquipediaPlayersData from './liquipediaPlayers.json';
+
+export const teams: Team[] = liquipediaTeamsData as unknown as Team[];
+
+// teams 数据由 scripts/fetch_liquipedia_esports.py 生成并写入 liquipediaTeams.json
+// 如需补充静态信息，请修改脚本或编辑 JSON
 
 // -------------------- 5. 选手（新增赛区字段） --------------------
 export interface Player {
   id: string;
   name: string;
+  nameEn: string;
+  realName?: string;       // 真实姓名（来自 Portal:Players）
   teamId: string;
-  region: TournamentRegion;
-  role: '指挥' | '输出' | '辅助';
+  region: TournamentRegion | null;
+  nationality: string;
+  born: string;
+  status: string;
+  role: string;
+  currentTeam: string;
+  totalWinnings: string;
+  portrait: string;
+  teamHistory: { team: string; startDate: string | null; endDate: string | null }[];
   topHeroes: string[];
   stats: { totalKills: number; avgDamage: number; winRate: number; matches: number };
+  links?: { platform: string; url: string }[];  // 社交/直播链接
 }
 
-export const players: Player[] = [
-  {
-    id: 'zeta-achapi',
-    name: 'Achapi',
-    teamId: 'zeta',
-    region: '东亚',
-    role: '输出',
-    topHeroes: ['柯尔特', '布洛克', '瑞克', '贝亚', '塔拉'],
-    stats: { totalKills: 420, avgDamage: 21000, winRate: 0.74, matches: 56 },
-  },
-  {
-    id: 'zeta-sitetampo',
-    name: 'Sitetampo',
-    teamId: 'zeta',
-    region: '东亚',
-    role: '指挥',
-    topHeroes: ['雪莉', '公牛', '达里尔', '罗莎', '艾尔·普里莫'],
-    stats: { totalKills: 380, avgDamage: 19500, winRate: 0.76, matches: 56 },
-  },
-  {
-    id: 'zeta-mameshi',
-    name: 'Mameshi',
-    teamId: 'zeta',
-    region: '东亚',
-    role: '辅助',
-    topHeroes: ['波克', '杰西', '帕姆', 'P先生', '芽芽'],
-    stats: { totalKills: 290, avgDamage: 15000, winRate: 0.71, matches: 52 },
-  },
-  {
-    id: 'nova-xiaoming',
-    name: '小明',
-    teamId: 'nova-cn',
-    region: '大陆',
-    role: '输出',
-    topHeroes: ['柯尔特', '麦克斯', '8比特', '斯派克', '吉恩'],
-    stats: { totalKills: 310, avgDamage: 18500, winRate: 0.68, matches: 48 },
-  },
-  {
-    id: 'nova-dawei',
-    name: '大伟',
-    teamId: 'nova-cn',
-    region: '大陆',
-    role: '指挥',
-    topHeroes: ['雪莉', '公牛', '罗莎', '达里尔', '艾尔·普里莫'],
-    stats: { totalKills: 280, avgDamage: 17500, winRate: 0.66, matches: 48 },
-  },
-  {
-    id: 'tig-oldcat',
-    name: '老猫',
-    teamId: 'tig',
-    region: '大陆',
-    role: '辅助',
-    topHeroes: ['波克', '杰西', '帕姆', 'P先生', '芽芽'],
-    stats: { totalKills: 240, avgDamage: 14500, winRate: 0.64, matches: 45 },
-  },
-  {
-    id: 'tig-k',
-    name: 'K',
-    teamId: 'tig',
-    region: '大陆',
-    role: '输出',
-    topHeroes: ['柯尔特', '布洛克', '贝亚', '瑞克', '塔拉'],
-    stats: { totalKills: 260, avgDamage: 16800, winRate: 0.63, matches: 45 },
-  },
-  {
-    id: 'stmn-tensai',
-    name: 'Tensai',
-    teamId: 'stmn',
-    region: '欧洲',
-    role: '指挥',
-    topHeroes: ['柯尔特', '布洛克', '瑞克', '贝亚', '塔拉'],
-    stats: { totalKills: 350, avgDamage: 19000, winRate: 0.70, matches: 50 },
-  },
-  {
-    id: 'sk-klaus',
-    name: 'Klaus',
-    teamId: 'sk',
-    region: '欧洲',
-    role: '输出',
-    topHeroes: ['雪莉', '公牛', '达里尔', '麦克斯', '罗莎'],
-    stats: { totalKills: 280, avgDamage: 16500, winRate: 0.62, matches: 42 },
-  },
-  {
-    id: 'cr-ak',
-    name: 'AK',
-    teamId: 'cr',
-    region: '东亚',
-    role: '输出',
-    topHeroes: ['柯尔特', '8比特', '贝亚', '斯派克', '吉恩'],
-    stats: { totalKills: 260, avgDamage: 16000, winRate: 0.60, matches: 40 },
-  },
-];
+export const players: Player[] = liquipediaPlayersData as unknown as Player[];
+
+// players 数据由 scripts/fetch_liquipedia_esports.py 生成并写入 liquipediaPlayers.json
+// 如需补充静态信息，请修改脚本或编辑 JSON
 
 // -------------------- 6. 赛程（新增分类和月份） --------------------
 export interface ScheduleItem {
@@ -381,39 +239,73 @@ export const mapList: MapItem[] = [
   { id: 6, name: "千柱之地", bg: "/PromoArt/image6.png" },
 ];
 
-// -------------------- 11. 英雄详情（保持不变） --------------------
-export interface Skill {
-  name: string;
-  desc: string;
-  icon: string;
+// -------------------- 11. 赛事资产映射（英雄头像 / 模式图标 / 地图背景 / 地图翻译） --------------------
+import { heroDetailsData } from './heroDetails';
+import { mapNameCnMap } from './mapTranslations';
+
+/** 英雄中文名 -> 大头头像路径 */
+export const heroAvatarMap: Record<string, string> = {};
+for (const h of Object.values(heroDetailsData)) {
+  if (h.name && h.avatar) {
+    heroAvatarMap[h.name] = h.avatar;
+  }
 }
 
-export interface HeroDetail {
-  name: string;
-  role: string;
-  desc: string;
-  image: string;
-  bgImage: string;
-  avatar: string;
-  skills: Skill[];
-  story: string;
-}
-
-export const heroDetailData: Record<string, HeroDetail> = {
-  "1": {
-    name: "雪莉",
-    role: "战士",
-    desc: "雪莉是荒野乱斗的新手入门战士，拿着一把霰弹枪闯荡荒野。性格爽朗直率，近距离爆发伤害极高，是新手最友好的英雄。",
-    image: "/Sprite/xueli.webp",
-    bgImage: "/Usedinheroes/bg/1.png",
-    avatar: "/HeroAvatars/xueli.png",
-    skills: [
-      { name: "大口径散弹枪", desc: "雪莉的霰弹枪可大范围射出多枚射程较短的弹丸，命中敌人的弹丸越多，造成伤害越高", icon: "/Usedinheroes/skills/skill0.png" },
-      { name: "超级霰弹", desc: "雪莉的超级霰弹可以摧毁掩体直击敌人。被命中的敌人即使未被击倒也会被击退。", icon: "/Usedinheroes/skills/skill01.png" },
-      { name: "震荡射击", desc: "雪莉的超级霰弹可使敌人的移动速度降低，持续2秒", icon: "/heroes/skill3.png" },
-      { name: "快速包扎", desc: "雪莉的生命值降至40%以下时，将立即恢复一定生命值。快速包扎触发间隔为15秒", icon: "/heroes/skill4.png" }
-    ],
-    story: "雪莉从小在荒野长大，习惯用霰弹枪解决一切麻烦，性格火爆仗义，是荒野里人人都认识的大姐头。"
-  },
-  // ... 其余英雄详情保持不变（省略以节省篇幅，你原有数据直接保留）
+/** 模式中文名 -> 图标路径（本地优先，缺失模式回退到 Brawlify CDN） */
+export const modeIconMap: Record<string, string> = {
+  '宝石争霸': '/Usedinmode/icon/gemgrab.png',
+  '乱斗足球': '/Usedinmode/icon/brawlball.png',
+  '赏金猎人': '/Usedinmode/icon/bounty.png',
+  '乱斗淘汰赛': '/Usedinmode/icon/knockout.png',
+  '荒野决斗': '/Usedinmode/icon/showdown.png',
+  '乱斗篮球': '/Usedinmode/icon/basketbrawl.png',
+  '围歼': '/Usedinmode/icon/wipeout.png',
+  '车轮擂台赛': '/Usedinmode/icon/duels.png',
+  '金库攻防': 'https://cdn.brawlify.com/game-modes/regular/48000002.png',
+  '积分争夺赛': 'https://cdn.brawlify.com/game-modes/regular/48000017.png',
+  '乱斗冰球': 'https://cdn.brawlify.com/game-modes/regular/48000045.png',
+  '乱斗竞技场': 'https://cdn.brawlify.com/game-modes/regular/48000048.png',
+  '5对5宝石争霸': 'https://cdn.brawlify.com/game-modes/regular/48000033.png',
+  '5对5乱斗足球': 'https://cdn.brawlify.com/game-modes/regular/48000032.png',
+  '5对5乱斗淘汰赛': 'https://cdn.brawlify.com/game-modes/regular/48000035.png',
 };
+
+/** 模式中文名 -> 背景 GIF 路径 */
+export const modeBgMap: Record<string, string> = {
+  '宝石争霸': '/Usedinmode/gem_grab.gif',
+  '乱斗足球': '/Usedinmode/brawl_ball.gif',
+  '赏金猎人': '/Usedinmode/bounty.gif',
+  '金库攻防': '/Usedinmode/heist.gif',
+  '积分争夺赛': '/Usedinmode/hot_zone.gif',
+  '乱斗淘汰赛': '/Usedinmode/knockout.gif',
+  '荒野决斗': '/Usedinmode/showdown.gif',
+  '乱斗篮球': '/Usedinmode/basket_brawl.gif',
+  '排球乱斗': '/Usedinmode/volley_brawl.gif',
+  '奖杯大盗': '/Usedinmode/trophy_thieves.gif',
+  '夺杯飞逃': '/Usedinmode/hold_the_trophy.gif',
+  '围歼': '/Usedinmode/wipeout.gif',
+  '首领之战': '/Usedinmode/big_game.gif',
+  '机甲入侵': '/Usedinmode/robo_rumble.gif',
+  '机甲攻坚战': '/Usedinmode/siege.gif',
+  '礼物狂欢': '/Usedinmode/present_plunder.gif',
+  '车轮擂台赛': '/Usedinmode/duels.gif',
+  '乱斗冰球': '/Usedinmode/brawl_hockey.gif',
+};
+
+/** 地图名 -> 背景图路径（暂无逐地图素材，回退到模式背景） */
+export const mapImageMap: Record<string, string> = {};
+export function getMapImage(mapName: string, modeName?: string): string {
+  if (mapImageMap[mapName]) return mapImageMap[mapName];
+  if (modeName && modeBgMap[modeName]) return modeBgMap[modeName];
+  return '/PromoArt/image2.png';
+}
+
+/** 根据英雄中文名获取头像（找不到时返回空） */
+export function getHeroAvatar(heroName: string): string {
+  return heroAvatarMap[heroName] || '';
+}
+
+/** 把英文地图名翻译成 Supercell 官方中文（未命中返回原名） */
+export function translateMapName(mapName: string): string {
+  return mapNameCnMap[mapName] || mapName;
+}

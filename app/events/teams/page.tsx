@@ -3,21 +3,17 @@
 import Link from 'next/link';
 import { teams, type TournamentRegion } from '@/lib/data/esports';
 import { useState, useMemo } from 'react';
+import Breadcrumb from '@/components/esports/Breadcrumb';
+import PageHeader from '@/components/esports/PageHeader';
+import FilterPill from '@/components/esports/FilterPill';
+import TeamLogo from '@/components/esports/TeamLogo';
+import StatCard from '@/components/esports/StatCard';
 
-function TeamLogo({ src, alt, className }: { src?: string; alt: string; className?: string }) {
-  const [error, setError] = useState(false);
-  if (!src || error) {
-    return <div className={`rounded-xl bg-white/10 border border-white/20 flex items-center justify-center text-2xl font-black text-white/30 ${className || ''}`}>{alt[0]}</div>;
-  }
-  return (
-    <img
-      src={src}
-      alt={alt}
-      className={`rounded-xl object-contain bg-white/5 border border-white/10 ${className || ''}`}
-      onError={() => setError(true)}
-    />
-  );
-}
+const REGION_LABELS: Record<string, string> = {
+  '欧洲': '🇪🇺 欧洲赛区',
+  '东亚': '🌏 东亚赛区',
+  '大陆': '🇨🇳 大陆赛区',
+};
 
 export default function TeamsPage() {
   const [region, setRegion] = useState<TournamentRegion | '全部'>('全部');
@@ -29,75 +25,96 @@ export default function TeamsPage() {
   }, [region]);
 
   return (
-    <main className="min-h-screen pt-32 pb-16 bg-gradient-to-b from-[#154BCD] to-[#0f2a8a]">
-      <div className="max-w-7xl mx-auto px-6">
-        {/* 面包屑 */}
-        <div className="flex items-center gap-3 mb-6">
-          <Link href="/events" className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-white/10 border border-white/10 text-sm font-bold text-white hover:bg-[#FFD500] hover:text-[#1A3A8A] hover:border-[#FFD500] transition-all duration-300">
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" /></svg>
-            返回赛事中心
-          </Link>
-          <span className="text-white/30">/</span>
-          <span className="text-sm font-bold text-white/60">战队档案</span>
-        </div>
+    <main className="min-h-screen pt-28 pb-20">
+      {/* 背景 — 与首页同款模糊海报图 */}
+      <div className="fixed inset-0 -z-10 overflow-hidden pointer-events-none">
+        <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: 'url(/PromoArt/image6.png)', filter: 'blur(12px) brightness(0.25) saturate(0.5)', transform: 'scale(1.1)' }} />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/40" />
+        <div className="absolute top-20 right-1/4 w-[400px] h-[400px] bg-[#FFD500]/[0.03] rounded-full blur-[100px]" />
+      </div>
 
-        <h1 className="text-4xl md:text-5xl font-black text-[#FFD500] mb-6 drop-shadow-lg">战队档案</h1>
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6">
+        <Breadcrumb items={[{ label: '战队档案' }]} />
+        <PageHeader title="战队档案" subtitle="职业战队战绩与选手阵容" icon="🛡️" />
 
         {/* 赛区筛选 */}
-        <div className="flex flex-wrap gap-3 mb-8">
+        <div className="flex flex-wrap gap-2 mb-8">
           {regions.map(r => (
-            <button
+            <FilterPill
               key={r}
+              label={r === '全部' ? '全部赛区' : REGION_LABELS[r] || r}
+              active={region === r}
               onClick={() => setRegion(r)}
-              className={`px-5 py-2 rounded-full font-bold transition-all duration-300 ${
-                region === r
-                  ? 'bg-[#FFD500] text-[#1A3A8A] shadow-lg scale-105'
-                  : 'bg-white/10 text-white hover:bg-white/20'
-              }`}
-            >
-              {r}
-            </button>
+            />
           ))}
         </div>
-        
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filtered.map(team => (
-            <Link
-              key={team.id}
-              href={`/events/teams/${team.id}`}
-              className="group bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-6 hover:border-[#FFD500]/50 hover:bg-white/10 transition-all duration-300 hover:-translate-y-1"
-            >
-              <div className="flex items-center gap-4 mb-4">
-                <TeamLogo src={team.logo} alt={team.name} className="w-16 h-16" />
-                <div>
-                  <h3 className="text-xl font-black text-white group-hover:text-[#FFD500] transition-colors">{team.name}</h3>
-                  <p className="text-xs text-white/50 font-bold">{team.nameEn} · {team.region}赛区</p>
+
+        {filtered.length === 0 ? (
+          <div className="text-center py-24">
+            <div className="text-5xl mb-4 opacity-30">👀</div>
+            <div className="text-white/45 font-bold text-lg">该赛区暂无战队数据</div>
+          </div>
+        ) : (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
+            {filtered.map((team, idx) => (
+              <Link
+                key={team.id}
+                href={`/events/teams/${team.id}`}
+                className="group relative overflow-hidden rounded-2xl bg-black/35 backdrop-blur-2xl border border-white/[0.1] p-5 hover:border-[#FFD500]/30 hover:bg-black/45 transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(0,0,0,0.4)] shadow-[0_4px_24px_rgba(0,0,0,0.35)]"
+                style={{ animationDelay: `${idx * 80}ms`, animation: 'fadeInUp 0.4s cubic-bezier(0.22,0.61,0.36,1) forwards', opacity: 0 }}
+              >
+                <div className="absolute inset-0 bg-gradient-to-b from-[#FFD500]/0 to-[#FFD500]/[0.02] opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
+
+                <div className="relative">
+                  {/* 头部：Logo + 名称 */}
+                  <div className="flex items-center gap-4 mb-4">
+                    <TeamLogo src={team.logo} alt={team.name} size="md" />
+                    <div className="min-w-0">
+                      <h3 className="text-lg font-black text-white group-hover:text-[#FFD500] transition-colors duration-300 truncate">
+                        {team.name}
+                      </h3>
+                      <p className="text-xs text-white/45 font-medium">{team.nameEn}</p>
+                      <p className="text-[10px] text-[#FFD500]/50 font-bold mt-0.5 uppercase tracking-wider">
+                        {team.region || '未知'} 赛区
+                      </p>
+                    </div>
+                  </div>
+
+                  {/* 风格标签 */}
+                  <div className="flex flex-wrap gap-1.5 mb-4">
+                    {(team.style || []).map(s => (
+                      <span key={s} className="px-2 py-0.5 rounded-md bg-white/[0.08] border border-white/[0.08] text-[10px] font-bold text-white/60 group-hover:border-white/[0.12] transition-all">
+                        {s}
+                      </span>
+                    ))}
+                  </div>
+
+                  {/* 数据卡片 */}
+                  {(() => {
+                    const stats = team.stats || { winRate: 0, totalKills: 0, avgDamage: 0 };
+                    return (
+                      <div className="grid grid-cols-3 gap-1.5">
+                        <StatCard
+                          value={`${(stats.winRate * 100).toFixed(0)}%`}
+                          label="胜率"
+                          highlight
+                        />
+                        <StatCard
+                          value={String(stats.totalKills)}
+                          label="总击杀"
+                        />
+                        <StatCard
+                          value={String(stats.avgDamage)}
+                          label="场均伤害"
+                        />
+                      </div>
+                    );
+                  })()}
                 </div>
-              </div>
-              
-              <div className="flex flex-wrap gap-2 mb-4">
-                {team.style.map(s => (
-                  <span key={s} className="px-2 py-1 rounded-md bg-white/10 text-xs font-bold text-white/80">{s}</span>
-                ))}
-              </div>
-              
-              <div className="grid grid-cols-3 gap-2 text-center">
-                <div className="bg-black/20 rounded-lg p-2">
-                  <div className="text-lg font-black text-[#FFD500]">{(team.stats.winRate * 100).toFixed(0)}%</div>
-                  <div className="text-[10px] text-white/50 font-bold">胜率</div>
-                </div>
-                <div className="bg-black/20 rounded-lg p-2">
-                  <div className="text-lg font-black text-white">{team.stats.totalKills}</div>
-                  <div className="text-[10px] text-white/50 font-bold">总击杀</div>
-                </div>
-                <div className="bg-black/20 rounded-lg p-2">
-                  <div className="text-lg font-black text-white">{team.stats.avgDamage}</div>
-                  <div className="text-[10px] text-white/50 font-bold">场均伤害</div>
-                </div>
-              </div>
-            </Link>
-          ))}
-        </div>
+              </Link>
+            ))}
+          </div>
+        )}
       </div>
     </main>
   );

@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local tools / logs / backups
+cloudflared.exe
+*.log
+*.bak
+scripts/__pycache__/
+scripts/.cache/

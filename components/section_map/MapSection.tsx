@@ -286,19 +286,32 @@ export default function MapSection() {
   // 排位池全部不重复地图的累计数
   const totalRankedMapCount = rankedPools?.allMapNames.length ?? 0;
 
-  const filteredMaps = Array.isArray(dedupedAllMaps)
-    ? dedupedAllMaps.filter(map => {
-        const modeName = map.gameMode?.name;
-        if (!modeName || !(modeName in modeNameCnMap)) return false;
+  const filteredMaps = useMemo(() => {
+    return Array.isArray(dedupedAllMaps)
+      ? dedupedAllMaps.filter(map => {
+          const modeName = map.gameMode?.name;
+          if (!modeName || !(modeName in modeNameCnMap)) return false;
 
-        if (poolFilter === 'ranked') {
-          const modePool = rankedPools?.pools[modeName] ?? [];
-          if (!modePool.includes(map.name)) return false;
-        }
+          if (poolFilter === 'ranked') {
+            const modePool = rankedPools?.pools[modeName] ?? [];
+            if (!modePool.includes(map.name)) return false;
+          }
 
-        return modeName === selectedMode;
-      })
-    : [];
+          return modeName === selectedMode;
+        })
+      : [];
+  }, [dedupedAllMaps, poolFilter, rankedPools, selectedMode]);
+
+  // 收藏地图优先展示
+  const sortedFilteredMaps = useMemo(() => {
+    return [...filteredMaps].sort((a, b) => {
+      const aFav = favorites.includes(a.name);
+      const bFav = favorites.includes(b.name);
+      if (aFav && !bFav) return -1;
+      if (!aFav && bFav) return 1;
+      return 0;
+    });
+  }, [filteredMaps, favorites]);
 
   const isFavorited = (mapName: string) => favorites.includes(mapName);
 
@@ -465,7 +478,7 @@ export default function MapSection() {
         ) : (
           <div onWheel={(e) => e.stopPropagation()} className="flex-1 overflow-y-auto pr-3 overflow-x-hidden custom-scrollbar">
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-6 pb-12">
-              {filteredMaps.map((map) => {
+              {sortedFilteredMaps.map((map) => {
                 const isInRankedPool = rankedPools?.pools[map.gameMode?.name ?? '']?.includes(map.name) ?? false;
                 const favorited = isFavorited(map.name);
 
@@ -501,8 +514,8 @@ export default function MapSection() {
                         </span>
                       </div>
 
-                      <h4 className="font-black text-white text-xs sm:text-sm tracking-wide truncate px-1 group-hover:text-yellow-300 transition-colors" title={map.name}>
-                        {getMapNameCn(map.name)}
+                      <h4 className={`font-black text-xs sm:text-sm tracking-wide truncate px-1 transition-colors ${favorited ? 'text-yellow-400' : 'text-white group-hover:text-yellow-300'}`} title={map.name}>
+                        {favorited && '★ '}{getMapNameCn(map.name)}
                       </h4>
                     </div>
                   </div>

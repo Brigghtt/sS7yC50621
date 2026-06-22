@@ -58,7 +58,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "雪莉",
     "enName": "Shelly",
     "slug": "shelly",
-    "role": "战士",
+    "role": "输出",
     "class": "Damage Dealer",
     "rarity": {
       "name": "普通",
@@ -196,7 +196,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "柯尔特",
     "enName": "Colt",
     "slug": "colt",
-    "role": "射手",
+    "role": "输出",
     "class": "Damage Dealer",
     "rarity": {
       "name": "Rare",
@@ -324,7 +324,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "杰西",
     "enName": "Jessie",
     "slug": "jessie",
-    "role": "辅助",
+    "role": "控场",
     "class": "Controller",
     "rarity": {
       "name": "超稀有",
@@ -813,7 +813,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "8比特",
     "enName": "8-Bit",
     "slug": "8-bit",
-    "role": "射手",
+    "role": "输出",
     "class": "Damage Dealer",
     "rarity": {
       "name": "超稀有",
@@ -930,7 +930,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "艾魅",
     "enName": "Emz",
     "slug": "emz",
-    "role": "辅助",
+    "role": "控场",
     "class": "Controller",
     "rarity": {
       "name": "史诗",
@@ -1536,7 +1536,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "妮塔",
     "enName": "Nita",
     "slug": "nita",
-    "role": "战士",
+    "role": "输出",
     "class": "Damage Dealer",
     "rarity": {
       "name": "Rare",
@@ -1674,7 +1674,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "潘妮",
     "enName": "Penny",
     "slug": "penny",
-    "role": "射手",
+    "role": "控场",
     "class": "Artillery",
     "rarity": {
       "name": "超稀有",
@@ -1789,7 +1789,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "佩佩",
     "enName": "Piper",
     "slug": "piper",
-    "role": "辅助",
+    "role": "射手",
     "class": "Marksman",
     "rarity": {
       "name": "史诗",
@@ -1906,7 +1906,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "瑞科",
     "enName": "Rico",
     "slug": "rico",
-    "role": "战士",
+    "role": "输出",
     "class": "Damage Dealer",
     "rarity": {
       "name": "超稀有",
@@ -2023,7 +2023,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "斯派克",
     "enName": "Spike",
     "slug": "spike",
-    "role": "战士",
+    "role": "输出",
     "class": "Damage Dealer",
     "rarity": {
       "name": "传奇",
@@ -2161,7 +2161,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "阿渤",
     "enName": "Bo",
     "slug": "bo",
-    "role": "战士",
+    "role": "输出",
     "class": "Controller",
     "rarity": {
       "name": "史诗",
@@ -2403,7 +2403,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "达里尔",
     "enName": "Darryl",
     "slug": "darryl",
-    "role": "射手",
+    "role": "坦克",
     "class": "Tank",
     "rarity": {
       "name": "超稀有",
@@ -2520,7 +2520,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "卡尔",
     "enName": "Carl",
     "slug": "carl",
-    "role": "射手",
+    "role": "输出",
     "class": "Damage Dealer",
     "rarity": {
       "name": "超稀有",
@@ -2637,7 +2637,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "雅琪",
     "enName": "Jacky",
     "slug": "jacky",
-    "role": "战士",
+    "role": "坦克",
     "class": "Tank",
     "rarity": {
       "name": "超稀有",
@@ -2754,7 +2754,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "帕姆",
     "enName": "Pam",
     "slug": "pam",
-    "role": "射手",
+    "role": "辅助",
     "class": "Support",
     "rarity": {
       "name": "史诗",
@@ -2871,7 +2871,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "弗兰肯",
     "enName": "Frank",
     "slug": "frank",
-    "role": "战士",
+    "role": "坦克",
     "class": "Tank",
     "rarity": {
       "name": "史诗",
@@ -3009,7 +3009,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "比比",
     "enName": "Bibi",
     "slug": "bibi",
-    "role": "战士",
+    "role": "坦克",
     "class": "Tank",
     "rarity": {
       "name": "史诗",
@@ -3264,7 +3264,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "莫提斯",
     "enName": "Mortis",
     "slug": "mortis",
-    "role": "射手",
+    "role": "刺客",
     "class": "Assassin",
     "rarity": {
       "name": "神话",
@@ -3402,7 +3402,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "塔拉",
     "enName": "Tara",
     "slug": "tara",
-    "role": "射手",
+    "role": "输出",
     "class": "Damage Dealer",
     "rarity": {
       "name": "神话",
@@ -3519,7 +3519,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "吉恩",
     "enName": "Gene",
     "slug": "gene",
-    "role": "战士",
+    "role": "辅助",
     "class": "Controller",
     "rarity": {
       "name": "神话",
@@ -3636,7 +3636,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "麦克斯",
     "enName": "Max",
     "slug": "max",
-    "role": "坦克",
+    "role": "辅助",
     "class": "Support",
     "rarity": {
       "name": "神话",
@@ -3753,7 +3753,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "P先生",
     "enName": "Mr. P",
     "slug": "mr-p",
-    "role": "辅助",
+    "role": "控场",
     "class": "Controller",
     "rarity": {
       "name": "神话",
@@ -3857,7 +3857,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "芽芽",
     "enName": "Sprout",
     "slug": "sprout",
-    "role": "坦克",
+    "role": "投弹手",
     "class": "Artillery",
     "rarity": {
       "name": "神话",
@@ -3967,7 +3967,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "黑鸦",
     "enName": "Crow",
     "slug": "crow",
-    "role": "坦克",
+    "role": "刺客",
     "class": "Assassin",
     "rarity": {
       "name": "传奇",
@@ -4105,7 +4105,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "里昂",
     "enName": "Leon",
     "slug": "leon",
-    "role": "坦克",
+    "role": "刺客",
     "class": "Assassin",
     "rarity": {
       "name": "传奇",
@@ -4243,7 +4243,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "沙迪",
     "enName": "Sandy",
     "slug": "sandy",
-    "role": "射手",
+    "role": "控场",
     "class": "Controller",
     "rarity": {
       "name": "传奇",
@@ -4360,7 +4360,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "格尔",
     "enName": "Gale",
     "slug": "gale",
-    "role": "战士",
+    "role": "控场",
     "class": "Controller",
     "rarity": {
       "name": "史诗",
@@ -4594,7 +4594,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "瑟奇",
     "enName": "Surge",
     "slug": "surge",
-    "role": "战士",
+    "role": "输出",
     "class": "Damage Dealer",
     "rarity": {
       "name": "传奇",
@@ -4711,7 +4711,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "科莱特",
     "enName": "Colette",
     "slug": "colette",
-    "role": "战士",
+    "role": "输出",
     "class": "Damage Dealer",
     "rarity": {
       "name": "史诗",
@@ -4828,7 +4828,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "琥珀",
     "enName": "Amber",
     "slug": "amber",
-    "role": "辅助",
+    "role": "控场",
     "class": "Controller",
     "rarity": {
       "name": "传奇",
@@ -4945,7 +4945,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "小罗",
     "enName": "Lou",
     "slug": "lou",
-    "role": "辅助",
+    "role": "控场",
     "class": "Controller",
     "rarity": {
       "name": "神话",
@@ -5179,7 +5179,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "艾德加",
     "enName": "Edgar",
     "slug": "edgar",
-    "role": "战士",
+    "role": "刺客",
     "class": "Assassin",
     "rarity": {
       "name": "史诗",
@@ -5413,7 +5413,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "斯图",
     "enName": "Stu",
     "slug": "stu",
-    "role": "战士",
+    "role": "刺客",
     "class": "Assassin",
     "rarity": {
       "name": "史诗",
@@ -5647,7 +5647,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "史魁克",
     "enName": "Squeak",
     "slug": "squeak",
-    "role": "辅助",
+    "role": "控场",
     "class": "Controller",
     "rarity": {
       "name": "神话",
@@ -5881,7 +5881,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "巴兹",
     "enName": "Buzz",
     "slug": "buzz",
-    "role": "战士",
+    "role": "刺客",
     "class": "Assassin",
     "rarity": {
       "name": "神话",
@@ -5998,7 +5998,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "格里夫",
     "enName": "Griff",
     "slug": "griff",
-    "role": "辅助",
+    "role": "控场",
     "class": "Controller",
     "rarity": {
       "name": "史诗",
@@ -6349,7 +6349,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "萝拉",
     "enName": "Lola",
     "slug": "lola",
-    "role": "战士",
+    "role": "输出",
     "class": "Damage Dealer",
     "rarity": {
       "name": "史诗",
@@ -6466,7 +6466,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "阿方",
     "enName": "Fang",
     "slug": "fang",
-    "role": "战士",
+    "role": "刺客",
     "class": "Assassin",
     "rarity": {
       "name": "神话",
@@ -6583,7 +6583,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "伊芙",
     "enName": "Eve",
     "slug": "eve",
-    "role": "战士",
+    "role": "输出",
     "class": "Damage Dealer",
     "rarity": {
       "name": "神话",
@@ -6934,7 +6934,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "奥蒂斯",
     "enName": "Otis",
     "slug": "otis",
-    "role": "辅助",
+    "role": "控场",
     "class": "Controller",
     "rarity": {
       "name": "神话",
@@ -7051,7 +7051,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "山姆",
     "enName": "Sam",
     "slug": "sam",
-    "role": "战士",
+    "role": "刺客",
     "class": "Assassin",
     "rarity": {
       "name": "史诗",
@@ -7394,7 +7394,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "切斯特",
     "enName": "Chester",
     "slug": "chester",
-    "role": "战士",
+    "role": "输出",
     "class": "Damage Dealer",
     "rarity": {
       "name": "传奇",
@@ -7742,16 +7742,16 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
   "65": {
     "id": "65",
     "apiId": 16000066,
-    "name": "RT",
+    "name": "阿尔缇",
     "enName": "R-T",
     "slug": "r-t",
-    "role": "战士",
+    "role": "输出",
     "class": "Damage Dealer",
     "rarity": {
       "name": "神话",
       "color": "#fe5e72"
     },
-    "desc": "RT 被设计为一个有用的信息亭，但他还承担了监控斯塔尔公园内所有活动的任务。当然，出于安全考虑。",
+    "desc": "阿尔缇 被设计为一个有用的信息亭，但他还承担了监控斯塔尔公园内所有活动的任务。当然，出于安全考虑。",
     "story": "",
     "avatar": "/HeroAvatars/16000066.png",
     "image": "https://cdn.brawlify.com/brawlers/model/16000066.png",
@@ -7784,7 +7784,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
       {
         "id": 23000554,
         "name": "记录",
-        "desc": "RT 和他的腿在分裂时受到的伤害减少 <span style=\"color:#00cc00;\">x%</span>。",
+        "desc": "阿尔缇 和他的腿在分裂时受到的伤害减少 <span style=\"color:#00cc00;\">x%</span>。",
         "icon": "/starpowers/R-T/rt_starpower_02.png"
       }
     ],
@@ -7792,7 +7792,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
       {
         "id": 23000555,
         "name": "不合时宜",
-        "desc": "立即为 RT 的 超级技能 充电。",
+        "desc": "立即为 阿尔缇 的 超级技能 充电。",
         "icon": "/gadgets/R-T/rt_gadget_02.png"
       },
       {
@@ -7835,8 +7835,8 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
       }
     ],
     "hypercharge": {
-      "name": "RT·极限充能",
-      "desc": "倍率：25%。激活后，在 RT 变身为替代形态后，他的头部和腿部各有 4 组 2 个小型雷达，这些雷达会快速围绕它们旋转，造成 700 点伤害并标记击中的敌人。超级充电结束后，雷达消失。 RT 还获得 20% 的速度提升，以及 5% 的伤害和护盾提升。",
+      "name": "阿尔缇·极限充能",
+      "desc": "倍率：25%。激活后，在 阿尔缇 变身为替代形态后，他的头部和腿部各有 4 组 2 个小型雷达，这些雷达会快速围绕它们旋转，造成 700 点伤害并标记击中的敌人。超级充电结束后，雷达消失。 阿尔缇 还获得 20% 的速度提升，以及 5% 的伤害和护盾提升。",
       "icon": ""
     },
     "skins": [],
@@ -7862,7 +7862,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "薇洛",
     "enName": "Willow",
     "slug": "willow",
-    "role": "辅助",
+    "role": "控场",
     "class": "Controller",
     "rarity": {
       "name": "神话",
@@ -8213,7 +8213,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "科迪琉斯",
     "enName": "Cordelius",
     "slug": "cordelius",
-    "role": "战士",
+    "role": "刺客",
     "class": "Assassin",
     "rarity": {
       "name": "传奇",
@@ -8445,7 +8445,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "珀尔",
     "enName": "Pearl",
     "slug": "pearl",
-    "role": "战士",
+    "role": "输出",
     "class": "Damage Dealer",
     "rarity": {
       "name": "史诗",
@@ -8562,7 +8562,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "查克",
     "enName": "Chuck",
     "slug": "chuck",
-    "role": "战士",
+    "role": "输出",
     "class": "Damage Dealer",
     "rarity": {
       "name": "神话",
@@ -8679,7 +8679,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "查莉",
     "enName": "Charlie",
     "slug": "charlie",
-    "role": "辅助",
+    "role": "控场",
     "class": "Controller",
     "rarity": {
       "name": "神话",
@@ -8796,7 +8796,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "米科",
     "enName": "Mico",
     "slug": "mico",
-    "role": "战士",
+    "role": "刺客",
     "class": "Assassin",
     "rarity": {
       "name": "神话",
@@ -9131,16 +9131,16 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
   "77": {
     "id": "77",
     "apiId": 16000078,
-    "name": "梅洛迪",
+    "name": "麦乐迪",
     "enName": "Melodie",
     "slug": "melodie",
-    "role": "战士",
+    "role": "刺客",
     "class": "Assassin",
     "rarity": {
       "name": "神话",
       "color": "#fe5e72"
     },
-    "desc": "说到卡拉 OK，梅洛迪 毫不留情。凭借她可爱的外表和魔鬼般的管子，她总是能抢尽风头。",
+    "desc": "说到卡拉 OK，麦乐迪 毫不留情。凭借她可爱的外表和魔鬼般的管子，她总是能抢尽风头。",
     "story": "",
     "avatar": "/HeroAvatars/16000078.png",
     "image": "https://cdn.brawlify.com/brawlers/model/16000078.png",
@@ -9167,13 +9167,13 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
       {
         "id": 23000667,
         "name": "快节奏",
-        "desc": "梅洛迪 的移动速度因每个围绕她旋转的音符而增加 <span style=\"color:#00cc00;\">x%</span> 。",
+        "desc": "麦乐迪 的移动速度因每个围绕她旋转的音符而增加 <span style=\"color:#00cc00;\">x%</span> 。",
         "icon": "/starpowers/Melodie/melodie_starpower_01.png"
       },
       {
         "id": 23000668,
         "name": "扩展混合",
-        "desc": "梅洛迪 的音符会持续 <span style=\"color:#00cc00;\">x%</span> 时间然后消失。",
+        "desc": "麦乐迪 的音符会持续 <span style=\"color:#00cc00;\">x%</span> 时间然后消失。",
         "icon": "/starpowers/Melodie/melodie_starpower_02.png"
       }
     ],
@@ -9181,7 +9181,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
       {
         "id": 23000669,
         "name": "完美音调",
-        "desc": "梅洛迪 的音符移动速度增加 x%，轨道扩大 x%，持续 x 秒。（冷却：14 秒）",
+        "desc": "麦乐迪 的音符移动速度增加 x%，轨道扩大 x%，持续 x 秒。（冷却：14 秒）",
         "icon": "/gadgets/Melodie/melodie_gadget_01.png"
       },
       {
@@ -9224,8 +9224,8 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
       }
     ],
     "hypercharge": {
-      "name": "梅洛迪·极限充能",
-      "desc": "倍率：25%。激活后，每次 梅洛迪 在 极限充能 期间使用 超级技能，极限充能 音符就会以 2 格为半径围绕她旋转，其作用与普通音符相同，但伤害减少 480 点，或在 极限充能 伤害提升后造成 504 点伤害。 梅洛迪 最多可以有 3 个 极限充能 音符在任何时候围绕她旋转，这超出了正常的音符限制，允许她最多有 6 个音符。 极限充能 音符也会影响 梅洛迪 的 Interlude 随身妙具 和 Fast Beats 星辉之力，但无法通过 Extended Mix 星辉之力 延长其持续时间。她还获得 20% 的速度提升，以及 5% 的伤害和护盾提升。",
+      "name": "麦乐迪·极限充能",
+      "desc": "倍率：25%。激活后，每次 麦乐迪 在 极限充能 期间使用 超级技能，极限充能 音符就会以 2 格为半径围绕她旋转，其作用与普通音符相同，但伤害减少 480 点，或在 极限充能 伤害提升后造成 504 点伤害。 麦乐迪 最多可以有 3 个 极限充能 音符在任何时候围绕她旋转，这超出了正常的音符限制，允许她最多有 6 个音符。 极限充能 音符也会影响 麦乐迪 的 Interlude 随身妙具 和 Fast Beats 星辉之力，但无法通过 Extended Mix 星辉之力 延长其持续时间。她还获得 20% 的速度提升，以及 5% 的伤害和护盾提升。",
       "icon": "/hypercharges/Melodie/melodie_hypercharge.png"
     },
     "skins": [],
@@ -9248,7 +9248,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
   "78": {
     "id": "78",
     "apiId": 16000079,
-    "name": "安杰洛",
+    "name": "安吉洛",
     "enName": "Angelo",
     "slug": "angelo",
     "role": "射手",
@@ -9341,8 +9341,8 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
       }
     ],
     "hypercharge": {
-      "name": "安杰洛·极限充能",
-      "desc": "倍率：35%。激活后，安杰洛的毒云会随之移动。此超级充能仅影响在其持续时间内使用的超级技能，但即使在超级充能结束后，毒云仍将继续跟随安杰洛。如果在Hyper Charge期间使用了多个超级技能，则所有超级技能都会跟随安杰洛。安杰洛还获得 20% 的速度提升，以及 5% 的伤害和护盾提升。",
+      "name": "安吉洛·极限充能",
+      "desc": "倍率：35%。激活后，安杰洛的毒云会随之移动。此超级充能仅影响在其持续时间内使用的超级技能，但即使在超级充能结束后，毒云仍将继续跟随安杰洛。如果在Hyper Charge期间使用了多个超级技能，则所有超级技能都会跟随安吉洛。安杰洛还获得 20% 的速度提升，以及 5% 的伤害和护盾提升。",
       "icon": "/hypercharges/Angelo/angelo_hypercharge.png"
     },
     "skins": [],
@@ -9485,7 +9485,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "莉莉",
     "enName": "Lily",
     "slug": "lily",
-    "role": "战士",
+    "role": "刺客",
     "class": "Assassin",
     "rarity": {
       "name": "神话",
@@ -9576,7 +9576,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     ],
     "hypercharge": {
       "name": "莉莉·极限充能",
-      "desc": "倍率：35%。激活后，莉莉的超级会从墙壁上弹起，击中敌人后，会将莉莉传送到被击中的敌人处，并将两人传送到暗影领域，持续 5 秒，与其他玩家隔离。弹丸速度也大幅提升。与Rico和拉夫上校的主要攻击类似，莉莉的超级在前5次弹跳中将获得3.33格的额外射程。如果莉莉投掷她的超充能超级然后使用她的消失小工具，她将消失在暗影领域三秒，但如果超级击中敌人，持续时间将刷新并从 5 秒开始倒计时，莉莉将传送到击中的敌人处。 在暗影领域，与科迪琉斯的超级类似，屏幕上会出现倒计时，敌方斗士可以使用他们的主要攻击，但他们都不能使用他们的超级、小工具或超充能。 5秒后，或者如果莉莉或她的敌人被击败，他们将不再处于暗影领域，倒计时将停止。暗影领域的环境会发出紫色调，而莉莉和她的敌人会发出粉紫色调。即使她的特质半径可见，莉莉也无法在她的暗影领域以任何方式给她的超级能量。她的对手也无法对他们的超级进行冲锋，除非他们具有允许他们在受到伤害时冲锋的特质，例如Jacky、El Primo、Bull、Frank、Rosa、汉克、特朗克、奥利或德拉科。两个英雄的盟友都可以看到他们在正常环境中的等效位置。她还获得 20% 的速度提升，以及 5% 的伤害和护盾提升。",
+      "desc": "倍率：35%。激活后，莉莉的超级会从墙壁上弹起，击中敌人后，会将莉莉传送到被击中的敌人处，并将两人传送到暗影领域，持续 5 秒，与其他玩家隔离。弹丸速度也大幅提升。与Rico和拉夫上校的主要攻击类似，莉莉的超级在前5次弹跳中将获得3.33格的额外射程。如果莉莉投掷她的超充能超级然后使用她的消失小工具，她将消失在暗影领域三秒，但如果超级击中敌人，持续时间将刷新并从 5 秒开始倒计时，莉莉将传送到击中的敌人处。 在暗影领域，与科迪琉斯的超级类似，屏幕上会出现倒计时，敌方斗士可以使用他们的主要攻击，但他们都不能使用他们的超级、小工具或超充能。 5秒后，或者如果莉莉或她的敌人被击败，他们将不再处于暗影领域，倒计时将停止。暗影领域的环境会发出紫色调，而莉莉和她的敌人会发出粉紫色调。即使她的特质半径可见，莉莉也无法在她的暗影领域以任何方式给她的超级能量。她的对手也无法对他们的超级进行冲锋，除非他们具有允许他们在受到伤害时冲锋的特质，例如Jacky、El Primo、Bull、Frank、Rosa、汉克、查克、奥利或德拉科。两个英雄的盟友都可以看到他们在正常环境中的等效位置。她还获得 20% 的速度提升，以及 5% 的伤害和护盾提升。",
       "icon": "/hypercharges/Lily/lily_hypercharge.png"
     },
     "skins": [],
@@ -9598,7 +9598,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
   "81": {
     "id": "81",
     "apiId": 16000082,
-    "name": "贝瑞",
+    "name": "拜瑞",
     "enName": "Berry",
     "slug": "berry",
     "role": "辅助",
@@ -9691,7 +9691,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
       }
     ],
     "hypercharge": {
-      "name": "贝瑞·极限充能",
+      "name": "拜瑞·极限充能",
       "desc": "倍率：40%。激活后，贝瑞的超级会沿着超级的路径创建两条冰淇淋水坑轨迹，而不是一条。超充能的水坑可以与他的主要攻击和普通超级的水坑叠加。他还获得 20% 的速度提升，以及 5% 的伤害和护盾提升。",
       "icon": "/hypercharges/Berry/berry_hypercharge.png"
     },
@@ -9718,7 +9718,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "克兰西",
     "enName": "Clancy",
     "slug": "clancy",
-    "role": "战士",
+    "role": "输出",
     "class": "Damage Dealer",
     "rarity": {
       "name": "神话",
@@ -9830,10 +9830,10 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
   "83": {
     "id": "83",
     "apiId": 16000084,
-    "name": "莫",
+    "name": "阿萌",
     "enName": "Moe",
     "slug": "moe",
-    "role": "战士",
+    "role": "输出",
     "class": "Damage Dealer",
     "rarity": {
       "name": "神话",
@@ -9923,8 +9923,8 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
       }
     ],
     "hypercharge": {
-      "name": "莫·极限充能",
-      "desc": "倍率：30%。激活后，莫伊的超级在地下挖掘时将拥有更远的射程，同时冲刺速度也会提高两倍，而他的替代形态的持续时间将是原来的三倍。此外，在超充能期间，他的替代形态的攻击范围将加倍。 莫 还获得 20% 的速度提升，以及 5% 的伤害和护盾提升。",
+      "name": "阿萌·极限充能",
+      "desc": "倍率：30%。激活后，莫伊的超级在地下挖掘时将拥有更远的射程，同时冲刺速度也会提高两倍，而他的替代形态的持续时间将是原来的三倍。此外，在超充能期间，他的替代形态的攻击范围将加倍。 阿萌 还获得 20% 的速度提升，以及 5% 的伤害和护盾提升。",
       "icon": ""
     },
     "skins": [],
@@ -9949,7 +9949,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "健次",
     "enName": "Kenji",
     "slug": "kenji",
-    "role": "战士",
+    "role": "刺客",
     "class": "Assassin",
     "rarity": {
       "name": "传奇",
@@ -10063,10 +10063,10 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
   "85": {
     "id": "85",
     "apiId": 16000086,
-    "name": "沙德",
+    "name": "谢德",
     "enName": "Shade",
     "slug": "shade",
-    "role": "战士",
+    "role": "刺客",
     "class": "Assassin",
     "rarity": {
       "name": "史诗",
@@ -10099,7 +10099,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
       {
         "id": 23000832,
         "name": "幽灵极速者",
-        "desc": "用沙德的主要攻击中心击中对手可以短暂提升移动速度。",
+        "desc": "用谢德的主要攻击中心击中对手可以短暂提升移动速度。",
         "icon": "https://cdn.brawlify.com/star-powers/regular/23000832.png"
       },
       {
@@ -10156,7 +10156,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
       }
     ],
     "hypercharge": {
-      "name": "沙德·极限充能",
+      "name": "谢德·极限充能",
       "desc": "倍率：40%。激活后，如果暗影在超充能持续时间内使用其超级，则其主要攻击现在对任何部分造成双倍伤害。然而，如果Hypercharged 超级技能在极限充能结束后激活，则主要攻击伤害恢复正常。暗影还获得 25% 的速度提升以及 5% 的伤害和护盾提升。",
       "icon": ""
     },
@@ -10178,7 +10178,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
   "86": {
     "id": "86",
     "apiId": 16000087,
-    "name": "朱朱",
+    "name": "珠珠",
     "enName": "Juju",
     "slug": "juju",
     "role": "投弹手",
@@ -10187,7 +10187,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
       "name": "神话",
       "color": "#fe5e72"
     },
-    "desc": "朱朱 拥有一家奇特商店，到处都被她跟踪\\",
+    "desc": "珠珠 拥有一家奇特商店，到处都被她跟踪\\",
     "story": "",
     "avatar": "/HeroAvatars/16000087.png",
     "image": "https://cdn.brawlify.com/brawlers/model/16000087.png",
@@ -10234,7 +10234,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
       {
         "id": 23000851,
         "name": "元素师",
-        "desc": "朱朱根据她所处的当前环境获得暂时的增益。 地球：减少伤害草：隐形水：增加移动速度（冷却：17 秒）",
+        "desc": "珠珠根据她所处的当前环境获得暂时的增益。 地球：减少伤害草：隐形水：增加移动速度（冷却：17 秒）",
         "icon": "https://cdn.brawlify.com/gadgets/regular/23000851.png"
       }
     ],
@@ -10271,8 +10271,8 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
       }
     ],
     "hypercharge": {
-      "name": "朱朱·极限充能",
-      "desc": "倍率：40%。激活后，朱朱 会生成 Gris-Gris，其移动速度提高 25%，生命值提高 20%，造成的伤害提高 20%，并发射更大的针。她还获得 20% 的速度提升，以及 5% 的伤害和护盾提升。",
+      "name": "珠珠·极限充能",
+      "desc": "倍率：40%。激活后，珠珠 会生成 Gris-Gris，其移动速度提高 25%，生命值提高 20%，造成的伤害提高 20%，并发射更大的针。她还获得 20% 的速度提升，以及 5% 的伤害和护盾提升。",
       "icon": "/hypercharges/Juju/juju_hypercharge.png"
     },
     "skins": [],
@@ -10297,7 +10297,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "巴斯光年",
     "enName": "Buzz Lightyear",
     "slug": "buzz-lightyear",
-    "role": "战士",
+    "role": "输出",
     "class": "Unknown",
     "rarity": {
       "name": "传奇",
@@ -10398,16 +10398,16 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
   "88": {
     "id": "88",
     "apiId": 16000089,
-    "name": "米宝",
+    "name": "谜宝",
     "enName": "Meeple",
     "slug": "meeple",
-    "role": "战士",
+    "role": "输出",
     "class": "Unknown",
     "rarity": {
       "name": "史诗",
       "color": "#d850ff"
     },
-    "desc": "米宝 了解现有每一款棋盘游戏的规则，如果您违反了这些规则……好吧，我们只是说您不想违反它们。他们讨厌作弊者和违反规则的人。只有一个例外......米宝 自己！",
+    "desc": "谜宝 了解现有每一款棋盘游戏的规则，如果您违反了这些规则……好吧，我们只是说您不想违反它们。他们讨厌作弊者和违反规则的人。只有一个例外......谜宝 自己！",
     "story": "",
     "avatar": "/HeroAvatars/16000089.png",
     "image": "https://cdn.brawlify.com/brawlers/model/16000089.png",
@@ -10491,8 +10491,8 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
       }
     ],
     "hypercharge": {
-      "name": "米宝·极限充能",
-      "desc": "倍率：40%。激活后，米宝 的 超级技能 半径扩大 30%，允许 米宝 和盟友在其半径范围内穿过墙壁和水面。如果 米宝 或盟友脱离 Hypercharged 超级技能，他们仍然可以穿过墙壁并越过水面额外 0.5 秒。 米宝 还获得 20% 的速度提升，以及 5% 的伤害和护盾提升。",
+      "name": "谜宝·极限充能",
+      "desc": "倍率：40%。激活后，谜宝 的 超级技能 半径扩大 30%，允许 谜宝 和盟友在其半径范围内穿过墙壁和水面。如果 谜宝 或盟友脱离 Hypercharged 超级技能，他们仍然可以穿过墙壁并越过水面额外 0.5 秒。 谜宝 还获得 20% 的速度提升，以及 5% 的伤害和护盾提升。",
       "icon": "/hypercharges/Meeple/meeple_hypercharge.png"
     },
     "skins": [],
@@ -10517,7 +10517,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "奥利",
     "enName": "Ollie",
     "slug": "ollie",
-    "role": "战士",
+    "role": "输出",
     "class": "Unknown",
     "rarity": {
       "name": "神话",
@@ -10630,16 +10630,16 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
   "90": {
     "id": "90",
     "apiId": 16000091,
-    "name": "卢米",
+    "name": "露米",
     "enName": "Lumi",
     "slug": "lumi",
-    "role": "战士",
+    "role": "输出",
     "class": "Damage Dealer",
     "rarity": {
       "name": "神话",
       "color": "#fe5e72"
     },
-    "desc": "卢米 (卢米) 是一位充满激情的金属乐迷和才华横溢的鼓手，当她在斯塔尔公园 (Starr Park) 找到工作时，她用鼓槌换成了晨星。她掌控着冰与火的元素，这体现了她害羞的本性和她对音乐的炽热热情！",
+    "desc": "卢米 (露米) 是一位充满激情的金属乐迷和才华横溢的鼓手，当她在斯塔尔公园 (Starr Park) 找到工作时，她用鼓槌换成了晨星。她掌控着冰与火的元素，这体现了她害羞的本性和她对音乐的炽热热情！",
     "story": "",
     "avatar": "/HeroAvatars/16000091.png",
     "image": "https://cdn.brawlify.com/brawlers/model/16000091.png",
@@ -10666,7 +10666,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
       {
         "id": 23000905,
         "name": "42% 烧毁",
-        "desc": "卢米 的 Blast Beat 产生的爆炸也使该区域着火了 <span style=\"color:#00cc00;\">x</span> 秒。火灾伤害也会随着爆炸伤害而增加。最大爆炸每秒造成的伤害：<span style=\"color:#00cc00;\">x</span> 1st Fire per second：360",
+        "desc": "露米 的 Blast Beat 产生的爆炸也使该区域着火了 <span style=\"color:#00cc00;\">x</span> 秒。火灾伤害也会随着爆炸伤害而增加。最大爆炸每秒造成的伤害：<span style=\"color:#00cc00;\">x</span> 1st Fire per second：360",
         "icon": "/starpowers/Lumi/lumi_starpower_1.png"
       },
       {
@@ -10686,7 +10686,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
       {
         "id": 23000908,
         "name": "严酷和冻伤",
-        "desc": "卢米 在地面上的晨星周围产生冰冷的风，在 x 秒内形成光滑的表面。",
+        "desc": "露米 在地面上的晨星周围产生冰冷的风，在 x 秒内形成光滑的表面。",
         "icon": "/gadgets/Lumi/lumi_gadget_2.png"
       }
     ],
@@ -10723,7 +10723,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
       }
     ],
     "hypercharge": {
-      "name": "卢米·极限充能",
+      "name": "露米·极限充能",
       "desc": "倍率：40%。激活后，卢米的超级在最大爆炸区域的每一侧都会再获得一次爆炸，同样使敌人在击中时 1 秒内无法移动。如果您使用超级并在使用超级后立即激活超充能，侧面爆炸也会出现。她还获得 20% 的速度提升，以及 5% 的伤害和护盾提升。",
       "icon": ""
     },
@@ -10748,7 +10748,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "芬克斯",
     "enName": "Finx",
     "slug": "finx",
-    "role": "战士",
+    "role": "输出",
     "class": "Unknown",
     "rarity": {
       "name": "神话",
@@ -10860,10 +10860,10 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
   "92": {
     "id": "92",
     "apiId": 16000093,
-    "name": "在荣",
+    "name": "载勇",
     "enName": "Jae-Yong",
     "slug": "jae-yong",
-    "role": "战士",
+    "role": "辅助",
     "class": "Unknown",
     "rarity": {
       "name": "神话",
@@ -10953,7 +10953,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
       }
     ],
     "hypercharge": {
-      "name": "在荣·极限充能",
+      "name": "载勇·极限充能",
       "desc": "倍率：3000%。激活后，在勇的超级自动充能速度提高了 6 倍，使其冷却时间缩短至约 1.11 秒，并且每次激活超级的效果增加三分之一。他还获得 20% 的速度提升，以及 5% 的伤害和护盾提升。",
       "icon": "/hypercharges/Jae-Yong/jae_hypercharge.png"
     },
@@ -10964,10 +10964,10 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
   "93": {
     "id": "93",
     "apiId": 16000094,
-    "name": "凯泽",
+    "name": "风姬",
     "enName": "Kaze",
     "slug": "kaze",
-    "role": "战士",
+    "role": "输出",
     "class": "Unknown",
     "rarity": {
       "name": "Ultra Legendary",
@@ -11057,7 +11057,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
       }
     ],
     "hypercharge": {
-      "name": "凯泽·极限充能",
+      "name": "风姬·极限充能",
       "desc": "倍率：Hypercharge Multiplier\n\t\n\t30%。当在艺伎方面激活时，风的风暴现在每秒造成 136 点伤害，包括对敌人的超充能伤害增益，在 5 秒内最多造成 680 点伤害。这仅影响风暴中心击中的敌人，仅边缘击中的敌人不会受到影响。更具体地说，敌人的碰撞箱中心不得位于边缘 1 格内。该效果可以与多个风暴叠加。",
       "icon": "/hypercharges/Kaze/kaze_hypercharge.png"
     },
@@ -11071,7 +11071,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "阿利",
     "enName": "Alli",
     "slug": "alli",
-    "role": "战士",
+    "role": "输出",
     "class": "Unknown",
     "rarity": {
       "name": "神话",
@@ -11172,10 +11172,10 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
   "95": {
     "id": "95",
     "apiId": 16000096,
-    "name": "特朗克",
+    "name": "查克",
     "enName": "Trunk",
     "slug": "trunk",
-    "role": "战士",
+    "role": "输出",
     "class": "Unknown",
     "rarity": {
       "name": "史诗",
@@ -11265,7 +11265,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
       }
     ],
     "hypercharge": {
-      "name": "特朗克·极限充能",
+      "name": "查克·极限充能",
       "desc": "倍率：35%。激活后，特兰克的超级技能不再使他们在击中目标时移动速度变慢。特兰克的冲刺仅造成初始冲击伤害，但会在被超级击中的敌人身上留下蚂蚁，并产生持续伤害效果。超级充能蚂蚁会在 1 秒内造成非常高的伤害，但是，与普通超级相比，它们充能的超级要少得多。树干还获得 20% 的速度提升，以及 5% 的伤害和护盾提升。",
       "icon": "/hypercharges/Trunk/trunk_hypercharge.png"
     },
@@ -11276,10 +11276,10 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
   "96": {
     "id": "96",
     "apiId": 16000097,
-    "name": "米娜",
+    "name": "蜜娜",
     "enName": "Mina",
     "slug": "mina",
-    "role": "战士",
+    "role": "输出",
     "class": "Unknown",
     "rarity": {
       "name": "神话",
@@ -11369,7 +11369,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
       }
     ],
     "hypercharge": {
-      "name": "米娜·极限充能",
+      "name": "蜜娜·极限充能",
       "desc": "倍率：30%。激活后，米娜会制造 3 场锥形飓风，其行为与她普通超级中的飓风类似。然而，Hypercharged Supers 的射弹速度更快，可以从墙壁上反弹，并且还具有更强的 5 格拉力效果。请注意，射弹从墙壁弹回后，超级会拉向射弹撞击墙壁的位置，而不是拉向米娜的位置。她还获得 20% 的速度提升、5% 的伤害和护盾提升。",
       "icon": "/hypercharges/Mina/mina_hypercharge.png"
     },
@@ -11380,16 +11380,16 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
   "97": {
     "id": "97",
     "apiId": 16000098,
-    "name": "齐吉",
+    "name": "兹奇",
     "enName": "Ziggy",
     "slug": "ziggy",
-    "role": "战士",
+    "role": "输出",
     "class": "Unknown",
     "rarity": {
       "name": "神话",
       "color": "#fe5e72"
     },
-    "desc": "齐吉 是一位超级戏剧魔术师，擅长在表演中使用电力。他有点自以为是，但是嘿，他真的可以控制闪电。请记住...它们不是诡计，而是幻觉。",
+    "desc": "兹奇 是一位超级戏剧魔术师，擅长在表演中使用电力。他有点自以为是，但是嘿，他真的可以控制闪电。请记住...它们不是诡计，而是幻觉。",
     "story": "",
     "avatar": "/HeroAvatars/16000098.png",
     "image": "https://cdn.brawlify.com/brawlers/model/16000098.png",
@@ -11416,7 +11416,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
       {
         "id": 23001047,
         "name": "雷霆万钧",
-        "desc": "被 齐吉 的 超级技能 伤害的英雄会被减速 <span style=\"color:#00cc00;\">x%</span> ，持续 <span style=\"color:#00cc00;\">x</span> 秒。",
+        "desc": "被 兹奇 的 超级技能 伤害的英雄会被减速 <span style=\"color:#00cc00;\">x%</span> ，持续 <span style=\"color:#00cc00;\">x</span> 秒。",
         "icon": "/starpowers/Ziggy/ziggy_starpower_1.png"
       },
       {
@@ -11430,13 +11430,13 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
       {
         "id": 23001049,
         "name": "电动洗牌",
-        "desc": "齐吉 每秒用闪电击中最近的敌人，持续 x 秒。这些攻击不需要弹药。（冷却：17 秒）",
+        "desc": "兹奇 每秒用闪电击中最近的敌人，持续 x 秒。这些攻击不需要弹药。（冷却：17 秒）",
         "icon": "/gadgets/Ziggy/ziggy_gadget_1.png"
       },
       {
         "id": 23001050,
         "name": "现在你看到我了...",
-        "desc": "下一次闪电也会将 齐吉 传送到同一位置。（冷却：13 秒）",
+        "desc": "下一次闪电也会将 兹奇 传送到同一位置。（冷却：13 秒）",
         "icon": "/gadgets/Ziggy/ziggy_gadget_2.png"
       }
     ],
@@ -11473,8 +11473,8 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
       }
     ],
     "hypercharge": {
-      "name": "齐吉·极限充能",
-      "desc": "倍率：35%。激活后，齐吉 的下一个超级将在达到最大距离后返回。与大多数返回能力不同，风暴不会返回到他当前的位置，而是返回到 齐吉 在达到最大距离时的位置。风暴的最长寿命实际上加倍，但不再有最短寿命。 齐吉 还获得 20% 的速度提升，以及 5% 的伤害和护盾提升。",
+      "name": "兹奇·极限充能",
+      "desc": "倍率：35%。激活后，兹奇 的下一个超级将在达到最大距离后返回。与大多数返回能力不同，风暴不会返回到他当前的位置，而是返回到 兹奇 在达到最大距离时的位置。风暴的最长寿命实际上加倍，但不再有最短寿命。 兹奇 还获得 20% 的速度提升，以及 5% 的伤害和护盾提升。",
       "icon": "/hypercharges/Ziggy/ziggy_hypercharge.png"
     },
     "skins": [],
@@ -11487,7 +11487,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "皮尔斯",
     "enName": "Pierce",
     "slug": "pierce",
-    "role": "战士",
+    "role": "输出",
     "class": "Unknown",
     "rarity": {
       "name": "传奇",
@@ -11588,10 +11588,10 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
   "99": {
     "id": "99",
     "apiId": 16000100,
-    "name": "吉吉",
+    "name": "琪琪",
     "enName": "Gigi",
     "slug": "gigi",
-    "role": "战士",
+    "role": "输出",
     "class": "Unknown",
     "rarity": {
       "name": "神话",
@@ -11681,113 +11681,9 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
       }
     ],
     "hypercharge": {
-      "name": "吉吉·极限充能",
+      "name": "琪琪·极限充能",
       "desc": "倍率：35%。激活后，吉吉在最初传送时以及传送回来时也会立即对她周围的区域造成伤害。她还获得 20% 的速度提升、5% 的伤害和护盾提升。",
       "icon": ""
-    },
-    "skins": [],
-    "pins": [],
-    "buffies": []
-  },
-  "100": {
-    "id": "100",
-    "apiId": 16000101,
-    "name": "格洛薇",
-    "enName": "Glowy",
-    "slug": "glowy",
-    "role": "战士",
-    "class": "Unknown",
-    "rarity": {
-      "name": "神话",
-      "color": "#fe5e72"
-    },
-    "desc": "格洛伊是斯塔尔公园水族馆的海洋生物学家，他对海洋生物非常着迷，他想将海洋生物介绍给尽可能多的游客。虽然他看起来有点令人毛骨悚然，但他实际上是一个好人！或许。",
-    "story": "",
-    "avatar": "/HeroAvatars/16000101.png",
-    "image": "https://cdn.brawlify.com/brawlers/model/16000101.png",
-    "modelImage": "https://cdn.brawlify.com/brawlers/model/16000101.png",
-    "bgImage": "/Usedinheroes/bg/3.png",
-    "stats": {
-      "health": 7800,
-      "damage": 280,
-      "range": "7.34 (普通)",
-      "reload": "1.7 秒 (普通)",
-      "speed": "770"
-    },
-    "attack": {
-      "name": "普通攻击",
-      "desc": "",
-      "icon": "/Usedinheroes/skills/skill0.png"
-    },
-    "super": {
-      "name": "超级技能",
-      "desc": "",
-      "icon": "/Usedinheroes/skills/skill01.png"
-    },
-    "starPowers": [
-      {
-        "id": 23001181,
-        "name": "生物生态系统",
-        "desc": "如果格洛薇同时束缚在敌人和队友身上，它将减少敌人<span style=\"color:#00cc00;\">x%</span>的伤害，并增加队友<span style=\"color:#00cc00;\">x%</span>的伤害。",
-        "icon": "https://cdn.brawlify.com/star-powers/regular/23001181.png"
-      },
-      {
-        "id": 23001182,
-        "name": "寄生",
-        "desc": "拴在敌人身上也会治愈光辉所造成伤害的 <span style=\"color:#00cc00;\">x%</span>。",
-        "icon": "https://cdn.brawlify.com/star-powers/regular/23001182.png"
-      }
-    ],
-    "gadgets": [
-      {
-        "id": 23001183,
-        "name": "Slippery Savior",
-        "desc": "格洛薇 dashes in a target direction, healing himself and teammates for  on arrival.（冷却：17 秒）",
-        "icon": "/gadgets/Glowy/gadget1_glowy.png"
-      },
-      {
-        "id": 23001184,
-        "name": "更多流明",
-        "desc": "发光使他的发光束绳索增压，使伤害/治疗率加倍，持续 x 秒。",
-        "icon": "/gadgets/Glowy/gadget2_glowy.png"
-      }
-    ],
-    "gears": [
-      {
-        "name": "伤害装备",
-        "desc": "英雄生命值低于 50% 时，造成的伤害提升 15%。",
-        "icon": "/gears/gear_superrare_damage.png"
-      },
-      {
-        "name": "恢复装备",
-        "desc": "英雄的生命恢复速度提升 50%。",
-        "icon": "/gears/gear_superrare_heal.png"
-      },
-      {
-        "name": "装弹装备",
-        "desc": "弹药槽为空时，装弹速度提升 15%。",
-        "icon": "/gears/gear_superrare_reload.png"
-      },
-      {
-        "name": "护盾装备",
-        "desc": "英雄生命值低于 50% 时，获得 15% 的减伤护盾。",
-        "icon": "/gears/gear_superrare_shield.png"
-      },
-      {
-        "name": "速度装备",
-        "desc": "在草丛中移动速度提升 20%。",
-        "icon": "/gears/gear_superrare_speed.png"
-      },
-      {
-        "name": "视野装备",
-        "desc": "在草丛中的视野范围提升 75%。",
-        "icon": "/gears/gear_superrare_vision.png"
-      }
-    ],
-    "hypercharge": {
-      "name": "格洛薇·极限充能",
-      "desc": "倍率：35%。激活后强化超级技能效果，让英雄在关键时刻爆发出更强战力。",
-      "icon": "/hypercharges/Glowy/glowy_hypercharge.png"
     },
     "skins": [],
     "pins": [],
@@ -11796,10 +11692,10 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
   "101": {
     "id": "101",
     "apiId": 16000102,
-    "name": "西里斯",
+    "name": "西里乌斯",
     "enName": "Sirius",
     "slug": "sirius",
-    "role": "战士",
+    "role": "输出",
     "class": "Unknown",
     "rarity": {
       "name": "Ultra Legendary",
@@ -11889,7 +11785,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
       }
     ],
     "hypercharge": {
-      "name": "西里斯·极限充能",
+      "name": "西里乌斯·极限充能",
       "desc": "倍率：14%。激活后，小天狼星会召唤具有更多生命值并造成更多伤害的暗影。超充能暗影的生命值是格斗者对应物的 85%，造成的伤害是格斗者对应物的 70%。他还获得 20% 的速度提升，以及 5% 的伤害和护盾提升。",
       "icon": "/hypercharges/Sirius/spray_hypercharge_sirius.png"
     },
@@ -11900,10 +11796,10 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
   "102": {
     "id": "102",
     "apiId": 16000103,
-    "name": "娜吉娅",
+    "name": "娜吉亚",
     "enName": "Najia",
     "slug": "najia",
-    "role": "战士",
+    "role": "输出",
     "class": "Unknown",
     "rarity": {
       "name": "神话",
@@ -11993,7 +11889,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
       }
     ],
     "hypercharge": {
-      "name": "娜吉娅·极限充能",
+      "name": "娜吉亚·极限充能",
       "desc": "倍率：35%。",
       "icon": ""
     },
@@ -12007,7 +11903,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "达米安",
     "enName": "Damian",
     "slug": "damian",
-    "role": "战士",
+    "role": "输出",
     "class": "Unknown",
     "rarity": {
       "name": "神话",
@@ -12108,10 +12004,10 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
   "104": {
     "id": "104",
     "apiId": 16000105,
-    "name": "星诺娃",
+    "name": "丝塔诺娃",
     "enName": "Starr Nova",
     "slug": "starr-nova",
-    "role": "战士",
+    "role": "输出",
     "class": "Unknown",
     "rarity": {
       "name": "神话",
@@ -12201,7 +12097,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
       }
     ],
     "hypercharge": {
-      "name": "星诺娃·极限充能",
+      "name": "丝塔诺娃·极限充能",
       "desc": "",
       "icon": ""
     },
@@ -12215,7 +12111,7 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
     "name": "波尔特",
     "enName": "Bolt",
     "slug": "bolt",
-    "role": "战士",
+    "role": "输出",
     "class": "Unknown",
     "rarity": {
       "name": "史诗",

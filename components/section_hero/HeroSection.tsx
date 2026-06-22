@@ -20,7 +20,7 @@ function HeroCard({ name, avatarUrl }: { name: string; avatarUrl: string }) {
 
 export default function HeroSection() {
   const [activeFilter, setActiveFilter] = useState('全部');
-  const roles = ['全部', '战士', '射手', '坦克', '辅助', '投弹手'];
+  const roles = ['全部', '输出', '射手', '投弹手', '坦克', '辅助', '控场', '刺客'];
   const filteredHeroes = activeFilter === '全部' ? heroList : heroList.filter(h => h.role === activeFilter);
 
   return (

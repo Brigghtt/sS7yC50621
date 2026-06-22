@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import type { HeroSkill } from '@/lib/data';
+import { localizeHeroText, cleanHeroText } from '@/lib/i18n';
 
 interface SkillGridProps {
   items: HeroSkill[];
@@ -33,8 +34,8 @@ export default function SkillGrid({ items, emptyText = '暂无数据' }: SkillGr
             unoptimized
           />
           <div className="min-w-0">
-            <h4 className="text-lg font-black text-[#FFD500] mb-1 truncate">{item.name}</h4>
-            <p className="text-white/85 text-sm leading-relaxed">{item.desc || '暂无描述'}</p>
+            <h4 className="text-lg font-black text-[#FFD500] mb-1 truncate">{localizeHeroText(item.name)}</h4>
+            <p className="text-white/85 text-sm leading-relaxed">{cleanHeroText(localizeHeroText(item.desc)) || '暂无描述'}</p>
           </div>
         </div>
       ))}

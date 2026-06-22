@@ -29,7 +29,7 @@ export default function Navbar() {
   useEffect(() => {
     if (!isOnHome) return;
 
-    const sectionIds = ['banner', 'hero', 'mode', 'map'];
+    const sectionIds = ['banner', 'hero', 'mode', 'map', 'events'];
     const sections = sectionIds
       .map((id) => document.getElementById(id))
       .filter(Boolean) as HTMLElement[];

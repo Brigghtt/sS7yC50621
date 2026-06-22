@@ -25,14 +25,12 @@ export default function Swiper<T extends SwiperItem = SwiperItem>({
   renderContent,
 }: SwiperProps<T>) {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [prevIndex, setPrevIndex] = useState<number | null>(null);
   const [isTransitioning, setIsTransitioning] = useState(false);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const transitionTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
-  const TRANSITION_DURATION = 800;
-  const EASING = 'cubic-bezier(0.25, 0.1, 0.25, 1)';
+  const TRANSITION_DURATION = 600;
+  const EASING = 'cubic-bezier(0.4, 0, 0.2, 1)';
 
-  // ref 保存最新状态，供 setInterval 回调使用（避免闭包过期）
   const currentIndexRef = useRef(currentIndex);
   const isTransitioningRef = useRef(isTransitioning);
   const listLengthRef = useRef(list.length);
@@ -41,7 +39,7 @@ export default function Swiper<T extends SwiperItem = SwiperItem>({
   useEffect(() => { isTransitioningRef.current = isTransitioning; }, [isTransitioning]);
   useEffect(() => { listLengthRef.current = list.length; }, [list.length]);
 
-  // 自动播放 — 完全独立，不受任何鼠标事件影响
+  // 自动播放
   useEffect(() => {
     if (!autoPlay || list.length <= 1) return;
 
@@ -49,10 +47,8 @@ export default function Swiper<T extends SwiperItem = SwiperItem>({
       if (isTransitioningRef.current) return;
       if (listLengthRef.current <= 1) return;
 
-      const prev = currentIndexRef.current;
-      const next = (prev + 1) % listLengthRef.current;
+      const next = (currentIndexRef.current + 1) % listLengthRef.current;
 
-      setPrevIndex(prev);
       setCurrentIndex(next);
       setIsTransitioning(true);
       currentIndexRef.current = next;
@@ -60,7 +56,6 @@ export default function Swiper<T extends SwiperItem = SwiperItem>({
 
       if (transitionTimerRef.current) clearTimeout(transitionTimerRef.current);
       transitionTimerRef.current = setTimeout(() => {
-        setPrevIndex(null);
         setIsTransitioning(false);
         isTransitioningRef.current = false;
       }, TRANSITION_DURATION);
@@ -74,7 +69,6 @@ export default function Swiper<T extends SwiperItem = SwiperItem>({
     };
   }, [autoPlay, autoPlayInterval, list.length]);
 
-  // 组件卸载时清理所有 timer
   useEffect(() => {
     return () => {
       if (timerRef.current) clearInterval(timerRef.current);
@@ -86,7 +80,6 @@ export default function Swiper<T extends SwiperItem = SwiperItem>({
     (newIndex: number) => {
       if (newIndex === currentIndexRef.current || isTransitioningRef.current) return;
 
-      setPrevIndex(currentIndexRef.current);
       setCurrentIndex(newIndex);
       setIsTransitioning(true);
       currentIndexRef.current = newIndex;
@@ -94,7 +87,6 @@ export default function Swiper<T extends SwiperItem = SwiperItem>({
 
       if (transitionTimerRef.current) clearTimeout(transitionTimerRef.current);
       transitionTimerRef.current = setTimeout(() => {
-        setPrevIndex(null);
         setIsTransitioning(false);
         isTransitioningRef.current = false;
       }, TRANSITION_DURATION);
@@ -106,39 +98,30 @@ export default function Swiper<T extends SwiperItem = SwiperItem>({
   const goToNext = () => goTo((currentIndex + 1) % list.length);
 
   const current = list[currentIndex];
-  const prev = prevIndex !== null ? list[prevIndex] : null;
 
   return (
     <div className="relative w-full h-full overflow-hidden">
-      {/* 背景图 — 使用两张图实现平滑交叉淡入淡出 + 微缩放 */}
+      {/* ── 所有背景图层始终渲染，通过 opacity 交叉淡入淡出，无 scale 抖动 ── */}
       <div className="absolute inset-0">
-        {/* 前一张图（淡出 + 微缩小） */}
-        {prev && prev.bg && (
-          <div
-            className="absolute inset-0 bg-cover bg-center"
-            style={{
-              backgroundImage: `url(${prev.bg})`,
-              opacity: isTransitioning ? 0 : 1,
-              transform: isTransitioning ? 'scale(1.03)' : 'scale(1)',
-              transition: `opacity ${TRANSITION_DURATION}ms ${EASING}, transform ${TRANSITION_DURATION}ms ${EASING}`,
-            }}
-          />
-        )}
-        {/* 当前图（淡入 + 微放大进入） */}
-        {current.bg && (
-          <div
-            className="absolute inset-0 bg-cover bg-center"
-            style={{
-              backgroundImage: `url(${current.bg})`,
-              opacity: isTransitioning ? 1 : 1,
-              transform: isTransitioning ? 'scale(1)' : 'scale(1.03)',
-              transition: `opacity ${TRANSITION_DURATION}ms ${EASING}, transform ${TRANSITION_DURATION}ms ${EASING}`,
-            }}
-          />
-        )}
+        {list.map((item, idx) => {
+          const isCurrent = idx === currentIndex;
+          const opacity = isCurrent ? 1 : 0;
+
+          return (
+            <div
+              key={item.id}
+              className="absolute inset-0 bg-cover bg-center"
+              style={{
+                backgroundImage: item.bg ? `url(${item.bg})` : undefined,
+                opacity,
+                transition: `opacity ${TRANSITION_DURATION}ms ${EASING}`,
+              }}
+            />
+          );
+        })}
       </div>
 
-      {/* 自定义内容渲染 — 平滑淡入淡出 */}
+      {/* ── 自定义内容渲染 ── */}
       {renderContent && (
         <div
           className="relative z-10"

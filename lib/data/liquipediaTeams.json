@@ -1,0 +1,958 @@
+[
+  {
+    "id": "sk-gaming",
+    "name": "SK Gaming",
+    "nameEn": "SK Gaming",
+    "logo": "https://liquipedia.net/commons/images/thumb/1/16/SK_Gaming_2022_full_lightmode.png/600px-SK_Gaming_2022_full_lightmode.png",
+    "region": null,
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [
+      "Yoshi",
+      "Ope",
+      "Yoko"
+    ],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "revenant-xspark",
+    "name": "Revenant XSpark",
+    "nameEn": "Revenant XSpark",
+    "logo": "https://liquipedia.net/commons/images/thumb/2/2b/Revenant_XSpark_2026_allmode.png/600px-Revenant_XSpark_2026_allmode.png",
+    "region": null,
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [
+      "Sergeant Clash",
+      "Walkthrough",
+      "X9Jay"
+    ],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "zeta-division",
+    "name": "ZETA DIVISION",
+    "nameEn": "ZETA DIVISION",
+    "logo": "https://liquipedia.net/commons/images/thumb/4/4f/ZETA_DIVISION_lightmode.png/600px-ZETA_DIVISION_lightmode.png",
+    "region": null,
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [
+      "Sitetampo",
+      "Sizuku",
+      "Battoman"
+    ],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "elevate",
+    "name": "Elevate",
+    "nameEn": "Elevate",
+    "logo": "https://liquipedia.net/commons/images/thumb/3/35/Elevate_2020_full_lightmode.png/600px-Elevate_2020_full_lightmode.png",
+    "region": null,
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [
+      "Killer",
+      "Lxffy",
+      "RBM",
+      "Zeus"
+    ],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "hmble",
+    "name": "HMBLE",
+    "nameEn": "HMBLE",
+    "logo": "/teams/hmble.png",
+    "region": null,
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "toxic-lotus",
+    "name": "Toxic Lotus",
+    "nameEn": "Toxic Lotus",
+    "logo": "/teams/toxic-lotus.png",
+    "region": null,
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "tribe-gaming",
+    "name": "Tribe Gaming",
+    "nameEn": "Tribe Gaming",
+    "logo": "/teams/tribe-gaming.png",
+    "region": null,
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "loud",
+    "name": "LOUD",
+    "nameEn": "LOUD",
+    "logo": "/teams/loud.png",
+    "region": null,
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "rival-esports",
+    "name": "Rival Esports",
+    "nameEn": "Rival Esports",
+    "logo": "https://liquipedia.net/commons/images/thumb/b/be/Rival_Esports_new_lightmode.png/600px-Rival_Esports_new_lightmode.png",
+    "region": null,
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [
+      "Ryohei",
+      "Totoron",
+      "Yutapin"
+    ],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "totem-esports",
+    "name": "Totem Esports",
+    "nameEn": "Totem Esports",
+    "logo": "/teams/totem-esports.png",
+    "region": null,
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "team-elektros",
+    "name": "Team Elektros",
+    "nameEn": "Team Elektros",
+    "logo": "/teams/team-elektros.png",
+    "region": null,
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "casa-brawl-e-sports",
+    "name": "Casa Brawl E-Sports",
+    "nameEn": "Casa Brawl E-Sports",
+    "logo": "/teams/casa-brawl-e-sports.png",
+    "region": null,
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "crazy-raccoon",
+    "name": "Crazy Raccoon",
+    "nameEn": "Crazy Raccoon",
+    "logo": "https://liquipedia.net/commons/images/thumb/f/fc/Crazy_Raccoon_2021_allmode.png/600px-Crazy_Raccoon_2021_allmode.png",
+    "region": null,
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [
+      "Moya",
+      "Tensai",
+      "Milkreo"
+    ],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "papara-supermassive",
+    "name": "Papara SuperMassive",
+    "nameEn": "Papara SuperMassive",
+    "logo": "/teams/papara-supermassive.png",
+    "region": null,
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "natus-vincere",
+    "name": "Natus Vincere",
+    "nameEn": "Natus Vincere",
+    "logo": "/teams/natus-vincere.png",
+    "region": null,
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "stmn-esports",
+    "name": "STMN Esports",
+    "nameEn": "STMN Esports",
+    "logo": "/teams/stmn-esports.png",
+    "region": null,
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "fut-esports",
+    "name": "FUT Esports",
+    "nameEn": "FUT Esports",
+    "logo": "/teams/fut-esports.png",
+    "region": null,
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "effort-result",
+    "name": "Effort Result",
+    "nameEn": "Effort Result",
+    "logo": "https://liquipedia.net/commons/images/8/8a/Effort_Result_lightmode.png",
+    "region": "东亚",
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [
+      "Kousui"
+    ],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "skcalalas-ea",
+    "name": "SKCalalas EA",
+    "nameEn": "SKCalalas EA",
+    "logo": "https://liquipedia.net/commons/images/thumb/7/77/SKCalalas_allmode.png/600px-SKCalalas_allmode.png",
+    "region": "东亚",
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [
+      "Ghost T",
+      "Kuru",
+      "Naipishu"
+    ],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "reject",
+    "name": "REJECT",
+    "nameEn": "REJECT",
+    "logo": "https://liquipedia.net/commons/images/thumb/e/e6/REJECT_2020_full_lightmode.png/600px-REJECT_2020_full_lightmode.png",
+    "region": "东亚",
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [
+      "Melty",
+      "Shu",
+      "Levi"
+    ],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "wwl-esports",
+    "name": "WWL Esports",
+    "nameEn": "WWL Esports",
+    "logo": "https://liquipedia.net/commons/images/thumb/3/3b/WWL_Esports_lightmode.png/600px-WWL_Esports_lightmode.png",
+    "region": "东亚",
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [
+      "Cookie",
+      "Kaza",
+      "Minzzun",
+      "NenNe"
+    ],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "abc-ea-team",
+    "name": "ABC (EA Team)",
+    "nameEn": "ABC (EA Team)",
+    "logo": "https://liquipedia.net/commons/images/4/48/ABC_BSC_allmode.png",
+    "region": "东亚",
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [
+      "Achapi",
+      "I see",
+      "Ken-G"
+    ],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "cmm",
+    "name": "CMM",
+    "nameEn": "CMM",
+    "logo": "/teams/cmm.png",
+    "region": "欧洲",
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "team-heretics",
+    "name": "Team Heretics",
+    "nameEn": "Team Heretics",
+    "logo": "/teams/team-heretics.png",
+    "region": "欧洲",
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "big",
+    "name": "BIG",
+    "nameEn": "BIG",
+    "logo": "/teams/big.png",
+    "region": "欧洲",
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "遥想公瑾当年",
+    "name": "遥想公瑾当年",
+    "nameEn": "遥想公瑾当年",
+    "logo": "/teams/遥想公瑾当年.png",
+    "region": "大陆",
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "reverso-hive",
+    "name": "Reverso Hive",
+    "nameEn": "Reverso Hive",
+    "logo": "/teams/reverso-hive.png",
+    "region": "大陆",
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "irisout",
+    "name": "IrisOut",
+    "nameEn": "IrisOut",
+    "logo": "/teams/irisout.png",
+    "region": "大陆",
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "tig-revival",
+    "name": "TIG Revival",
+    "nameEn": "TIG Revival",
+    "logo": "/teams/tig-revival.png",
+    "region": "大陆",
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "ace-xero",
+    "name": "Ace Xero",
+    "nameEn": "Ace Xero",
+    "logo": "/teams/ace-xero.png",
+    "region": "大陆",
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "nihilum",
+    "name": "Nihilum",
+    "nameEn": "Nihilum",
+    "logo": "/teams/nihilum.png",
+    "region": "大陆",
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "toc-team",
+    "name": "TOC (Team)",
+    "nameEn": "TOC (Team)",
+    "logo": "/teams/toc-team.png",
+    "region": "大陆",
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "df",
+    "name": "DF",
+    "nameEn": "DF",
+    "logo": "/teams/df.png",
+    "region": "东亚",
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "feasible-gaming",
+    "name": "Feasible Gaming",
+    "nameEn": "Feasible Gaming",
+    "logo": "/teams/feasible-gaming.png",
+    "region": "东亚",
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "kebap",
+    "name": "Kebap",
+    "nameEn": "Kebap",
+    "logo": "/teams/kebap.png",
+    "region": "欧洲",
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "madrid",
+    "name": "Madrid",
+    "nameEn": "Madrid",
+    "logo": "/teams/madrid.png",
+    "region": "欧洲",
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "novo-esports",
+    "name": "NOVO Esports",
+    "nameEn": "NOVO Esports",
+    "logo": "/teams/novo-esports.png",
+    "region": "欧洲",
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "esf",
+    "name": "ESF",
+    "nameEn": "ESF",
+    "logo": "/teams/esf.png",
+    "region": "大陆",
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "吴水水俱乐部",
+    "name": "吴水水俱乐部",
+    "nameEn": "吴水水俱乐部",
+    "logo": "/teams/吴水水俱乐部.png",
+    "region": "大陆",
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "kcn",
+    "name": "KCN",
+    "nameEn": "KCN",
+    "logo": "/teams/kcn.png",
+    "region": "东亚",
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "insomnia",
+    "name": "INSOMNIA",
+    "nameEn": "INSOMNIA",
+    "logo": "/teams/insomnia.png",
+    "region": "东亚",
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "fennel",
+    "name": "FENNEL",
+    "nameEn": "FENNEL",
+    "logo": "/teams/fennel.png",
+    "region": "东亚",
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "big-talents",
+    "name": "Big Talents",
+    "nameEn": "Big Talents",
+    "logo": "/teams/big-talents.png",
+    "region": "欧洲",
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "fut-esports-academy",
+    "name": "FUT Esports Academy",
+    "nameEn": "FUT Esports Academy",
+    "logo": "/teams/fut-esports-academy.png",
+    "region": "欧洲",
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "mimimi",
+    "name": "Mimimi",
+    "nameEn": "Mimimi",
+    "logo": "/teams/mimimi.png",
+    "region": "大陆",
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "awsl",
+    "name": "AWSL",
+    "nameEn": "AWSL",
+    "logo": "/teams/awsl.png",
+    "region": "大陆",
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "only-realm",
+    "name": "Only Realm",
+    "nameEn": "Only Realm",
+    "logo": "/teams/only-realm.png",
+    "region": null,
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "bounty-hunters-esports",
+    "name": "Bounty Hunters Esports",
+    "nameEn": "Bounty Hunters Esports",
+    "logo": "/teams/bounty-hunters-esports.png",
+    "region": null,
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "olds-bed-early",
+    "name": "Olds bed early",
+    "nameEn": "Olds bed early",
+    "logo": "/teams/olds-bed-early.png",
+    "region": "大陆",
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "wid",
+    "name": "WID",
+    "nameEn": "WID",
+    "logo": "/teams/wid.png",
+    "region": "大陆",
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "ignum",
+    "name": "IGNUM",
+    "nameEn": "IGNUM",
+    "logo": "/teams/ignum.png",
+    "region": "东亚",
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "faze-zero",
+    "name": "Faze Zero",
+    "nameEn": "Faze Zero",
+    "logo": "/teams/faze-zero.png",
+    "region": "东亚",
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "smdy",
+    "name": "SMDY",
+    "nameEn": "SMDY",
+    "logo": "/teams/SMDY.png",
+    "region": "大陆",
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "last-hope-fire",
+    "name": "Last Hope Fire",
+    "nameEn": "Last Hope Fire",
+    "logo": "/teams/Last-Hope-Fire.png",
+    "region": "大陆",
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "dark-spirit",
+    "name": "Dark Spirit",
+    "nameEn": "Dark Spirit",
+    "logo": "/teams/Dark-Spirit.png",
+    "region": "大陆",
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "kumalazawesta",
+    "name": "Kumalazawesta",
+    "nameEn": "Kumalazawesta",
+    "logo": "/teams/kumalazawesta.png",
+    "region": "欧洲",
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  },
+  {
+    "id": "metizport",
+    "name": "Metizport",
+    "nameEn": "Metizport",
+    "logo": "/teams/metizport.png",
+    "region": "欧洲",
+    "founded": "",
+    "style": [],
+    "history": [],
+    "players": [],
+    "stats": {
+      "totalKills": 0,
+      "avgDamage": 0,
+      "winRate": 0
+    }
+  }
+]

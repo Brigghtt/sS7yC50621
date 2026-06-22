@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import type { HeroDetailV2, HeroSkill } from '@/lib/data';
+import { localizeHeroText, cleanHeroText } from '@/lib/i18n';
 
 interface StatusSectionProps {
   hero: HeroDetailV2;
@@ -21,8 +22,8 @@ function SkillCard({ title, skill }: { title: string; skill: HeroSkill }) {
       />
       <div>
         <h4 className="text-lg font-black text-[#FFD500] mb-1">{title}</h4>
-        <h5 className="text-xl font-black mb-2">{skill.name}</h5>
-        <p className="text-white/85 text-sm leading-relaxed">{skill.desc || '暂无描述'}</p>
+        <h5 className="text-xl font-black mb-2">{localizeHeroText(skill.name)}</h5>
+        <p className="text-white/85 text-sm leading-relaxed">{cleanHeroText(localizeHeroText(skill.desc)) || '暂无描述'}</p>
       </div>
     </div>
   );
@@ -44,8 +45,8 @@ export default function StatusSection({ hero }: StatusSectionProps) {
   const stats = [
     { key: 'health', label: '生命值', value: scaledHealth || '-' },
     { key: 'damage', label: '伤害', value: scaledDamage || '-' },
-    { key: 'range', label: '射程', value: hero.stats.range || '-' },
-    { key: 'reload', label: '装弹速度', value: hero.stats.reload || '-' },
+    { key: 'range', label: '射程', value: cleanHeroText(localizeHeroText(hero.stats.range)) },
+    { key: 'reload', label: '装弹速度', value: cleanHeroText(localizeHeroText(hero.stats.reload)) },
     { key: 'speed', label: '移动速度', value: hero.stats.speed || '-' },
   ];
 

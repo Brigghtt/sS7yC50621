@@ -1,16 +1,23 @@
 'use client';
 
+import { useEffect } from 'react';
 import BannerCarousel from '@/components/BannerCarousel';
 import HeroSection from '@/components/section_hero/HeroSection';
 import ModeSection from '@/components/section_mode/ModeSection';
 import MapSection from '@/components/section_map/MapSection';
+import EventsSection from '@/components/section_events/EventsSection';
 import ScrollIndicator from '@/components/ScrollIndicator';
 import { useScrollSnapTransition } from '@/hooks/useScrollSnapTransition';
 
-const SECTION_IDS = ['banner', 'hero', 'mode', 'map'];
-const SECTION_LABELS = ['首页', '英雄', '模式', '地图'];
+const SECTION_IDS = ['banner', 'hero', 'mode', 'map', 'events'];
+const SECTION_LABELS = ['首页', '英雄', '模式', '地图', '赛事'];
 
 export default function Home() {
+  useEffect(() => {
+    document.body.classList.add('is-home');
+    return () => document.body.classList.remove('is-home');
+  }, []);
+
   // 驱动视差背景 + 内容淡入淡出过渡
   useScrollSnapTransition({
     sectionIds: SECTION_IDS,
@@ -24,6 +31,7 @@ export default function Home() {
       <HeroSection />
       <ModeSection />
       <MapSection />
+      <EventsSection />
 
       {/* 右侧滚动进度指示器 */}
       <ScrollIndicator sectionIds={SECTION_IDS} labels={SECTION_LABELS} />

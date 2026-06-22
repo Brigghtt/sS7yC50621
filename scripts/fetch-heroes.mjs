@@ -11,42 +11,42 @@ const ROOT = path.resolve(__dirname, '..');
 
 // 前 36 位英雄的本地 id / API id / 中文名 / 角色定位（与旧数据对齐）
 const KNOWN_HEROES = [
-  { localId: '1', apiId: 16000000, cnName: '雪莉', role: '战士' },
-  { localId: '2', apiId: 16000001, cnName: '柯尔特', role: '射手' },
-  { localId: '3', apiId: 16000007, cnName: '杰西', role: '辅助' },
+  { localId: '1', apiId: 16000000, cnName: '雪莉', role: '输出' },
+  { localId: '2', apiId: 16000001, cnName: '柯尔特', role: '输出' },
+  { localId: '3', apiId: 16000007, cnName: '杰西', role: '控场' },
   { localId: '4', apiId: 16000002, cnName: '公牛', role: '坦克' },
   { localId: '5', apiId: 16000003, cnName: '布洛克', role: '射手' },
   { localId: '6', apiId: 16000022, cnName: '迪克', role: '投弹手' },
-  { localId: '7', apiId: 16000027, cnName: '8比特', role: '射手' },
-  { localId: '8', apiId: 16000030, cnName: '艾魅', role: '辅助' },
+  { localId: '7', apiId: 16000027, cnName: '8比特', role: '输出' },
+  { localId: '8', apiId: 16000030, cnName: '艾魅', role: '控场' },
   { localId: '9', apiId: 16000006, cnName: '巴利', role: '投弹手' },
   { localId: '10', apiId: 16000013, cnName: '波克', role: '辅助' },
   { localId: '11', apiId: 16000024, cnName: '罗莎', role: '坦克' },
   { localId: '12', apiId: 16000009, cnName: '爆破麦克', role: '投弹手' },
-  { localId: '13', apiId: 16000008, cnName: '妮塔', role: '战士' },
-  { localId: '14', apiId: 16000019, cnName: '潘妮', role: '射手' },
-  { localId: '15', apiId: 16000015, cnName: '佩佩', role: '辅助' },
-  { localId: '16', apiId: 16000004, cnName: '瑞科', role: '战士' },
-  { localId: '17', apiId: 16000005, cnName: '斯派克', role: '战士' },
-  { localId: '18', apiId: 16000014, cnName: '阿渤', role: '战士' },
+  { localId: '13', apiId: 16000008, cnName: '妮塔', role: '输出' },
+  { localId: '14', apiId: 16000019, cnName: '潘妮', role: '控场' },
+  { localId: '15', apiId: 16000015, cnName: '佩佩', role: '射手' },
+  { localId: '16', apiId: 16000004, cnName: '瑞科', role: '输出' },
+  { localId: '17', apiId: 16000005, cnName: '斯派克', role: '输出' },
+  { localId: '18', apiId: 16000014, cnName: '阿渤', role: '输出' },
   { localId: '19', apiId: 16000010, cnName: '艾尔·普里莫', role: '坦克' },
-  { localId: '20', apiId: 16000018, cnName: '达里尔', role: '射手' },
-  { localId: '21', apiId: 16000025, cnName: '卡尔', role: '射手' },
-  { localId: '22', apiId: 16000034, cnName: '雅琪', role: '战士' },
-  { localId: '23', apiId: 16000016, cnName: '帕姆', role: '射手' },
-  { localId: '24', apiId: 16000020, cnName: '弗兰肯', role: '战士' },
-  { localId: '25', apiId: 16000026, cnName: '比比', role: '战士' },
+  { localId: '20', apiId: 16000018, cnName: '达里尔', role: '坦克' },
+  { localId: '21', apiId: 16000025, cnName: '卡尔', role: '输出' },
+  { localId: '22', apiId: 16000034, cnName: '雅琪', role: '坦克' },
+  { localId: '23', apiId: 16000016, cnName: '帕姆', role: '辅助' },
+  { localId: '24', apiId: 16000020, cnName: '弗兰肯', role: '坦克' },
+  { localId: '25', apiId: 16000026, cnName: '比比', role: '坦克' },
   { localId: '26', apiId: 16000029, cnName: '贝亚', role: '射手' },
-  { localId: '27', apiId: 16000011, cnName: '莫提斯', role: '射手' },
-  { localId: '28', apiId: 16000017, cnName: '塔拉', role: '射手' },
-  { localId: '29', apiId: 16000021, cnName: '吉恩', role: '战士' },
-  { localId: '30', apiId: 16000032, cnName: '麦克斯', role: '坦克' },
-  { localId: '31', apiId: 16000031, cnName: 'P先生', role: '辅助' },
-  { localId: '32', apiId: 16000037, cnName: '芽芽', role: '坦克' },
-  { localId: '33', apiId: 16000012, cnName: '黑鸦', role: '坦克' },
-  { localId: '34', apiId: 16000023, cnName: '里昂', role: '坦克' },
-  { localId: '35', apiId: 16000028, cnName: '沙迪', role: '射手' },
-  { localId: '36', apiId: 16000035, cnName: '格尔', role: '战士' },
+  { localId: '27', apiId: 16000011, cnName: '莫提斯', role: '刺客' },
+  { localId: '28', apiId: 16000017, cnName: '塔拉', role: '输出' },
+  { localId: '29', apiId: 16000021, cnName: '吉恩', role: '辅助' },
+  { localId: '30', apiId: 16000032, cnName: '麦克斯', role: '辅助' },
+  { localId: '31', apiId: 16000031, cnName: 'P先生', role: '控场' },
+  { localId: '32', apiId: 16000037, cnName: '芽芽', role: '投弹手' },
+  { localId: '33', apiId: 16000012, cnName: '黑鸦', role: '刺客' },
+  { localId: '34', apiId: 16000023, cnName: '里昂', role: '刺客' },
+  { localId: '35', apiId: 16000028, cnName: '沙迪', role: '控场' },
+  { localId: '36', apiId: 16000035, cnName: '格尔', role: '控场' },
 ];
 
 // 37 位及以后英雄的中文名（社区常见译名 / 音译，后续可按官方更新）
@@ -80,7 +80,7 @@ const CN_NAME_MAP = {
   'Chester': '切斯特',
   'Gray': '格雷',
   'Mandy': '曼迪',
-  'R-T': 'RT',
+  'R-T': '阿尔缇',
   'Willow': '薇洛',
   'Maisie': '麦茜',
   'Hank': '汉克',
@@ -92,47 +92,53 @@ const CN_NAME_MAP = {
   'Mico': '米科',
   'Kit': '凯特',
   'Larry & Lawrie': '拉里和劳里',
-  'Melodie': '梅洛迪',
-  'Angelo': '安杰洛',
+  'Melodie': '麦乐迪',
+  'Angelo': '安吉洛',
   'Draco': '德拉科',
   'Lily': '莉莉',
-  'Berry': '贝瑞',
+  'Berry': '拜瑞',
   'Clancy': '克兰西',
-  'Moe': '莫',
+  'Moe': '阿萌',
   'Kenji': '健次',
-  'Shade': '沙德',
-  'Juju': '朱朱',
+  'Shade': '谢德',
+  'Juju': '珠珠',
   'Buzz Lightyear': '巴斯光年',
-  'Meeple': '米宝',
+  'Meeple': '谜宝',
   'Ollie': '奥利',
-  'Lumi': '卢米',
+  'Lumi': '露米',
   'Finx': '芬克斯',
-  'Jae-Yong': '在荣',
-  'Kaze': '凯泽',
+  'Jae-Yong': '载勇',
+  'Kaze': '风姬',
   'Alli': '阿利',
-  'Trunk': '特朗克',
-  'Mina': '米娜',
-  'Ziggy': '齐吉',
+  'Trunk': '查克',
+  'Mina': '蜜娜',
+  'Ziggy': '兹奇',
   'Pierce': '皮尔斯',
-  'Gigi': '吉吉',
+  'Gigi': '琪琪',
   'Glowy': '格洛薇',
-  'Sirius': '西里斯',
-  'Najia': '娜吉娅',
+  'Sirius': '西里乌斯',
+  'Najia': '娜吉亚',
   'Damian': '达米安',
-  'Starr Nova': '星诺娃',
+  'Starr Nova': '丝塔诺娃',
   'Bolt': '波尔特',
 };
 
 // BrawlAPI class -> 站点筛选用中文定位
 const CLASS_TO_ROLE = {
-  'Damage Dealer': '战士',
+  'Damage Dealer': '输出',
   'Marksman': '射手',
   'Artillery': '投弹手',
   'Tank': '坦克',
   'Support': '辅助',
-  'Controller': '辅助',
-  'Assassin': '战士',
-  'Unknown': '战士',
+  'Controller': '控场',
+  'Assassin': '刺客',
+  'Unknown': '输出',
+};
+
+// API class 不准确时的强制覆盖
+/** @type {Record<string, string>} */
+const ROLE_OVERRIDES = {
+  'Jae-Yong': '辅助',
 };
 
 const knownByApiId = new Map(KNOWN_HEROES.map(k => [k.apiId, k]));
@@ -433,7 +439,7 @@ async function main() {
     const cnName = known ? known.cnName : (CN_NAME_MAP[enName] || enName);
     const fandom = fandomStats[enName] || {};
     const old = oldHeroes[b.id];
-    const role = old?.role || known?.role || CLASS_TO_ROLE[b.class?.name] || '战士';
+    const role = known?.role || ROLE_OVERRIDES[enName] || CLASS_TO_ROLE[b.class?.name] || '输出';
 
     // 头像：优先本地 apiId，最后 CDN
     let avatar = `/HeroAvatars/${b.id}.png`;
@@ -549,6 +555,9 @@ async function main() {
 
   // 按 localId 排序
   heroes.sort((a, b) => Number(a.id) - Number(b.id));
+
+  // 过滤掉不希望在站点展示的英雄（如联动/特殊英雄）
+  heroes = heroes.filter(h => h.enName !== 'Glowy' && h.name !== '格洛薇');
 
   // 输出 TS 文件
   const outputPath = path.join(ROOT, 'lib', 'data', 'heroDetails.ts');

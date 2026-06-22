@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import type { HeroSkin } from '@/lib/data';
+import { localizeHeroText, cleanHeroText } from '@/lib/i18n';
 
 interface SkinSectionProps {
   skins: HeroSkin[];
@@ -32,7 +33,7 @@ export default function SkinSection({ skins }: SkinSectionProps) {
               unoptimized
             />
           </div>
-          <p className="text-sm font-bold truncate">{skin.name}</p>
+          <p className="text-sm font-bold truncate">{cleanHeroText(localizeHeroText(skin.name))}</p>
         </div>
       ))}
     </div>

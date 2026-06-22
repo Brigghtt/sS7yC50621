@@ -193,6 +193,63 @@
   50%      { transform: translateY(-6px); opacity: 0.5; }
 }
 
+/* ---------- 模式详情页 — 浮动粒子 ---------- */
+@keyframes floatIdle {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-18px); }
+}
+
+/* ---------- 辉光脉冲 ---------- */
+@keyframes glowPulse {
+  0%, 100% { opacity: 0.25; transform: scale(1); }
+  50%      { opacity: 0.5;  transform: scale(1.06); }
+}
+
+/* ========== 赛事板块专用动画 ========== */
+
+/* 淡入上移入场 */
+@keyframes fadeInUp {
+  0%   { opacity: 0; transform: translateY(30px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+/* 卡片悬浮 - 提升 + 边框辉光 */
+@keyframes cardGlowPulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(255,213,0,0); }
+  50%      { box-shadow: 0 0 24px 4px rgba(255,213,0,0.18); }
+}
+
+/* LIVE 状态脉冲 */
+@keyframes livePulse {
+  0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(239,68,68,0.6); }
+  50%      { opacity: 0.85; box-shadow: 0 0 16px 4px rgba(239,68,68,0.3); }
+}
+
+/* 进度条填充动画 */
+@keyframes barFillIn {
+  0%   { width: 0%; }
+  100% { width: var(--bar-target, 0%); }
+}
+
+/* 比分入场 - 数字弹跳 */
+@keyframes scoreBounce {
+  0%   { transform: scale(0.3); opacity: 0; }
+  60%  { transform: scale(1.15); opacity: 1; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+/* 徽章闪烁 */
+@keyframes badgeShimmer {
+  0%   { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+/* 环形进度描边 */
+@keyframes ringProgress {
+  0%   { stroke-dashoffset: var(--ring-circumference, 339.292); }
+  100% { stroke-dashoffset: var(--ring-offset, 100); }
+}
+
 /* ============================================================
    注册为 Tailwind animation 工具类
    ============================================================ */
@@ -227,6 +284,32 @@
 @utility animate-nav-dot-bounce {
   animation: navDotBounce 0.8s ease-in-out infinite;
 }
+@utility animate-float-idle {
+  animation: floatIdle 4s ease-in-out infinite;
+}
+@utility animate-glow-pulse {
+  animation: glowPulse 3.5s ease-in-out infinite;
+}
+@utility animate-fade-in-up {
+  animation: fadeInUp 0.5s cubic-bezier(0.22, 0.61, 0.36, 1) forwards;
+}
+@utility animate-card-glow {
+  animation: cardGlowPulse 2.8s ease-in-out infinite;
+}
+@utility animate-live-pulse {
+  animation: livePulse 1.2s ease-in-out infinite;
+}
+@utility animate-bar-fill {
+  animation: barFillIn 0.8s cubic-bezier(0.22, 0.61, 0.36, 1) forwards;
+}
+@utility animate-score-bounce {
+  animation: scoreBounce 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+@utility animate-badge-shimmer {
+  background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.15) 50%, transparent 100%);
+  background-size: 200% 100%;
+  animation: badgeShimmer 2s linear infinite;
+}
 
 /* ============================================================
    动画初始态（所有入场动画默认隐藏） — 使用 @utility 包装
@@ -243,9 +326,6 @@ html {
   margin: 0;
   padding: 0;
   width: 100%;
-  /* 垂直方向强制吸附 */
-  scroll-snap-type: y mandatory;
-  scroll-behavior: smooth;
   overflow-y: scroll;
   --scroll-transition-duration: 500ms;
   --scroll-easing: cubic-bezier(0.4, 0, 0.2, 1);
@@ -263,14 +343,26 @@ body {
 }
 
 /* ============================================================
-   CSS Scroll Snap — 吸附目标
+   CSS Scroll Snap — 仅首页生效
    ============================================================ */
-main > section,
-main > div[id="banner"] {
+body.is-home {
+  /* 垂直方向强制吸附（注意：scroll-behavior: smooth 与 mandatory scroll-snap
+     同时启用会产生冲突，手动滚动由 scrollToSection 的 behavior:'smooth' 处理） */
+  scroll-snap-type: y mandatory;
+}
+
+body.is-home main > section,
+body.is-home main > div[id="banner"] {
   scroll-snap-align: start;
   scroll-snap-stop: always;
   overflow: hidden;
   position: relative;
+}
+
+/* Footer 只在首页作为最后一个吸附目标，保证首页能滚动到底；
+   独立页面不受影响 */
+body.is-home footer {
+  scroll-snap-align: start;
 }
 
 /* ============================================================
@@ -278,13 +370,14 @@ main > div[id="banner"] {
    ============================================================ */
 
 /* 视差背景层 — 通过 --parallax-y 控制偏移 */
+/* 注意：不使用 CSS transition，因为 JS 已通过 requestAnimationFrame 实时更新，
+   添加 transition 会导致背景层移动滞后于滚动，与 scroll-snap 产生振荡冲突 */
 .parallax-bg {
   position: absolute;
   inset: -20% 0 -20% 0;
   z-index: 0;
   will-change: transform;
   transform: translateY(var(--parallax-y, 0px));
-  transition: transform 0.1s linear;
 }
 
 /* 内容过渡层 — 通过 --section-opacity / --section-translate-y / --section-scale 控制 */
@@ -383,7 +476,7 @@ main > div[id="banner"] {
    优雅降级：不支持 scroll-snap 的浏览器
    ============================================================ */
 @supports not (scroll-snap-type: y mandatory) {
-  html {
+  body.is-home {
     scroll-behavior: smooth;
     scroll-snap-type: none;
   }
@@ -426,7 +519,7 @@ main > div[id="banner"] {
    无障碍：减少动效时
    ============================================================ */
 @media (prefers-reduced-motion: reduce) {
-  html {
+  body.is-home {
     scroll-snap-type: none;
     scroll-behavior: auto;
   }
@@ -439,7 +532,9 @@ main > div[id="banner"] {
   .animate-val-zoom-burst,
   .animate-val-slash-in,
   .animate-val-skill-in,
-  .animate-val-border-flash {
+  .animate-val-border-flash,
+  .animate-float-idle,
+  .animate-glow-pulse {
     animation: none;
     opacity: 1;
     transform: none;

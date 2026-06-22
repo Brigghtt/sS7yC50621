@@ -1410,21 +1410,21 @@ export type ModeCardItem =
   | { type: 'horizontal'; id: string; title: string; subTitle: string; bgImage: string; logo: string; };
 
 export const modeCards: ModeCardItem[] = [
-  { type: 'vertical',   id: 'showdown',     title: '荒野决斗',     subTitle: '单人/双人/三人', desc: '活到最后就是胜利', bgImage: '/Usedinmode/mode1.png',  logo: '/Usedinmode/icon/icon1.png' },
-  { type: 'vertical',   id: 'gemgrab',      title: '宝石争霸',     subTitle: '收集10颗宝石',   desc: '团队配合最重要',  bgImage: '/Usedinmode/mode2.png',  logo: '/Usedinmode/icon/icon2.png' },
-  { type: 'horizontal', id: 'gemgrab5v5',   title: '5对5宝石争霸', subTitle: '5V5',           bgImage: '/Usedinmode/mode2.png',  logo: '/Usedinmode/icon/icon2.png' },
-  { type: 'horizontal', id: 'brawlball',    title: '乱斗足球',     subTitle: 'BRAWL BALL',     bgImage: '/Usedinmode/mode3.png',  logo: '/usedinmode/icon/icon3.png' },
-  { type: 'horizontal', id: 'brawlball5v5', title: '5对5乱斗足球', subTitle: '5v5',           bgImage: '/Usedinmode/mode9.png',  logo: '/Usedinmode/icon/icon3.png' },
-  { type: 'horizontal', id: 'knockout',     title: '乱斗淘汰赛',   subTitle: 'KNOCKOUT',       bgImage: '/Usedinmode/mode4.png',  logo: '/usedinmode/icon/icon4.png' },
-  { type: 'horizontal', id: 'knockout5v5',  title: '5对5乱斗淘汰赛', subTitle: '5V5',          bgImage: '/Usedinmode/mode4.png',  logo: '/Usedinmode/icon/icon4.png' },
-  { type: 'horizontal', id: 'hotzone',      title: '热区争夺',     subTitle: 'HOT ZONE',       bgImage: '/Usedinmode/mode5.png',  logo: '/usedinmode/icon/icon5.png' },
-  { type: 'horizontal', id: 'bounty',       title: '赏金猎人',     subTitle: 'BOUNTY',         bgImage: '/Usedinmode/mode8.png',  logo: '/usedinmode/icon/icon8.png' },
-  { type: 'horizontal', id: 'heist',        title: '金库攻防',     subTitle: 'HEIST',          bgImage: '/Usedinmode/mode13.png', logo: '/Usedinmode/icon/icon13.png' },
-  { type: 'horizontal', id: 'basketball',   title: '乱斗篮球',     subTitle: 'BASKET BRAWL',   bgImage: '/Usedinmode/mode6.png',  logo: '/usedinmode/icon/icon6.png' },
-  { type: 'horizontal', id: 'brawlHockey',  title: '乱斗冰球',     subTitle: 'BRAWL HOCKEY',   bgImage: '/Usedinmode/mode11.png', logo: '/Usedinmode/icon/icon11.png' },
-  { type: 'horizontal', id: 'duels',        title: '车轮擂台赛',   subTitle: 'DUELS',          bgImage: '/Usedinmode/mode7.png',  logo: '/usedinmode/icon/icon7.png' },
-  { type: 'horizontal', id: 'brawlArena',   title: '乱斗竞技场',   subTitle: 'BRAWL ARENA',    bgImage: '/Usedinmode/mode12.png', logo: '/Usedinmode/icon/icon12.png' },
-  { type: 'vertical',   id: 'wipeout',      title: '积分争夺赛',   subTitle: 'WIPEOUT',        desc: '5v5消灭战',      bgImage: '/Usedinmode/mode10.png', logo: '/Usedinmode/icon/icon10.png' },
+  { type: 'vertical',   id: 'showdown',     title: '荒野决斗',     subTitle: 'SHOWDOWN',       desc: '活到最后就是胜利', bgImage: '/Usedinmode/showdown.gif',      logo: '/Usedinmode/icon/icon1.png' },
+  { type: 'vertical',   id: 'gemgrab',      title: '宝石争霸',     subTitle: 'GEM GRAB',       desc: '团队配合最重要',  bgImage: '/Usedinmode/gem_grab.gif',      logo: '/Usedinmode/icon/icon2.png' },
+  { type: 'horizontal', id: 'gemgrab5v5',   title: '5对5宝石争霸', subTitle: '5V5',           bgImage: '/Usedinmode/gem_grab_5.gif',    logo: '/Usedinmode/icon/icon2.png' },
+  { type: 'horizontal', id: 'brawlball',    title: '乱斗足球',     subTitle: 'BRAWL BALL',     bgImage: '/Usedinmode/brawl_ball.gif',    logo: '/Usedinmode/icon/icon3.png' },
+  { type: 'horizontal', id: 'brawlball5v5', title: '5对5乱斗足球', subTitle: '5v5',           bgImage: '/Usedinmode/brawl_ball_5.gif',  logo: '/Usedinmode/icon/icon3.png' },
+  { type: 'horizontal', id: 'knockout',     title: '乱斗淘汰赛',   subTitle: 'KNOCKOUT',       bgImage: '/Usedinmode/knockout.gif',       logo: '/Usedinmode/icon/icon4.png' },
+  { type: 'horizontal', id: 'knockout5v5',  title: '5对5乱斗淘汰赛', subTitle: '5V5',          bgImage: '/Usedinmode/knockout_5.gif',    logo: '/Usedinmode/icon/icon4.png' },
+  { type: 'horizontal', id: 'hotzone',      title: '热区争夺',     subTitle: 'HOT ZONE',       bgImage: '/Usedinmode/hot_zone.gif',      logo: '/Usedinmode/icon/icon5.png' },
+  { type: 'horizontal', id: 'bounty',       title: '赏金猎人',     subTitle: 'BOUNTY',         bgImage: '/Usedinmode/bounty.gif',        logo: '/Usedinmode/icon/icon8.png' },
+  { type: 'horizontal', id: 'heist',        title: '金库攻防',     subTitle: 'HEIST',          bgImage: '/Usedinmode/heist.gif',         logo: '/Usedinmode/icon/icon13.png' },
+  { type: 'horizontal', id: 'basketball',   title: '乱斗篮球',     subTitle: 'BASKET BRAWL',   bgImage: '/Usedinmode/basket_brawl.gif',  logo: '/Usedinmode/icon/icon6.png' },
+  { type: 'horizontal', id: 'brawlHockey',  title: '乱斗冰球',     subTitle: 'BRAWL HOCKEY',   bgImage: '/Usedinmode/brawl_hockey.gif',  logo: '/Usedinmode/icon/icon11.png' },
+  { type: 'horizontal', id: 'duels',        title: '车轮擂台赛',   subTitle: 'DUELS',          bgImage: '/Usedinmode/duels.gif',         logo: '/Usedinmode/icon/icon7.png' },
+  { type: 'horizontal', id: 'brawlArena',   title: '乱斗竞技场',   subTitle: 'BRAWL ARENA',    bgImage: '/Usedinmode/brawl_arena.gif',   logo: '/Usedinmode/icon/icon12.png' },
+  { type: 'vertical',   id: 'wipeout',      title: '积分争夺赛',   subTitle: 'WIPEOUT',        desc: '5v5消灭战',      bgImage: '/Usedinmode/wipe_out.gif',    logo: '/Usedinmode/icon/icon10.png' },
 ];
 
 // -------------------- 5.5 模式当前地图实景图 --------------------

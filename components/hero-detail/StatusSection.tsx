@@ -44,7 +44,9 @@ export default function StatusSection({ hero }: StatusSectionProps) {
   const scaledDamage = scaleFromMax(hero.stats.damage, level);
   const formatStat = (value: string | number) => {
     if (typeof value !== 'string') return value;
-    return cleanHeroText(localizeHeroText(value)).replace(/\s*([（(])/g, '\n$1');
+    return cleanHeroText(localizeHeroText(value))
+      .replace(/\s*([（(])/g, '\n$1')
+      .replace(/([)）])\s+(?=[\d（(])/g, '$1\n');
   };
 
   const stats = [

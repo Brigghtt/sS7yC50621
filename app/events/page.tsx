@@ -72,8 +72,14 @@ export default function EventsPage() {
   };
 
   return (
-    <main className="min-h-screen pt-32 pb-16 bg-gradient-to-b from-[#154BCD] to-[#0f2a8a]">
-      <div className="max-w-7xl mx-auto px-6">
+    <main className="relative min-h-screen pt-32 pb-16 overflow-hidden">
+      {/* 与主页各功能分区一致的视差/全覆盖背景 */}
+      <div
+        className="absolute inset-0 bg-cover bg-center z-0"
+        style={{ backgroundImage: 'url(/Usedinheroes/bg/3.png)' }}
+      />
+      <div className="absolute inset-0 bg-black/35 z-0" />
+      <div className="relative z-10 max-w-7xl mx-auto px-6">
         <h1 className="text-4xl md:text-5xl font-black text-[#FFD500] mb-8 drop-shadow-lg">赛事中心</h1>
         
         {/* 子分类入口 */}
@@ -87,7 +93,7 @@ export default function EventsPage() {
             <Link
               key={item.href}
               href={item.href}
-              className="group bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-5 hover:border-[#FFD500]/50 hover:bg-white/10 transition-all duration-300 hover:-translate-y-1 text-center"
+              className="group bg-black/30 backdrop-blur-md border border-white/10 rounded-2xl p-5 hover:border-[#FFD500]/50 hover:bg-black/40 transition-all duration-300 hover:-translate-y-1 text-center"
             >
               <div className="text-3xl mb-2 group-hover:scale-110 transition-transform">{item.icon}</div>
               <div className="font-black text-white group-hover:text-[#FFD500] transition-colors">{item.label}</div>
@@ -200,7 +206,7 @@ export default function EventsPage() {
             <Link
               key={t.id}
               href={`/events/${t.id}`}
-              className="group relative bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-6 hover:border-[#FFD500]/50 hover:bg-white/10 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_8px_30px_rgba(255,213,0,0.15)]"
+              className="group relative bg-black/30 backdrop-blur-md border border-white/10 rounded-2xl p-6 hover:border-[#FFD500]/50 hover:bg-black/40 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_8px_30px_rgba(255,213,0,0.15)]"
             >
               <div className="flex items-center justify-between mb-3">
                 <div className="flex items-center gap-2">

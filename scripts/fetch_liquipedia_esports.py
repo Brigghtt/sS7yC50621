@@ -994,11 +994,42 @@ def _parse_date(text: str) -> str | None:
     return None
 
 
+def _team_region_from_page(soup: BeautifulSoup) -> str:
+    """从队伍页面 infobox 解析 Region 并映射为中文赛区。"""
+    region_map = {
+        "europe": "欧洲",
+        "emea": "欧洲",
+        "asia-pacific": "东亚",
+        "asia": "东亚",
+        "oceania": "东亚",
+        "china": "大陆",
+        "chinese mainland": "大陆",
+        "north america": "北美",
+        "south america": "南美",
+        "latin america": "南美",
+    }
+    infobox = soup.find("div", class_="fo-nttax-infobox")
+    if not infobox:
+        return ""
+    for div in infobox.find_all("div", recursive=False):
+        desc = div.find("div", class_="infobox-description")
+        if not desc:
+            continue
+        key = desc.get_text(strip=True).rstrip(":").lower()
+        if key == "region":
+            value_div = desc.find_next_sibling("div")
+            if value_div:
+                raw = value_div.get_text(strip=True).lower()
+                return region_map.get(raw, "")
+    return ""
+
+
 def parse_team_page(html: str, fallback_name: str = "") -> dict[str, Any]:
-    """从队伍页面 HTML 解析当前阵容。"""
+    """从队伍页面 HTML 解析当前阵容与赛区。"""
     soup = BeautifulSoup(html, "html.parser")
     name = _team_name_from_link(soup) or fallback_name
     logo = _team_logo_from_page(soup) or ""
+    region = _team_region_from_page(soup)
 
     players: list[dict[str, Any]] = []
     # 当前阵容通常在第一个 table2__table，列：ID, Name, Join Date
@@ -1033,6 +1064,7 @@ def parse_team_page(html: str, fallback_name: str = "") -> dict[str, Any]:
         "name": name,
         "nameEn": name,
         "logo": logo,
+        "region": region,
         "players": players,
     }
 
@@ -1327,12 +1359,17 @@ def build_teams_and_players(
             logo = info["logo"]
             team_players = []
 
+        # 优先使用战队页面本身的 Region，缺失时回退到 tournament 配置中的赛区
+        team_region = parsed.get("region") if html else ""
+        if not team_region:
+            team_region = info["region"]
+
         team_doc = {
             "id": slug,
             "name": info["name"],
             "nameEn": info["nameEn"],
             "logo": logo,
-            "region": info["region"],
+            "region": team_region,
             "founded": "",
             "style": [],
             "history": [],

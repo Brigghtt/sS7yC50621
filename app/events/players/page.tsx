@@ -12,11 +12,13 @@ const REGION_LABELS: Record<string, string> = {
   '欧洲': '🇪🇺 欧洲赛区',
   '东亚': '🌏 东亚赛区',
   '大陆': '🇨🇳 大陆赛区',
+  '北美': '🇺🇸 北美赛区',
+  '南美': '🇧🇷 南美赛区',
 };
 
 export default function PlayersPage() {
   const [region, setRegion] = useState<TournamentRegion | '全部'>('全部');
-  const regions: (TournamentRegion | '全部')[] = ['全部', '欧洲', '东亚', '大陆'];
+  const regions: (TournamentRegion | '全部')[] = ['全部', '欧洲', '东亚', '大陆', '北美', '南美'];
 
   const getTeamName = (id: string) => teams.find(t => t.id === id)?.name || id;
 

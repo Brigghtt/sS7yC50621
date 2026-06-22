@@ -65,7 +65,7 @@ export const heroList: Hero[] = [
 
 // -------------------- 3. 赛事档案（新版） --------------------
 export type TournamentCategory = 'LCQ' | '全球总决赛' | 'brawlcup' | '月赛';
-export type TournamentRegion = '欧洲' | '东亚' | '大陆';
+export type TournamentRegion = '欧洲' | '东亚' | '大陆' | '北美' | '南美';
 export type EliminationRound = '全部' | '八强赛' | '四强赛' | '半决赛' | '总决赛';
 export type SubCategory = '小组赛' | '淘汰赛';
 

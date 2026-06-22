@@ -5,7 +5,7 @@ import { teams, players } from '@/lib/data/esports';
 import Link from 'next/link';
 import Breadcrumb from '@/components/esports/Breadcrumb';
 import TeamLogo from '@/components/esports/TeamLogo';
-import StatCard from '@/components/esports/StatCard';
+
 
 export default function TeamDetailPage() {
   const { id } = useParams();
@@ -53,71 +53,11 @@ export default function TeamDetailPage() {
             <div className="min-w-0">
               <h1 className="text-2xl md:text-4xl font-black text-white mb-1.5">{team.name}</h1>
               <p className="text-white/45 font-bold text-sm mb-3">
-                {team.nameEn} · {team.region || '未知赛区'} · 成立于 {team.founded || '-'}
+                {team.nameEn} · {team.region || '未知赛区'}
               </p>
-              <div className="flex flex-wrap gap-2">
-                {(team.style || []).map(s => (
-                  <span key={s} className="px-3 py-1.5 rounded-full bg-gradient-to-r from-[#FFD500]/15 to-[#FFD500]/5 border border-[#FFD500]/15 text-[#FFD500] text-xs font-bold">
-                    {s}
-                  </span>
-                ))}
-              </div>
             </div>
           </div>
 
-          {/* 三维数据 */}
-          {(() => {
-            const stats = team.stats || { winRate: 0, totalKills: 0, avgDamage: 0 };
-            return (
-              <div className="relative grid grid-cols-3 gap-3 md:gap-4">
-                <StatCard value={`${(stats.winRate * 100).toFixed(0)}%`} label="胜率" highlight />
-                <StatCard value={String(stats.totalKills)} label="总击杀" />
-                <StatCard value={String(stats.avgDamage)} label="场均伤害" />
-              </div>
-            );
-          })()}
-        </div>
-
-        {/* 历史战绩 */}
-        <div className="relative overflow-hidden rounded-3xl bg-black/35 backdrop-blur-2xl border border-white/[0.1] p-6 md:p-10 mb-6 shadow-[0_8px_40px_rgba(0,0,0,0.4)]">
-          <h2 className="text-xl font-black text-white mb-6 flex items-center gap-2">
-            <span className="inline-block w-1.5 h-5 bg-[#FFD500] rounded-full" />
-            历史战绩
-          </h2>
-          {(team.history || []).length === 0 ? (
-            <p className="text-white/40 text-sm">暂无历史战绩数据</p>
-          ) : (
-            <div className="space-y-2.5">
-              {(team.history || []).map((h, i) => {
-                const isChampion = h.result.includes('冠军');
-                return (
-                  <div
-                    key={i}
-                    className={`flex items-center justify-between rounded-xl p-4 transition-all duration-300 ${
-                      isChampion
-                        ? 'bg-gradient-to-r from-[#FFD500]/[0.08] to-[#FFD500]/[0.02] border border-[#FFD500]/15 shadow-[0_0_20px_rgba(255,213,0,0.05)]'
-                        : 'bg-black/30 border border-white/[0.08] hover:border-white/[0.12]'
-                    }`}
-                    style={{ animationDelay: `${i * 60}ms`, animation: 'fadeInUp 0.3s cubic-bezier(0.22,0.61,0.36,1) forwards', opacity: 0 }}
-                  >
-                    <div className="min-w-0 mr-3">
-                      <div className={`font-bold text-sm ${isChampion ? 'text-[#FFD500]' : 'text-white'}`}>
-                        {h.event}
-                      </div>
-                      <div className="text-xs text-white/40 mt-0.5">{h.date}</div>
-                    </div>
-                    <span className={`flex-shrink-0 px-3 py-1.5 rounded-lg text-xs font-black ${
-                      isChampion
-                        ? 'bg-[#FFD500] text-[#1A3A8A] shadow-md shadow-[#FFD500]/20'
-                        : 'bg-white/[0.06] text-white/50 border border-white/[0.06]'
-                    }`}>
-                      {h.result}
-                    </span>
-                  </div>
-                );
-              })}
-            </div>
-          )}
         </div>
 
         {/* 现役选手 */}

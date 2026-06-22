@@ -1,7 +1,7 @@
 [
   {
-    "id": "[e][h]Yoshi",
-    "name": "[e][h]Yoshi",
+    "id": "Yoshi",
+    "name": "Yoshi",
     "nameEn": "David Cayetano Gómez",
     "nationality": "Spain",
     "born": "January 18, 2004 (age 22)",
@@ -9,7 +9,7 @@
     "role": "",
     "currentTeam": "SK Gaming",
     "totalWinnings": "$197,076",
-    "portrait": "/players/e-h-yoshi.png",
+    "portrait": "/players/yoshi.png",
     "teamHistory": [
       {
         "team": "Totem Esports",
@@ -48,8 +48,8 @@
     "joinDate": "2023-01-31"
   },
   {
-    "id": "[e][h]Ope",
-    "name": "[e][h]Ope",
+    "id": "Ope",
+    "name": "Ope",
     "nameEn": "Alexis Mangelle",
     "nationality": "France",
     "born": "September 29, 2004 (age 21)",
@@ -57,7 +57,7 @@
     "role": "Player",
     "currentTeam": "SK Gaming",
     "totalWinnings": "$119,308",
-    "portrait": "/players/e-h-ope.png",
+    "portrait": "/players/ope.png",
     "teamHistory": [
       {
         "team": "Mood Gaming",
@@ -116,8 +116,8 @@
     "joinDate": "2025-01-17"
   },
   {
-    "id": "[e][h]Yoko",
-    "name": "[e][h]Yoko",
+    "id": "Yoko",
+    "name": "Yoko",
     "nameEn": "Dawson Goblet",
     "nationality": "France",
     "born": "July 11, 2008 (age 17)",
@@ -125,7 +125,7 @@
     "role": "Player",
     "currentTeam": "SK Gaming",
     "totalWinnings": "$7,744",
-    "portrait": "/players/e-h-yoko.png",
+    "portrait": "/players/yoko.png",
     "teamHistory": [
       {
         "team": "Eclipsar Esport",
@@ -174,8 +174,8 @@
     "joinDate": "2026-06-03"
   },
   {
-    "id": "[e][h]Sergeant Clash",
-    "name": "[e][h]Sergeant Clash",
+    "id": "Sergeant Clash",
+    "name": "Sergeant Clash",
     "nameEn": "अश्मित राज सिंह",
     "nationality": "India",
     "born": "February 28, 2005 (age 21)",
@@ -183,7 +183,7 @@
     "role": "Player",
     "currentTeam": "Revenant XSpark",
     "totalWinnings": "$92,193",
-    "portrait": "/players/e-h-sergeant-clash.png",
+    "portrait": "/players/sergeant-clash.png",
     "teamHistory": [
       {
         "team": "Stalwart Esports",
@@ -222,8 +222,8 @@
     "joinDate": "2025-03-01"
   },
   {
-    "id": "[e][h]Walkthrough",
-    "name": "[e][h]Walkthrough",
+    "id": "Walkthrough",
+    "name": "Walkthrough",
     "nameEn": "",
     "nationality": "Singapore",
     "born": "",
@@ -231,7 +231,7 @@
     "role": "Player",
     "currentTeam": "Revenant XSpark",
     "totalWinnings": "$9,816",
-    "portrait": "/players/e-h-walkthrough.png",
+    "portrait": "/players/walkthrough.png",
     "teamHistory": [
       {
         "team": "Monarchy",
@@ -255,8 +255,8 @@
     "joinDate": "2026-02-27"
   },
   {
-    "id": "[e][h]X9Jay",
-    "name": "[e][h]X9Jay",
+    "id": "X9Jay",
+    "name": "X9Jay",
     "nameEn": "Jayden Wong",
     "nationality": "Singapore",
     "born": "October 30, 2005 (age 20)",
@@ -264,7 +264,7 @@
     "role": "Player",
     "currentTeam": "Revenant XSpark",
     "totalWinnings": "$58,982",
-    "portrait": "/players/e-h-x9jay.png",
+    "portrait": "/players/x9jay.png",
     "teamHistory": [
       {
         "team": "Team Wood",
@@ -303,8 +303,8 @@
     "joinDate": "2026-06-14"
   },
   {
-    "id": "[e][h]Sitetampo",
-    "name": "[e][h]Sitetampo",
+    "id": "Sitetampo",
+    "name": "Sitetampo",
     "nameEn": "",
     "nationality": "Japan",
     "born": "",
@@ -312,7 +312,7 @@
     "role": "Player",
     "currentTeam": "ZETA DIVISION",
     "totalWinnings": "$401,264",
-    "portrait": "/players/e-h-sitetampo.png",
+    "portrait": "/players/sitetampo.png",
     "teamHistory": [
       {
         "team": "JUPITER",
@@ -356,8 +356,8 @@
     "joinDate": "2025-02-07"
   },
   {
-    "id": "[e][h]Sizuku",
-    "name": "[e][h]Sizuku",
+    "id": "Sizuku",
+    "name": "Sizuku",
     "nameEn": "",
     "nationality": "Japan",
     "born": "January 24, 2006 (age 20)",
@@ -365,7 +365,7 @@
     "role": "Player",
     "currentTeam": "ZETA DIVISION",
     "totalWinnings": "$63,285",
-    "portrait": "/players/e-h-sizuku.png",
+    "portrait": "/players/sizuku.png",
     "teamHistory": [
       {
         "team": "Okaaaay",
@@ -409,8 +409,8 @@
     "joinDate": "2025-02-07"
   },
   {
-    "id": "[e][h]Battoman",
-    "name": "[e][h]Battoman",
+    "id": "Battoman",
+    "name": "Battoman",
     "nameEn": "",
     "nationality": "Japan",
     "born": "May 22, 2005 (age 21)",
@@ -418,7 +418,7 @@
     "role": "Player",
     "currentTeam": "ZETA DIVISION",
     "totalWinnings": "$41,049",
-    "portrait": "/players/e-h-battoman.png",
+    "portrait": "/players/battoman.png",
     "teamHistory": [
       {
         "team": "3R Gaming",
@@ -447,8 +447,8 @@
     "joinDate": "2026-02-06"
   },
   {
-    "id": "[e][h]Killer",
-    "name": "[e][h]Killer",
+    "id": "Killer",
+    "name": "Killer",
     "nameEn": "Jonathan Josue Segura Muñoz",
     "nationality": "Guatemala",
     "born": "January  9, 2003 (age 23)",
@@ -456,7 +456,7 @@
     "role": "Coach",
     "currentTeam": "Tribe Gaming",
     "totalWinnings": "$49,836",
-    "portrait": "/players/e-h-killer.png",
+    "portrait": "/players/killer.png",
     "teamHistory": [
       {
         "team": "Vatra Helius",

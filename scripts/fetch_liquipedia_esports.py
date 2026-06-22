@@ -1059,6 +1059,9 @@ def parse_player_page(html: str, fallback_id: str = "") -> dict[str, Any]:
         if header:
             for icon in header.find_all("span", class_="team-template-team-icon"):
                 icon.decompose()
+            # 清除 Liquipedia 编辑/帮助按钮 [e][h]，避免污染选手 ID
+            for btn in header.find_all("span", class_="infobox-buttons"):
+                btn.decompose()
             player_id = header.get_text(strip=True) or fallback_id
 
         # 照片
@@ -1626,6 +1629,9 @@ def main() -> int:
         skip_team_pages=args.skip_team_pages,
         skip_players=args.skip_players,
     )
+
+    # 生成 teams 后，优先把远程 logo URL 替换为本地已存在的文件
+    use_local_team_logos(teams)
 
     if not args.skip_portraits and not args.skip_players:
         download_player_portraits(players)

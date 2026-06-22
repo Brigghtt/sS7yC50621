@@ -7,7 +7,7 @@ import Breadcrumb from '@/components/esports/Breadcrumb';
 import PageHeader from '@/components/esports/PageHeader';
 import FilterPill from '@/components/esports/FilterPill';
 import TeamLogo from '@/components/esports/TeamLogo';
-import StatCard from '@/components/esports/StatCard';
+
 
 const REGION_LABELS: Record<string, string> = {
   '欧洲': '🇪🇺 欧洲赛区',
@@ -79,37 +79,6 @@ export default function TeamsPage() {
                       </p>
                     </div>
                   </div>
-
-                  {/* 风格标签 */}
-                  <div className="flex flex-wrap gap-1.5 mb-4">
-                    {(team.style || []).map(s => (
-                      <span key={s} className="px-2 py-0.5 rounded-md bg-white/[0.08] border border-white/[0.08] text-[10px] font-bold text-white/60 group-hover:border-white/[0.12] transition-all">
-                        {s}
-                      </span>
-                    ))}
-                  </div>
-
-                  {/* 数据卡片 */}
-                  {(() => {
-                    const stats = team.stats || { winRate: 0, totalKills: 0, avgDamage: 0 };
-                    return (
-                      <div className="grid grid-cols-3 gap-1.5">
-                        <StatCard
-                          value={`${(stats.winRate * 100).toFixed(0)}%`}
-                          label="胜率"
-                          highlight
-                        />
-                        <StatCard
-                          value={String(stats.totalKills)}
-                          label="总击杀"
-                        />
-                        <StatCard
-                          value={String(stats.avgDamage)}
-                          label="场均伤害"
-                        />
-                      </div>
-                    );
-                  })()}
                 </div>
               </Link>
             ))}

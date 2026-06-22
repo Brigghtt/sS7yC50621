@@ -1230,17 +1230,17 @@ export const modeData: Record<string, GameMode> = {
     color: "#82d327",
     sections: [
       {
-        img: "/Usedinmode/mode11.png",
+        img: "/Usedinmode/mdimg/showdown11.jpg",
         text: "荒野决斗包含单人、双人及三人组队吃鸡玩法，地图会不断缩小，玩家需要收集能量模块强化自己，最终活到最后即可获得胜利。",
         align: "right"
       },
       {
-        img: "/Usedinmode/mode12.png",
+        img: "/Usedinmode/mdimg/showdown12.jpg",
         text: "玩家需要利用草丛、障碍物进行偷袭，同时躲避毒圈伤害，灵活走位是获胜的关键。",
         align: "left"
       },
       {
-        img: "/Usedinmode/mode13.png",
+        img: "/Usedinmode/mdimg/showdown13.jpg",
         text: "组队模式需要与队友配合，互相支援，共享视野，根据人数调整战术是致胜关键。",
         align: "right"
       }
@@ -1263,9 +1263,9 @@ export const modeData: Record<string, GameMode> = {
     banner: "/mode-banner/brawlball.jpg",
     color: "#8a9edc",
     sections: [
-      { img: "/Usedinmode/mdimg/mode31.png", text: "3v3足球模式，把球踢进对方球门即可得分，先进两球的队伍获胜。", align: "right" },
-      { img: "/Usedinmode/mdimg/mode32.png", text: "角色可以带球移动，也可以传球给队友，超级技能可以破坏障碍物创造进球路线。", align: "left" },
-      { img: "/Usedinmode/mdimg/mode33.png", text: "适合具有位移、控制技能的角色，快速推进与防守反击是核心战术。", align: "right" }
+      { img: "/Usedinmode/mdimg/brawlball51.jpg", text: "3v3足球模式，把球踢进对方球门即可得分，先进两球的队伍获胜。", align: "right" },
+      { img: "/Usedinmode/mdimg/brawlball52.jpg", text: "角色可以带球移动，也可以传球给队友，超级技能可以破坏障碍物创造进球路线。", align: "left" },
+      { img: "/Usedinmode/mdimg/brawlball53.jpg", text: "适合具有位移、控制技能的角色，快速推进与防守反击是核心战术。", align: "right" }
     ]
   },
   knockout: {
@@ -1319,9 +1319,9 @@ export const modeData: Record<string, GameMode> = {
     banner: "/mode-banner/wipeout.jpg",
     color: "#f5811e",
     sections: [
-      { img: "/Usedinmode/mdimg/mode101.png", text: "5v5淘汰模式，击败敌方英雄积累分数，先达标者胜。", align: "right" },
-      { img: "/Usedinmode/mdimg/mode102.png", text: "复活机制让战斗持续不断，压制与反打节奏极快。", align: "left" },
-      { img: "/Usedinmode/mdimg/mode103.png", text: "高爆发与续航英雄优势明显，控场与收割是核心。", align: "right" }
+      { img: "/Usedinmode/mdimg/wipeout51.jpg", text: "5v5淘汰模式，击败敌方英雄积累分数，先达标者胜。", align: "right" },
+      { img: "/Usedinmode/mdimg/wipeout52.jpg", text: "复活机制让战斗持续不断，压制与反打节奏极快。", align: "left" },
+      { img: "/Usedinmode/mdimg/wipeout53.jpg", text: "高爆发与续航英雄优势明显，控场与收割是核心。", align: "right" }
     ]
   },
   duels: {
@@ -1330,9 +1330,9 @@ export const modeData: Record<string, GameMode> = {
     banner: "/mode-banner/duels.jpg",
     color: "#d81c0f",
     sections: [
-      { img: "/mode-section/1.jpg", text: "1v1车轮战模式，双方各选择三名角色，依次进行1v1对决。", align: "right" },
-      { img: "/mode-section/2.jpg", text: "击败对手即可继续战斗，直到击败对方全部角色，获得最终胜利。", align: "left" },
-      { img: "/mode-section/3.jpg", text: "考验角色克制理解与个人操作，是最能体现实力的模式。", align: "right" }
+      { img: "/Usedinmode/mdimg/duels11.jpg", text: "1v1车轮战模式，双方各选择三名角色，依次进行1v1对决。", align: "right" },
+      { img: "/Usedinmode/mdimg/duels12.jpg", text: "击败对手即可继续战斗，直到击败对方全部角色，获得最终胜利。", align: "left" },
+      { img: "/Usedinmode/mdimg/duels13.jpg", text: "考验角色克制理解与个人操作，是最能体现实力的模式。", align: "right" }
     ]
   },
   brawlHockey: {
@@ -1341,9 +1341,9 @@ export const modeData: Record<string, GameMode> = {
     banner: "/mode-banner/brawlhockey.jpg",
     color: "#1b4ec2",
     sections: [
-      { img: "/Usedinmode/mdimg/mode111.png", text: "3v3冰球模式，将冰球击入对方球门得分，快节奏碰撞竞技。", align: "right" },
-      { img: "/Usedinmode/mdimg/mode112.png", text: "冰球会在墙面反弹，利用地形传球是获胜关键。", align: "left" },
-      { img: "/Usedinmode/mdimg/mode113.png", text: "高机动性英雄优势巨大，快速截球与长传配合是核心战术。", align: "right" }
+      { img: "/Usedinmode/mdimg/brawlhockey11.jpg", text: "3v3冰球模式，将冰球击入对方球门得分，快节奏碰撞竞技。", align: "right" },
+      { img: "/Usedinmode/mdimg/brawlhockey12.jpg", text: "冰球会在墙面反弹，利用地形传球是获胜关键。", align: "left" },
+      { img: "/Usedinmode/mdimg/brawlhockey13.jpg", text: "高机动性英雄优势巨大，快速截球与长传配合是核心战术。", align: "right" }
     ]
   },
   brawlArena: {
@@ -1429,19 +1429,19 @@ export const modeCards: ModeCardItem[] = [
 
 // -------------------- 5.5 模式当前地图实景图 --------------------
 export const liveMapImages: Record<string, string> = {
-  showdown:   '/Usedinmode/mdimg/mode11.png',
+  showdown:   '/Usedinmode/mdimg/showdown11.jpg',
   gemgrab:    '/Usedinmode/mdimg/mode21.png',
-  brawlball:  '/Usedinmode/mdimg/mode31.png',
+  brawlball:  '/Usedinmode/mdimg/brawlball51.jpg',
   knockout:   '/Usedinmode/mdimg/mode41.png',
   hotzone:    '/Usedinmode/mdimg/mode51.png',
   basketball: '/Usedinmode/mdimg/mode61.png',
-  duels:      '/Usedinmode/mode7.png',
+  duels:      '/Usedinmode/mdimg/duels11.jpg',
   bounty:     '/Usedinmode/mdimg/mode81.png',
   brawlball5v5: '/Usedinmode/mdimg/mode91.png',
-  wipeout:      '/Usedinmode/mdimg/mode101.png',
+  wipeout:      '/Usedinmode/mdimg/wipeout51.jpg',
   gemgrab5v5:    '/Usedinmode/mdimg/mode21.png',
   knockout5v5:   '/Usedinmode/mdimg/mode41.png',
-  brawlHockey:   '/Usedinmode/mdimg/mode111.png',
+  brawlHockey:   '/Usedinmode/mdimg/brawlhockey11.jpg',
   brawlArena:    '/Usedinmode/mdimg/mode121.png',
   heist:         '/Usedinmode/mdimg/mode131.png',
 };

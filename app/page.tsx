@@ -1,6 +1,5 @@
 'use client';
 
-import { useEffect } from 'react';
 import BannerCarousel from '@/components/BannerCarousel';
 import HeroSection from '@/components/section_hero/HeroSection';
 import ModeSection from '@/components/section_mode/ModeSection';
@@ -12,11 +11,6 @@ const SECTION_IDS = ['banner', 'hero', 'mode', 'map'];
 const SECTION_LABELS = ['首页', '英雄', '模式', '地图'];
 
 export default function Home() {
-  useEffect(() => {
-    document.body.classList.add('is-home');
-    return () => document.body.classList.remove('is-home');
-  }, []);
-
   // 驱动视差背景 + 内容淡入淡出过渡
   useScrollSnapTransition({
     sectionIds: SECTION_IDS,

@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import BodyClass from "@/components/BodyClass";
 
 export const metadata: Metadata = {
   title: "荒野乱斗 Brawl Stars",
@@ -17,6 +18,7 @@ export default function RootLayout({
   return (
     <html lang="zh-CN" suppressHydrationWarning>
       <body>
+        <BodyClass />
         <Navbar />
         {children}
         <Footer />

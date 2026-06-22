@@ -1352,9 +1352,9 @@ export const modeData: Record<string, GameMode> = {
     banner: "/mode-banner/brawlarena.jpg",
     color: "#1278f1",
     sections: [
-      { img: "/Usedinmode/mdimg/mode121.png", text: "1v1竞技场模式，双方选择英雄进行车轮战对决，击败对手全部英雄即可获胜。", align: "right" },
-      { img: "/Usedinmode/mdimg/mode122.png", text: "每回合地图随机变化，考验英雄池深度与临场应变能力。", align: "left" },
-      { img: "/Usedinmode/mdimg/mode123.png", text: "克制关系与个人操作决定胜负，是最能体现实力的模式。", align: "right" }
+      { img: "/Usedinmode/mdimg/arena11.jpg", text: "1v1竞技场模式，双方选择英雄进行车轮战对决，击败对手全部英雄即可获胜。", align: "right" },
+      { img: "/Usedinmode/mdimg/arena12.jpg", text: "每回合地图随机变化，考验英雄池深度与临场应变能力。", align: "left" },
+      { img: "/Usedinmode/mdimg/arena13.jpg", text: "克制关系与个人操作决定胜负，是最能体现实力的模式。", align: "right" }
     ]
   },
   heist: {
@@ -1363,9 +1363,9 @@ export const modeData: Record<string, GameMode> = {
     banner: "/mode-banner/heist.jpg",
     color: "#d55cd3",
     sections: [
-      { img: "/Usedinmode/mdimg/mode131.png", text: "3v3攻防模式，进攻方破坏敌方金库，防守方保护己方金库，先摧毁者胜。", align: "right" },
-      { img: "/Usedinmode/mdimg/mode132.png", text: "进攻路线固定但掩体众多，爆破类英雄能快速破墙创造通路。", align: "left" },
-      { img: "/Usedinmode/mdimg/mode133.png", text: "防守方需要拖延时间，治疗与坦克组合能有效守住金库。", align: "right" }
+      { img: "/Usedinmode/mdimg/heist11.jpg", text: "3v3攻防模式，进攻方破坏敌方金库，防守方保护己方金库，先摧毁者胜。", align: "right" },
+      { img: "/Usedinmode/mdimg/heist12.jpg", text: "进攻路线固定但掩体众多，爆破类英雄能快速破墙创造通路。", align: "left" },
+      { img: "/Usedinmode/mdimg/heist13.jpg", text: "防守方需要拖延时间，治疗与坦克组合能有效守住金库。", align: "right" }
     ]
   },
   gemgrab5v5: {
@@ -1442,8 +1442,8 @@ export const liveMapImages: Record<string, string> = {
   gemgrab5v5:    '/Usedinmode/mdimg/mode21.png',
   knockout5v5:   '/Usedinmode/mdimg/mode41.png',
   brawlHockey:   '/Usedinmode/mdimg/brawlhockey11.jpg',
-  brawlArena:    '/Usedinmode/mdimg/mode121.png',
-  heist:         '/Usedinmode/mdimg/mode131.png',
+  brawlArena:    '/Usedinmode/mdimg/arena11.jpg',
+  heist:         '/Usedinmode/mdimg/heist11.jpg',
 };
 
 // -------------------- 6. 地图列表 --------------------

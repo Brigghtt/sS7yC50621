@@ -11068,10 +11068,10 @@ export const heroDetailsData: Record<string, HeroDetailV2> = {
   "94": {
     "id": "94",
     "apiId": 16000095,
-    "name": "阿利",
+    "name": "鳄梨",
     "enName": "Alli",
     "slug": "alli",
-    "role": "输出",
+    "role": "刺客",
     "class": "Unknown",
     "rarity": {
       "name": "神话",

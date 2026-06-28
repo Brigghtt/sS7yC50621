@@ -109,7 +109,7 @@ const CN_NAME_MAP = {
   'Finx': '芬克斯',
   'Jae-Yong': '载勇',
   'Kaze': '风姬',
-  'Alli': '阿利',
+  'Alli': '鳄梨',
   'Trunk': '查克',
   'Mina': '蜜娜',
   'Ziggy': '兹奇',

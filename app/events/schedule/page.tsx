@@ -182,11 +182,12 @@ export default function SchedulePage() {
           )}
 
           {/* 月份选择 */}
-          <div className="pt-1 border-t border-white/[0.06]">
-            <span className="text-[10px] font-black text-[#FFD500]/60 uppercase tracking-[0.15em] mb-2.5 block">月份</span>
-            <div className="flex flex-wrap gap-1.5 max-h-32 overflow-y-auto hide-scrollbar">
-              <button
-                onClick={() => setMonth('全部')}
+          {category === '月赛' && (
+            <div className="pt-1 border-t border-white/[0.06]">
+              <span className="text-[10px] font-black text-[#FFD500]/60 uppercase tracking-[0.15em] mb-2.5 block">月份</span>
+              <div className="flex flex-wrap gap-1.5 max-h-32 overflow-y-auto hide-scrollbar">
+                <button
+                  onClick={() => setMonth('全部')}
                 className={`px-3.5 py-2 rounded-xl text-xs font-bold transition-all duration-300 ${
                   month === '全部'
                     ? 'bg-[#FFD500] text-[#1A3A8A] shadow-lg shadow-[#FFD500]/20 scale-105'
@@ -210,6 +211,7 @@ export default function SchedulePage() {
               ))}
             </div>
           </div>
+          )}
 
           {/* 结果计数 */}
           <div className="flex items-center gap-2 pt-2 border-t border-white/[0.06]">

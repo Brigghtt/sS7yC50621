@@ -63,7 +63,7 @@ export default function EventsPage() {
   const showRegion = category === '月赛' || category === '全部';
   const showSub = category !== '全部';
   const showRound = sub === '淘汰赛' || (sub === '全部' && category !== '全部');
-  const showMonth = category === '月赛' || category === 'LCQ' || category === '全球总决赛' || category === 'brawlcup';
+  const showMonth = category === '月赛';
   const showYear = category === '全部' || category === 'LCQ' || category === '全球总决赛' || category === 'brawlcup';
 
   const getCategoryColor = (c: string) => {

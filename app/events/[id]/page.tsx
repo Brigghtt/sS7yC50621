@@ -9,6 +9,7 @@ import Breadcrumb from '@/components/esports/Breadcrumb';
 import TeamLogo from '@/components/esports/TeamLogo';
 import EventFavoriteButton from '@/components/esports/EventFavoriteButton';
 import PredictionWidget from '@/components/esports/PredictionWidget';
+import BrawlCup2025Bracket from '@/components/esports/BrawlCup2025Bracket';
 import { useRecordView } from '@/hooks/useRecordView';
 
 const MAP_FAVORITES_KEY = 'brawl-map-favorites';
@@ -104,6 +105,8 @@ export default function EventDetailPage() {
       .filter(x => x.id.startsWith(prefix))
       .sort((a, b) => a.date.localeCompare(b.date) || a.id.localeCompare(b.id));
   }, [t]);
+
+  const isBrawlCup2025 = t?.category === 'brawlcup' && t?.date.startsWith('2025-05');
 
   const bracketRounds = useMemo(() => {
     if (eventTournaments.length < 2) return [];
@@ -263,7 +266,9 @@ export default function EventDetailPage() {
         </div>
 
         {/* 淘汰赛进程树状图 */}
-        {bracketRounds.length > 1 && (
+        {isBrawlCup2025 ? (
+          <BrawlCup2025Bracket matches={eventTournaments} currentId={t.id} />
+        ) : bracketRounds.length > 1 && (
           <div className="relative overflow-hidden rounded-3xl bg-black/35 backdrop-blur-2xl border border-white/[0.1] p-6 md:p-10 mb-6 shadow-[0_8px_40px_rgba(0,0,0,0.4)]">
             <h2 className="text-xl md:text-2xl font-black text-white mb-6 flex items-center gap-2">
               <span className="inline-block w-1.5 h-6 bg-[#FFD500] rounded-full" />

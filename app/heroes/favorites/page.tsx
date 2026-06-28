@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { useSession } from 'next-auth/react';
 import { heroDetailsData } from '@/lib/data';
 import type { HeroDetailV2 } from '@/lib/data';
+import { getRarityInfo } from '@/lib/rarity';
 
 interface FavoriteRecord {
   heroId: string;
@@ -264,6 +265,7 @@ function HeroCard({
   favorited: boolean;
   onToggle: () => void;
 }) {
+  const rarity = getRarityInfo(hero.rarity.name);
   return (
     <div className="group relative bg-black/40 border border-white/10 rounded-2xl overflow-hidden hover:border-yellow-400/50 transition-all">
       <Link href={`/heroes/${hero.slug}`}>
@@ -279,9 +281,9 @@ function HeroCard({
         <div className="flex items-center gap-2 mb-1">
           <span
             className="text-xs font-bold px-2 py-0.5 rounded"
-            style={{ backgroundColor: hero.rarity.color, color: '#000' }}
+            style={{ backgroundColor: rarity.color, color: '#000' }}
           >
-            {hero.rarity.name}
+            {rarity.name}
           </span>
         </div>
         <h3 className="text-sm font-black text-white truncate">{hero.name}</h3>

@@ -219,7 +219,7 @@ export default function ProfileCardPage() {
             </div>
 
             <div className="relative z-10 mt-auto pt-6 border-t border-white/20">
-              <p className="text-white/70 text-xs font-bold">brawl-insights.example.com</p>
+              <p className="text-white/70 text-xs font-bold">https://brawlstars-showcase.vercel.app/</p>
               <p className="text-white/50 text-xs">来荒野乱斗资料站发现更多</p>
             </div>
           </div>
